@@ -5,81 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: V2rayng_Fast, server: 185.143.233.5, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 8c79b452-cd58-4f35-a1a7-b37fe798c821, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast`, server: protectnet.cloudinohost.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 98d60595-302a-4442-a4cf-4cd59843e96b, servername: protectnet.cloudinohost.com, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: protectnet.cloudinohost.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: dl2.silentrp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c4520096-326a-4aa2-b450-745200a35b03, network: ws, ws-opts: {path: /js, headers: {Host: dl2.silentrp.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 3, server: 185.143.234.235, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c59834b1-ec3d-4682-8580-861a400235bd, network: ws, ws-opts: {path: /, headers: {Host: d.nsa03.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 2, server: 185.143.234.235, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c59834b1-ec3d-4682-8580-861a400235bd, network: ws, ws-opts: {path: /, headers: {Host: d.nsa03.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 4, server: 217.60.238.167, port: 8084, type: vless, tls: true, packet-encoding: xudp, uuid: e3bef281-40e6-4e5d-9e25-b1d861e6c043, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: 193.58.119.134, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8109d4a8-7466-4fa3-fd1a-968880548bc5, host: google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: www.varzesh3.com, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 82d829da-280f-44a0-9dee-68a83edca2c5, network: ws, ws-opts: {path: /, headers: {Host: server1.mizbanertebatfarda.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: 185.143.233.5, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: aa1cf042-5b4e-4f47-8df3-be64f6c41f53, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: be27abe1-f984-4675-89d4-c298d029a2a8, network: ws, ws-opts: {path: /, headers: {Host: samrexnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V2rayng_Fast
       - V2rayng_Fast`
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
-      - V2rayng_Fast` 2
-      - V2rayng_Fast 4
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
