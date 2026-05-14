@@ -465,10 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: ou4.virgooli.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 2d152382-487c-4c00-af8d-cad0e1968584, network: ws, ws-opts: {path: /, headers: {Host: ou4.virgooli.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: protectnet.cloudinohost.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 45cd71df-7b23-4568-8677-fdc4a0daa76e, servername: protectnet.cloudinohost.com, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: protectnet.cloudinohost.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 6a2405d9-61e2-4c74-a638-b2e2899e1995, network: ws, ws-opts: {path: /, headers: {Host: pa1.ghostantaniehh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: dl4.paycollection.lol, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc7b8019-893f-4583-b95c-044b1f9696f4, network: ws, ws-opts: {path: /flutter, headers: {Host: dl4.paycollection.lol}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,9 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,9 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -506,9 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -525,9 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -535,9 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -545,9 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
