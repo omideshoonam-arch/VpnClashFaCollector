@@ -465,10 +465,13 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast`, server: 193.58.119.134, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8109d4a8-7466-4fa3-fd1a-968880548bc5, host: google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast, server: www.varzesh3.com, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 82d829da-280f-44a0-9dee-68a83edca2c5, network: ws, ws-opts: {path: /, headers: {Host: server1.mizbanertebatfarda.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: 185.143.233.5, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: aa1cf042-5b4e-4f47-8df3-be64f6c41f53, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 3, server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: be27abe1-f984-4675-89d4-c298d029a2a8, network: ws, ws-opts: {path: /, headers: {Host: samrexnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 490948d0-948e-48f5-9b86-86205c29eef3, network: ws, ws-opts: {path: /private, headers: {Host: vip.ghatenadooni.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 6a2405d9-61e2-4c74-a638-b2e2899e1995, network: ws, ws-opts: {path: /, headers: {Host: pa1.ghostantaniehh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: 193.58.119.134, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8109d4a8-7466-4fa3-fd1a-968880548bc5, host: google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: www.varzesh3.com, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 82d829da-280f-44a0-9dee-68a83edca2c5, network: ws, ws-opts: {path: /, headers: {Host: server1.mizbanertebatfarda.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: 185.143.233.5, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: aa1cf042-5b4e-4f47-8df3-be64f6c41f53, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: be27abe1-f984-4675-89d4-c298d029a2a8, network: ws, ws-opts: {path: /, headers: {Host: samrexnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 5, server: red.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f90d4882-0b02-4d59-aa92-b0d33f135cd3, servername: red.docos.tech, network: ws, ws-opts: {path: /red/, headers: {Host: red.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,8 +490,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -497,8 +503,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -507,8 +516,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -526,8 +538,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -536,8 +551,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -546,8 +564,11 @@ proxy-groups:
     proxies:
       - V2rayng_Fast`
       - V2rayng_Fast
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
   - name: دانلود منیجر 📥
     type: select
     proxies:

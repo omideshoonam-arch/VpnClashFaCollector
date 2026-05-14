@@ -5,95 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: ursa.pardazwe.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 0629d1df-a312-4370-bd44-5fa9563d900d, network: ws, ws-opts: {path: /, headers: {Host: ursa.pardazwe.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: anten.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0d41b58e-d074-4c5d-86d6-29870537c3c2, network: ws, ws-opts: {path: /, headers: {Host: wwv.firoozline.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "`", server: 185.143.233.5, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 1f38a44f-4c31-4c24-8529-08f68baac941, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: digipay.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38137216-dcd3-4b70-aa40-c07384ccf38f, network: ws, ws-opts: {path: /, headers: {Host: s1e2.dlsec.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7, server: technomobile.fpnshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: be617da4-b296-4eef-9030-1a760a928ae4, network: ws, ws-opts: {path: /, headers: {Host: technomobile.mytopmedia.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 2, server: 185.143.235.201, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c7b950f6-7a20-4c50-9aa4-260618ef2694, network: ws, ws-opts: {path: /, headers: {Host: de.online-python.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 45.81.16.109, port: 13526, type: vless, tls: true, packet-encoding: xudp, uuid: ed2725eb-11a7-4607-ab8a-de60b642c027, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f0327e3f-2fa3-11f1-9fc2-960003f27045, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: final.idbede.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "`", server: 8.6.112.0, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: "` 2", server: 185.143.233.5, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 1f38a44f-4c31-4c24-8529-08f68baac941, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5cd8ad8a-5aa9-4d3d-81a2-4816ca667441, network: ws, ws-opts: {path: /h, headers: {Host: s.22c.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "` 3", server: 193.151.142.6, port: 57309, type: vless, tls: true, packet-encoding: xudp, uuid: 9a98791e-80b6-4964-99e7-0b52353820e5, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "` 4", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946, network: ws, ws-opts: {path: /, headers: {Host: hubfile.zpax.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 2, server: wazir.kingotiran.site, port: 41355, type: vless, tls: true, packet-encoding: xudp, uuid: a1889a03-7acc-46fe-8cfb-3ce60ad2acb6, host: wazir.kingotiran.site, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 3, server: 185.143.235.201, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c7b950f6-7a20-4c50-9aa4-260618ef2694, network: ws, ws-opts: {path: /, headers: {Host: de.online-python.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 4, server: wazir.kingotiran.site, port: 41355, type: vless, tls: true, packet-encoding: xudp, uuid: ca8b7451-56b4-4d02-8352-844b1a8d9ae6, host: wazir.kingotiran.site, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 45.81.16.109, port: 13526, type: vless, tls: true, packet-encoding: xudp, uuid: ed2725eb-11a7-4607-ab8a-de60b642c027, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: space-vip.zenvault.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f764b4f0-59db-4e1b-96f6-4ef20d73f444, network: ws, ws-opts: {path: /, headers: {Host: space-vip.zenvault.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,14 +135,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "`"
+      - "` 2"
+      - Vpn_jet7
+      - "` 3"
+      - "` 4"
+      - Vpn_jet7 2
+      - Vpn_jet7 3
+      - Vpn_jet7 4
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - Vpn_jet7
-      - Vpn_jet7 2
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
