@@ -465,7 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "☑➜چنلمون: Express_freevpn@`", server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 245943b8-c164-40c2-8ba5-05094e33dded, network: ws, ws-opts: {path: /, headers: {Host: proto.helexm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@", server: emergency-service.pavilof.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0512d1a8-29ac-45ff-b87b-1ac4e8bb1076, network: ws, ws-opts: {path: /, headers: {Host: emergency-service.pavilof.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@`", server: Snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 099bbd7c-dd40-4412-826c-c9a45821f071, network: ws, ws-opts: {path: /, headers: {Host: 1meti.patot.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@` 2", server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 245943b8-c164-40c2-8ba5-05094e33dded, network: ws, ws-opts: {path: /, headers: {Host: proto.helexm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 2", server: www.arvancloud.ir, port: 2082, type: vmess, uuid: a01f4cc9-b290-4dcd-b687-aef8cb10ce65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /newserver, headers: {Host: januray.helxx.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "☑➜چنلمون: Express_freevpn@"
       - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@` 2"
+      - "☑➜چنلمون: Express_freevpn@ 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

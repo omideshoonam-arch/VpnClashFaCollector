@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: 185.221.239.67, port: 2222, type: vless, tls: true, packet-encoding: xudp, uuid: 04738fc0-2279-4e80-a641-5e99485a1367, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 9ea9e54b-d4da-4773-855a-e5371e4da946, network: ws, ws-opts: {path: /, headers: {Host: hubfile.zpax.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: dl4.paycollection.lol, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc7b8019-893f-4583-b95c-044b1f9696f4, network: ws, ws-opts: {path: /flutter, headers: {Host: dl4.paycollection.lol}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: 185.221.239.67, port: 2222, type: vless, tls: true, packet-encoding: xudp, uuid: 04738fc0-2279-4e80-a641-5e99485a1367, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 2", server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 3800b1a5-9b82-49bc-8298-66c826467ec3, network: ws, ws-opts: {path: /, headers: {Host: eth2.ghostantaniehh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 3", server: snappfood.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: be62d1c3-9847-4ede-b17c-4b568e8fbe40, network: ws, ws-opts: {path: /ws, headers: {Host: cdnisfucka.drnimaamini.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 4", server: 95.38.180.143, port: 2056, type: vless, tls: true, packet-encoding: xudp, uuid: dedfddab-af51-48af-803a-9601375f5901, servername: mioo.applebysoroush.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: mioo.applebysoroush.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
