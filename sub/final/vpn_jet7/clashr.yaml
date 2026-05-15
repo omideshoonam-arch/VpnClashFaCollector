@@ -5,74 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: Vpn_jet7, server: technomobile.fpnshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 65d0fed1-3b8e-40fb-bf3e-4429045bea67, network: ws, ws-opts: {path: /, headers: {Host: technomobile.mytopmedia.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7", server: snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 72005558-6498-4925-a005-98583360d500, network: ws, ws-opts: {path: /rsvpn, headers: {Host: rsvpn2.xchitozx.org}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: vip2.syncbridge.site, port: 44117, type: vless, tls: true, packet-encoding: xudp, uuid: 93105735-e7b4-420a-95b5-763a92a0875f, host: vip2.syncbridge.site, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a92ffa84-a3b0-4aa2-a7b7-4485d0f5878e, network: ws, ws-opts: {path: "/graphql?ed=2560", headers: {Host: ss10.limitless-cloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: adler-1g.adelshoop.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3, network: ws, ws-opts: {path: /, headers: {Host: adler-1g.adelshoop.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a469bf88-8f4c-4b39-81c8-736acb3e1a39, network: ws, ws-opts: {path: /, headers: {Host: biawban.yeksancloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7, server: finally.dashivo.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c91cb9a5-b428-416b-9903-623add910594, network: ws, ws-opts: {path: /, headers: {Host: finally.dashivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,11 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Vpn_jet7
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
+      - Vpn_jet7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

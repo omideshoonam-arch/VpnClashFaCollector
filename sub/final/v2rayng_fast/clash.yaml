@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 490948d0-948e-48f5-9b86-86205c29eef3, network: ws, ws-opts: {path: /private, headers: {Host: vip.ghatenadooni.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 6a2405d9-61e2-4c74-a638-b2e2899e1995, network: ws, ws-opts: {path: /, headers: {Host: pa1.ghostantaniehh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: red.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f90d4882-0b02-4d59-aa92-b0d33f135cd3, servername: red.docos.tech, network: ws, ws-opts: {path: /red/, headers: {Host: red.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2, server: finally.dashivo.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c91cb9a5-b428-416b-9903-623add910594, network: ws, ws-opts: {path: /, headers: {Host: finally.dashivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast
-      - V2rayng_Fast 2
+      - V2
   - name: دانلود منیجر 📥
     type: select
     proxies:

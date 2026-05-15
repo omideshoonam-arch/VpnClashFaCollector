@@ -5,13 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 00da4e11-82e5-46ea-91e1-d43504b6303b, network: ws, ws-opts: {path: /, headers: {Host: ups1.shahan2019.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: 87.248.156.153, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 191d5ec2-f6e3-4af2-bc7e-d48119f7f314, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 3800b1a5-9b82-49bc-8298-66c826467ec3, network: ws, ws-opts: {path: /, headers: {Host: eth2.ghostantaniehh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: 2.144.21.44, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: "/?ed=2560&Telegram @DigiHubAI", headers: {Host: sni.111000.indevs.in}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 5", server: 185.143.234.235, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 761110e2-f3fc-4a9d-b2dd-c2b1f067a661, servername: 01team.no1plus.ir, network: ws, ws-opts: {path: /, headers: {Host: 01team.no1plus.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 6", server: adler-1g.adelshoop.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: bbc68258-173b-4f0f-b126-f7aac6bb2db3, network: ws, ws-opts: {path: /, headers: {Host: adler-1g.adelshoop.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 7", server: 95.38.180.143, port: 2056, type: vless, tls: true, packet-encoding: xudp, uuid: dedfddab-af51-48af-803a-9601375f5901, servername: mioo.applebysoroush.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: mioo.applebysoroush.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: ir-frankfurt.samanpy.ir, port: 19785, type: vless, tls: true, packet-encoding: xudp, uuid: 8e5cd658-cde6-48d3-8ab5-2c9ca1b194d2, host: ir-frankfurt.samanpy.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 2", server: ir-frankfurt.samanpy.ir, port: 19785, type: vless, tls: true, packet-encoding: xudp, uuid: 8e5cd658-cde6-48d3-8ab5-2c9ca1b194d2, host: ir-frankfurt.samanpy.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,11 +15,6 @@ proxy-groups:
       - DIRECT
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -33,11 +23,6 @@ proxy-groups:
     proxies:
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -46,11 +31,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -58,11 +38,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -70,11 +45,6 @@ proxy-groups:
       - 🚀 节点选择
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -82,11 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -116,11 +81,6 @@ proxy-groups:
       - ♻️ 自动选择
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
