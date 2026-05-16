@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 21951, type: vmess, uuid: 983a2b8e-19fc-4699-a772-956ce2877a75, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: network.spacestar.best, port: 2082, type: vmess, uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /newserver, headers: {Host: januray.helxx.ir}}, udp: true, tfo: false}
-  - {name: "@filembad 3", server: network.spacestar.best, port: 2082, type: vmess, uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /newserver, headers: {Host: januray.helxx.ir}}, udp: true, tfo: false}
-  - {name: "@filembad 4", server: network.spacestar.best, port: 2082, type: vmess, uuid: f243d3f8-77ae-4c0d-add9-c82e32172b74, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: januray.helxx.ir}}, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: ak.reata.ir, port: 16482, type: vmess, uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP, server: ak.reata.ir, port: 16482, type: vmess, uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: client.hostafra.top, port: 4357, type: vmess, uuid: f1f56a35-de73-4eff-8147-23c2d0b50350, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: client.serverkhalij.top, port: 4362, type: vmess, uuid: 3c55964b-3fa2-48e6-8aa4-0c5d287eaa73, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@config4k _ کانال تلگرام"
+      - https://t.me/VIPV2rayNGNP
       - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:

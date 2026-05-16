@@ -465,9 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "https://t.me/Configir98\ufeff`", server: trex.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 54c47dee-eaee-417c-9b3c-339c5e00eeb7, servername: trex.docos.tech, network: ws, ws-opts: {path: /vless-ws, headers: {Host: trex.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/Configir98`, server: arvancloud.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c1605eaf-99aa-4e8e-a418-baf48c17acb9, network: ws, ws-opts: {path: /ed=2048, headers: {Host: panel.s7r.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/Configir98, server: Tamin.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c6c0b82d-a916-47e4-a00d-cad7157ce26a, network: ws, ws-opts: {path: /, headers: {Host: easy.sedighi0915.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98`, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0a47ab98-b50b-4b92-baec-6e16af930dde, network: ws, ws-opts: {path: /Embestpro1, headers: {Host: Cyrus.zomavo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "https://t.me/Configir98\ufeff`", server: arvancloud.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 6248e551-1423-449e-93f5-ee02f10e37e3, network: ws, ws-opts: {path: /stream, headers: {Host: hosting.linuweb.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "https://t.me/Configir98\ufeff`"
       - https://t.me/Configir98`
-      - https://t.me/Configir98
+      - "https://t.me/Configir98\ufeff`"
   - name: دانلود منیجر 📥
     type: select
     proxies:

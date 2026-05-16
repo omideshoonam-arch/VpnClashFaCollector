@@ -465,8 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "`", server: trex.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 54c47dee-eaee-417c-9b3c-339c5e00eeb7, servername: trex.docos.tech, network: ws, ws-opts: {path: /vless-ws, headers: {Host: trex.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP, server: Tamin.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c6c0b82d-a916-47e4-a00d-cad7157ce26a, network: ws, ws-opts: {path: /, headers: {Host: easy.sedighi0915.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP`, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0a47ab98-b50b-4b92-baec-6e16af930dde, network: ws, ws-opts: {path: /Embestpro1, headers: {Host: Cyrus.zomavo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "`", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0a47ab98-b50b-4b92-baec-6e16af930dde, network: ws, ws-opts: {path: /Embestpro1, headers: {Host: Cyrus.zomavo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP` 2, server: arvancloud.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 6248e551-1423-449e-93f5-ee02f10e37e3, network: ws, ws-opts: {path: /stream, headers: {Host: hosting.linuweb.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP, server: vibenet.bingood.sbs, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 6e2add8c-0965-4f70-967a-217936fbb921, network: ws, ws-opts: {path: /, headers: {Host: vibenet.bingood.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP 2, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ea717efa-6f88-4750-800d-2f480faf29dc, network: ws, ws-opts: {path: /, headers: {Host: cm.programming-coding.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP 3, server: ak.reata.ir, port: 16482, type: vmess, uuid: 3d322eba-f7b8-4a84-bdeb-fcce9286351c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/VIPV2rayNGNP`
       - "`"
+      - https://t.me/VIPV2rayNGNP` 2
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP 2
+      - https://t.me/VIPV2rayNGNP 3
   - name: دانلود منیجر 📥
     type: select
     proxies:
