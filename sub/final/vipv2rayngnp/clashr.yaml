@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "`", server: red.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b50eb2c-ee25-479e-b593-ec80db9a54a0, servername: red.docos.tech, network: ws, ws-opts: {path: /red/, headers: {Host: red.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "`", server: trex.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 54c47dee-eaee-417c-9b3c-339c5e00eeb7, servername: trex.docos.tech, network: ws, ws-opts: {path: /vless-ws, headers: {Host: trex.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: https://t.me/VIPV2rayNGNP, server: Tamin.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c6c0b82d-a916-47e4-a00d-cad7157ce26a, network: ws, ws-opts: {path: /, headers: {Host: easy.sedighi0915.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
