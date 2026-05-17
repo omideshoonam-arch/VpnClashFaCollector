@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: https://t.me/Configir98`, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0a47ab98-b50b-4b92-baec-6e16af930dde, network: ws, ws-opts: {path: /Embestpro1, headers: {Host: Cyrus.zomavo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "https://t.me/Configir98\ufeff`", server: arvancloud.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 6248e551-1423-449e-93f5-ee02f10e37e3, network: ws, ws-opts: {path: /stream, headers: {Host: hosting.linuweb.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "https://t.me/Configir98\ufeff`", server: rayan.tehranionliine.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 2fe27e8f-3d31-4083-8105-41f62c6b88ef, network: ws, ws-opts: {path: /, headers: {Host: rayan.tehranionliine.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - https://t.me/Configir98`
       - "https://t.me/Configir98\ufeff`"
   - name: دانلود منیجر 📥
     type: select

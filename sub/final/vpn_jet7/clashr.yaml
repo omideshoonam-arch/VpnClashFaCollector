@@ -5,151 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: nexorad.bexora.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 17aab239-189a-46a3-99ae-dc12f0cc419f, network: ws, ws-opts: {path: /, headers: {Host: nexorad.bexora.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ECO-@Vpn_jet7, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 18c32106-c1f5-4319-ad0d-1cb7e4288e0e, network: ws, ws-opts: {path: /, headers: {Host: play.nexia.cam}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1909c555-2320-4548-9d75-67eb504b4e29, network: ws, ws-opts: {path: /, headers: {Host: sajjad.panivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "`", server: red.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b50eb2c-ee25-479e-b593-ec80db9a54a0, servername: red.docos.tech, network: ws, ws-opts: {path: /red/, headers: {Host: red.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1f4203d0-4ebe-431a-bb41-e28fa2f9ca4c, network: ws, ws-opts: {path: /, headers: {Host: simorgh.garfar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 185.143.234.96, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 36326231-3138-4166-b834-303439306131, network: ws, ws-opts: {path: "/l/w/aXD2QyDdS6vRQpxs?ed=2047", headers: {Host: dl.tgmovie.bond}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 3ef53141-afd4-de04-18f2-df75ab72ecb9, network: ws, ws-opts: {path: /, headers: {Host: sor-cdn.helxh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "` 2", server: trex.docos.tech, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 54c47dee-eaee-417c-9b3c-339c5e00eeb7, servername: trex.docos.tech, network: ws, ws-opts: {path: /vless-ws, headers: {Host: trex.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 2, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 5b925570-7c9a-4527-af20-b30fea1f48b2, network: ws, ws-opts: {path: /, headers: {Host: kolis1.zivoryx.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 185.143.233.5, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 85fd4b09-15a4-47d8-9bd9-ad89cbaf23b6, network: ws, ws-opts: {path: /, headers: {Host: cd2.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 6", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 92f6f96e-4ae7-4a18-89be-0058a6a03276, network: ws, ws-opts: {path: /, headers: {Host: cdn.tiopmfikg.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 3, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 98a9d9a0-b281-47c0-8ebc-bbe388a91bc1, network: ws, ws-opts: {path: /, headers: {Host: kolis1.zivoryx.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 7", server: speed.parsfast.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 992d945a-19ba-44e1-9981-9a9d2840faf5, network: ws, ws-opts: {path: /, headers: {Host: speed.parsfast.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 4, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: cbb1606b-2b82-4bf5-8f49-133773e13995, network: ws, ws-opts: {path: /, headers: {Host: derakhshan.molvliafor.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 8", server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: cc09f7f9-d3f4-4d17-acc3-cd41977e9d80, network: ws, ws-opts: {path: /, headers: {Host: hey.r6sq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 9", server: plusred0shop8.lol, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: d25ad3da-281d-4b0e-87e2-c13d197d87a0, network: ws, ws-opts: {path: /YP, headers: {Host: plusred0shop8.lol}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: arira.mnet37255.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 34e68a3e-89ff-4b6b-86e6-f6f2f8c97b65, network: ws, ws-opts: {path: /, headers: {Host: arira.mnet37255.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: cc09f7f9-d3f4-4d17-acc3-cd41977e9d80, network: ws, ws-opts: {path: /, headers: {Host: hey.r6sq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -177,22 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Vpn_jet7"
       - ECO-@Vpn_jet7
+      - "@Vpn_jet7"
       - "@Vpn_jet7 2"
-      - "`"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - Vpn_jet7
-      - "` 2"
-      - Vpn_jet7 2
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - Vpn_jet7 3
-      - "@Vpn_jet7 7"
-      - Vpn_jet7 4
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

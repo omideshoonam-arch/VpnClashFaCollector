@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: t.me/vasl_bashim`, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0a47ab98-b50b-4b92-baec-6e16af930dde, network: ws, ws-opts: {path: /Embestpro1, headers: {Host: Cyrus.zomavo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@@vasl_bashim", server: host13.virgool.best, port: 55013, type: vless, tls: true, packet-encoding: xudp, uuid: a774e6f8-229d-4b61-821a-ad717dc3b24f, servername: www.digikala.com, host: www.digikala.com, path: /, reality-opts: {public-key: vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ, short-id: c385}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: vasl_bashim, server: 185.143.232.5, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 43948622-52bf-4dba-8198-7816518b2e9a, network: ws, ws-opts: {path: /porsaaa, headers: {Host: tron.segaltejarat.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@@vasl_bashim`", server: host13.virgool.best, port: 55013, type: vless, tls: true, packet-encoding: xudp, uuid: a774e6f8-229d-4b61-821a-ad717dc3b24f, servername: www.digikala.com, host: www.digikala.com, path: /, reality-opts: {public-key: vxdmULi_cO7dha2aQnsjSViARO15hvI9HWyo0pVPlkQ, short-id: c385}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -484,8 +483,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -493,8 +491,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -502,8 +499,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -520,8 +516,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -529,8 +524,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -538,8 +532,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - "@@vasl_bashim"
+      - vasl_bashim
       - "@@vasl_bashim`"
   - name: دانلود منیجر 📥
     type: select
