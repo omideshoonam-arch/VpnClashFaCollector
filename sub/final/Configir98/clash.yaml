@@ -465,7 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: https://t.me/Configir98, server: 94.183.173.225, port: 443, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 4YNXRYPsRGCrcfweuk7/HYCxRxg8A6aMpdmXAMnrubk=:06+7CfyFYFqtWynq7KYThuqr6jNMx5lZjFMbn785bLw=, udp: true, tfo: false}
   - {name: "https://t.me/Configir98\ufeff`", server: rayan.tehranionliine.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 2fe27e8f-3d31-4083-8105-41f62c6b88ef, network: ws, ws-opts: {path: /, headers: {Host: rayan.tehranionliine.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98 2, server: 34948_mohaaaad.2.globalmymusic2.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 915889ce-41ee-4eeb-88cf-c5f9da808a63, network: ws, ws-opts: {path: /filimo-video/177430809054030600/1774365690/cb857b0770767a2b38b3ebc9d4c44d7fc5630fdd/196328x264new1-1080p.mp4/s-20-v1-a1.ts, headers: {Host: best.3.iran.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ae547922-edca-95df-5a00-03fff1a3b2b4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "https://t.me/Configir98\ufeff` 2", server: anten.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: fc76eb5a-4675-4816-bff5-d8e689b58daf, network: ws, ws-opts: {path: /, headers: {Host: hikino.docos.tech}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +486,33 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +528,33 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - https://t.me/Configir98
       - "https://t.me/Configir98\ufeff`"
+      - https://t.me/Configir98 2
+      - https://t.me/Configir98`
+      - "https://t.me/Configir98\ufeff` 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
