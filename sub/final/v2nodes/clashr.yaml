@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 74.48.173.150:28906, server: 74.48.173.150, port: 28906, type: vless, tls: true, packet-encoding: xudp, uuid: d09c384b-384b-4d9a-85c6-07d3dce8ae5b, servername: www.suffolk.edu, host: www.suffolk.edu, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wi1nGPSt-wF8rJIwpMTZI_5QG1qnkuzRyAWFEtgnBS0, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 84.17.41.2, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 74.48.173.150:28906
+      - 🇺🇸 [openproxylist.com] vmess-US
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

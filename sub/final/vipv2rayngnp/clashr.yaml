@@ -5,81 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: https://t.me/VIPV2rayNGNP, server: 104.129.166.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.18.32.47:2096, server: 104.18.32.47, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.inhttps://t.me/VIPV2rayNGNP, network: ws, ws-opts: {path: "/?ed", headers: {Host: sni.111000.indevs.inhttps://t.me/VIPV2rayNGNP}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP 2, server: 172.64.147.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.dynv6.net, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: sni.111000.dynv6.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@VIPV2rayNGNP", server: 213.182.199.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "`", server: 31.185.108.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ae547922-edca-95df-5a00-03fff1a3b2b4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP`, server: blubank.sb24.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 4d099dc1-85c6-4414-b372-8fcbe1795112, network: ws, ws-opts: {path: /, headers: {Host: api.sobhan.cam}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp`", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 88e8243a-fc9a-4022-80d4-e0c5801c2256, network: ws, ws-opts: {path: "/graphql?ed=2560", headers: {Host: ss2.limitless-cloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP` 2, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://t.me/VIPV2rayNGNP
-      - 104.18.32.47:2096
-      - https://t.me/VIPV2rayNGNP 2
-      - "@VIPV2rayNGNP"
-      - "`"
       - https://t.me/VIPV2rayNGNP`
+      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP` 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

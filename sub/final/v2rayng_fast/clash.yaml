@@ -465,10 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast`, server: arira.mnet37255.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 34e68a3e-89ff-4b6b-86e6-f6f2f8c97b65, network: ws, ws-opts: {path: /, headers: {Host: arira.mnet37255.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast جوین شید`", server: 94.182.149.202, port: 6666, type: vless, tls: true, packet-encoding: xudp, uuid: ab59c722-1e49-44a8-86b6-3618e4aaf6f9, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ae547922-edca-95df-5a00-03fff1a3b2b4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: mine.airplan10.ir, port: 1, type: vless, tls: true, packet-encoding: xudp, uuid: d0bdf825-ecf6-470f-a991-bd26d6a51312, host: mine.airplan10.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 88e8243a-fc9a-4022-80d4-e0c5801c2256, network: ws, ws-opts: {path: "/graphql?ed=2560", headers: {Host: ss2.limitless-cloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast`"
       - V2rayng_Fast`
-      - "@V2rayng_Fast جوین شید`"
-      - V2rayng_Fast
-      - V2rayng_Fast 2
   - name: دانلود منیجر 📥
     type: select
     proxies:
