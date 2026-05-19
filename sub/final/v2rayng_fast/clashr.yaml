@@ -5,53 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@V2rayng_Fast`", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 88e8243a-fc9a-4022-80d4-e0c5801c2256, network: ws, ws-opts: {path: "/graphql?ed=2560", headers: {Host: ss2.limitless-cloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 97b36571-ffdc-5bdb-7bc4-bbcf8f3debb4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 00bc439b-0e6c-4450-8744-58dc27fe92ac, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: connect.sayeonline.com, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 29428e34-4f40-4dc0-a9dc-e82e430d909b, network: ws, ws-opts: {path: /, headers: {Host: connect.sayeonline.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e813abf8-6def-4884-8425-10a33756d6ea, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 3, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e9c4ddc5-dfc1-4057-9295-495e647bf234, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@V2rayng_Fast`"
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast
+      - V2rayng_Fast` 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

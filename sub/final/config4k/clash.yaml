@@ -465,14 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@config4k _ کانال تلگرام`", server: 94.183.173.225, port: 443, type: ss, cipher: 2022-blake3-aes-256-gcm, password: 4YNXRYPsRGCrcfweuk7/HYCxRxg8A6aMpdmXAMnrubk=:06+7CfyFYFqtWynq7KYThuqr6jNMx5lZjFMbn785bLw=, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام", server: 193.228.168.43, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 37e00e46-5edc-47c1-ae68-0a4a54887ea8, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: telegrampdavpn.iddns.ir, port: 3030, type: vless, tls: true, packet-encoding: xudp, uuid: 50023428-2a69-403b-81d2-7a7690d53b3f, host: telegrampdavpn.iddns.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: varzesh3.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f310072-79f3-fcd7-1e18-6f4df6ade7c5, servername: cdn-665e-o0g.fars-rehan.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: arvancloud.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: a10df82b-f7b7-4fa8-9c56-6dc5300f26f3, network: ws, ws-opts: {path: "/IR?ed=2560", headers: {Host: api.helxj.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 5", server: 62.3.41.49, port: 1, type: vless, tls: true, packet-encoding: xudp, uuid: d0bdf825-ecf6-470f-a991-bd26d6a51312, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 6", server: mine.airplan10.ir, port: 1, type: vless, tls: true, packet-encoding: xudp, uuid: d0bdf825-ecf6-470f-a991-bd26d6a51312, host: mine.airplan10.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 7", server: salamirani.hamid.radv.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e9619018-89f9-9f79-e412-dfd298146128, network: ws, ws-opts: {path: /, headers: {Host: salamirani.hamid.radv.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام`", server: vip3.myspacex.shop, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: zVR_F_vDclLhvhitvXbu94RQufgkBT0H, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: vip8.myspacex.shop, port: 8088, type: ss, cipher: chacha20-ietf-poly1305, password: zVR_F_vDclLhvhitvXbu94RQufgkBT0H, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 2", server: 185.143.233.5, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 7c3229a5-b580-4468-9f20-aab9d8b8bcb0, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 3", server: varzesh3.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 95911e9d-6c05-d01c-7970-ae343d2b715a, servername: cdn-reb-aaa.fasrgobar.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn-reb-aaa.fasrgobar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 4", server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: efae4cd9-b311-47c8-b8fb-72ae91ca9599, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -494,9 +491,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -508,9 +502,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -522,9 +513,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -545,9 +533,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -559,9 +544,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -573,9 +555,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 2"
       - "@config4k _ کانال تلگرام 3"
       - "@config4k _ کانال تلگرام 4"
-      - "@config4k _ کانال تلگرام 5"
-      - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:

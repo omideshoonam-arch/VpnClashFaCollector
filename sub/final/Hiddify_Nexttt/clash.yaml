@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
-  - {name: "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`", server: camp.nahidapp.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 799f939b-964b-4416-84ac-18a6ace7fe70, servername: camp.nahidapp.com, network: ws, ws-opts: {path: /IF_VPN_Bot, headers: {Host: camp.nahidapp.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Hiddify_Nexttt", server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: efae4cd9-b311-47c8-b8fb-72ae91ca9599, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Hiddify_Nexttt 👈🎾 کانال تلگرامی ما`"
-      - "@Hiddify_Nexttt 👈📠 کانال تلگرامی ما`"
+      - "@Hiddify_Nexttt"
   - name: دانلود منیجر 📥
     type: select
     proxies:
