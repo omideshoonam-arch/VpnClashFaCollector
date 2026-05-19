@@ -465,10 +465,13 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast`, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 00bc439b-0e6c-4450-8744-58dc27fe92ac, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 2, server: connect.sayeonline.com, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 29428e34-4f40-4dc0-a9dc-e82e430d909b, network: ws, ws-opts: {path: /, headers: {Host: connect.sayeonline.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e813abf8-6def-4884-8425-10a33756d6ea, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 3, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e9c4ddc5-dfc1-4057-9295-495e647bf234, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1509a184-3919-4d2b-8fbf-8ef332da76c2, network: ws, ws-opts: {path: /, headers: {Host: derakhshan.molvliafor.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 1c55b36e-cb57-44a6-b3da-b2d5e93da942, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: varzesh3.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 95911e9d-6c05-d01c-7970-ae343d2b715a, servername: cdn-reb-aaa.fasrgobar.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn-reb-aaa.fasrgobar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: Ikco.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e951440f-1a1c-4e8a-88af-0b070c291cbb, network: ws, ws-opts: {path: /cdn, headers: {Host: cp.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 3, server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: fe508356-b0d3-428c-8399-16e956e1f25f, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,9 +488,12 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -495,9 +501,12 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -505,9 +514,12 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: اتصال پایدار 🔗
     type: url-test
@@ -524,9 +536,12 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -534,9 +549,12 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -544,9 +562,12 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
-      - V2rayng_Fast` 2
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast 2
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
       - V2rayng_Fast` 3
   - name: دانلود منیجر 📥
     type: select
