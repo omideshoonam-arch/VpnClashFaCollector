@@ -5,60 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇳🇱 nl1.skysafe.online:8443, server: nl1.skysafe.online, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 0e3a9376-1bf0-4b9e-a328-f28083bf6c34, servername: nl1.skysafe.online, host: nl1.skysafe.online, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: f1kpVFY3EHaR41TCKGqSWzZq7HG-WpyE2g_tlMm2US0, short-id: 844dfa3681e4c4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 109.172.54.70:2040, server: 109.172.54.70, port: 2040, type: vless, tls: true, packet-encoding: xudp, uuid: aef7716a-d0a5-4a85-9cb0-fda41d9f34b0, servername: eh.vk.com, host: eh.vk.com, path: /, reality-opts: {public-key: b6DZwkKAeXf3wjXrL6iV6dTt1Crpv2o88LRDJRgFglE, short-id: b589db8f02882bae}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇩🇪 [openproxylist.com] vmess-DE", server: 45.144.54.183, port: 10097, type: vmess, uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 52.195.173.99:44079, server: 52.195.173.99, port: 44079, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 54.46.53.9:2702, server: 54.46.53.9, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 de6.safepass.click:443, server: de6.safepass.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9d59677e-df00-4918-bb03-e428cfc7c606, servername: www.samsung.com, host: www.samsung.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇳🇱 nl1.skysafe.online:8443
-      - 109.172.54.70:2040
-      - 🇩🇪 [openproxylist.com] vmess-DE
+      - 52.195.173.99:44079
+      - 54.46.53.9:2702
+      - 🇩🇪 de6.safepass.click:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

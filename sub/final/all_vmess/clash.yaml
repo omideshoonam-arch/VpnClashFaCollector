@@ -465,15 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "", server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇩🇪 [openproxylist.com] vmess-DE", server: 45.144.54.183, port: 10097, type: vmess, uuid: d5b36432-e168-4bc9-85cb-f68c9c22054a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 81.12.80.119, port: 443, type: vmess, uuid: -MahSanVPN-, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 95.38.164.61, port: 2626, type: vmess, uuid: 00759c38-7e6a-4b8a-a5f3-65f032aaa7aa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 95.38.164.61, port: 2626, type: vmess, uuid: 05f76912-9f9b-462a-bf3f-f44ef07de51d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 4", server: 95.38.164.61, port: 2626, type: vmess, uuid: 5c4f2aa1-a32a-4b24-910a-67a6d7a2c72b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 5", server: 95.38.164.61, port: 2626, type: vmess, uuid: cb1f4f2d-bf1a-4afd-be15-8731454ff6f6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 6", server: 95.38.164.61, port: 2626, type: vmess, uuid: e36b7bad-7d3e-40f0-80bf-3bfbde6e7bb9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 7", server: 95.38.164.61, port: 2626, type: vmess, uuid: e8b22775-fcf1-4199-a51b-6bd60f34a47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22154, type: vmess, uuid: a99cd6dd-7667-4177-9da5-6aba1f559fb7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22154, type: vmess, uuid: eb98906d-d597-40b7-9c37-5618d71ff1e1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22156, type: vmess, uuid: 94eb4e06-fb97-472a-b0c7-c4c731cd2c91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 4", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22156, type: vmess, uuid: c7c8d912-0292-4038-8428-0e35ba3301d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MelliNet_NpV باگ", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22156, type: vmess, uuid: e0d72f4b-f759-4bed-addf-3a34a36ba983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 5", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22156, type: vmess, uuid: e0d72f4b-f759-4bed-addf-3a34a36ba983, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,45 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -544,45 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - 🇩🇪 [openproxylist.com] vmess-DE
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - "@MelliNet_NpV باگ"
       - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:

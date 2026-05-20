@@ -465,12 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: arvancloud.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 25a0a1e0-25a0-4e85-8894-889d9adf594b, network: ws, ws-opts: {path: /stream, headers: {Host: god.flash-net.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 4510f253-866a-4b75-906d-b9a2580cabfb, network: ws, ws-opts: {path: /, headers: {Host: iranfuture.musicritmic.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7, server: 185.173.107.100, port: 11168, type: vless, tls: true, packet-encoding: xudp, uuid: 5f1d729e-1986-4ece-b458-29ef1c96e3e3, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: Tamin.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 6b0d9f5c-d746-4546-9d80-2e853acb94ed, network: ws, ws-opts: {path: /FIRELINK, headers: {Host: firelink.arian-go-internet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7, server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 6d9d858b-7e23-4a2f-a35b-17eccf5e974d, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Vpn_jet7 2, server: snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 7d3e6ef7-96a2-43de-9bd1-b356c4bdf047, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: varzesh3.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b3b5db09-3ddb-4d4a-9b6e-35efe72db4ab, servername: emergency-service2.pavilof.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: emergency-service2.pavilof.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 3, server: abr.superip.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: a36edbfc-5353-425c-b548-e500d66db4f3, network: ws, ws-opts: {path: /API/superip, headers: {Host: cd2.phill-up.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 4, server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: d21fe711-607c-4080-9e4b-89820b1bb570, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,36 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -532,36 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - Vpn_jet7
-      - "@Vpn_jet7 3"
       - Vpn_jet7 2
-      - "@Vpn_jet7 4"
+      - Vpn_jet7 3
+      - Vpn_jet7 4
   - name: دانلود منیجر 📥
     type: select
     proxies:
