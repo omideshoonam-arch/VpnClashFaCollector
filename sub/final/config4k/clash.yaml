@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: 185.143.233.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3e40c799-dc8f-4155-a1bc-6a515f7cd0c2, servername: backend.parhamm2.ir, network: ws, ws-opts: {path: /, headers: {Host: backend.parhamm2.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: 185.143.233.235, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 447bc252-43fa-4cb1-b280-337ed5e60548, network: ws, ws-opts: {path: /, headers: {Host: s7.gorsfa.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 96a00da7-6ceb-4d47-9e8c-ae1bba71089c, network: ws, ws-opts: {path: /, headers: {Host: ts.programming-coding.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,7 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -492,7 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -500,7 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -517,7 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -525,7 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -533,7 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@config4k _ کانال تلگرام"
-      - "@config4k _ کانال تلگرام 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

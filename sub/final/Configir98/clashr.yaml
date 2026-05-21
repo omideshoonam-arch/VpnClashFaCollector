@@ -5,60 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: https://t.me/Configir98, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 07ec393b-987d-12fd-004d-02ade3c94017, servername: i-love-iran2.amlakayuni.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: i-love-iran2.amlakayuni.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/Configir98`, server: 5.160.58.129, port: 50019, type: vless, tls: true, packet-encoding: xudp, uuid: 0b2c18f0-3739-2479-013e-1637cb9f9f4a, servername: alabama-tigr.info, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /true, headers: {Host: alabama-tigr.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/Configir98` 2, server: arvancloud.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 39f54e00-d8b3-40ff-81b5-951cf11f2dad, network: ws, ws-opts: {path: /code, headers: {Host: vizo4.yeksanpower.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98`, server: 2.144.2.245, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: https://t.me/Configir98` 2, server: bmi.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 43794829-04d4-7a21-c86c-42246dd41bd4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98` 3, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 96a00da7-6ceb-4d47-9e8c-ae1bba71089c, network: ws, ws-opts: {path: /, headers: {Host: ts.programming-coding.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/Configir98, server: 95.38.197.121, port: 2556, type: vless, tls: true, packet-encoding: xudp, uuid: dabf6629-06ae-4857-b5a2-cd46b7f279b8, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - https://t.me/Configir98
       - https://t.me/Configir98`
       - https://t.me/Configir98` 2
+      - https://t.me/Configir98` 3
+      - https://t.me/Configir98
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
