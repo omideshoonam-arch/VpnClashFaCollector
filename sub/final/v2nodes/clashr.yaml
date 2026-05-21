@@ -5,60 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 52.195.173.99:44079, server: 52.195.173.99, port: 44079, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 54.46.53.9:2702, server: 54.46.53.9, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 de6.safepass.click:443, server: de6.safepass.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9d59677e-df00-4918-bb03-e428cfc7c606, servername: www.samsung.com, host: www.samsung.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 216.36.98.29, port: 443, type: vmess, uuid: 343176ae-0082-49dc-a9dd-7ac47fb31960, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /JASON.ET}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

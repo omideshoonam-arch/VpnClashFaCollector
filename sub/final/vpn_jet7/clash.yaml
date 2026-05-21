@@ -465,10 +465,22 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: Vpn_jet7, server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 6d9d858b-7e23-4a2f-a35b-17eccf5e974d, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 2, server: snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 7d3e6ef7-96a2-43de-9bd1-b356c4bdf047, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 3, server: abr.superip.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: a36edbfc-5353-425c-b548-e500d66db4f3, network: ws, ws-opts: {path: /API/superip, headers: {Host: cd2.phill-up.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7 4, server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: d21fe711-607c-4080-9e4b-89820b1bb570, network: ws, ws-opts: {path: "/?ed=2080", headers: {Host: 1.jojo.avenflow.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7, server: 185.143.233.5, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 010a71f1-bbc0-44e2-898a-3df5d0489a20, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 18.159.146.147, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0b6cc407-50e2-1efb-f49c-524e05668e55, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 18.197.164.252, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0b6cc407-50e2-1efb-f49c-524e05668e55, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 2, server: varzesh3.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 23a62d8e-0a67-17f1-338f-786ef2974f50, servername: cdn-reb-aaa.fasrgobar.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn-reb-aaa.fasrgobar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 185.143.233.74, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 31623237-3966-4933-b730-393666383463, network: ws, ws-opts: {path: "/l/w/aXD2QyDdS6vRQpxs?ed=2047", headers: {Host: dl.tgmovie.bond}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: 18.197.116.144, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 523bee30-6167-432a-3208-91ca147d9410, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 3, server: Snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 5cc11f00-697c-4932-8553-fb2e37e61f6b, network: ws, ws-opts: {path: /vmMarketlabs, headers: {Host: info.drevnelo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7 4, server: digipay.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 675edb84-254f-48c7-bd95-0fd3542132b3, network: ws, ws-opts: {path: /, headers: {Host: dns-02.dl-toucan.monster}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "`", server: arvancloud.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 74816983-e4d9-46e5-a0e6-11f55d361e1e, network: ws, ws-opts: {path: /code, headers: {Host: xtco.jorvnora.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: 18.184.134.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 81d6a801-ab9f-25a7-c0ba-9acb875e86da, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 6", server: 104.19.229.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a739128d-49f4-4072-9054-3d4519f0a915, servername: crm.lotussec.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /@JavidnamanIran/Javid-SHAH-KingRezaPahlavi/, headers: {Host: crm.lotussec.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 7", server: Ikco.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: b204981a-8910-48a1-ad9d-86399cc5e3a6, network: ws, ws-opts: {path: /cdn, headers: {Host: Ikco.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 8", server: 18.157.213.215, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: badc7a4a-073f-30e3-2e61-8b089a068c36, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@`", server: 18.192.95.247, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: badc7a4a-073f-30e3-2e61-8b089a068c36, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 9", server: atro.pardazwe.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: c2ef46b6-8e0a-4f1b-8dec-e3341eb25494, network: ws, ws-opts: {path: /, headers: {Host: atro.pardazwe.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 10", server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ffc80743-30b9-4b1e-b77f-11d0165af889, network: ws, ws-opts: {path: /, headers: {Host: kabotar.garfar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,9 +498,21 @@ proxy-groups:
     type: select
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,9 +520,21 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -506,9 +542,21 @@ proxy-groups:
     tolerance: 50
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -525,9 +573,21 @@ proxy-groups:
     interval: 600
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -535,9 +595,21 @@ proxy-groups:
     interval: 600
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -545,9 +617,21 @@ proxy-groups:
     interval: 600
     proxies:
       - Vpn_jet7
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
       - Vpn_jet7 2
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
       - Vpn_jet7 3
       - Vpn_jet7 4
+      - "`"
+      - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@Vpn_jet7 8"
+      - "@`"
+      - "@Vpn_jet7 9"
+      - "@Vpn_jet7 10"
   - name: دانلود منیجر 📥
     type: select
     proxies:

@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 52.195.173.99:44079, server: 52.195.173.99, port: 44079, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 54.46.53.9:2702, server: 54.46.53.9, port: 2702, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 de6.safepass.click:443, server: de6.safepass.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9d59677e-df00-4918-bb03-e428cfc7c606, servername: www.samsung.com, host: www.samsung.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 216.36.98.29, port: 443, type: vmess, uuid: 343176ae-0082-49dc-a9dd-7ac47fb31960, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /JASON.ET}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 52.195.173.99:44079
-      - 54.46.53.9:2702
-      - 🇩🇪 de6.safepass.click:443
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
     proxies:
