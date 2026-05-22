@@ -6,9 +6,11 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: https://t.me/VIPV2rayNGNP`, server: 2.144.2.245, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP` 2, server: bmi.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 43794829-04d4-7a21-c86c-42246dd41bd4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP` 3, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 96a00da7-6ceb-4d47-9e8c-ae1bba71089c, network: ws, ws-opts: {path: /, headers: {Host: ts.programming-coding.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP, server: 95.38.197.121, port: 2556, type: vless, tls: true, packet-encoding: xudp, uuid: dabf6629-06ae-4857-b5a2-cd46b7f279b8, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: rfral.aghanami.ir:80, server: rfral.aghanami.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 08e9546b-2232-4fc9-8975-6281961d9cb1, network: ws, ws-opts: {path: /, headers: {Host: rfral.aghanami.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP, server: Snapp.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 2641d904-84cb-4bc5-97ff-674ccf46a449, network: ws, ws-opts: {path: /, headers: {Host: f.mroza.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP` 2, server: 185.143.234.115, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a93126de-65fa-47ed-917f-30b262bee77d, servername: rest.parhamm2.ir, network: ws, ws-opts: {path: /, headers: {Host: rest.parhamm2.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.143.234.115:443, server: 185.143.234.115, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e3d486fb-d9bf-47b6-817d-e67211f30d00, servername: rest.parhamm2.ir, network: ws, ws-opts: {path: /, headers: {Host: rest.parhamm2.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP 2, server: 185.143.234.235, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: f9aeba2c-4c68-11f1-8d30-2ddfba49052f, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sv-1.jservices.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,9 +18,11 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,9 +30,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -36,36 +42,44 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -94,9 +108,11 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - https://t.me/VIPV2rayNGNP`
-      - https://t.me/VIPV2rayNGNP` 2
-      - https://t.me/VIPV2rayNGNP` 3
+      - rfral.aghanami.ir:80
       - https://t.me/VIPV2rayNGNP
+      - https://t.me/VIPV2rayNGNP` 2
+      - 185.143.234.115:443
+      - https://t.me/VIPV2rayNGNP 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

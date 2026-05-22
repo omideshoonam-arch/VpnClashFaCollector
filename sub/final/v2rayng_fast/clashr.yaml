@@ -5,123 +5,95 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: V2rayng_Fast, server: fin-tun.a1mshop2.xyz, port: 12000, type: vless, tls: true, packet-encoding: xudp, uuid: 03d89129-c611-4beb-ae9b-1a41deaeed3e, host: aparat.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast`, server: tamin.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 0fd3821c-96d3-4c34-a144-6954ae5beb4f, network: ws, ws-opts: {path: /FIRELINK, headers: {Host: firelink.arian-go-internet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 2, server: snapp.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 10d62bf0-f3c2-4bca-8405-3434c2731772, network: ws, ws-opts: {path: /, headers: {Host: nini.tititech.lol}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 3, server: varzesh3.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 32bef899-6c34-4a8d-8eab-550a3443df5a, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: bmi.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 43794829-04d4-7a21-c86c-42246dd41bd4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 3, server: bmi.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 43794829-04d4-7a21-c86c-42246dd41bd4, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 4, server: 185.143.233.5, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 45bbc78f-aaa1-4bf2-9d8f-fbb297127733, servername: sub.sesrsa.com, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 5, server: rfral.aghanami.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 83321e04-ea12-4d15-b642-742f5981e3a2, network: ws, ws-opts: {path: /, headers: {Host: rfral.aghanami.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 6, server: hmt.masterdadeh.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: b65e08f3-f12e-4177-a5d8-1f08ce46eba0, network: ws, ws-opts: {path: /, headers: {Host: hmt.masterdadeh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 7, server: 37.32.27.63, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d99e9f34-7936-4e94-ac24-d3a42dfbc432, servername: 37.32.27.63, alpn: ["h2,h3"], host: 37.32.27.63, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 4, server: 87.236.38.66, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: f16f97fc-f9fa-42f7-8286-fcbaf63f6bb8, host: anten.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 8, server: 185.143.234.235, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: f9aeba2c-4c68-11f1-8d30-2ddfba49052f, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sv-1.jservices.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: 185.143.233.5, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 1a23ef21-3f21-409c-bcb4-0964ba48f2fb, servername: sub.sesrsa.co, network: ws, ws-opts: {path: /, headers: {Host: sub.sesrsa.co}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1fc00990-e6e1-45d7-bbd0-ca7e49638b99, network: ws, ws-opts: {path: /, headers: {Host: derakhshan.molvliafor.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1fc00990-e6e1-45d7-bbd0-ca7e49638b99, network: ws, ws-opts: {path: /, headers: {Host: derakhshan.molvliafor.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: hmt.masterdadeh.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 2d2685f1-22bd-4821-a69b-9a1f8b0ddb0d, network: ws, ws-opts: {path: /, headers: {Host: hmt.masterdadeh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 36efe01d-e047-48f1-8ec5-39b87d630225, network: ws, ws-opts: {path: /, headers: {Host: web.maxisupp.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 5f9cde1b-48df-4cb2-9f4a-108dee59af17, network: ws, ws-opts: {path: /, headers: {Host: web.maxisupp.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 5, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 96a00da7-6ceb-4d47-9e8c-ae1bba71089c, network: ws, ws-opts: {path: /, headers: {Host: ts.programming-coding.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 6, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e2d2eb35-8e1e-4e3a-ba1c-1cecb9d11c66, network: ws, ws-opts: {path: /, headers: {Host: derakhshan.molvliafor.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,18 +121,14 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - V2rayng_Fast
       - V2rayng_Fast`
-      - V2rayng_Fast` 2
-      - V2rayng_Fast` 3
+      - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
       - V2rayng_Fast 4
+      - V2rayng_Fast` 2
       - V2rayng_Fast 5
       - V2rayng_Fast 6
-      - V2rayng_Fast 7
-      - V2rayng_Fast` 4
-      - V2rayng_Fast 8
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
