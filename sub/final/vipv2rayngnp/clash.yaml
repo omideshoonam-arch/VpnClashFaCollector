@@ -465,7 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "`", server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 7eac8a88-fea3-40d2-8a6a-e0dd4e8ac6e6, network: ws, ws-opts: {path: /cdn, headers: {Host: Za.movizdl.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp", server: 104.19.229.21, port: 443, type: trojan, password: 8r%3C%5B9%27l6hAO%238ZQi, sni: Koma-YT.PAGeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: /tr, headers: {Host: Koma-YT.PAGeS.Dev}}, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp`", server: 104.19.229.21, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp 2", server: 104.19.229.21, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, servername: sni.111000.indevs.in, network: ws, ws-opts: {path: /, headers: {Host: sni.111000.indevs.in}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp 3", server: sbb.4nel.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: cb8ad1f0-85ef-4659-a65d-b4e01baf587d, network: ws, ws-opts: {path: /, headers: {Host: sbb.4nel.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp` 2", server: 185.143.232.122, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: dbbb5ffe-b5ce-4ce5-b731-6377dc90712d, network: ws, ws-opts: {path: /news, headers: {Host: cdn-gr.pasargardnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vipV2rayNGnp 4", server: 185.143.234.235, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: f9aeba2c-4c68-11f1-8d30-2ddfba49052f, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: sv-1.jservices.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "`"
+      - "@vipV2rayNGnp"
+      - "@vipV2rayNGnp`"
+      - "@vipV2rayNGnp 2"
+      - "@vipV2rayNGnp 3"
+      - "@vipV2rayNGnp` 2"
+      - "@vipV2rayNGnp 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
