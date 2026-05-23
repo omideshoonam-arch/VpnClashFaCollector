@@ -5,13 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: meli.masterdadeh.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5b34187f-f811-58b1-7e68-3cc63df5df3b, network: ws, ws-opts: {path: /, headers: {Host: meli.masterdadeh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: arvancloud.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 60a82974-575e-b9ae-0573-022141475e29, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: pro.halotwo.shop, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 689b279e-e871-4467-87a7-ecb6ca0bc1b2, servername: pro.halotwo.shop, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: pro.halotwo.shop}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 6fd1d1ff-5e9a-4b15-a8e4-ca4dd811ab5c, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: arvv.teamlifez.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 5", server: digipay.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 945d2268-cc2f-d8e3-23e2-5bde2fa0c239, servername: cdn-665e-o0g.fars-rehan.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 6", server: 185.143.232.122, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: dbbb5ffe-b5ce-4ce5-b731-6377dc90712d, network: ws, ws-opts: {path: /news, headers: {Host: cdn-gr.pasargardnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 7", server: bmi.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f389942e-d680-d488-846b-0ed14dcb22ef, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: 2.144.20.145, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 2", server: 185.143.232.211, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 39613335-3066-4965-a261-613564343431, network: ws, ws-opts: {path: "/l/w/aXD2QyDdS6vRQpxs?ed=2047", headers: {Host: dl.tgmovie.bond}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 3", server: meli.masterdadeh.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5b34187f-f811-58b1-7e68-3cc63df5df3b, network: ws, ws-opts: {path: /, headers: {Host: meli.masterdadeh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 4", server: arvancloud.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 60a82974-575e-b9ae-0573-022141475e29, network: ws, ws-opts: {path: /, headers: {Host: cdn-665e-o0g.fars-rehan.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 5", server: 87.107.175.18, port: 8086, type: vless, tls: true, packet-encoding: xudp, uuid: 9a3f711d-a7ac-467d-962e-2d7af03dcb66, servername: www.snapp.ir, host: www.snapp.ir, path: /, reality-opts: {public-key: 0DKjdlADOX3-J6ZYv6RjlDP5n3kOahNBn3vUNnHO0l0, short-id: d1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 6", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22450, type: vmess, uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -24,7 +23,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -37,7 +35,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -50,7 +47,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -62,7 +58,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -74,7 +69,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -86,7 +80,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -120,7 +113,6 @@ proxy-groups:
       - "@config4k _ کانال تلگرام 4"
       - "@config4k _ کانال تلگرام 5"
       - "@config4k _ کانال تلگرام 6"
-      - "@config4k _ کانال تلگرام 7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
