@@ -465,10 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast, server: snapp.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 4dcfef69-8f69-4fcd-97b5-a99fb54407f1, network: ws, ws-opts: {path: "/wp-content?ed=30", headers: {Host: cdn.mr-wopi.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: tamin.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8d121722-0445-47ff-946e-6b30485cde5f, network: ws, ws-opts: {path: /stream, headers: {Host: test.mashinito.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 3, server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 97fdc613-af07-40ef-bfde-7052d1c90c61, network: ws, ws-opts: {path: /, headers: {Host: fr.it-net.top}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast`, server: irna.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: e13d5177-3fac-4ec7-894d-caed09dec1dc, servername: shahr.fardaamoz.ir, alpn: ["h2,http/1.1"], network: ws, ws-opts: {path: /, headers: {Host: shahr.fardaamoz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: 2.144.2.62, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: snapp.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 4dcfef69-8f69-4fcd-97b5-a99fb54407f1, network: ws, ws-opts: {path: "/wp-content?ed=30", headers: {Host: cdn.mr-wopi.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: 185.143.234.235, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 63ff89f4-3d10-4a54-952a-e06e09b6dbd9, network: ws, ws-opts: {path: /, headers: {Host: sofr.soralis.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: tamin.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8d121722-0445-47ff-946e-6b30485cde5f, network: ws, ws-opts: {path: /stream, headers: {Host: test.mashinito.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 5, server: varzesh3.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 97fdc613-af07-40ef-bfde-7052d1c90c61, network: ws, ws-opts: {path: /, headers: {Host: fr.it-net.top}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 6, server: useredge1.noroozmobarak.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a0f0dec2-fa1b-44ff-96ef-880f65e5e902, network: ws, ws-opts: {path: "/webpanel?ed=2560", headers: {Host: jahan3.irbattery123.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: 2.144.19.238, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b1badb73-e1e5-4846-856c-8ed6450a299e, servername: shopify.tabriz.qzz.io, network: ws, ws-opts: {path: /, headers: {Host: shopify.tabriz.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: sub.pardisvps.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: be9ba10f-c7b6-4123-bcef-6a70e1114611, network: ws, ws-opts: {path: /, headers: {Host: connect.pardisvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 3, server: irna.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: e13d5177-3fac-4ec7-894d-caed09dec1dc, servername: shahr.fardaamoz.ir, alpn: ["h2,http/1.1"], network: ws, ws-opts: {path: /, headers: {Host: shahr.fardaamoz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,7 +493,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,7 +508,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -508,7 +523,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -527,7 +547,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -537,7 +562,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -547,7 +577,12 @@ proxy-groups:
       - V2rayng_Fast
       - V2rayng_Fast 2
       - V2rayng_Fast 3
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
       - V2rayng_Fast`
+      - V2rayng_Fast` 2
+      - V2rayng_Fast` 3
   - name: دانلود منیجر 📥
     type: select
     proxies:
