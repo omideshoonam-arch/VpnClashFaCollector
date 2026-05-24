@@ -465,8 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@vipV2rayNGnp`", server: 185.165.118.73, port: 4646, type: ss, cipher: 2022-blake3-aes-256-gcm, password: dc/BaxrPS5/uZNTTPxv5I3hhRNRwhTb8q79UGTsaDcc=:6NB1G10KOiZ2ERyD2RigBJZAVq7Ds2jGJYu1syfjC68=, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP, server: f.pvnet.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 17574dcf-0fa4-4693-ba3e-5dda6894f507, network: ws, ws-opts: {path: /, headers: {Host: f.pvnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: https://t.me/VIPV2rayNGNP`, server: snapp.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 5bc4971a-e0b6-4723-985c-801b1c80f23a, network: ws, ws-opts: {path: /wskhan, headers: {Host: mdproxyi.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP` 2, server: 62.220.120.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5ce600a8-9be9-4d10-9a6b-09c4569ebb2c, servername: o21.netsecureteam10.ir, alpn: [h2%2Chttp%2F1.1], host: o21.netsecureteam10.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP` 3, server: f.pvnet.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 5d875dbe-926b-45f7-96a6-8e6a125c14c3, network: ws, ws-opts: {path: /, headers: {Host: f.pvnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@vipV2rayNGnp`"
+      - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP`
+      - https://t.me/VIPV2rayNGNP` 2
+      - https://t.me/VIPV2rayNGNP` 3
   - name: دانلود منیجر 📥
     type: select
     proxies:

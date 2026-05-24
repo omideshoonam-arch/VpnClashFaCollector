@@ -468,6 +468,7 @@ proxies:
   - {name: 13.230.159.214:3285, server: 13.230.159.214, port: 3285, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 213.142.132.75:443, server: 213.142.132.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 53353c51-ab85-4f1d-b81c-d855a0cdeeba, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 103.112.69.234:443, server: 103.112.69.234, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a2af58-d74a-44ca-864a-e09b493f4274, servername: api-maps.yandex.ru, host: api-maps.yandex.ru, path: /, reality-opts: {public-key: egwErhlyJ9EW_XDHj4WlPZux80d6Qc6E4vZHYf4QMC8, short-id: 1f1fe6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: frnl.locklance.lol:443, server: frnl.locklance.lol, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: be0e7d89-9c35-4950-a460-d3bf5aae5f91, servername: frnl.locklance.lol, host: frnl.locklance.lol, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: OduZo3TA4hyCu8FUh06W1_bNtIHjLEpyFJzGUsr2fzU, short-id: 1368eab8bfaf0127}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,6 +488,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,6 +498,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -505,6 +508,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -523,6 +527,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -532,6 +537,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -541,6 +547,7 @@ proxy-groups:
       - 13.230.159.214:3285
       - 213.142.132.75:443
       - 103.112.69.234:443
+      - frnl.locklance.lol:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
