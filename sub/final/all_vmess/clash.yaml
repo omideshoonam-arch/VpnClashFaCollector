@@ -465,11 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22431, type: vmess, uuid: 4d134e4b-299e-4922-be0e-b8e0812a2b62, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ترکیبی @kakajan, server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@config4k _ کانال تلگرام", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22450, type: vmess, uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22450, type: vmess, uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22450, type: vmess, uuid: a46c6c8a-9f2e-47b8-8832-41e256ab7b56, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,10 +485,8 @@ proxy-groups:
     type: select
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,10 +494,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -509,10 +503,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -529,10 +521,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -540,10 +530,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -551,10 +539,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
-      - "@filembad 2"
-      - ترکیبی @kakajan
       - "@config4k _ کانال تلگرام"
-      - "@filembad 3"
+      - "@filembad 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

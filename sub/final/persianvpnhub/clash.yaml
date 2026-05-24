@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 63.179.19.192:22222, server: 63.179.19.192, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو🗾 prrofile_purple@, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 76121c7f-65e7-4206-89c5-188646f27f47, network: ws, ws-opts: {path: "/graphql?ed=2560", headers: {Host: ss1.limitless-cloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 35.159.190.54:22222, server: 35.159.190.54, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 63.179.19.192:22222
-      - برای اتصال دائمی جوین شو🗾 prrofile_purple@
+      - 35.159.190.54:22222
   - name: دانلود منیجر 📥
     type: select
     proxies:

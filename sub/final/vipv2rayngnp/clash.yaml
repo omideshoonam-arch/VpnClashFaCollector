@@ -466,8 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@vipV2rayNGnp`", server: 185.165.118.73, port: 4646, type: ss, cipher: 2022-blake3-aes-256-gcm, password: dc/BaxrPS5/uZNTTPxv5I3hhRNRwhTb8q79UGTsaDcc=:6NB1G10KOiZ2ERyD2RigBJZAVq7Ds2jGJYu1syfjC68=, udp: true, tfo: false}
-  - {name: "@VIPV2rayNGNP`", server: 2.144.23.72, port: 40443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@vipV2rayNGnp` 2", server: meli.masterdadeh.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5b34187f-f811-58b1-7e68-3cc63df5df3b, network: ws, ws-opts: {path: /, headers: {Host: meli.masterdadeh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP`, server: snapp.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 5bc4971a-e0b6-4723-985c-801b1c80f23a, network: ws, ws-opts: {path: /wskhan, headers: {Host: mdproxyi.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@vipV2rayNGnp`"
-      - "@VIPV2rayNGNP`"
-      - "@vipV2rayNGnp` 2"
+      - https://t.me/VIPV2rayNGNP`
   - name: دانلود منیجر 📥
     type: select
     proxies:
