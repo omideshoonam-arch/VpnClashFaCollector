@@ -5,53 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ترکیبی, server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vpnbaz | ترکیبی", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22903, type: vmess, uuid: 14cab9ec-8a1a-44d9-b2c9-0c5ee8ce3a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@freenet-vt", server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: t.me/vasl_bashim, server: ak.reata.ir, port: 16482, type: vmess, uuid: 1acd9c7c-2ae7-4c22-876e-23d6b416b6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

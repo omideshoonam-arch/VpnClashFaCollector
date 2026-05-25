@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ترکیبی, server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vpnbaz | ترکیبی", server: b51d64cb-c5d6-4791-8ecf-0a6d8d71c717.wtf, port: 22903, type: vmess, uuid: 14cab9ec-8a1a-44d9-b2c9-0c5ee8ce3a8c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@freenet-vt", server: 185.236.38.44, port: 19946, type: vmess, uuid: c9e42537-8652-4a4c-85d3-0d36abf38f88, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: t.me/vasl_bashim, server: ak.reata.ir, port: 16482, type: vmess, uuid: 1acd9c7c-2ae7-4c22-876e-23d6b416b6b7, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ترکیبی
-      - "@vpnbaz | ترکیبی"
+      - "@freenet-vt"
+      - t.me/vasl_bashim
   - name: دانلود منیجر 📥
     type: select
     proxies:
