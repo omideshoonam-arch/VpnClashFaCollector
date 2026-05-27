@@ -5,46 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "`", server: newgen.lightxpro.shop, port: 1001, type: vless, tls: true, packet-encoding: xudp, uuid: 5d2fe71b-e259-4762-96ce-7db1b723be90, host: newgen.lightxpro.shop, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@`", server: 172.66.47.69, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: دکتر نیک, server: 172.66.47.69, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: https://t.me/Masyakata, server: 8.6.112.6, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
+  - {name: "@canfigm جوین چنل شید قطع نشید", server: 46.101.188.66, port: 23450, type: vless, tls: true, packet-encoding: xudp, uuid: 06503959-0237-475e-a838-4068a97d5714, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@` 2", server: de-1.shadowhub.cc, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e3da803c-9c04-4ffb-a0f2-32cda93dd868, servername: static.gcore.pro, host: static.gcore.pro, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@canfigm جوین چنل شید قطع نشید 2", server: 32.196.233.17, port: 10792, type: vless, tls: true, packet-encoding: xudp, uuid: e5110f15-4240-45b7-9d63-9e3050876366, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +107,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "`"
+      - "@`"
+      - دکتر نیک
+      - https://t.me/Masyakata
+      - "@canfigm جوین چنل شید قطع نشید"
+      - "@` 2"
+      - "@canfigm جوین چنل شید قطع نشید 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
