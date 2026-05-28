@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: hamedvpns, server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: "28 - VLESS - Clean IP : 8443", server: 104.18.32.47, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 40b66927-2f62-4a7b-8b75-1be2b45bd9ad, servername: mInA2-1Hf.PaGeS.dev, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/UI7fh2CARuUJjLEj?ed=2560", headers: {Host: mInA2-1Hf.PaGeS.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - hamedvpns
       - "28 - VLESS - Clean IP : 8443"
   - name: دانلود منیجر 📥
     type: select
