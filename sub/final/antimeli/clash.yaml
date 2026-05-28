@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ⚔¹- 6vwkoe | 512.0 MB | 3D `, server: 185.143.233.5, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83165f1f-0b01-41a8-bdfb-42dd6918cd1a, servername: g1.podro.store, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/chat?ed=127", headers: {Host: g1.podro.store}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "CH: @antimeli`", server: 104.18.32.47, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 629325d2-7e7b-47e8-a503-301677a59589, servername: poWeRFUL-HIStORym1zX7jVJwb.cARbonbLAckBmw.Ir, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: khabaronline.ir.iranprimer.usip.org.entekhab.ir.alalamtv.net.kayhan.ir.fararu.com.irna.ir}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⚔¹- 6vwkoe | 512.0 MB | 3D `
+      - "CH: @antimeli`"
   - name: دانلود منیجر 📥
     type: select
     proxies:

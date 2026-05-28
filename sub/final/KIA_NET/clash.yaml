@@ -465,10 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇮🇹 Italy | Basic, server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇬🇧 UK | Basic, server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇺🇸 USA | Basic, server: 38.91.107.49, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇺🇸 USA | Basic 2, server: 38.114.123.42, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@kia_Net`", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 9cdf541f-b8a0-4270-8d31-542bb0961485, network: ws, ws-opts: {path: /, headers: {Host: sidipv.naxd.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇮🇹 Italy | Basic
-      - 🇬🇧 UK | Basic
-      - 🇺🇸 USA | Basic
-      - 🇺🇸 USA | Basic 2
+      - "@kia_Net`"
   - name: دانلود منیجر 📥
     type: select
     proxies:
