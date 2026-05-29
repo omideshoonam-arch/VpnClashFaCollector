@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: 104.16.7.70, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select

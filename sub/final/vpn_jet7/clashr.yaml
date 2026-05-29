@@ -5,14 +5,13 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: 79.141.171.133, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4c3fe585-ac09-41df-b284-888818888188, servername: apple.com, host: apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0rtpNciTfV9TsoEc7Y8lS5LzBUzLppMnRY8bQC_bH3M, short-id: aabbccdd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 95.179.140.164, port: 19857, type: vless, tls: true, packet-encoding: xudp, uuid: 684eefab-a712-4a65-83fd-535112228a6a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 209.250.245.206, port: 37385, type: vless, tls: true, packet-encoding: xudp, uuid: 7f07d06b-3eda-4f2c-b0e6-df6e9f82456e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: sca9.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 95.179.140.164, port: 19857, type: vless, tls: true, packet-encoding: xudp, uuid: da0948ac-6249-47c6-80e6-bf9e5d87d07b, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 6", server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@UnNurmal, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Vpn_jet7, server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@VPNCUSTOMIZE, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 7", server: 69.84.182.49, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 45.95.233.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ySJjHiy8mRGHz0Nk7qVLkd, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 216.24.57.6, port: 443, type: trojan, password: Mitivpn, sni: dash.hitgram.ir, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dash.hitgram.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: fr-tx.sbrf-cdn342.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f, servername: sub.sbrf-cdn342., host: sub.sbrf-cdn342., path: /, flow: xtls-rprx-vision-udp443, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: a.darafiq.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 28154b7e-afc2-449b-8a78-bf1eba31bd05, network: ws, ws-opts: {path: /, headers: {Host: a.darafiq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: com3.hozheen.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 31735573-5523-45c6-9e4c-52e6c85c08a6, servername: f188a607f39cc970.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: f188a607f39cc970.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 6", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: d9bb30ad-1e19-4aac-aec4-4dd602bb5d75, network: ws, ws-opts: {path: /status, headers: {Host: vip.digikallamall.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: client.game2dns.xyz, port: 3187, type: vmess, uuid: c2a301a2-64d4-470f-86ca-ddea14bdf951, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,8 +24,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -39,8 +37,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -53,8 +50,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -66,8 +62,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -79,8 +74,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -92,8 +86,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -127,8 +120,7 @@ proxy-groups:
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
       - "@Vpn_jet7 6"
-      - Vpn_jet7
-      - "@Vpn_jet7 7"
+      - "@filembad"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

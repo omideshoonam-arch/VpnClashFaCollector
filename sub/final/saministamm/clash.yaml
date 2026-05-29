@@ -465,10 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: saministamm`, server: 209.250.245.206, port: 37385, type: vless, tls: true, packet-encoding: xudp, uuid: c44510cf-e271-401b-8a52-6010ab7609dd, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@saministamm 1🪐", server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@UnNurmal, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@saministamm 1🪐`", server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@saministamm, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: snapp.ir:8880, server: snapp.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: e4f8a283-8793-4ff7-ba4e-adc927d463fc, network: ws, ws-opts: {path: /, headers: {Host: cd.ahwaz-game.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@@saministamm", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@saministamm`", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: دانلود منیجر 📥
     type: select
     proxies:

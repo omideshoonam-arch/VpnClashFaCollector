@@ -5,67 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: saministamm`, server: 209.250.245.206, port: 37385, type: vless, tls: true, packet-encoding: xudp, uuid: c44510cf-e271-401b-8a52-6010ab7609dd, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@saministamm 1🪐", server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@UnNurmal, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@saministamm 1🪐`", server: 45.130.125.69, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /Channel----@saministamm, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: snapp.ir:8880, server: snapp.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: e4f8a283-8793-4ff7-ba4e-adc927d463fc, network: ws, ws-opts: {path: /, headers: {Host: cd.ahwaz-game.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@@saministamm", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@saministamm`", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,10 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - saministamm`
-      - "@saministamm 1🪐"
-      - "@saministamm 1🪐`"
-      - snapp.ir:8880
+      - "@@saministamm"
+      - "@saministamm`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
