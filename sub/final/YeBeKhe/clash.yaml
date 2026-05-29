@@ -466,6 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: ws-cl-alhuaqy2, server: 104.17.121.71, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: arshiacomplus, servername: nm.acp.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /DarlisCore, headers: {Host: nm.acp.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@pythash 1000.00GB📊", server: 138.124.29.1, port: 17625, type: vless, tls: true, packet-encoding: xudp, uuid: bbc7e59f-8b78-40f0-9fbb-0e8df1095ba4, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: T2ASLlp8Nxcn55_yyuISpHGfzX5sVtC-byKy5_3JTVQ, short-id: 4efdc8168ee70972}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - ws-cl-alhuaqy2
+      - "@pythash 1000.00GB📊"
   - name: دانلود منیجر 📥
     type: select
     proxies:

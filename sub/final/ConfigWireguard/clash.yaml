@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: xhttp -cf-z3whq4gu, server: 104.17.121.71, port: 2083, type: trojan, password: arshiacomplus, sni: oof.acp.us.ci, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ws-cl-alhuaqy2, server: 104.17.121.71, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: arshiacomplus, servername: nm.acp.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /DarlisCore, headers: {Host: nm.acp.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 185.143.233.122:8080, server: 185.143.233.122, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e7798dd4-cadc-43e2-933c-7a3ee236c164, network: ws, ws-opts: {path: /, headers: {Host: penhoon-ref.morvaridvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - xhttp -cf-z3whq4gu
       - ws-cl-alhuaqy2
-      - 185.143.233.122:8080
   - name: دانلود منیجر 📥
     type: select
     proxies:
