@@ -5,67 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@filembad", server: 46.38.137.141, port: 38554, type: vless, tls: true, packet-encoding: xudp, uuid: 80fbb3e8-d705-4eca-a519-fd82fd6d319a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 95.182.114.71, port: 52596, type: vless, tls: true, packet-encoding: xudp, uuid: ZendanVPN, network: ws, ws-opts: {path: /ZendanVPN, headers: {Host: 185.255.92.18}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad`", server: 50.62.198.124, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 50.62.198.124, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e258977b-e413-4718-a3af-02d75492c349, servername: jp.aniua.qzz.io, network: ws, ws-opts: {path: /, headers: {Host: jp.aniua.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar", server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
+  - {name: "@ProxyNegar 2", server: 45.130.125.76, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
+  - {name: "@ProxyNegar 3", server: nl-tx.sbrf-cdn342.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f, servername: sub.sbrf-cdn342.ru, alpn: [http%2F1.1], host: sub.sbrf-cdn342.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar 4", server: nl-tx.sbrf-cdn342.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f, servername: sub.sbrf-cdn342.ru, alpn: [http%2F1.1], host: sub.sbrf-cdn342.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar 5", server: 104.18.32.47, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 0e0bd555-4d21-485c-90a4-bb0b497c002a, servername: cOMpASSioNAte-INtEntIOnr55Et2c87l.carbONBLACKBMW.IR, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: presstv.ir.iribnews.ir.tasnimnews.com.irannewsdaily.com.ifpnews.com.kayhan.ir.irdiplomacy.ir}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar 6", server: 104.18.32.47, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 266f49ab-e823-4497-b7a9-78ff51809f2d, servername: bItTEr-BreADh48GRdp1Bf.cARBONBLacKBMW.IR, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: asriran.com.tasnimnews.com.sharghdaily.com.entekhab.ir.farsnews.ir.isna.ir.irdiplomacy.ir}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar`", server: a.darafiq.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 28154b7e-afc2-449b-8a78-bf1eba31bd05, network: ws, ws-opts: {path: /, headers: {Host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI"}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar 7", server: anten.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 70c51123-7fbe-4ed0-a074-1e92f4c6c88a, network: ws, ws-opts: {path: /, headers: {Host: P2.nazshap.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@ProxyNegar 8", server: 37.152.185.16, port: 27156, type: vless, tls: true, packet-encoding: xudp, uuid: a6994fa4-2b8f-4b84-b75f-f84829c27d45, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,10 +128,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad`"
-      - "@filembad 3"
+      - "@ProxyNegar"
+      - "@ProxyNegar 2"
+      - "@ProxyNegar 3"
+      - "@ProxyNegar 4"
+      - "@ProxyNegar 5"
+      - "@ProxyNegar 6"
+      - "@ProxyNegar`"
+      - "@ProxyNegar 7"
+      - "@ProxyNegar 8"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@@saministamm", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@saministamm`", server: 45.76.32.242, port: 35541, type: vless, tls: true, packet-encoding: xudp, uuid: 56dbbf7c-ac36-45b9-9873-dff978ccb7b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@saministamm`", server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@saministamm", server: uk.connfull.org, port: 2053, type: vmess, uuid: d64d52b1-144f-4bce-a6d7-1324de187b1b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: uk.connfull.org, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@@saministamm"
       - "@saministamm`"
+      - "@saministamm"
   - name: دانلود منیجر 📥
     type: select
     proxies:
