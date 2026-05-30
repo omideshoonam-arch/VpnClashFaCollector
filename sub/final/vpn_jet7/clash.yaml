@@ -465,11 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 82.38.31.202, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: ir1501.dsp7000.cfd, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 01c7d5d9-16d8-464f-b7cb-13f9929bafe8, network: ws, ws-opts: {path: /, headers: {Host: ir1501.dsp7000.cfd}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: fr-tx.sbrf-cdn342.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 01ea3b87-b7b1-4aef-b24a-9c43fbd3b26f, servername: sub.sbrf-cdn342., host: sub.sbrf-cdn342., path: /, flow: xtls-rprx-vision-udp443, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 185.143.234.200, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 8389321f-8206-4ec0-91b1-812087be2e03, servername: lol1.artarona.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lol1.artarona.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 8.39.204.24, port: 443, type: vmess, uuid: fdf8034a-67a0-4bf2-90e9-6d65d211aca6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: Kose-nanat-decoder.dr-ping.ir, network: ws, ws-opts: {path: /Kose-nanat-decoder, headers: {Host: Kose-nanat-decoder.dr-ping.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: api.naxm.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2ab4010-c403-40ec-a66a-fb3979e5bd6d, servername: home.naxm.ir, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: "%2Fdashboard"}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 45.130.125.76, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d177b721-7fcb-4457-9ac4-4c9d9f1b45b2, servername: de1.diiginet.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: de1.diiginet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 162.19.228.119, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI"}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 95.179.166.190, port: 31707, type: vmess, uuid: 4ed60daa-41c1-45ec-89c6-56a0b5738c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca, port: 80, type: vmess, uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp, headers: {Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,8 +489,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,8 +500,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -511,8 +511,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -531,8 +531,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -542,8 +542,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -553,8 +553,8 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
       - "@filembad"
+      - "@filembad 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

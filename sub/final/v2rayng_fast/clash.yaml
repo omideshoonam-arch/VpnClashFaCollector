@@ -465,9 +465,16 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast`, server: 185.143.235.201, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 64e707d3-9e2d-48b9-8c24-8d86f6a2da1b, network: ws, ws-opts: {path: /, headers: {Host: penhoon2.morvaridvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 64e707d3-9e2d-48b9-8c24-8d86f6a2da1b, network: ws, ws-opts: {path: /, headers: {Host: penhoon2.morvaridvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: 202.37.33.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c, servername: cyylr.eu.cc, alpn: [http%2F1.1], network: ws, ws-opts: {path: /sg-melbi, headers: {Host: cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: vip3.myspacex.shop, port: 20700, type: ss, cipher: chacha20-ietf-poly1305, password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: vip3.myspacex.shop, port: 80, type: ss, cipher: chacha20-ietf-poly1305, password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: 37.32.6.100, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: 05255c94-9382-446d-860e-8f9cae90949c, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: 193.151.135.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 34a9bd8b-e657-41ae-bc11-b0fa8393465b, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: 185.143.235.201, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 64e707d3-9e2d-48b9-8c24-8d86f6a2da1b, network: ws, ws-opts: {path: /, headers: {Host: penhoon2.morvaridvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 64e707d3-9e2d-48b9-8c24-8d86f6a2da1b, network: ws, ws-opts: {path: /, headers: {Host: penhoon2.morvaridvps.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 5, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 85f14ce9-0ad8-48de-b459-ef078ecfd57c, network: ws, ws-opts: {path: "/vnet102MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray?ed=2048", headers: {Host: f1.gsm10shop.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 6, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 85f14ce9-0ad8-48de-b459-ef078ecfd57c, network: ws, ws-opts: {path: "/vnet102MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray?ed=2048", headers: {Host: f1.gsm10shop.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 3, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 85f14ce9-0ad8-48de-b459-ef078ecfd57c, network: ws, ws-opts: {path: "/vnet102MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray-MsV2ray?ed=2048", headers: {Host: f1.gsm10shop.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 7, server: 202.37.33.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c, servername: cyylr.eu.cc, alpn: [http%2F1.1], network: ws, ws-opts: {path: /sg-melbi, headers: {Host: cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +491,48 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +548,48 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - V2rayng_Fast`
       - V2rayng_Fast
       - V2rayng_Fast 2
+      - V2rayng_Fast`
+      - V2rayng_Fast 3
+      - V2rayng_Fast` 2
+      - V2rayng_Fast 4
+      - V2rayng_Fast 5
+      - V2rayng_Fast 6
+      - V2rayng_Fast` 3
+      - V2rayng_Fast 7
   - name: دانلود منیجر 📥
     type: select
     proxies:

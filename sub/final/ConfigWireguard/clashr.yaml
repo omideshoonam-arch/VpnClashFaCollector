@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@v2reya88`", server: 152.233.28.198, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: uk1.fromblancwithlove.com, alpn: [h2], host: uk1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ², server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: ¹, server: 45.130.125.69, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
   - {name: CF官方优选4, server: 104.19.38.133, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0, servername: darkness427edge-93h.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: darkness427edge-93h.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: CF官方优选3, server: 104.19.52.191, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0, servername: darkness427edge-93h.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: darkness427edge-93h.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: CF官方优选5, server: 104.26.13.178, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b1f8283d-36f5-4ff9-8ad8-e6d733a18fa0, servername: darkness427edge-93h.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: darkness427edge-93h.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -29,7 +30,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -53,7 +55,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -77,7 +80,8 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -100,7 +104,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -123,7 +128,8 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -146,7 +152,8 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5
@@ -191,7 +198,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@v2reya88`"
+      - ²
+      - ¹
       - CF官方优选4
       - CF官方优选3
       - CF官方优选5

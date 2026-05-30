@@ -5,11 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@config4k _ کانال تلگرام", server: 4.168.201.246, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: XEnZedp2mkTbT1qC, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 2", server: vip3.myspacex.shop, port: 20700, type: ss, cipher: chacha20-ietf-poly1305, password: YuRt6AX9P4NiutTwoDMvDTrxIjo_lsGr, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام`", server: vip8.myspacex.shop, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: _Y9Ws4nRYw2y8CtGLDMZ-HmEtjSW-u46, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 3", server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@config4k _ کانال تلگرام 4", server: 104.18.32.47, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: e221880c-0ada-4e89-a336-62c3b909f787, servername: Old-CaREg74s0ugV9a.CaRboNblAcKBMw.ir, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: iranprimer.usip.org.entekhab.ir.presstv.ir.alef.ir.yjc.ir.presstv.ir.en.mehrnews.com}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام", server: sca11.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@config4k _ کانال تلگرام 2", server: 95.179.166.190, port: 31707, type: vmess, uuid: 4ed60daa-41c1-45ec-89c6-56a0b5738c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,9 +15,6 @@ proxy-groups:
       - DIRECT
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -29,9 +23,6 @@ proxy-groups:
     proxies:
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -40,9 +31,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -50,9 +38,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -60,9 +45,6 @@ proxy-groups:
       - 🚀 节点选择
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -70,9 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,9 +81,6 @@ proxy-groups:
       - ♻️ 自动选择
       - "@config4k _ کانال تلگرام"
       - "@config4k _ کانال تلگرام 2"
-      - "@config4k _ کانال تلگرام`"
-      - "@config4k _ کانال تلگرام 3"
-      - "@config4k _ کانال تلگرام 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
