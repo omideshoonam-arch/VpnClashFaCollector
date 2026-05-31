@@ -465,10 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: https://t.me/VIPV2rayNGNP, server: kyiv02.npvnot.com, port: 443, type: ss, cipher: aes-256-gcm, password: MzRlYzA0ZGY0Njc2ZjQ2YTRiMTg2YTkzNjM4OGI1, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP 2, server: 91.107.140.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 301f9f35-73c7-4ae0-bbe9-7dd86da19f50, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Efid51phV7wQ6vF48DC97364AyVl7tQa22ILzIOLYgg, short-id: d04733f30a13}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "`", server: snapp.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 41bc5a50-7c41-4078-9a2a-611ab1c6dddb, network: ws, ws-opts: {path: /, headers: {Host: lizardf1.fastshop11.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP 3, server: pl.fantoff.online, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b95dd8e5-2758-408f-be99-9362eecee609, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BoWKSM1aSfcTRgKX_kZYPlauG0jLIqku3zPBAiHpUgs, short-id: 5ea7e22e889dabc5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "`", server: 84.75.220.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c5cb739-1112-4eea-bad1-282db5c24512, servername: www.samsung.com, host: www.samsung.com, path: /, reality-opts: {public-key: g_oiiXO-P1L5MgEzE9qx7Vt0x-Z1-vI5QjXmscfh6Uw, short-id: 27fd6d7ea3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP, server: 84.75.220.223, port: 33434, type: vless, tls: true, packet-encoding: xudp, uuid: 614ad5da-e5cc-479d-bc90-3db549ca96e4, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: CBLftLCz0w2EX8H3sQ4ahU_lc9_aWJZO_8OHJEWGjDo, short-id: 0af57b636837}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP 2, server: 84.75.220.223, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: afce710f-2261-403e-ada6-459dbcb44b64, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: XnjRQWaZ2QGrIJBGPuYOePg2wLl_ZM_gkCyJ2aKxylQ, short-id: 7797159c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "`"
       - https://t.me/VIPV2rayNGNP
       - https://t.me/VIPV2rayNGNP 2
-      - "`"
-      - https://t.me/VIPV2rayNGNP 3
   - name: دانلود منیجر 📥
     type: select
     proxies:
