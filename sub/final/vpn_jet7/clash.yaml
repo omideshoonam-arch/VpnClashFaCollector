@@ -465,18 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 20.164.221.1, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: WUpTYsnFmIND14vx, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: mitivpn.ws-ws-ws.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: mitivpn.ws-ws-ws.workers.dev}}, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: de-as.connect-iskra.cv, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 56c926e4-e34b-443f-b5ca-cc6f0afab28a, servername: fastsync.xyz, host: fastsync.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: eHgRhHYifD2njbtjzgMsNPGnvbpAK8SSXC5-wFuQnQ4, short-id: 65b5280b52e0532c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 87.120.93.244, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 91e120bc-159a-4390-b4e1-197b19602ea0, servername: sub.sbrf-cdn342.ru, host: sub.sbrf-cdn342.ru, path: /, flow: xtls-rprx-vision-udp443, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: fi.gryaz-vpn.com, port: 34572, type: vless, tls: true, packet-encoding: xudp, uuid: abcd6b4c-2d85-4de5-be7f-62791b0f5085, servername: cloudflare.com, host: cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8PkeN5hkQBkoBt0I2JdcDC865gUXui86897Th8DaDlY, short-id: 88acba}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 6", server: api.naxm.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2ab4010-c403-40ec-a66a-fb3979e5bd6d, servername: home.naxm.ir, alpn: [h2%2Chttp%2F1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: "%2Fdashboard"}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 7", server: 45.130.125.76, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d177b721-7fcb-4457-9ac4-4c9d9f1b45b2, servername: de1.diiginet.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: de1.diiginet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 8", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e6bc77cc-3839-4e09-9e54-d0bb8b43b867, network: ws, ws-opts: {path: /kaiser, headers: {Host: kolis5.zivoryx.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 9", server: 193.233.23.121, port: 40611, type: vless, tls: true, packet-encoding: xudp, uuid: f5a25ee5-ff24-41b0-80e8-ccafdc866614, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 95.179.166.190, port: 31707, type: vmess, uuid: 4ed60daa-41c1-45ec-89c6-56a0b5738c4d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: client.game2dns.xyz, port: 3181, type: vmess, uuid: 85e00b49-e311-4b48-aab4-9804a4a4b534, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca, port: 80, type: vmess, uuid: e2923bc6-8204-4768-98ea-379d48ea8a7a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /1awNzxRSwKsdkPVKP0ZQqlHjt10sp, headers: {Host: heu83ujieiwoeu83j2ewjehuwehu8.dentiscan.ca}}, udp: true, tfo: false}
+  - {name: "@Vp_jet7", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: mitivpn.ws-ws-ws.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: mitivpn.ws-ws-ws.workers.dev}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -493,54 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -556,54 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vp_jet7"
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
-      - "@Vpn_jet7 6"
-      - "@Vpn_jet7 7"
-      - "@Vpn_jet7 8"
-      - "@Vpn_jet7 9"
-      - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
