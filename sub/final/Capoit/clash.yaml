@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Capoit`", server: 104.17.121.71, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
+  - {name: "@Capoit`", server: 172.64.147.255, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622, network: ws, ws-opts: {path: /, headers: {Host: tt.andishehparenting.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
