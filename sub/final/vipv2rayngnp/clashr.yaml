@@ -5,60 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "`", server: 84.75.220.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c5cb739-1112-4eea-bad1-282db5c24512, servername: www.samsung.com, host: www.samsung.com, path: /, reality-opts: {public-key: g_oiiXO-P1L5MgEzE9qx7Vt0x-Z1-vI5QjXmscfh6Uw, short-id: 27fd6d7ea3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP, server: 84.75.220.223, port: 33434, type: vless, tls: true, packet-encoding: xudp, uuid: 614ad5da-e5cc-479d-bc90-3db549ca96e4, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: CBLftLCz0w2EX8H3sQ4ahU_lc9_aWJZO_8OHJEWGjDo, short-id: 0af57b636837}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: https://t.me/VIPV2rayNGNP 2, server: 84.75.220.223, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: afce710f-2261-403e-ada6-459dbcb44b64, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: XnjRQWaZ2QGrIJBGPuYOePg2wLl_ZM_gkCyJ2aKxylQ, short-id: 7797159c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: -tps://t.me/VIPV2rayNGNP, server: 172.104.237.100, port: 443, type: trojan, password: VPTFm%3DoZ%2B%2BSuNT%2BjMRqGZqrAnWq-r8KJyY, sni: 172.104.237.100, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@UnNurmal VIP 2🍦\ufeff", server: 172.238.120.124, port: 443, type: trojan, password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: https://t.me/VIPV2rayNGNP`, server: 172.236.220.10, port: 443, type: trojan, password: s_WEN9lMmufG%2BqDIsn-4C7JOVAnDdbS3Ui, sni: 172.236.220.10, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: -tps://t.me/VIPV2rayNGNP 2, server: 3.65.207.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0a335b4d-7a02-4989-a16d-424d265a6420, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "`"
-      - https://t.me/VIPV2rayNGNP
-      - https://t.me/VIPV2rayNGNP 2
+      - -tps://t.me/VIPV2rayNGNP
+      - "@UnNurmal VIP 2🍦\ufeff"
+      - https://t.me/VIPV2rayNGNP`
+      - -tps://t.me/VIPV2rayNGNP 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,16 +5,26 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: www.linkman1.ir}}, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: snapp.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 05c42a4d-c59e-4b18-bf34-af3f486c426d, network: ws, ws-opts: {path: /, headers: {Host: irang.apirealstate.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: fi3.coconutstrip.co, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 17aae0f2-914c-40e3-8ed3-38ab1c83ec74, servername: fi3.coconutstrip.co, host: fi3.coconutstrip.co, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 27302727-9dfa-4975-990e-88c7a63747cd, servername: tc.amoovictor.cc.cd, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tc.amoovictor.cc.cd}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 185.212.117.96, port: 52165, type: vless, tls: true, packet-encoding: xudp, uuid: 37afa02e-9d9c-4679-bd21-5e6cee0cb0c1, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: Sa2fRdE4NgZCGMP-oWwRCYuIvOMU5DY68nfUSdcsQmQ, short-id: 2fa0499b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 6", server: 151.101.69.219, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 40567934-71ea-4806-ab8b-f48b748dc3c9, servername: speedtest.net, network: ws, ws-opts: {path: /, headers: {Host: speedtest.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 7", server: 185.143.234.200, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 81e4b3f2-6155-4eec-96fd-47c2d514478d, network: ws, ws-opts: {path: /, headers: {Host: cdn.namavax.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 8", server: 165.215.250.12, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 867a773a-251f-49a5-a4e6-bed09600dd29, network: ws, ws-opts: {path: /, headers: {Host: xU.aSaCO.sTorE}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 9", server: turkeyeah.pou-ria.com, port: 8084, type: vless, tls: true, packet-encoding: xudp, uuid: 9acc2508-1e6e-9f22-4db8-363f85c02759, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: -g0bzNFN2Of9vbBXL5ZWXQ5GIrwS1uZlFPcmphN0PiI, short-id: bbcdcac5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 10", server: 145.239.173.163, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f8218ac8-0a9b-5d70-a6c8-31936767c357, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: cdn.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: cdn.linkman1.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: www.linkman1.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: 3.65.207.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0a335b4d-7a02-4989-a16d-424d265a6420, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 6", server: fi3.coconutstrip.co, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 17aae0f2-914c-40e3-8ed3-38ab1c83ec74, servername: fi3.coconutstrip.co, host: fi3.coconutstrip.co, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 7", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 27302727-9dfa-4975-990e-88c7a63747cd, servername: tc.amoovictor.cc.cd, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tc.amoovictor.cc.cd}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 8", server: g10.steptofsvo.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 279828c6-13f2-439c-9a4e-ea7d4f470fa4, servername: g10.steptofsvo.com, host: g10.steptofsvo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk, short-id: 6d6f13013d3e1d0c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 9", server: 151.101.193.57, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 2c15f192-3812-98db-85a2-88cd7d02b868, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: Vpsdelta.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 10", server: 54.36.113.174, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 3608340b-456e-41c6-a5bb-b495ff8bf302, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 11", server: 185.212.117.96, port: 52165, type: vless, tls: true, packet-encoding: xudp, uuid: 37afa02e-9d9c-4679-bd21-5e6cee0cb0c1, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: Sa2fRdE4NgZCGMP-oWwRCYuIvOMU5DY68nfUSdcsQmQ, short-id: 2fa0499b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 12", server: 152.233.35.228, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: de1.fromblancwithlove.com, host: de1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7, server: germany.chansmaker.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7c9e8295-7f7c-4ac4-b230-851d858fbc47, servername: icloud.com, host: icloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: V1wO60MfptJ9jzeo94f1RKIcUPq6frrKoFWPp2Jutlo, short-id: 3bbaf2c984e16a31}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 13", server: 185.143.234.200, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 81e4b3f2-6155-4eec-96fd-47c2d514478d, network: ws, ws-opts: {path: /, headers: {Host: cdn.namavax.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 14", server: sca13.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 15", server: turkeyeah.pou-ria.com, port: 8084, type: vless, tls: true, packet-encoding: xudp, uuid: 9acc2508-1e6e-9f22-4db8-363f85c02759, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: -g0bzNFN2Of9vbBXL5ZWXQ5GIrwS1uZlFPcmphN0PiI, short-id: bbcdcac5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 16", server: 144.31.4.119, port: 58871, type: vless, tls: true, packet-encoding: xudp, uuid: M0onV7xDxbyKt8g, servername: lk.x5.ru, host: lk.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WWfS06v1s10FKQSlSXV5NzF9ZfVkyJOg30taggzazwI, short-id: f877}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 17", server: 85.234.114.53, port: 22231, type: vless, tls: true, packet-encoding: xudp, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, servername: r1.mizulina.top, host: r1.mizulina.top, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 18", server: ger2.consolegamenet.ir, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: d30751ce-d82c-4d48-b1a8-f600c0e8a279, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: E5n-njx-57MxDzVpCwsqmc9wKeYRjyd2tg2yAUJ_sFU, short-id: 28711478c2a20a18}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 19", server: 77.239.114.176, port: 19105, type: vless, tls: true, packet-encoding: xudp, uuid: fb9e4c3a-936f-44c7-ac89-d5d422690fcf, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IS6TNMONlIVvcUBvo2RXQvx2Jopcv4wzPyZhxPhWqT8, short-id: e6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -31,6 +41,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -47,6 +67,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -63,6 +93,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -78,6 +118,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -93,6 +143,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -108,6 +168,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,6 +215,16 @@ proxy-groups:
       - "@Vpn_jet7 8"
       - "@Vpn_jet7 9"
       - "@Vpn_jet7 10"
+      - "@Vpn_jet7 11"
+      - "@Vpn_jet7 12"
+      - Vpn_jet7
+      - "@Vpn_jet7 13"
+      - "@Vpn_jet7 14"
+      - "@Vpn_jet7 15"
+      - "@Vpn_jet7 16"
+      - "@Vpn_jet7 17"
+      - "@Vpn_jet7 18"
+      - "@Vpn_jet7 19"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

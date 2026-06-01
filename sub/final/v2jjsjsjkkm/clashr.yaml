@@ -5,8 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@mehrosaboran`", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: Free 53 @Outline_Vpn, server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@Hddify - FG2`", server: Snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 0fca7e9d-5409-4642-a3f5-87d034f50aa7, network: ws, ws-opts: {path: /, headers: {Host: Q.poiuyt.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Hddify - FG3", server: Snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 0fca7e9d-5409-4642-a3f5-87d034f50aa7, network: ws, ws-opts: {path: /, headers: {Host: Q.poiuyt.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Hddify - FG5", server: 199.232.236.87, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4b8a44a6-ae42-4beb-991e-c4f3b048060c, servername: speedtest.net, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: speedtest.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Hddify - FG1‌", server: snapp.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 9a03ad38-0370-45e8-bb2a-986071108f90, network: ws, ws-opts: {path: /, headers: {Host: Z.poiuyt.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Hddify - FG4", server: snapp.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 9a03ad38-0370-45e8-bb2a-986071108f90, network: ws, ws-opts: {path: /, headers: {Host: Z.poiuyt.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Free 54 @Outline_Vpn, server: 162.159.13.206, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df, servername: juzi.qea.ccwu.cc, network: ws, ws-opts: {path: /, headers: {Host: juzi.qea.ccwu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Free 55 @Outline_Vpn, server: 162.159.18.105, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a6f1755f-0140-4bea-8727-0db1bed7c4df, servername: juzi.qea.ccwu.cc, network: ws, ws-opts: {path: /, headers: {Host: juzi.qea.ccwu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Free 52 @Outline_Vpn, server: 104.19.229.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c, servername: cyylr.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -19,8 +23,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -33,8 +41,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -47,8 +59,12 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -60,8 +76,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -73,8 +93,12 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -86,8 +110,12 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn
@@ -121,8 +149,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@mehrosaboran`"
       - Free 53 @Outline_Vpn
+      - "@Hddify - FG2`"
+      - "@Hddify - FG3"
+      - "@Hddify - FG5"
+      - "@Hddify - FG1‌"
+      - "@Hddify - FG4"
       - Free 54 @Outline_Vpn
       - Free 55 @Outline_Vpn
       - Free 52 @Outline_Vpn

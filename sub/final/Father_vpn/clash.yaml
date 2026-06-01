@@ -465,18 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: TEL;Father_vpn, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: 404.mitii33.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: 404.mitii33.workers.dev}}, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 2, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: cdn.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: cdn.linkman1.ir}}, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 3, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: www.linkman1.ir}}, udp: true, tfo: false}
+  - {name: TEL;Father_vpn, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.linkman1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: www.linkman1.ir}}, udp: true, tfo: false}
   - {name: TEL;Father_vpn`, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 27302727-9dfa-4975-990e-88c7a63747cd, servername: tc.amoovictor.cc.cd, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: tc.amoovictor.cc.cd}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn` 2, server: 195.181.173.199, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: ams1.fromblancwithlove.com, alpn: [h2], host: ams1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 4, server: 88.218.120.60, port: 4443, type: vless, tls: true, packet-encoding: xudp, uuid: 41b903e0-7d0a-45d0-9b29-83086024a88b, servername: sni4.streisand.lt, host: sni4.streisand.lt, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: -psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg, short-id: 612d8fa72c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 5, server: 193.163.203.76, port: 50592, type: vless, tls: true, packet-encoding: xudp, uuid: 439f353b-b52f-4355-93d8-26e0567d5308, servername: api-maps.yandex.ru, host: api-maps.yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ, short-id: b7ca855a4763a7ac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 6, server: 79.127.196.11, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 55f7d143-a594-4a91-b030-f227039f85ef, servername: cdg-1.fromblancwithlove.com, alpn: [h2], host: cdg-1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 7, server: 91.107.140.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b38183a1-8841-4dc0-b2ae-b037d378dfb9, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Efid51phV7wQ6vF48DC97364AyVl7tQa22ILzIOLYgg, short-id: 6171a4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 8, server: 162.217.249.72, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d78c12c4-6927-40b8-8550-ed9be00334da, servername: nether1cxc.chickenkiller.com, host: nether1cxc.chickenkiller.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: MFedImeNi-4keZx_rkV8WL6jjY6sLncSaXgNjpUBPGo, short-id: 8917bfb9900788d5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 9, server: 107.161.174.68, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: e4ec0319-a924-42eb-84a5-9bff93d91d60, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: be0ce047}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: TEL;Father_vpn 10, server: 57.129.117.234, port: 14501, type: vless, tls: true, packet-encoding: xudp, uuid: fd1df366-31db-4ac1-87e1-b55cd025c74a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn 2, server: 88.218.120.60, port: 4443, type: vless, tls: true, packet-encoding: xudp, uuid: 41b903e0-7d0a-45d0-9b29-83086024a88b, servername: sni4.streisand.lt, host: sni4.streisand.lt, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: -psPIZaOXQOuX1O1BpZ0_zyXEvx1YwW6ouBIkYGb2Dg, short-id: 612d8fa72c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn 3, server: 193.163.203.76, port: 50592, type: vless, tls: true, packet-encoding: xudp, uuid: 439f353b-b52f-4355-93d8-26e0567d5308, servername: api-maps.yandex.ru, host: api-maps.yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kATzSBDyNkm6Ee7p8Ad8iPD5CrJmkJ5n1T-l-LCRmXQ, short-id: b7ca855a4763a7ac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn 4, server: 57.129.117.234, port: 14501, type: vless, tls: true, packet-encoding: xudp, uuid: fd1df366-31db-4ac1-87e1-b55cd025c74a, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -494,17 +487,10 @@ proxy-groups:
     type: select
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -512,17 +498,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -530,17 +509,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -557,17 +529,10 @@ proxy-groups:
     interval: 600
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -575,17 +540,10 @@ proxy-groups:
     interval: 600
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -593,17 +551,10 @@ proxy-groups:
     interval: 600
     proxies:
       - TEL;Father_vpn
+      - TEL;Father_vpn`
       - TEL;Father_vpn 2
       - TEL;Father_vpn 3
-      - TEL;Father_vpn`
-      - TEL;Father_vpn` 2
       - TEL;Father_vpn 4
-      - TEL;Father_vpn 5
-      - TEL;Father_vpn 6
-      - TEL;Father_vpn 7
-      - TEL;Father_vpn 8
-      - TEL;Father_vpn 9
-      - TEL;Father_vpn 10
   - name: دانلود منیجر 📥
     type: select
     proxies:
