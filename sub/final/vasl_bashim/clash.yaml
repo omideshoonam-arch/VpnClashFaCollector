@@ -465,10 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: t.me/vasl_bashim`, server: 104.20.42.250, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
-  - {name: 730@vasl_bashim`, server: 45.90.72.231, port: 30760, type: vless, tls: true, packet-encoding: xudp, uuid: 98875208-5356-4bb4-9e1a-d0eed4a53844, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vasl_bashim`", server: 185.143.234.113, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc06d694-3d3f-4149-97de-4693ce3478f8, servername: fiarsh.parhamm2.ir, network: ws, ws-opts: {path: /, headers: {Host: fiarsh.parhamm2.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vasl_bashim", server: 185.143.234.115, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc06d694-3d3f-4149-97de-4693ce3478f8, servername: netharsh.parhamm2.ir, network: ws, ws-opts: {path: /, headers: {Host: netharsh.parhamm2.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 188.114.97.6:443, server: 188.114.97.6, port: 443, type: trojan, password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe, sni: blog.webex.com.cyylr.eu.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /in-do, headers: {Host: blog.webex.com.cyylr.eu.cc}}, udp: true, tfo: false}
+  - {name: cyylr.eu.cc:443, server: cyylr.eu.cc, port: 443, type: trojan, password: cf3d48cf-750c-4f18-89a7-f81d2e153fbe, sni: blog.webex.com.cyylr.eu.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /in-do, headers: {Host: blog.webex.com.cyylr.eu.cc}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim`", server: 2.24.13.118, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f7040199-3768-4c1b-ae1b-78d904fc2412, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - t.me/vasl_bashim`
-      - 730@vasl_bashim`
+      - 188.114.97.6:443
+      - cyylr.eu.cc:443
       - "@vasl_bashim`"
-      - "@vasl_bashim"
   - name: دانلود منیجر 📥
     type: select
     proxies:

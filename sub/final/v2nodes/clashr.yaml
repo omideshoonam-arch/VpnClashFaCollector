@@ -5,88 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇸🇬 sg-03.jjsdns.com:17891, server: sg-03.jjsdns.com, port: 17891, type: ss, cipher: 2022-blake3-aes-256-gcm, password: MDVmMDZmMjcxMGVhZThlYmVkZGEwOThiNmJjYTYzMzc=:YTlkNzI3Y2QtMzMwYi00ZWRkLTg5MTEtN2MyMjRkZjY=, udp: true, tfo: false}
-  - {name: 193.135.174.135:990, server: 193.135.174.135, port: 990, type: ss, cipher: chacha20-ietf-poly1305, password: ARgvGZywA+gacgGV26Bvmu05+wZmRW/j+AdU+Z8Bt44=, udp: true, tfo: false}
-  - {name: 212.192.15.225:20129, server: 212.192.15.225, port: 20129, type: ss, cipher: aes-256-gcm, password: 7e1dd4c55bf85da5, udp: true, tfo: false}
-  - {name: 172.235.63.252:443, server: 172.235.63.252, port: 443, type: trojan, password: bX_lNHWoW6ywq82mI=KUr+8i__VSp0Hs_E, sni: 172.235.63.252, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 54.178.81.79:3842, server: 54.178.81.79, port: 3842, type: trojan, password: f6d3aa07a52dbcedcb4731029e2fb6ae, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.236.220.10:443, server: 172.236.220.10, port: 443, type: trojan, password: s_WEN9lMmufG+qDIsn-4C7JOVAnDdbS3Ui, sni: 172.236.220.10, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 45.130.125.206:443, server: 45.130.125.206, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f9fa9ed3-1381-441c-8672-588cbedd012d, servername: r.bibak.bz, network: ws, ws-opts: {path: /, headers: {Host: r.bibak.bz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.18.250.127:2096, server: 185.18.250.127, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /graphql, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 195.96.132.125:443, server: 195.96.132.125, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a2af58-d74a-44ca-864a-e09b493f4274, servername: www.vk.ru, host: www.vk.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4, short-id: 8237eb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: accountdb.ir:80, server: accountdb.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: af77d53f-a0e4-456e-b977-696bf081dcc8, network: ws, ws-opts: {path: /, headers: {Host: g1.nybaz.space}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: vpnicp.xyc.hk.cn, port: 20001, type: vmess, uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇸🇬 sg-03.jjsdns.com:17891
-      - 193.135.174.135:990
-      - 212.192.15.225:20129
-      - 172.235.63.252:443
-      - 54.178.81.79:3842
-      - 172.236.220.10:443
-      - 45.130.125.206:443
+      - 185.18.250.127:2096
+      - 195.96.132.125:443
+      - accountdb.ir:80
+      - 🇺🇸 [openproxylist.com] vmess-US
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
