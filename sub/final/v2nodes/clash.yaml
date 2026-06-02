@@ -465,10 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 185.18.250.127:2096, server: 185.18.250.127, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 2ee26119-94e5-40b4-ba3a-16354021b600, servername: 69565ce3109804e7813f98ee.mmdbay.blog, network: ws, ws-opts: {path: /graphql, headers: {Host: 69565ce3109804e7813f98ee.mmdbay.blog}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 195.96.132.125:443, server: 195.96.132.125, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a2af58-d74a-44ca-864a-e09b493f4274, servername: www.vk.ru, host: www.vk.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WM-LMz6slGkGPD3zEM8Ntat27n6p6EfbxRsjYmTykV4, short-id: 8237eb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: accountdb.ir:80, server: accountdb.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: af77d53f-a0e4-456e-b977-696bf081dcc8, network: ws, ws-opts: {path: /, headers: {Host: g1.nybaz.space}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: vpnicp.xyc.hk.cn, port: 20001, type: vmess, uuid: 7f5f0705-3dfb-4f56-9657-c95cade2ba83, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 62.133.60.6:443, server: 62.133.60.6, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: ZSzCXxMc0U8gRNctj6NbfD, udp: true, tfo: false}
+  - {name: 194.87.10.139:8388, server: 194.87.10.139, port: 8388, type: ss, cipher: aes-256-gcm, password: c770a24nZJYv, udp: true, tfo: false}
+  - {name: 43.206.130.64:10478, server: 43.206.130.64, port: 10478, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 172.238.19.11:443, server: 172.238.19.11, port: 443, type: trojan, password: E_hUHrn0+6VeZO=v9=fLgoPDXZWGfcrejg, sni: 172.238.19.11, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: riga-node.datamove.online:2040, server: riga-node.datamove.online, port: 2040, type: vless, tls: true, packet-encoding: xudp, uuid: 17451fec-af94-4715-8c2f-7f6839130d0a, servername: tradingview.com, host: tradingview.com, path: /, reality-opts: {public-key: LidllyozUeeSbuzJ0ZfieGoy8YjVzqXX9H2m9whPaG0, short-id: 53197c66aef53c44}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 95.179.251.232:443, server: 95.179.251.232, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 54327070-1d45-42ac-9ebb-8dffcb343c93, servername: germany2.samanidempire.org, network: ws, ws-opts: {path: /hZvWArgsaxqa, headers: {Host: germany2.samanidempire.org}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: kz-1.nodes.ac:443, server: kz-1.nodes.ac, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 593f4d6c-aff1-4832-87a7-b5d8e71584ea, servername: kz-1.nodes.ac, host: kz-1.nodes.ac, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: uz1Lb_2451iPvrwWCZ-4I9_WHdYm7ML0yjeJAZwBk3E, short-id: 73b4306eb38fe3d6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: bero-1.bexum.fun:9443, server: bero-1.bexum.fun, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: ae5ba4be-7262-4199-bd62-210ed8999b9f, servername: bero-1.bexum.fun, host: bero-1.bexum.fun, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 31.76.113.112:443, server: 31.76.113.112, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de, servername: it.s3-cloud.xyz, host: it.s3-cloud.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY, short-id: 7a3f9e2b1c8d4f6a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +490,45 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +544,45 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 185.18.250.127:2096
-      - 195.96.132.125:443
-      - accountdb.ir:80
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 62.133.60.6:443
+      - 194.87.10.139:8388
+      - 43.206.130.64:10478
+      - 172.238.19.11:443
+      - riga-node.datamove.online:2040
+      - 95.179.251.232:443
+      - kz-1.nodes.ac:443
+      - bero-1.bexum.fun:9443
+      - 31.76.113.112:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
