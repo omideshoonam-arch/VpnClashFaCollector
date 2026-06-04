@@ -465,21 +465,39 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@iguanaVPN [3]", server: 49.13.3.249, port: 23997, type: ss, cipher: 2022-blake3-aes-256-gcm, password: dyL+KqX8hIMn+UyADwSJOPm72A0A83TsDOFXBn6I2mA=, udp: true, tfo: false}
-  - {name: "@iguanaVPN [1]", server: 51.254.128.106, port: 2083, type: ss, cipher: aes-256-gcm, password: FjG3IPbny+0ZYU4/p1vULP84GcKpGoZpWKAay16VhIw=, udp: true, tfo: false}
-  - {name: "@``outline_ir", server: 43.169.18.179, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: false}
-  - {name: "@outline_ir", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: cdn.de.linko1.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production/settings, headers: {Host: cdn.de.linko1.ir}}, udp: true, tfo: false}
-  - {name: "@outline_ir 2", server: 91.107.191.12, port: 29376, type: vless, tls: true, packet-encoding: xudp, uuid: 03bc875d-0d8e-49b6-9094-89a8159e65ee, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@NETMelliAnti", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b730662-586f-486f-8b7b-60a93d804175, servername: graph.instagram.com.cyylr.eu.cc, network: ws, ws-opts: {path: /ae-bo, headers: {Host: graph.instagram.com.cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 5.75.201.172:443, server: 5.75.201.172, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1d884add-f807-4c0d-8cbf-966c2b7da62b, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qr9I7Hv2oZ2F0BiWgy9DmYHp0vcFEXcNRVHkyFg3OUw, short-id: 5ead0b7a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@outline_ir 3", server: transparency.cloud.appcore.org, port: 34754, type: vless, tls: true, packet-encoding: xudp, uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: MNw8WI6R7SDlWC71MClNgpxNGUa-nYN4nGHn9pG62Ss, short-id: 81}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 188.213.198.238:7080, server: 188.213.198.238, port: 7080, type: vless, tls: true, packet-encoding: xudp, uuid: 636beac0-92a7-48ea-be1d-35fc3c236487, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@NETMelliAnti 2", server: n6.asmdns.net, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 6682035b-8de0-4603-9e8a-b496857897b2, network: ws, ws-opts: {path: /, headers: {Host: n5.asmdns.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@iguanaVPN [5]", server: sca18.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@iguanaVPN [2]", server: sca20.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@iguanaVPN [4]", server: 45.145.163.115, port: 39771, type: vless, tls: true, packet-encoding: xudp, uuid: e5bd3d75-06b3-490e-9651-930b1dc29cdb, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: GMnXK7wz7qTo_IFmPy--pQcODPhYJG_CLaY2Sh4fTCI, short-id: 33f2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@v2reya88", server: 89.116.46.210, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@chillguy_vpn", server: 51.195.235.71, port: 2052, type: vmess, uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇨🇦 CA-0115-NetFreedom0, server: 35.182.57.53, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
+  - {name: "@NETMelliAnti", server: 188.114.97.6, port: 443, type: trojan, password: 2t5hATPZBk, sni: dd.aananas.ir., skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: dd.aananas.ir.}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200", server: 104.16.174.143, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 2", server: 104.16.174.148, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 3", server: 104.16.174.185, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 4", server: 104.18.152.133, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 5", server: 104.18.152.204, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 6", server: 104.18.152.210, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 7", server: 104.18.152.244, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@outline_ir", server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.mitivpn.in.net, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production, headers: {Host: www.mitivpn.in.net}}, udp: true, tfo: false}
+  - {name: Tel-@NetmeNETMelliAnti, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.mitivpn.in.net, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/mitivpn/production, headers: {Host: www.mitivpn.in.net}}, udp: true, tfo: false}
+  - {name: TEL;Father_vpn, server: 172.238.120.124, port: 443, type: trojan, password: r-_YbwF.j0TtHVewoFIppramjAnmSfqYzJ, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 63.176.37.226:22222, server: 63.176.37.226, port: 22222, type: trojan, password: telegram-id-privatevpns, sni: trojan.burgerip.co.uk, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@outline_ir 2", server: 179.237.73.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 043c4eff-0999-4a90-9090-5eb206709c92, host: uplod.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@v2reya88", server: 27.50.48.49, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 228639b0-48de-4162-a818-d5651ee297b3, servername: investors.spotify.com.cyylr.eu.cc, network: ws, ws-opts: {path: /in-do, headers: {Host: investors.spotify.com.cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@v2reya88 2", server: sni.avaaal.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 24b24552-c20c-457e-a893-d5bb68738f5d, servername: disk2.avaaal.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /720f09dba195249b423f787669162528/workers/services/view/Avaal/production/settings, headers: {Host: disk2.avaaal.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [6]", server: 54.36.162.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 44b3ee72-cffb-4d66-ab7c-3138b9bdeeef, servername: speedtest.net, alpn: [h2], host: speedtest.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: upTVUrc_t7xF1ULni8pHRDhRES1sT4BDm1r8rugTzyQ, short-id: ff815f58c7e77aa9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 45.130.125.160:443, server: 45.130.125.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 47422044-85e3-426b-b6c4-3588cb24a3e5, servername: s.blibli.com.cyylr.eu.cc, network: ws, ws-opts: {path: /ae-bo, headers: {Host: s.blibli.com.cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@NETMelliAnti 2", server: 62.60.148.226, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 47c87a37-3d09-4c3d-96fb-91ce3bcae058, host: www.speedtest.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 150.241.71.35:443, server: 150.241.71.35, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f51ca84-43ea-4087-b8a2-938e0ccbe27a, servername: google.com, host: google.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2Ray_Hub1200 8", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 58341346-98dd-4094-a26c-c378e86261e1, servername: support.zoom.us.cyylr.eu.cc, network: ws, ws-opts: {path: /in-pdr, headers: {Host: support.zoom.us.cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [4]", server: 158.69.112.254, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 661f395d-b153-4199-a04b-693f5fe7f261, servername: www.speedtest.net, host: www.speedtest.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wo417FrFdjy7ZhccQ-VWGZEKcoCHSEfyWcJT1pIVc1Y, short-id: 3d3c1e645f763ee3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [8]", server: 204.216.216.23, port: 1114, type: vless, tls: true, packet-encoding: xudp, uuid: 6ba2eac6-0ec9-44ca-a42b-a8e23aafb530, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WfkCF0eEuIoO0MyJsKOddU89QrTzCZ4y2dzCJbH99CQ, short-id: 79a1e14b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@v2reya88 3", server: 167.68.5.244, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 8525fe74-67e6-4a55-8a26-95f227bd1384, servername: tight-bush-30c8.alvlirm951.workers.dev, network: ws, ws-opts: {path: "/proxyip=68.183.12.120,144.31.70.222,188.226.153.100", headers: {Host: tight-bush-30c8.alvlirm951.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [3]", server: love.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ad6f598-cd8d-4fca-848e-05fc9be15ff3, servername: s1.noh-first.info, network: ws, ws-opts: {path: /sea, headers: {Host: s1.noh-first.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: sca10.myfymain.com:8880, server: sca10.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [6] 2", server: sca15.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: sca18.myfymain.com:8880, server: sca18.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [7]", server: sca21.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@iguanaVPN [1]", server: sca31.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ATHENA VPN 🌟, server: 141.193.213.11, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9232a847-8f7d-4548-a23a-a8b3550e0f15, servername: grabacademyportal.grab.com.cyylr.eu.cc, network: ws, ws-opts: {path: /id-tksi, headers: {Host: grabacademyportal.grab.com.cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.19.229.21:443, server: 104.19.229.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cc752a3e-1537-4e86-bb50-1b897bf7b33c, servername: cyylr.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: cyylr.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@v2reya88 4", server: 5.75.196.174, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f33e9a7d-37be-42f7-9b08-90caad192ac9, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qr9I7Hv2oZ2F0BiWgy9DmYHp0vcFEXcNRVHkyFg3OUw, short-id: 14}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -496,63 +514,117 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -568,63 +640,117 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@iguanaVPN [3]"
-      - "@iguanaVPN [1]"
-      - "@``outline_ir"
-      - "@outline_ir"
-      - "@outline_ir 2"
+      - 🇨🇦 CA-0115-NetFreedom0
       - "@NETMelliAnti"
-      - 5.75.201.172:443
-      - "@outline_ir 3"
-      - 188.213.198.238:7080
-      - "@NETMelliAnti 2"
-      - "@iguanaVPN [5]"
-      - "@iguanaVPN [2]"
-      - "@iguanaVPN [4]"
+      - "@V2Ray_Hub1200"
+      - "@V2Ray_Hub1200 2"
+      - "@V2Ray_Hub1200 3"
+      - "@V2Ray_Hub1200 4"
+      - "@V2Ray_Hub1200 5"
+      - "@V2Ray_Hub1200 6"
+      - "@V2Ray_Hub1200 7"
+      - "@outline_ir"
+      - Tel-@NetmeNETMelliAnti
+      - TEL;Father_vpn
+      - 63.176.37.226:22222
+      - "@outline_ir 2"
       - "@v2reya88"
-      - "@chillguy_vpn"
+      - "@v2reya88 2"
+      - "@iguanaVPN [6]"
+      - 45.130.125.160:443
+      - "@NETMelliAnti 2"
+      - 150.241.71.35:443
+      - "@V2Ray_Hub1200 8"
+      - "@iguanaVPN [4]"
+      - "@iguanaVPN [8]"
+      - "@v2reya88 3"
+      - "@iguanaVPN [3]"
+      - sca10.myfymain.com:8880
+      - "@iguanaVPN [6] 2"
+      - sca18.myfymain.com:8880
+      - "@iguanaVPN [7]"
+      - "@iguanaVPN [1]"
+      - ATHENA VPN 🌟
+      - 104.19.229.21:443
+      - "@v2reya88 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:

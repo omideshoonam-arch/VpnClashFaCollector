@@ -465,14 +465,25 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@chillguy_vpn", server: 51.195.235.71, port: 2052, type: vmess, uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 45.92.70.236, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 85.133.206.101, port: 8080, type: vmess, uuid: 67ce79d4-cc19-4b90-8fd3-8366cdd6d15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 85.133.206.101, port: 8080, type: vmess, uuid: 67ce79d4-cc19-4b90-8fd3-8366cdd6d15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 4", server: 85.133.206.101, port: 8080, type: vmess, uuid: 67ce79d4-cc19-4b90-8fd3-8366cdd6d15c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 5", server: usaapp1.jisuyun.top, port: 2053, type: vmess, uuid: 4b80aa86-4354-40bb-d2a3-47126cff0bea, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: usaapp1.jisuyun.top, network: ws, ws-opts: {path: /usavm, headers: {Host: usaapp1.jisuyun.top}}, udp: true, tfo: false}
+  - {name: "@filembad", server: de4.niekotin.de, port: 80, type: vmess, uuid: 38ed5d70-443e-4ac3-b877-ea21d97fed93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de4.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: de5.taskflowhub.org, port: 2053, type: vmess, uuid: ca58b165-0f7d-49aa-9fae-a017e8a0f884, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: 57.151.100.27, port: 10086, type: vmess, uuid: 550e8400-e29b-41d4-a716-446655440000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 4", server: 84.75.220.183, port: 16733, type: vmess, uuid: f58a3ba2-3495-493a-b511-cfff8729f9f9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 5", server: 172.233.17.76, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 6", server: 212.104.128.46, port: 443, type: vmess, uuid: 78bb6c0b-a773-40d1-8bc6-55331bd49138, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: MciNnnnew.dr-ping.ir, network: ws, ws-opts: {path: /DrPing_channel, headers: {Host: MciNnnnew.dr-ping.ir}}, udp: true, tfo: false}
   - {name: "@VPNSSHOCEAN MCI", server: de.connfull.org, port: 2053, type: vmess, uuid: f2ff4ae6-cf2d-4d15-9f0d-b6d9980df9aa, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 6", server: node-fr.connectsuite.org, port: 2053, type: vmess, uuid: 2f4234f9-8f33-4c7f-952f-565ffa5f5fb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 7", server: de2.niekotin.de, port: 80, type: vmess, uuid: ee449b26-17fb-4070-8145-64f8b03d1326, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de2.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 8", server: de4.niekotin.de, port: 80, type: vmess, uuid: 38ed5d70-443e-4ac3-b877-ea21d97fed93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de4.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 9", server: de4.niekotin.de, port: 80, type: vmess, uuid: 38ed5d70-443e-4ac3-b877-ea21d97fed93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de4.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 10", server: de5.niekotin.de, port: 80, type: vmess, uuid: 85bf5801-4658-441c-a2e5-842c6c71a521, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: de5.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 11", server: fr3.niekotin.de, port: 80, type: vmess, uuid: 8b9734c7-75d7-4c25-bc62-1995433efa42, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: fr3.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 12", server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6001, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 13", server: gtm-sg-cc54q7d1q01.365cloud0285.com, port: 6004, type: vmess, uuid: a030842a-d29a-4ea9-a776-14fc4b9e102d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 14", server: sg1.niekotin.de, port: 80, type: vmess, uuid: c12611e9-d41f-48e1-8a9d-d2aad80a382c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: sg1.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 15", server: de4.niekotin.de, port: 80, type: vmess, uuid: 38ed5d70-443e-4ac3-b877-ea21d97fed93, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: de4.niekotin.de}}, udp: true, tfo: false}
+  - {name: "@filembad 16", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: "@filembad 17", server: 212.104.128.46, port: 443, type: vmess, uuid: 78bb6c0b-a773-40d1-8bc6-55331bd49138, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: MciNnnnew.dr-ping.ir, network: ws, ws-opts: {path: /, headers: {Host: MciNnnnew.dr-ping.ir}}, udp: true, tfo: false}
+  - {name: "@filembad 18", server: 212.104.128.46, port: 443, type: vmess, uuid: 78bb6c0b-a773-40d1-8bc6-55331bd49138, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: MciNnnnew.dr-ping.ir, network: ws, ws-opts: {path: /, headers: {Host: MciNnnnew.dr-ping.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,42 +500,75 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -540,42 +584,75 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@chillguy_vpn"
       - "@filembad"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
-      - "@VPNSSHOCEAN MCI"
       - "@filembad 6"
+      - "@VPNSSHOCEAN MCI"
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
+      - "@filembad 10"
+      - "@filembad 11"
+      - "@filembad 12"
+      - "@filembad 13"
+      - "@filembad 14"
+      - "@filembad 15"
+      - "@filembad 16"
+      - "@filembad 17"
+      - "@filembad 18"
   - name: دانلود منیجر 📥
     type: select
     proxies:
