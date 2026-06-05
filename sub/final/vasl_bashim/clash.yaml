@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: vasl_bashim1, server: 91.107.255.167, port: 24391, type: vless, tls: true, packet-encoding: xudp, uuid: 7d8584e3-410b-4667-a9b3-9a6465d4f999, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Alien-VaslBashim-20.00GB📊`, server: 163.5.94.245, port: 50308, type: vless, tls: true, packet-encoding: xudp, uuid: 9086ecaf-da47-4b80-b71f-4da7701196e6, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - vasl_bashim1
+      - Alien-VaslBashim-20.00GB📊`
   - name: دانلود منیجر 📥
     type: select
     proxies:

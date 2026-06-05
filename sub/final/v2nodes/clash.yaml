@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 45.92.218.56:1080, server: 45.92.218.56, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: RjG_Pd534ZVJRMdODjCNMA, udp: true, tfo: false}
-  - {name: transparency.cloud.appcore.org:34754, server: transparency.cloud.appcore.org, port: 34754, type: vless, tls: true, packet-encoding: xudp, uuid: 35762c02-ff2b-4526-b41b-e96e5d99528b, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: MNw8WI6R7SDlWC71MClNgpxNGUa-nYN4nGHn9pG62Ss, short-id: 81}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 de-1.hysteria.ltd:9443, server: de-1.hysteria.ltd, port: 9443, type: trojan, password: LYaEYwjN8LjWTRJdCCTzW7V6gK7atJVu, sni: de-1.hysteria.ltd, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.92.218.56:1080
-      - transparency.cloud.appcore.org:34754
+      - 🇩🇪 de-1.hysteria.ltd:9443
   - name: دانلود منیجر 📥
     type: select
     proxies:
