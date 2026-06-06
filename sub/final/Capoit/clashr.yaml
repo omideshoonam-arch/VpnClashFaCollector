@@ -5,7 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Capoit`", server: 172.64.147.255, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 478cc26d-16b3-4fdd-be64-60d5a58c1622, network: ws, ws-opts: {path: /, headers: {Host: tt.andishehparenting.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit`", server: 188.114.97.6, port: 8443, type: trojan, password: oyytdJjj0M, sni: hamincharkhooo.rafachita.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /720f09dba195249b423f771661162528/workers/services/view/best/production/settings, headers: {Host: hamincharkhooo.rafachita.ir}}, udp: true, tfo: false}
+  - {name: "@Capoit` 2", server: iranfuture.xyz, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ada2c821-5c83-4dba-96ec-a5174e54ae4d, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: FMlzIKco2rBLro2OaFKjaKSC1PQnlvFRJBsiVJ_bB0s, short-id: 82d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit", server: nl01.goodmaximum.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: db95b766-43a8-000a-9b5d-5ca6f2735188, servername: files.nimhogoa.com, host: files.nimhogoa.com, path: /, reality-opts: {public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ, short-id: 77778028b56c8704}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit 2", server: nl01.goodmaximum.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: db95b766-43a8-000a-9b5d-5ca6f2735188, servername: nimhogoa.com, host: nimhogoa.com, path: /, reality-opts: {public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ, short-id: 31181028b56c8704}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 3", server: se01.goodmaximum.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: db95b766-43a8-0029-9b5d-5ca6f2735188, servername: forms.sablefrost.com, host: forms.sablefrost.com, path: /, reality-opts: {public-key: fPSR5GZpxhOV6Rh7VzMtS4AeRN7ipyNX4waG9JzJzxQ, short-id: 31181028b56c8704}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +101,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit"
+      - "@Capoit 2"
+      - "@Capoit` 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
