@@ -465,15 +465,24 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@p`", server: 62.60.155.100, port: 8443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee", server: 62.60.157.134, port: 8443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون", server: 151.101.108.223, port: 443, type: trojan, password: ertpzfsl7w4kqvk4, sni: default.ssl.fastly.net, skip-cert-verify: false, network: ws, ws-opts: {path: /TELEGRAM_NUFiLTER, headers: {Host: default.ssl.fastly.net}}, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون`", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3f88bde3-effd-4a49-bfa2-19fa4d0e1cc5, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون` 2", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 98c9f668-1f2f-4a6d-bd7a-606fab0ac035, servername: default.ssl.fastly.net, alpn: [h3], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 Iran Future - @proxy_kafee`, server: iranfuture.xyz, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ada2c821-5c83-4dba-96ec-a5174e54ae4d, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: FMlzIKco2rBLro2OaFKjaKSC1PQnlvFRJBsiVJ_bB0s, short-id: 82d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون 2", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86, servername: default.ssl.fastly.net, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون 3", server: 199.232.78.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86, servername: default.ssl.fastly.net, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafeeچنل‌تلگراممون 4", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c838bbcc-db6b-4663-bc22-18db4dc62847, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: vpn.smartrahand.com, port: 2026, type: vless, tls: true, packet-encoding: xudp, uuid: 491bd18b-c1d1-4ec4-94d2-e1a13193d4da, host: vpn.smartrahand.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 2", server: 138.124.51.165, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: www.amazon.com, host: www.amazon.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 3", server: 193.29.224.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 4", server: 212.43.159.142, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 5", server: 212.43.159.142, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 6", server: 62.60.156.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee`", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: dl.google.com, host: dl.google.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 7", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 8", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: cdn.jsdelivr.net, host: cdn.jsdelivr.net, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 9", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: dl.google.com, host: dl.google.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 10", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: update.googleapis.com, host: update.googleapis.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 11", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: www.amazon.com, host: www.amazon.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 12", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: www.apple.com, host: www.apple.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 13", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 14", server: 62.60.245.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97de1f85-5f2c-4446-8507-b437125623a2, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: mNPCrTF4rKb_SRmOH-9-IBs5ihK6Pn4SH29iZtKmiX0, short-id: abcd1234}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafeeچنل‌تلگراممون`", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 98c9f668-1f2f-4a6d-bd7a-606fab0ac035, servername: default.ssl.fastly.net, alpn: [h3], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafeeچنل‌تلگراممون", server: 151.101.108.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86, servername: default.ssl.fastly.net, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafeeچنل‌تلگراممون 2", server: 199.232.78.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b4a00211-ae46-49bc-8f36-0c4425eb7e86, servername: default.ssl.fastly.net, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,45 +499,72 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -544,45 +580,72 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@p`"
       - "@proxy_kafee"
-      - "@proxy_kafeeچنل‌تلگراممون"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "@proxy_kafee 9"
+      - "@proxy_kafee 10"
+      - "@proxy_kafee 11"
+      - "@proxy_kafee 12"
+      - "@proxy_kafee 13"
+      - "@proxy_kafee 14"
       - "@proxy_kafeeچنل‌تلگراممون`"
-      - "@proxy_kafeeچنل‌تلگراممون` 2"
-      - 🇮🇷 Iran Future - @proxy_kafee`
+      - "@proxy_kafeeچنل‌تلگراممون"
       - "@proxy_kafeeچنل‌تلگراممون 2"
-      - "@proxy_kafeeچنل‌تلگراممون 3"
-      - "@proxy_kafeeچنل‌تلگراممون 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
