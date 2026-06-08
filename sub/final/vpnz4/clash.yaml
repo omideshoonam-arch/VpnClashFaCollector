@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`", server: tbxjthftff-1952313922-direct.irgame.co, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: tbxjthftff, servername: tbxjthftff-1952313922-direct.irgame.co, alpn: [h2%2Chttp%2F1.1], host: tbxjthftff-1952313922-direct.irgame.co, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`", server: wbdd.tiredmeti.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 70398c97-d3f4-4ce8-b7a4-05ba2e63a0a5, network: ws, ws-opts: {path: /assets/vid-2026, headers: {Host: wbdd.tiredmeti.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 🇩🇪`, server: gr.sabasarmaye.ir, port: 3045, type: vless, tls: true, packet-encoding: xudp, uuid: b5dafa95-0f66-49e8-8c34-1989afd1c7d4, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: 1bTPlaHUO84GB77L8d2rCerLjaPLfM8YT_eTAlymmzc, short-id: 0a4906b5c7196fc8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: دانلود منیجر 📥
     type: select
     proxies:

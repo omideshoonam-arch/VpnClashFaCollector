@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`", server: tbxjthftff-1952313922-direct.irgame.co, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: tbxjthftff, servername: tbxjthftff-1952313922-direct.irgame.co, alpn: [h2%2Chttp%2F1.1], host: tbxjthftff-1952313922-direct.irgame.co, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`", server: wbdd.tiredmeti.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 70398c97-d3f4-4ce8-b7a4-05ba2e63a0a5, network: ws, ws-opts: {path: /assets/vid-2026, headers: {Host: wbdd.tiredmeti.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 🇩🇪`, server: gr.sabasarmaye.ir, port: 3045, type: vless, tls: true, packet-encoding: xudp, uuid: b5dafa95-0f66-49e8-8c34-1989afd1c7d4, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: 1bTPlaHUO84GB77L8d2rCerLjaPLfM8YT_eTAlymmzc, short-id: 0a4906b5c7196fc8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +14,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +30,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +80,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 •`"
+      - ⤿ @VPNZ4 🇩🇪`
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
