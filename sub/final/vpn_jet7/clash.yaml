@@ -467,10 +467,15 @@ rule-providers:
 proxies:
   - {name: "@Vpn_jet7", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
   - {name: "@filembad", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 84.234.29.189, port: 2053, type: trojan, password: Masir_Sefid, sni: store.steampowered.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 188.213.130.61, port: 443, type: trojan, password: Masir_Sefid, sni: store.steampowered.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7 3", server: 152.233.35.228, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: de1.fromblancwithlove.com, alpn: [http%2F1.1], host: de1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: wEb.sUbStEr.iR, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 875d0422-9b8d-4a43-9471-44144a468c75, servername: chIKArMiKoNi.X-UpLoAd.oRG, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: chIKArMiKoNi.X-UpLoAd.oRG}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7 4", server: 162.249.126.75, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-39.vk-cdnvideo.com, host: cdn7-39.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 45.43.92.110, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: d82fb387}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: 46.229.243.137, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-09.vk-cdnvideo.com, host: cdn7-09.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 6", server: 45.43.92.110, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: adea61c0-0bb2-4ad3-8dba-7766eebd50f8, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: d82fb387}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 7", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2bfb4f3-f4c3-4323-9810-a086fef2f25d, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: f45.sktf.site, port: 45501, type: vless, tls: true, packet-encoding: xudp, uuid: e1afa1d3-11ec-4d7e-81c8-4757d2e34d35, servername: www.amazon.com, host: www.amazon.com, path: /, reality-opts: {public-key: -89bnZodi2STLN8tgGh9JHv7nUnwESwaSEwJl5V5dFs, short-id: c358bd10478245}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 8", server: varzesh3.com, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f9d03147-58c5-4bf7-9b5f-3925643a3b5e, network: ws, ws-opts: {path: /, headers: {Host: best.movidownloadh.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -491,8 +496,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -503,8 +513,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -515,8 +530,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,8 +556,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -548,8 +573,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -560,8 +590,13 @@ proxy-groups:
       - "@filembad"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
+      - "@filembad 2"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
+      - "@Vpn_jet7 7"
+      - "@filembad 3"
+      - "@Vpn_jet7 8"
   - name: دانلود منیجر 📥
     type: select
     proxies:

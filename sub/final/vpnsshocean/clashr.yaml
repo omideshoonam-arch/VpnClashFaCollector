@@ -5,53 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@VPNSSHOCEAN", server: 45.196.224.103, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 356ccb34-22cc-4446-a137-072bc60d65ca, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA, short-id: f34818a561dfd1fe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@VPNSSHOCEAN`", server: 185.234.72.249, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9a69c281-b698-4d4e-b76c-42ba116d9f74, servername: realme3.blacktoys.ru, host: realme3.blacktoys.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 10`", server: 2.26.130.132, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0a963275-4865-452b-8d65-ac67344f913a, servername: cdn.video-space.ru, host: cdn.video-space.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gbP2G_j0cmFvgmWaWLpzZavEzQiPzky-fApmbF2BWxU, short-id: f03597}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 4", server: 31.77.201.3, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 10484bee-8516-400a-9b1e-efb5144ad324, servername: icloud.com, host: icloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: d82fb387}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 6", server: lv01.whost-solutions.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5ba2ac3f-167a-4aca-86df-7c72dc281bc0, servername: nl05.whost-solutions.ru, host: nl05.whost-solutions.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 1", server: 31.76.38.85, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c, servername: stackoverflow.com, host: stackoverflow.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: be0ce047}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 2", server: de25.whost-solutions.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea, servername: nl05.whost-solutions.ru, host: nl05.whost-solutions.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 5", server: de41.whost-solutions.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea, servername: nl05.whost-solutions.ru, host: nl05.whost-solutions.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 8", server: de42.whost-solutions.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e7cb547e-5a74-4695-9019-a2c93e7593ea, servername: nl05.whost-solutions.ru, host: nl05.whost-solutions.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +114,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@VPNSSHOCEAN"
-      - "@VPNSSHOCEAN`"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 8"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
