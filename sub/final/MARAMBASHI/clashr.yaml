@@ -5,102 +5,151 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@MARAMBASHI 🇬🇧", server: fi2.vitok.cc, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b9e301d-cecd-4eb1-8b36-eef811c2696d, servername: yastatic.net, host: yastatic.net, path: /, reality-opts: {public-key: 3LUIM_6cYceTgNt6LWnR8YSVrenpLsh-FIGDrmfjjwc, short-id: 5e841fab}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 2", server: 152.233.35.228, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: de1.fromblancwithlove.com, host: de1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧`", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 63ec2a82-e47c-4782-a89e-9aca2baf17ef, servername: quiz.int.vidio.com.ex33r.eu.cc, network: ws, ws-opts: {path: "/id-pusat#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: quiz.int.vidio.com.ex33r.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 3", server: 130.12.242.102, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 6ca8ea5b-e47f-4c19-adee-365456e1e87c, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5QAO98ot2U7TcGs_f6EEaQjCzNOJLNHqPf6smYsdFVI, short-id: d82fb387}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 4", server: 193.23.222.99, port: 55152, type: vless, tls: true, packet-encoding: xudp, uuid: 827466ba-0910-4c48-b156-2f37fdbda362, servername: cloudflare.com, host: cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: fX2XkujtqhnkQDy-Lwgqm_OofDs1qO5ytvVNM6aV4C4, short-id: ddcac8ed}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 5", server: 151.115.164.43, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 6", server: sca14.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 7", server: 162.249.126.73, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-09.vk-cdnvideo.com, host: cdn7-09.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MARAMBASHI 🇬🇧 8", server: 85.159.229.189, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f9f18f8-2557-4f18-928d-e7c334a0b068, servername: www.google.com, host: www.google.com, path: /, reality-opts: {public-key: jRh71f3CZSR8xkOMBX9wpaMe_3EYhjrxFELmls-AW0A, short-id: e6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺", server: 104.16.0.0, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI", path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛", server: 199.232.197.131, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 2", server: 45.130.125.162, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9, servername: ssj.new-persian-song.ir, network: ws, ws-opts: {path: "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: ssj.new-persian-song.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 3", server: 5.75.196.53, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 1435f6f7-f53c-422e-b9ba-4eef2fa8d5f9, network: ws, ws-opts: {path: "/?ed=#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560", headers: {Host: speedtest.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 2", server: 152.233.35.228, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: de1.fromblancwithlove.com, host: de1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 3", server: cosmin.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7270612b-49f6-4b04-999c-34d8263da767, servername: picassooo.info, network: ws, ws-opts: {path: "/aymdlws#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=2560", headers: {Host: picassooo.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 4", server: sca10.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 4", server: sca13.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI", path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 5", server: sca14.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛`", server: sca20.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 5", server: sca8.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 6", server: 162.249.126.76, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 6", server: 46.229.243.133, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI", path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺 7", server: 77.74.123.171, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-09.vk-cdnvideo.com, host: cdn7-09.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 🐺`", server: 204.216.216.23, port: 10086, type: vless, tls: true, packet-encoding: xudp, uuid: 9f0285ee-20ca-4953-bcdb-86a920652923, host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI", path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💛 7", server: node-de.dostup-est.info, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: c931f737-cafe-4e4f-998a-a65517941256, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Hp6K5hsiPY4_zATgAtef9YTxNGpSkhAHTTo9MUO7fik, short-id: 77e934f68f02ab4c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -128,15 +177,22 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@MARAMBASHI 🇬🇧"
-      - "@MARAMBASHI 🇬🇧 2"
-      - "@MARAMBASHI 🇬🇧`"
-      - "@MARAMBASHI 🇬🇧 3"
-      - "@MARAMBASHI 🇬🇧 4"
-      - "@MARAMBASHI 🇬🇧 5"
-      - "@MARAMBASHI 🇬🇧 6"
-      - "@MARAMBASHI 🇬🇧 7"
-      - "@MARAMBASHI 🇬🇧 8"
+      - "@MARAMBASHI 🐺"
+      - "@MARAMBASHI 💛"
+      - "@MARAMBASHI 🐺 2"
+      - "@MARAMBASHI 🐺 3"
+      - "@MARAMBASHI 💛 2"
+      - "@MARAMBASHI 💛 3"
+      - "@MARAMBASHI 💛 4"
+      - "@MARAMBASHI 🐺 4"
+      - "@MARAMBASHI 💛 5"
+      - "@MARAMBASHI 💛`"
+      - "@MARAMBASHI 🐺 5"
+      - "@MARAMBASHI 💛 6"
+      - "@MARAMBASHI 🐺 6"
+      - "@MARAMBASHI 🐺 7"
+      - "@MARAMBASHI 🐺`"
+      - "@MARAMBASHI 💛 7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
