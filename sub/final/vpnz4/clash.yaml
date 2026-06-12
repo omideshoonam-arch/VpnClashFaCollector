@@ -465,12 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`", server: 84.75.220.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0c0e80bf-23e8-473e-9c5e-5b2b6e6e4eb8, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 ⭐⭐⭐, server: 104.17.168.89, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7b3a6434-b9c9-4fab-8eee-2b0f9a3770a6, servername: patient-salad-9669.rsgrggr.workers.dev, network: ws, ws-opts: {path: /proxyip=64.188.69.127, headers: {Host: patient-salad-9669.rsgrggr.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 ⭐⭐, server: 104.17.190.146, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 7b3a6434-b9c9-4fab-8eee-2b0f9a3770a6, servername: patient-salad-9669.rsgrggr.workers.dev, network: ws, ws-opts: {path: /proxyip=64.188.69.127, headers: {Host: patient-salad-9669.rsgrggr.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 ⭐, server: 104.18.45.254, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7b3a6434-b9c9-4fab-8eee-2b0f9a3770a6, servername: patient-salad-9669.rsgrggr.workers.dev, network: ws, ws-opts: {path: /proxyip=64.188.69.127, headers: {Host: patient-salad-9669.rsgrggr.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 ⭐⭐⭐⭐, server: 104.19.58.229, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 7b3a6434-b9c9-4fab-8eee-2b0f9a3770a6, servername: patient-salad-9669.rsgrggr.workers.dev, network: ws, ws-opts: {path: /proxyip=64.188.69.127, headers: {Host: patient-salad-9669.rsgrggr.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`, server: 8.39.125.32, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7b3a6434-b9c9-4fab-8eee-2b0f9a3770a6, servername: patient-salad-9669.rsgrggr.workers.dev, network: ws, ws-opts: {path: /proxyip=64.188.69.127, headers: {Host: patient-salad-9669.rsgrggr.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`", server: 151.101.109.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 060cd76b-72e1-478f-b6c9-8e6d2bdc5517, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "***🇳🇱*** ⤿ @VPNZ4", server: 104.18.4.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: f53d749fda28cb85.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: f53d749fda28cb85.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "***🇨🇦*** ⤿ @VPNZ4", server: 5.61.27.36, port: 10344, type: vless, tls: true, packet-encoding: xudp, uuid: f268083b-30ec-445d-86ea-692a4ccf78c0, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,36 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -532,36 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
-      - ⤿ @VPNZ4 ⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐
-      - ⤿ @VPNZ4 ⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐
-      - ⤿ @VPNZ4 ⭐⭐⭐⭐⭐`
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇳🇱`"
+      - "***🇳🇱*** ⤿ @VPNZ4"
+      - "***🇨🇦*** ⤿ @VPNZ4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
