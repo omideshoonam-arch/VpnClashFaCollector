@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 65919 | ⚡️Telegram - t.me/SOSkeyNET, server: panel.cobalttoolsgithub.online, port: 54236, type: hysteria2, ports: 54236, password: Nrqyc1GkGr, obfs: salamander, obfs-password: gxXGwphUe6APbFFsWA, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 65918 | ⚡️Telegram - t.me/SOSkeyNET, server: panel.cobalttoolsgithub.online, port: 54236, type: hysteria2, ports: 54236, password: Nrqyc1GkGr, obfs: salamander, obfs-password: gxXGwphUe6APbFFsWA, sni: panel.cobalttoolsgithub.online, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 66996 | ⚡️Telegram - t.me/SOSkeyNET, server: 192.9.179.140, port: 51000, type: hysteria2, ports: 51000, password: d1db0080-669a-4357-ab9f-ab16719ed736, sni: cn.cremedelamer.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 65919 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65918 | ⚡️Telegram - t.me/SOSkeyNET
+      - 66996 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
