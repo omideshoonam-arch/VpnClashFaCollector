@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ⤿ @VPNZ4, server: 89.44.112.248, port: 44453, type: ss, cipher: aes-256-gcm, password: rnNRc3Tl+PVWUkTQ9zQPphGe6DjaFas5gmLShuupwa0=, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 2, server: 104.18.4.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: f53d749fda28cb85.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: f53d749fda28cb85.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`", server: 195.201.249.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: Telegram-Parsashonam, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: rd71EGp4BCn3x_hIoaYi5R6GaqF9TIA4F6t5WyOPaXc, short-id: 83dc602558}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ⤿ @VPNZ4
-      - ⤿ @VPNZ4 2
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
   - name: دانلود منیجر 📥
     type: select
     proxies:

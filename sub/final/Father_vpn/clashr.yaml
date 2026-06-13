@@ -5,46 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: TEL;Father_vpn`, server: 167.233.59.162, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e2773031-7418-424e-ae49-99b4b474aeba, servername: drive.google.com, host: drive.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: VwWuZIAZf4msfvsDZQjQHY6hZPK5r0O-s7yStyjOqhk, short-id: fc87828b94144d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn, server: 188.114.97.6, port: 443, type: trojan, password: mitivpn, sni: www.ssl.global.digi.my.mitivpn.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: www.ssl.global.digi.my.mitivpn.xyz}}, udp: true, tfo: false}
+  - {name: TEL;Father_vpn`, server: 91.107.166.66, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f33d154-1106-4944-9e59-c27ae239e30d, servername: arvancloud.ir, host: arvancloud.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Hwe7g18fPOB7YoeqGLarigYkna0GsXcTC8-ounz25AQ, short-id: 8561add0befd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn 2, server: 91.107.166.66, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 2f33d154-1106-4944-9e59-c27ae239e30d, servername: www.intel.com, host: www.intel.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1P6G12_CsCrgTmgSw92S3XMU-bukSAWVWdAqMiiChVU, short-id: 0c82}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: TEL;Father_vpn 3, server: 167.233.59.162, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e2773031-7418-424e-ae49-99b4b474aeba, servername: drive.google.com, host: drive.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: VwWuZIAZf4msfvsDZQjQHY6hZPK5r0O-s7yStyjOqhk, short-id: fc87828b94144d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - TEL;Father_vpn
       - TEL;Father_vpn`
+      - TEL;Father_vpn 2
+      - TEL;Father_vpn 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -6,10 +6,11 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@Vpn_jet7", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 116.202.96.72, port: 11810, type: vless, tls: true, packet-encoding: xudp, uuid: 5f1dbabe-be61-42fa-cbde-dc84ce43c638, network: ws, ws-opts: {path: /193.123.81.105=443, headers: {Host: zoomgov.vipren.biz.id}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 826571c1-8d45-4a69-bbca-56cfcb5c94a5, servername: dns.xelivo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: sca20.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 151.101.66.219, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: cabbfe13-038b-4dbb-9c45-5079c829abfa, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 84.32.209.102, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1a1b7f65-6507-4c2a-ad05-7199c5002093, servername: ltcher25.potatosubge20.org, alpn: [http%2F1.1], host: ltcher25.potatosubge20.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: ara.public.lat, port: 58748, type: vless, tls: true, packet-encoding: xudp, uuid: 21e22226-0b96-4b4e-9a91-5c7f9e3f1760, host: e1roj9ul.divarcdn.com%2C%20e1roj9ul.alibaba.ir%2C%20e1roj9ul.splus.ir%2C%20e1roj9ul.cafebazaar.ir%2C%20e1roj9ul.yjc.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: sca28.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: psf-1.zdshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 98803229-de94-477b-bfdb-a1a9abae1d3e, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 6", server: 45.195.110.104, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f2390f38-ec10-4c25-a726-c0709b77330f, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 66-fz0xjwauydj29EfFKyPHjJ2CIGaGSsJ6hsB--zAc, short-id: 6ecdb111a4e57f94}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -21,6 +22,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -32,6 +34,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -43,6 +46,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -53,6 +57,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -63,6 +68,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -73,6 +79,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -105,6 +112,7 @@ proxy-groups:
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
       - "@Vpn_jet7 5"
+      - "@Vpn_jet7 6"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

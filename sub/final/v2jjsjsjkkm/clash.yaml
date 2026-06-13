@@ -465,14 +465,14 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: Free$ 96 @Outline_Vpn, server: 82.38.31.192, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: Free$ 93 @Outline_Vpn, server: 185.229.191.130, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: ams1.fromblancwithlove.com, host: ams1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 94 @Outline_Vpn, server: 79.133.126.199, port: 31009, type: vless, tls: true, packet-encoding: xudp, uuid: 46834b61-a623-42cd-9171-a94572ffe56c, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 95 @Outline_Vpn, server: vxc.galardoxtn.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5f65c1ae-9e7a-48ea-8ecf-6822365cd177, servername: speedtest.net, network: ws, ws-opts: {path: /, headers: {Host: speedtest.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 92 @Outline_Vpn, server: 51.91.158.180, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7b4b7d4e-7a53-4c0c-bd8e-9f3b1b2c7f21, servername: www.speedtest.net, host: www.speedtest.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wwH_L9FmhJ7AyOBKm9J8YGKdVo1G-QlDEuw5-s3eGEM, short-id: 9a4c7d2f8e1b6a3c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 97 @Outline_Vpn`, server: 46.229.243.132, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-39.vk-cdnvideo.com, host: cdn7-39.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 91 @Outline_Vpn, server: 46.229.243.139, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 90 @Outline_Vpn, server: 46.229.243.74, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn", server: 3.8.48.222, port: 80, type: ss, cipher: aes-256-gcm, password: dada1203, udp: true, tfo: false}
+  - {name: "@bored_vpn 2", server: 104.16.6.70, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 30693e15-1014-443b-88dd-1232b55a06b6, servername: sub.rfiksma.top, network: ws, ws-opts: {path: /, headers: {Host: sub.rfiksma.top}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 3", server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 55956f15-899b-453a-beb0-e12f8048fa00, network: ws, ws-opts: {path: /, headers: {Host: srv.apolo5008.shop}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 4", server: 185.143.233.21, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a65d1c85-7ade-4525-81a9-807d30fd8080, network: ws, ws-opts: {path: /, headers: {Host: ferdowsi.nroza.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 172.67.212.210, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: 872ede3847653442.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed", headers: {Host: 872ede3847653442.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 5", server: 45.85.119.122, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: 872ede3847653442.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed", headers: {Host: 872ede3847653442.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 6", server: ip.feywebsite.ir, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: 07e357aa7e747ca4.hOzHeEn.Ir, network: ws, ws-opts: {path: /ws, headers: {Host: 07e357aa7e747ca4.hOzHeEn.Ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 7", server: www.speedtest.net, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: 872ede3847653442.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed", headers: {Host: 872ede3847653442.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,42 +489,42 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -540,42 +540,42 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Free$ 96 @Outline_Vpn
-      - Free$ 93 @Outline_Vpn
-      - Free$ 94 @Outline_Vpn
-      - Free$ 95 @Outline_Vpn
-      - Free$ 92 @Outline_Vpn
-      - Free$ 97 @Outline_Vpn`
-      - Free$ 91 @Outline_Vpn
-      - Free$ 90 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@mehrosaboran`"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:
