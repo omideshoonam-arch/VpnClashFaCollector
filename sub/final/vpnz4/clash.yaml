@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`", server: 195.201.249.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: Telegram-Parsashonam, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: rd71EGp4BCn3x_hIoaYi5R6GaqF9TIA4F6t5WyOPaXc, short-id: 83dc602558}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`", server: 213.156.152.223, port: 2095, type: ss, cipher: chacha20-ietf-poly1305, password: jPxFn3J7kuJjB72cIwpypA, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
   - name: دانلود منیجر 📥
     type: select
     proxies:
