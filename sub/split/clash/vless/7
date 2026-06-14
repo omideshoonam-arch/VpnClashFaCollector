@@ -465,94 +465,21 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 67429 | ⚡️Telegram - t.me/SOSkeyNET, server: ru.riotvpn.eu, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc-yandex}, reality-opts: {public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg, short-id: e67fb918ed6b9ffb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67425 | ⚡️Telegram - t.me/SOSkeyNET, server: se.riotvpn.eu, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, host: avatars.mds.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho, short-id: b76dcf9e1183fe1b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad`", server: se.riotvpn.eu, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc-yandex}, reality-opts: {public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg, short-id: e67fb918ed6b9ffb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67427 | ⚡️Telegram - t.me/SOSkeyNET, server: se.riotvpn.eu, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc-yandex}, reality-opts: {public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg, short-id: e67fb918ed6b9ffb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67443 | ⚡️Telegram - t.me/SOSkeyNET, server: uk.riotvpn.eu, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, host: avatars.mds.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho, short-id: 2f49bccf11150ef2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: uk.riotvpn.eu, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc-yandex}, reality-opts: {public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg, short-id: e67fb918ed6b9ffb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67449 | ⚡️Telegram - t.me/SOSkeyNET, server: uk.riotvpn.eu, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f4253045-7eb5-4ab1-8653-88bbb2a10202, servername: avatars.mds.yandex.net, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc-yandex}, reality-opts: {public-key: sgFFdQvfeujBKh6g7N7klU_u0mKYlr800MFbko5FzUg, short-id: e67fb918ed6b9ffb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66252 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.168.46.180, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f4cf6f0d-d464-45fc-aa52-03ab40435a1a, servername: rruu.persik.host, host: rruu.persik.host, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D0FqzTuVSzCF8IcFo64SFIpMsaGV47LW3el2GCCVoFY, short-id: c1a7e9b4711d5f60}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66708 | ⚡️Telegram - t.me/SOSkeyNET, server: flat-surf-fd9f.alienintheflesh4.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f5270bac-2cf4-a39b-ed3a-b0056e9692f7, servername: flat-surf-fd9f.alienintheflesh4.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: flat-surf-fd9f.alienintheflesh4.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66756 | ⚡️Telegram - t.me/SOSkeyNET, server: afra.iran158.site, port: 9091, type: vless, tls: true, packet-encoding: xudp, uuid: f53bf365-1fb8-4f0d-a4f3-3fd1c4d41a2e, servername: de.iran158.site, alpn: [h2%2Chttp%2F1.1], host: de.iran158.site, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: 185.226.93.34, port: 54600, type: vless, tls: true, packet-encoding: xudp, uuid: f5647067-6918-43f2-921c-344e27e80abf, servername: www.amazon.com, host: www.amazon.com, path: /, reality-opts: {public-key: Nk5Mqeqr3rGwox1QBoICiPJXdaI82QOKThe7tITGBmY, short-id: 54ce}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67161 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.226.93.34, port: 54600, type: vless, tls: true, packet-encoding: xudp, uuid: f5647067-6918-43f2-921c-344e27e80abf, servername: www.amazon.com, host: www.amazon.com, path: /, reality-opts: {public-key: Nk5Mqeqr3rGwox1QBoICiPJXdaI82QOKThe7tITGBmY, short-id: 54ce}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@SiNAVM-1`", server: 185.143.233.234, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f5fc62b7-27f1-43ee-914c-63d4278b1516, servername: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /Telegram_SiNAVM_sinavm_SiNAVM_SiNAVM, headers: {Host: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@SiNAVM-2`", server: 185.143.233.235, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f5fc62b7-27f1-43ee-914c-63d4278b1516, servername: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /Telegram_SiNAVM_sinavm_SiNAVM_SiNAVM, headers: {Host: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@SiNAVM-4`", server: anten.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f5fc62b7-27f1-43ee-914c-63d4278b1516, servername: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /Telegram_SiNAVM_sinavm_SiNAVM_SiNAVM, headers: {Host: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@SiNAVM-3`", server: snapp.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f5fc62b7-27f1-43ee-914c-63d4278b1516, servername: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /Telegram_SiNAVM_sinavm_SiNAVM_SiNAVM, headers: {Host: sinavm.sinavm.sinavm.sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@meliproxyy", server: ghahve.nikanix.lol, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f6430eac-b167-4f37-b73d-27e06465d1ee, servername: ghahve.nikanix.lol, alpn: [http%2F1.1%2Ch3%2Ch2], network: ws, ws-opts: {path: /ray, headers: {Host: ghahve.nikanix.lol}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67365 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.224.3.29, port: 10443, type: vless, tls: true, packet-encoding: xudp, uuid: f6431ff1-dec0-4a6c-be4a-ce917913b589, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: 169.40.32.242, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f649985c-9c51-4648-9433-ab98de091579, network: ws, ws-opts: {path: /Path, headers: {Host: 169.40.32.242}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 5", server: 169.40.32.242, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f649985c-9c51-4648-9433-ab98de091579, host: 169.40.32.242, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66670 | ⚡️Telegram - t.me/SOSkeyNET, server: 169.40.32.242, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f649985c-9c51-4648-9433-ab98de091579, host: 169.40.32.242, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67358 | ⚡️Telegram - t.me/SOSkeyNET, server: 77.91.68.70, port: 55983, type: vless, tls: true, packet-encoding: xudp, uuid: f667a096-5231-4cfb-8759-92bb32473139, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg, short-id: 0e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@BugFreeNet1️⃣3️⃣`", server: 77.91.68.70, port: 55983, type: vless, tls: true, packet-encoding: xudp, uuid: f667a096-5231-4cfb-8759-92bb32473139, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: nWQ7b9l9X6N3PrXLgIzOvMM8iSYrqjVHEb9ikWxqYSg, short-id: 0e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 193.233.199.8, port: 11111, type: vless, tls: true, packet-encoding: xudp, uuid: f68cd655-06d7-471f-86e3-f5a083230c8b, servername: www.max.ru, host: www.max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Rz7cXZcQ9nT-4g2rvLOIDzotbAde0HWRSfCBbBeOmlA, short-id: 5ed0de1fef031a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66938 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.233.199.8, port: 11111, type: vless, tls: true, packet-encoding: xudp, uuid: f68cd655-06d7-471f-86e3-f5a083230c8b, servername: www.max.ru, host: www.max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Rz7cXZcQ9nT-4g2rvLOIDzotbAde0HWRSfCBbBeOmlA, short-id: 5ed0de1fef031a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 87.107.82.171, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f6bec3c4-c29d-4392-a4fe-96936b9b3005, network: ws, ws-opts: {path: "/abc?ed=2048", headers: {Host: film-doni.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🐦‍🔥***-@SPEEDS_VPN 2", server: 87.107.82.195, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f6bec3c4-c29d-4392-a4fe-96936b9b3005, network: ws, ws-opts: {path: "/abc?ed=2048", headers: {Host: film-doni.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 65861 | ⚡️Telegram - t.me/SOSkeyNET, server: 72.60.189.172, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f6f62b37-e002-42c2-8c32-51fe3da6750f, servername: www.apple.com, host: www.apple.com, path: /, reality-opts: {public-key: ciEOYnFRicl1_ibRKw70jTDZKIMV7R88Qic4GpVzSXA, short-id: 55cbb453c4bea99b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67506 | ⚡️Telegram - t.me/SOSkeyNET, server: 213.108.20.152, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f76412c3-abdf-4318-baf8-4a1bfa438968, servername: node-de-frankfurt.neverlock.uk, alpn: [http%2F1.1%2Ch2], host: node-de-frankfurt.neverlock.uk, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66833 | ⚡️Telegram - t.me/SOSkeyNET, server: admin.ansooyefilter.ir, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: f76b3795-9586-4348-951f-7c5d9b16f41b, servername: www.speedtest.net, host: www.speedtest.net, path: /, reality-opts: {public-key: jbkvYfUsJX5cdT5PuCYuOy05WTiUXWEgYL23friKKDA, short-id: 93cb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🐦‍🔥***-@SPEEDS_VPN`", server: link.mizbanertebatfarda.site, port: 3010, type: vless, tls: true, packet-encoding: xudp, uuid: f7ce4158-d115-405d-bf6a-eb739734e1c7, servername: myket.ir, network: ws, ws-opts: {path: "/ws?ed=2048", headers: {Host: myket.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66318 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.228.236.54, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f88c29a3-f768-44a8-855a-981eb9b9a155, network: ws, ws-opts: {path: /, headers: {Host: 185.228.236.54}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66993 | ⚡️Telegram - t.me/SOSkeyNET, server: 64.49.45.57, port: 15540, type: vless, tls: true, packet-encoding: xudp, uuid: f8e32ccb-7e0b-4966-837a-2a9503bc3d82, servername: www.intel.com, host: www.intel.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Yg0SBHkbrgAxsRKnsNXn4SStVURNYMiPor2oMSRTblA, short-id: 3a81ee2c998d0e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus`, server: de2.niekotin.de, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9558e6a-0447-48a0-94e9-cd69fc638d73, network: ws, ws-opts: {path: vless, headers: {Host: de2.niekotin.de}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⚕️77@oneclickvpnkeys, server: 45.197.134.27, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f98ab063-1dfb-41da-b875-fc50f6bdc174, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc, short-id: 445ab326fc7c90ac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66837 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.197.134.27, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f98ab063-1dfb-41da-b875-fc50f6bdc174, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8qHRGcCezzSu4S-Cz9l19BNRLWm4MkaSwZV3dNrLEwc, short-id: 445ab326fc7c90ac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67359 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.16.36.163, port: 43439, type: vless, tls: true, packet-encoding: xudp, uuid: fa4d12f8-4d4f-4fdf-a8a6-7ced1db6cf91, servername: www.amd.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ws}, reality-opts: {public-key: b4n1pcO8ST3JkGtj8YymXVrW17LEe2EHec5wY7hMMR4, short-id: 84d5e248cb91dca0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67513 | ⚡️Telegram - t.me/SOSkeyNET, server: v2gaf.shompolexy.shop, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: fa9df600-6a7d-40d6-9d78-27d0124bde84, network: ws, ws-opts: {path: "/Shomp?---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---@Fear_Config---", headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66892 | ⚡️Telegram - t.me/SOSkeyNET, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fae38558-ceff-418d-8a51-803fd011603d, servername: PrOUD-MOON-BE5E.shaKIbGg.woRKeRS.dEv, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/eyJqdW5rIjoiS0NqWkVpRVdHdlJZbXgiLCJwcm90b2NvbCI6InZsIiwibW9kZSI6InByZWZpeCIsInBhbmVsSVBzIjpbIlsyNjAyOmZjNTk6YjA6NjQ6Ol0iXX0=?ed=2560", headers: {Host: PrOUD-MOON-BE5E.shaKIbGg.woRKeRS.dEv}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 6", server: lumora24.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: fb0d9fcf-ec45-40d0-a3f4-78b4ec5d0676, servername: lumora24.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora24.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66648 | ⚡️Telegram - t.me/SOSkeyNET, server: lumora24.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: fb0d9fcf-ec45-40d0-a3f4-78b4ec5d0676, servername: lumora24.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora24.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus` 2, server: static.94.219.109.65.clients.your-server.de, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: fc2be12b-e815-4db1-baaf-4d836d5c5ff8, network: ws, ws-opts: {path: news, headers: {Host: static.94.219.109.65.clients.your-server.de}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66984 | ⚡️Telegram - t.me/SOSkeyNET, server: 108.162.192.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 7", server: 141.193.213.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66927 | ⚡️Telegram - t.me/SOSkeyNET, server: 141.193.213.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 8", server: 141.193.213.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vpnbaz 🌴", server: 141.193.213.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66021 | ⚡️Telegram - t.me/SOSkeyNET, server: 141.193.213.11, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus` 3, server: 141.193.213.11, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus` 4, server: 141.193.213.11, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 9", server: 141.193.213.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Ettehadvpn | 31, server: 162.159.36.20, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66987 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.159.36.20, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⚕️86@oneclickvpnkeys, server: 172.64.146.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 10", server: 172.64.146.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Ettehadvpn | 21, server: 172.64.146.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⚕️90@oneclickvpnkeys`, server: 172.64.147.137, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 11", server: 172.64.32.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Kia_Net -_- 305", server: 172.67.70.149, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66339 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@meliproxyy 2", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 12", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: hamedp71::🇫🇮, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus` 5, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@", server: 208.103.161.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67224 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.130.125.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@meliproxyy 3", server: 45.130.125.96, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@BugFreeNet1️⃣8️⃣`", server: 5.10.214.5, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66281 | ⚡️Telegram - t.me/SOSkeyNET, server: 89.116.46.210, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@ 2", server: 89.116.46.210, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67032 | ⚡️Telegram - t.me/SOSkeyNET, server: 89.116.46.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@BugFreeNet4️⃣2️⃣`", server: 89.116.46.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66532 | ⚡️Telegram - t.me/SOSkeyNET, server: 89.116.46.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66999 | ⚡️Telegram - t.me/SOSkeyNET, server: betty.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🐦‍🔥***-@SPEEDS_VPN 3", server: 1.iran2.axenet.company, port: 1112, type: vless, tls: true, packet-encoding: xudp, uuid: fe25fba5-7ebc-45d4-ad6f-0ce68d23a28b, servername: zaya1.ketabland.org, host: zaya1.ketabland.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66294 | ⚡️Telegram - t.me/SOSkeyNET, server: 138.201.173.163, port: 20352, type: vless, tls: true, packet-encoding: xudp, uuid: fe571bf6-1933-474f-baee-80722c08a4b4, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 13", server: Varzesh3.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: fec91266-15e8-49fe-8933-87535051773c, servername: Alman.vipphoneshop.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /ws, headers: {Host: Alman.vipphoneshop.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66600 | ⚡️Telegram - t.me/SOSkeyNET, server: Varzesh3.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: fec91266-15e8-49fe-8933-87535051773c, servername: Alman.vipphoneshop.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /ws, headers: {Host: Alman.vipphoneshop.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66305 | ⚡️Telegram - t.me/SOSkeyNET, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: ff2afcc3-942f-4de8-4dc6-9d5eef523d3b, servername: cdn.daraflo.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.daraflo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 14", server: 64.227.41.160, port: 57996, type: vless, tls: true, packet-encoding: xudp, uuid: ff3685d5-f031-46d3-88c0-0b6b0d1f1558, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66724 | ⚡️Telegram - t.me/SOSkeyNET, server: 64.227.41.160, port: 57996, type: vless, tls: true, packet-encoding: xudp, uuid: ff3685d5-f031-46d3-88c0-0b6b0d1f1558, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 15", server: lumora24.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: ff624f05-c7f8-493c-ba36-8d317de3b445, servername: lumora24.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora24.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66754 | ⚡️Telegram - t.me/SOSkeyNET, server: lumora24.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: ff624f05-c7f8-493c-ba36-8d317de3b445, servername: lumora24.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora24.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 65834 | ⚡️Telegram - t.me/SOSkeyNET, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ffa37367-6313-4cc5-86bd-3d8dc879c24e, network: ws, ws-opts: {path: /, headers: {Host: ar.liarashop.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇮🇷 @IranProxyPlus` 6, server: 89.125.19.237, port: 47200, type: vless, tls: true, packet-encoding: xudp, uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9, servername: stats.vk-portal.net, host: stats.vk-portal.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE, short-id: b2a9bd658fc81dc6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 16", server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: ffef42de-66ec-4956-a9ae-4ece8fa5fd60, network: ws, ws-opts: {path: /, headers: {Host: s1.mobilesall.top}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 17", server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: ffef42de-66ec-4956-a9ae-4ece8fa5fd60, network: ws, ws-opts: {path: /, headers: {Host: s1.mobilesall.top}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67016 | ⚡️Telegram - t.me/SOSkeyNET, server: snapp.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: ffef42de-66ec-4956-a9ae-4ece8fa5fd60, network: ws, ws-opts: {path: /, headers: {Host: s1.mobilesall.top}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68210 | ⚡️Telegram - t.me/SOSkeyNET, server: nab.velizor.ir, port: 6026, type: vless, tls: true, packet-encoding: xudp, uuid: fe16245c-31f8-4fb2-9182-c63b6020d907, servername: store.steampowered.com, host: store.steampowered.com, path: /, reality-opts: {public-key: NdK-N9-1R_mUcyYg3kBYdlYed3B8RoZunnkBGJxiLXk, short-id: e3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68208 | ⚡️Telegram - t.me/SOSkeyNET, server: saleh.velizor.ir, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: fe16245c-31f8-4fb2-9182-c63b6020d907, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: nl7ETRtlUvG6wMtsyuCI2U0-CyTKs-eVB889lix5Mk8, short-id: 1ff223a406db28}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68209 | ⚡️Telegram - t.me/SOSkeyNET, server: saleh.velizor.ir, port: 5020, type: vless, tls: true, packet-encoding: xudp, uuid: fe16245c-31f8-4fb2-9182-c63b6020d907, servername: news.microsoft.com, host: news.microsoft.com, path: /, reality-opts: {public-key: okCWIaLm7TQJ-c4JgqDkJa_1CRaT9LfdGV9vzHsUD3Y, short-id: 8d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 1.iran2.axenet.company, port: 1112, type: vless, tls: true, packet-encoding: xudp, uuid: fe25fba5-7ebc-45d4-ad6f-0ce68d23a28b, servername: zaya1.ketabland.org, host: zaya1.ketabland.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 67625 | ⚡️Telegram - t.me/SOSkeyNET, server: 95.38.233.100, port: 28110, type: vless, tls: true, packet-encoding: xudp, uuid: fe75304a-2e17-4eae-b5ce-05b39aff83b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68702 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.175.45.115, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68704 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.39.168.61, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: ai.sellflow.org, host: ai.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68684 | ⚡️Telegram - t.me/SOSkeyNET, server: 217.149.25.165, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68697 | ⚡️Telegram - t.me/SOSkeyNET, server: 5.42.120.30, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68699 | ⚡️Telegram - t.me/SOSkeyNET, server: 5.42.99.162, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: ai.sellflow.org, host: ai.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68080 | ⚡️Telegram - t.me/SOSkeyNET, server: 169.40.32.242, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ff33ecf8-4e82-4730-959a-078a0ff5a0bf, network: ws, ws-opts: {path: /Path, headers: {Host: 169.40.32.242}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: lumora29.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: ff510e43-3652-49ea-b7e6-9f4947bf8b82, servername: lumora29.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora29.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 69076 | ⚡️Telegram - t.me/SOSkeyNET, server: lumora29.playon.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: ff510e43-3652-49ea-b7e6-9f4947bf8b82, servername: lumora29.playon.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/assets/sync, headers: {Host: lumora29.playon.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 68865 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.198.108.53, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ff911230-dea8-43f8-8095-a8e05c809ae0, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: KYlgK96xPZJq10GbhF-BaCXRxXc9XzxzfICdooYvMlg, short-id: f45c9665f3261108}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇮🇷 @IranProxyPlus`, server: 89.125.19.237, port: 47200, type: vless, tls: true, packet-encoding: xudp, uuid: ffaa8e95-74e2-4ef4-8974-69dd3651b6f9, servername: stats.vk-portal.net, host: stats.vk-portal.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aom9XGtg9tre2RGo8XkCaRqlE02nrZ4smmnpLpzidRE, short-id: b2a9bd658fc81dc6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -569,282 +496,63 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -860,282 +568,63 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 67429 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67425 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 67427 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67443 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 2"
-      - 67449 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66252 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66708 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66756 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - 67161 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@SiNAVM-1`"
-      - "@SiNAVM-2`"
-      - "@SiNAVM-4`"
-      - "@SiNAVM-3`"
-      - "@meliproxyy"
-      - 67365 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 66670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67358 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet1️⃣3️⃣`"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 66938 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68210 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68208 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68209 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
-      - 65861 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67506 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66833 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN`"
-      - 66318 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66993 | ⚡️Telegram - t.me/SOSkeyNET
+      - 67625 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68702 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68704 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68684 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68697 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68699 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68080 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
+      - 69076 | ⚡️Telegram - t.me/SOSkeyNET
+      - 68865 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇮🇷 @IranProxyPlus`
-      - ⚕️77@oneclickvpnkeys
-      - 66837 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67359 | ⚡️Telegram - t.me/SOSkeyNET
-      - 67513 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66892 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 6"
-      - 66648 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 2
-      - 66984 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
-      - 66927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 8"
-      - "@vpnbaz 🌴"
-      - 66021 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 3
-      - 🇮🇷 @IranProxyPlus` 4
-      - "@filembad` 9"
-      - Ettehadvpn | 31
-      - 66987 | ⚡️Telegram - t.me/SOSkeyNET
-      - ⚕️86@oneclickvpnkeys
-      - "@filembad` 10"
-      - Ettehadvpn | 21
-      - ⚕️90@oneclickvpnkeys`
-      - "@filembad` 11"
-      - "@Kia_Net -_- 305"
-      - 66339 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 2"
-      - "@filembad` 12"
-      - hamedp71::🇫🇮
-      - 🇮🇷 @IranProxyPlus` 5
-      - "☑➜چنلمون: Express_freevpn@"
-      - 67224 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@meliproxyy 3"
-      - "@BugFreeNet1️⃣8️⃣`"
-      - 66281 | ⚡️Telegram - t.me/SOSkeyNET
-      - "☑➜چنلمون: Express_freevpn@ 2"
-      - 67032 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@BugFreeNet4️⃣2️⃣`"
-      - 66532 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66999 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***🐦‍🔥***-@SPEEDS_VPN 3"
-      - 66294 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 13"
-      - 66600 | ⚡️Telegram - t.me/SOSkeyNET
-      - 66305 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 14"
-      - 66724 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 15"
-      - 66754 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65834 | ⚡️Telegram - t.me/SOSkeyNET
-      - 🇮🇷 @IranProxyPlus` 6
-      - "@filembad` 16"
-      - "@filembad` 17"
-      - 67016 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
