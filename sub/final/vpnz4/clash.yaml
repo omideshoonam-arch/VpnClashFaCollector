@@ -465,7 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`", server: 213.156.152.223, port: 2095, type: ss, cipher: chacha20-ietf-poly1305, password: jPxFn3J7kuJjB72cIwpypA, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 - 3, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 1407a866-f06d-479c-8d77-49dcd6cfbef1, servername: dns.darafiq.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.darafiq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 - 5`, server: 151.101.109.223, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5daab9b5-c9a0-47a6-a5c6-0977c6631c14, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 - 4, server: 104.18.4.138, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: ad356e93-cc14-417d-9f4e-32376d03f5b7, servername: f53d749fda28cb85.hozheen.ir, network: ws, ws-opts: {path: "/ws?ed=2560", headers: {Host: f53d749fda28cb85.hozheen.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 - 2, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: c69f8821-7fd6-49c9-b54f-0a9a9401d2c7, servername: cdn.daraflo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.daraflo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⤿ @VPNZ4 - 1, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: f04fb7d8-ddd5-4752-b01c-f36f1b7746b3, servername: dns.xelivo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +486,33 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +528,33 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇹🇷`"
+      - ⤿ @VPNZ4 - 3
+      - ⤿ @VPNZ4 - 5`
+      - ⤿ @VPNZ4 - 4
+      - ⤿ @VPNZ4 - 2
+      - ⤿ @VPNZ4 - 1
   - name: دانلود منیجر 📥
     type: select
     proxies:

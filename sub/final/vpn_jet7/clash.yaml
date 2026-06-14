@@ -465,7 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: af7c56db-39e3-4868-e955-3a0052e40cc7, servername: dns.darafiq.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.darafiq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 49.13.64.206, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3b2561b1-4bad-2043-cfbe-74adf706b3be, servername: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 37.140.242.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8c77e5e-b217-4f4b-9933-1845bcf4152b, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: N2lNP_mURhdPm_2BPeT_dAkELQaCEjjdhOkd_j8hCiE, short-id: c033aa73790986}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: 37.140.242.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8c77e5e-b217-4f4b-9933-1845bcf4152b, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: N2lNP_mURhdPm_2BPeT_dAkELQaCEjjdhOkd_j8hCiE, short-id: d28a166c89883686}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
+      - "@Vpn_jet7"
+      - "@Vpn_jet7 2"
+      - "@Vpn_jet7 3"
+      - "@Vpn_jet7 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
