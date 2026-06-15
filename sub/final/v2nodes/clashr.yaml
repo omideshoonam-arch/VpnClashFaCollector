@@ -6,6 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 188.114.97.3:443, server: 188.114.97.3, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇯🇵 [openproxylist.com] vmess-JP", server: 8.211.149.30, port: 443, type: vmess, uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws/, headers: {Host: polartime.link}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +14,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +30,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +80,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 188.114.97.3:443
+      - 🇯🇵 [openproxylist.com] vmess-JP
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

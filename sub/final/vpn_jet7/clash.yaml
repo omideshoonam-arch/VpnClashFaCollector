@@ -466,9 +466,10 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@Vpn_jet7", server: series-a1.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 49.13.64.206, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3b2561b1-4bad-2043-cfbe-74adf706b3be, servername: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 37.140.242.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8c77e5e-b217-4f4b-9933-1845bcf4152b, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: N2lNP_mURhdPm_2BPeT_dAkELQaCEjjdhOkd_j8hCiE, short-id: c033aa73790986}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 37.140.242.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8c77e5e-b217-4f4b-9933-1845bcf4152b, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: N2lNP_mURhdPm_2BPeT_dAkELQaCEjjdhOkd_j8hCiE, short-id: d28a166c89883686}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 49.13.64.206, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3b2561b1-4bad-2043-cfbe-74adf706b3be, servername: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: autumn-truth-80db.sdfghjkdfghjkmnmn.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: sca10.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: 37.140.242.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8c77e5e-b217-4f4b-9933-1845bcf4152b, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: N2lNP_mURhdPm_2BPeT_dAkELQaCEjjdhOkd_j8hCiE, short-id: d28a166c89883686}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,6 +490,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -499,6 +501,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -509,6 +512,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,6 +532,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -538,6 +543,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -548,6 +554,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: دانلود منیجر 📥
     type: select
     proxies:
