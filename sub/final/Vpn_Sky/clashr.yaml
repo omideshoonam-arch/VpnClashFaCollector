@@ -5,8 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_Sky", server: 46.246.97.218, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 037b730a-ea28-5191-ad7c-3424be5efe2e, network: ws, ws-opts: {path: /vless}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Sky 2", server: 77.74.123.170, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_Sky", server: 104.16.72.70, port: 443, type: trojan, password: mitivpn, sni: gamingdll.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /index.php/ed=mitivpn, headers: {Host: gamingdll.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_Sky 2", server: 216.24.57.246, port: 443, type: trojan, password: mitivpn, sni: gamingdll.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /index.php/ed=mitivpn, headers: {Host: gamingdll.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_Sky 3", server: 37.140.242.53, port: 2626, type: vless, tls: true, packet-encoding: xudp, uuid: 521479a8-f004-4b05-a2da-23627962bad6, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: 7EzXVyxyyUOhZf_qrxZ5ULLk3LmsUOkJNzb7iDjfHwM, short-id: c1df9b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_Sky 4", server: 2.27.59.62, port: 42766, type: vless, tls: true, packet-encoding: xudp, uuid: f07d5ce6-0de7-4be8-905b-de676c3138ae, servername: www.sourceforge.net, host: www.sourceforge.net, path: /, reality-opts: {public-key: T81_TmJlIrTaQcWqUd_QPR56ERmSzVna8JJra1Ki5QQ, short-id: c1d69bfee126bb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,6 +17,8 @@ proxy-groups:
       - DIRECT
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -23,6 +27,8 @@ proxy-groups:
     proxies:
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -31,6 +37,8 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -38,6 +46,8 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -45,6 +55,8 @@ proxy-groups:
       - 🚀 节点选择
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -52,6 +64,8 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -81,6 +95,8 @@ proxy-groups:
       - ♻️ 自动选择
       - "@Vpn_Sky"
       - "@Vpn_Sky 2"
+      - "@Vpn_Sky 3"
+      - "@Vpn_Sky 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,53 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 188.114.97.3:443, server: 188.114.97.3, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇯🇵 [openproxylist.com] vmess-JP", server: 8.211.149.30, port: 443, type: vmess, uuid: bc82b8e0-026b-4b7e-8fa7-69977b6d9dc0, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /ws/, headers: {Host: polartime.link}}, udp: true, tfo: false}
+  - {name: 81.177.212.231:1020, server: 81.177.212.231, port: 1020, type: vless, tls: true, packet-encoding: xudp, uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ULEKhRXed87x1kNaVVq4l8ANWDwmcoxetjclnShfhWM, short-id: 4374d295a4f9dd83}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 93.157.106.189:1020, server: 93.157.106.189, port: 1020, type: vless, tls: true, packet-encoding: xudp, uuid: 42e0d02c-b75c-4b9d-bc15-773aa3cbe6bc, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ULEKhRXed87x1kNaVVq4l8ANWDwmcoxetjclnShfhWM, short-id: 4374d295a4f9dd83}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 31.57.225.201:40282, server: 31.57.225.201, port: 40282, type: vless, tls: true, packet-encoding: xudp, uuid: ecb092b3-040f-4b3c-b819-de9291c2f452, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: Oh_hH0LUAL7SHppzMjQ96NSW-qMBDvvogqU1eVxEr2Q, short-id: 390c3c575aa3ec48}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 109.236.57.139:443, server: 109.236.57.139, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff19693c-11f3-4df9-8713-79a85a5ca090, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 188.114.97.3:443
-      - 🇯🇵 [openproxylist.com] vmess-JP
+      - 81.177.212.231:1020
+      - 93.157.106.189:1020
+      - 31.57.225.201:40282
+      - 109.236.57.139:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

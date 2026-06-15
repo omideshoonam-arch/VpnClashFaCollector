@@ -465,26 +465,36 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: V2rayng_Fast, server: dota2fa.ir, port: 26414, type: vless, tls: true, packet-encoding: xudp, uuid: 163957f5-e632-4117-9ddd-06dd10c64b27, host: dota2fa.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 2, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 1d0d656d-80a0-4713-2eca-a203caad1f9e, servername: dns.darafiq.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.darafiq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 3, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 244f6e8a-55be-4ef9-309d-1f8f60fe5b86, servername: dns.xelivo.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 4, server: test.m610.ir, port: 56527, type: vless, tls: true, packet-encoding: xudp, uuid: 2ba86dd7-efb0-45b9-928c-962e73448ae1, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast`, server: 91.107.166.66, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 2f33d154-1106-4944-9e59-c27ae239e30d, servername: www.intel.com, host: www.intel.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1P6G12_CsCrgTmgSw92S3XMU-bukSAWVWdAqMiiChVU, short-id: 0c82}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 5, server: 128.204.223.94, port: 9815, type: vless, tls: true, packet-encoding: xudp, uuid: 37a0bd7c-8b9f-4693-8916-bd1e2da0a817, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 6, server: cdn.netraidly.ru, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 4bf5a71c-d726-4585-b095-7396675706d5, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU, short-id: c84f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 7, server: 185.143.232.3, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 4ca15f10-3fc0-4a45-807c-2d45b23c3c84, network: ws, ws-opts: {path: /adfsgfad, headers: {Host: 44344.sakino.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 8, server: tehran.moonshiner.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4ded6227-4e87-478b-b572-087570e5dd21, alpn: [h2%2Chttp%2F1.1], host: tehran.moonshiner.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 9, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 5b5c2e93-b262-4487-2d85-332864c0f8d6, servername: cdn.daraflo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.daraflo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 10, server: z9.asamping.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 5cfbb53f-7fff-4fd7-a057-34e08f2170f7, network: ws, ws-opts: {path: /, headers: {Host: z5.asamping.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 11, server: ps2.dservice.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 6f4478b4-a854-4b08-bfc8-fb750010bfa8, network: ws, ws-opts: {path: "/DL?ed=2053", headers: {Host: ps3.dservice.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 2, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 953e8699-2651-4649-45a6-27e64b6703f1, servername: cdn.daraflo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.daraflo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 12, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 95e18057-2133-49e3-5f3f-c48738a9ef7c, servername: dns.xelivo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 13, server: 77.237.73.153, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ad00e861-4e85-464b-95a7-dca95e7fbfd9, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast` 3, server: 77.237.73.153, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ad00e861-4e85-464b-95a7-dca95e7fbfd9, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 14, server: s2.tehranionliine.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: b1ac23fb-b336-4d37-a3c0-64b29c4ef3a4, network: ws, ws-opts: {path: /, headers: {Host: s2.tehranionliine.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 15, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: c66ac69a-447c-4f5e-1d7d-c924470952b5, servername: cdn.daraflo.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.daraflo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 16, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: cc4ffbe6-5b3d-488a-add9-8a0d61f09aaa, servername: cdn.xelira.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.xelira.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: V2rayng_Fast 17, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: d2b29908-d015-4be8-a305-6e6a7d5ef00f, servername: dns.darafiq.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.darafiq.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast, server: k1.cover20.ir, port: 52502, type: ss, cipher: chacha20-ietf-poly1305, password: Mii15INUMlsXmRQLK7YGsZpqzawm9Mwk1qoJyTciM3g=, udp: true, tfo: false}
+  - {name: V2rayng_Fast`, server: k1.cover20.ir, port: 52502, type: ss, cipher: chacha20-ietf-poly1305, password: Mii15INUMlsXmRQLK7YGsZpqzawm9Mwk1qoJyTciM3g=, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 2, server: 188.121.125.169, port: 2083, type: trojan, password: lunSbi7pOU, sni: sqei.ccnnx.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sqei.ccnnx.ir}}, udp: true, tfo: false}
+  - {name: V2rayng_Fast 2, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 01081bf7-5cb4-4b06-6d1c-2736837732fe, servername: dns.xelivo.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 3, server: cdn.trakin.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0519589c-306e-4678-aa6b-b60f58f5352f, servername: cdn.trakin.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: cdn.trakin.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 3, server: de22.fastplus7.site, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 0d1c3cee-2952-4a3e-a03e-fbe99d32dc72, network: ws, ws-opts: {path: /, headers: {Host: de21.fastplus11.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 4, server: snapp.ir, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 269d898c-f864-4760-8dd9-3cdae1414681, network: ws, ws-opts: {path: /ardee, headers: {Host: h3.bolfia.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 5, server: 185.229.191.149, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 394f6981-a782-4779-9a85-e6cf22935d93, servername: ams1.fromblancwithlove.com, host: ams1.fromblancwithlove.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 6, server: 193.151.131.126, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 523f10df-a13c-40df-a2c3-9fe8a91ce54e, host: zula.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 7, server: upload3.kooroshupload.lol, port: 60009, type: vless, tls: true, packet-encoding: xudp, uuid: 6cf0c68e-6ca7-4a27-a5e7-b0339b12370c, alpn: [h2%2Chttp%2F1.1], host: upload3.kooroshupload.lol, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 4, server: 193.176.240.129, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 6d7ec892-7393-455e-bd5c-bd576b795e4a, servername: SG11.artarona.ir, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: SG11.artarona.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 8, server: 193.176.240.129, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 6d7ec892-7393-455e-bd5c-bd576b795e4a, servername: SG7.artarona.ir, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: SG7.artarona.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 9, server: 45.131.4.246, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 6d7ec892-7393-455e-bd5c-bd576b795e4a, servername: Dnlu2.iraniranshopdashnoard.ir, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: Dnlu2.iraniranshopdashnoard.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 5, server: ps.topmarket1.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6f4478b4-a854-4b08-bfc8-fb750010bfa8, network: ws, ws-opts: {path: "/DL?ed=2053", headers: {Host: ps.topmarket1.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 10, server: ps2.dservice.ir, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 6f4478b4-a854-4b08-bfc8-fb750010bfa8, network: ws, ws-opts: {path: "/DL?ed=2053", headers: {Host: ps3.dservice.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 11, server: gostar26n.badabanshop123.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 710e4081-33f6-4e48-9ed5-8cbb08cc3131, servername: gostar26n.badabanshop123.com, network: ws, ws-opts: {path: /vr1026, headers: {Host: gostar26n.badabanshop123.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 6, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 76f83ac4-c87f-4fb5-b69f-1c9f71d41dab, servername: dns.xelivo.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: dns.xelivo.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 12, server: snapp.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 7799027a-6565-401c-aeef-8eb8dbe3c5a6, network: ws, ws-opts: {path: /, headers: {Host: kabotar.garfar.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 13, server: 194.146.68.70, port: 8088, type: vless, tls: true, packet-encoding: xudp, uuid: 88e5e9f3-4929-4383-9ab8-20e3144ae5fe, servername: dl2.soft98.ir, host: dl2.soft98.ir, path: /, reality-opts: {public-key: cIWl2OMPg0y8eSBBAi6V3iltlvTueW0wnQvi4A_XIlk, short-id: 4411e5b0b9ee}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 14, server: cdnyek.salamshop.dpdns.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a388e2ef-1cf8-4610-a9f3-a11b3d02f5fb, network: ws, ws-opts: {path: /, headers: {Host: cdnyek.salamshop.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 7, server: r.cafeplusgame.ir, port: 55277, type: vless, tls: true, packet-encoding: xudp, uuid: b157cf80-57ac-4b27-ae10-6989c27d893f, host: r.cafeplusgame.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 15, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: bf492bd2-5e98-4441-ba5c-323790f26d6a, servername: cdn.xelira.ir, network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.xelira.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 16, server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c0fe4a14-e757-4658-9eea-6a6fa1b65f2b, network: ws, ws-opts: {path: /ray, headers: {Host: dwn.budgetnet.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 17, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: c2013de8-7ca5-42a3-b0db-187e73ca1d46, servername: cdn.xelira.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.xelira.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast` 8, server: test.axylegend.ir, port: 10489, type: vless, tls: true, packet-encoding: xudp, uuid: c2e1d7e9-cb26-40fa-bf69-7d7f74cbc6f5, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: BWFQ-BxFck2L0gjbXILc0Sh_rOy_YH9YYFf5kw5SsAI, short-id: c5a3ab7b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 18, server: snapp.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: decf01eb-9378-4446-67f9-c0689b64da7f, servername: cdn.xelira.ir, alpn: [h2%2Chttp%2F1.1%2Ch3], network: ws, ws-opts: {path: /BetForward, headers: {Host: cdn.xelira.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 19, server: 45.134.99.35, port: 32361, type: vless, tls: true, packet-encoding: xudp, uuid: e031f2c3-5638-463b-83ff-cee5ea096c17, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 20, server: 81.12.92.252, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: eb666ac5-ff96-4e55-9d64-a75c480ef218, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 21, server: 91.224.74.160, port: 33040, type: vless, tls: true, packet-encoding: xudp, uuid: f46c7524-ddd2-4e55-9f2f-d54c58cfd093, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: qkNG-YnEDpsFr_H66k8EZ0pqRW_epcvky5DfkNFDS3w, short-id: dadf4cb3b9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2rayng_Fast 22, server: 185.228.236.54, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: f88c29a3-f768-44a8-855a-981eb9b9a155, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -502,25 +512,35 @@ proxy-groups:
     type: select
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -528,25 +548,35 @@ proxy-groups:
     tolerance: 50
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -554,25 +584,35 @@ proxy-groups:
     tolerance: 50
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -589,25 +629,35 @@ proxy-groups:
     interval: 600
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -615,25 +665,35 @@ proxy-groups:
     interval: 600
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -641,25 +701,35 @@ proxy-groups:
     interval: 600
     proxies:
       - V2rayng_Fast
+      - V2rayng_Fast`
+      - V2rayng_Fast` 2
       - V2rayng_Fast 2
+      - V2rayng_Fast` 3
       - V2rayng_Fast 3
       - V2rayng_Fast 4
-      - V2rayng_Fast`
       - V2rayng_Fast 5
       - V2rayng_Fast 6
       - V2rayng_Fast 7
+      - V2rayng_Fast` 4
       - V2rayng_Fast 8
       - V2rayng_Fast 9
+      - V2rayng_Fast` 5
       - V2rayng_Fast 10
       - V2rayng_Fast 11
-      - V2rayng_Fast` 2
+      - V2rayng_Fast` 6
       - V2rayng_Fast 12
       - V2rayng_Fast 13
-      - V2rayng_Fast` 3
       - V2rayng_Fast 14
+      - V2rayng_Fast` 7
       - V2rayng_Fast 15
       - V2rayng_Fast 16
       - V2rayng_Fast 17
+      - V2rayng_Fast` 8
+      - V2rayng_Fast 18
+      - V2rayng_Fast 19
+      - V2rayng_Fast 20
+      - V2rayng_Fast 21
+      - V2rayng_Fast 22
   - name: دانلود منیجر 📥
     type: select
     proxies:
