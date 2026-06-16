@@ -5,12 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_Sky", server: 82.38.31.176, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: "[Channel id: @Vpn_Sky]", server: 104.18.152.229, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
-  - {name: "***🔵***@Vpn_Sky`", server: 37.27.200.55, port: 24094, type: vless, tls: true, packet-encoding: xudp, uuid: 24181358-60ac-483f-bc48-8b8b1170d721, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🔵***@Vpn_Sky", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3f61815a-1c63-456a-ad05-655374dfd7c8, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***🔵***@Vpn_Sky 2", server: 45.82.13.82, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4efaf684-3e7b-47a6-9193-d8d8f3481210, servername: api.github.com, host: api.github.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Sky 2", server: 46.229.243.131, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "[Channel id: @Vpn_Sky] ⁵", server: 46.229.243.132, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-39.vk-cdnvideo.com, host: cdn7-39.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "[Channel id: @Vpn_Sky] ⁴", server: 77.74.123.163, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "[Channel id: @Vpn_Sky]`", server: 203.202.232.11, port: 36068, type: vless, tls: true, packet-encoding: xudp, uuid: ZoRoVpN, network: ws, ws-opts: {path: /ZoRoVpn, headers: {Host: Play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -20,12 +15,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -35,12 +25,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -50,12 +35,7 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -64,12 +44,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -78,12 +53,7 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -92,12 +62,7 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
@@ -128,12 +93,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Vpn_Sky"
       - "[Channel id: @Vpn_Sky]"
-      - "***🔵***@Vpn_Sky`"
-      - "***🔵***@Vpn_Sky"
-      - "***🔵***@Vpn_Sky 2"
-      - "@Vpn_Sky 2"
       - "[Channel id: @Vpn_Sky] ⁵"
       - "[Channel id: @Vpn_Sky] ⁴"
       - "[Channel id: @Vpn_Sky]`"
