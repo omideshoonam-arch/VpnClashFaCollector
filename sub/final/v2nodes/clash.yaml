@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 31.57.225.201:40282, server: 31.57.225.201, port: 40282, type: vless, tls: true, packet-encoding: xudp, uuid: ecb092b3-040f-4b3c-b819-de9291c2f452, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: Oh_hH0LUAL7SHppzMjQ96NSW-qMBDvvogqU1eVxEr2Q, short-id: 390c3c575aa3ec48}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 172.64.32.75:443, server: 172.64.32.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc965ad9-bdd7-4815-ad71-b39ec5972dc1, servername: octopusss4.com, network: ws, ws-opts: {path: /tsghdws, headers: {Host: octopusss4.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇩🇪 [openproxylist.com] vmess-DE", server: nlt.reata.ir, port: 1020, type: vmess, uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
@@ -484,7 +483,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: خودکار (بهترین پینگ) 🤖
@@ -493,7 +491,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -502,7 +499,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: اتصال پایدار 🔗
@@ -520,7 +516,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: توزیع بار (گردشی) 🔁
@@ -529,7 +524,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: توزیع بار (موقت) ⏳
@@ -538,7 +532,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.57.225.201:40282
       - 172.64.32.75:443
       - 🇩🇪 [openproxylist.com] vmess-DE
   - name: دانلود منیجر 📥
