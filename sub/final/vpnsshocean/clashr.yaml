@@ -5,46 +5,242 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@VPNSSHOCEAN 3", server: 5.75.189.9, port: 40161, type: ss, cipher: chacha20-ietf-poly1305, password: 2TeU47l85r2Pqq6r3JWQWzWq39KfouS5a_NE22oJaPE, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 14", server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 24", server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 11", server: 82.38.31.7, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 26", server: 104.16.71.213, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 1", server: 195.74.93.254, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 146eb6cf-a99c-4022-85ca-022cf81502dc, servername: web.max.ru, host: web.max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7ReQIe2kMtP4rCrptgH5glkOM-JGcSAPzHNxOED-Z0s, short-id: 247fd6dab1a34a48}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 30`", server: 74.49.214.31, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 2a79921d-9364-44cc-b56a-cfb650dfe858, servername: bxeghTOnQ9.lucypro.ir, network: ws, ws-opts: {path: /, headers: {Host: bxeghTOnQ9.lucypro.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 28", server: 185.97.116.42, port: 34828, type: vless, tls: true, packet-encoding: xudp, uuid: 464045bb-0b22-4bcd-a6a8-e27057ed2b9b, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 7", server: 45.82.13.82, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4efaf684-3e7b-47a6-9193-d8d8f3481210, servername: api.github.com, host: api.github.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 18", server: pl.moktana.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5e6cd281-2d03-4e72-9bb2-b38ce2da7cc7, servername: pl.moktana.app, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: moktana.net.v1.StreamService}, reality-opts: {public-key: zz1etKRzRA4fwe0Te0p6jAlHorNJs4mmcljA3oL520E, short-id: 51e9fd4ba43f64d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 12", server: 46.4.162.63, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 60dbde2d-552e-4248-be32-c42272180f7e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 25", server: sw.pink-perfect.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ea0665e-dee3-418c-8822-1f70f350f2db, servername: yandex.net, host: yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 2fgsbEAn-ALVpjnE4ZTPrzaZY70vVplYwldCnslInE0, short-id: 86b80f1e713a33ad}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 15", server: 162.249.126.72, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, alpn: [h2%2Chttp%2F1.1], host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 9", server: 46.229.243.131, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 21", server: 46.229.243.132, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-39.vk-cdnvideo.com, host: cdn7-39.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 3", server: 46.229.243.136, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 2", server: 46.229.243.144, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 20`", server: 46.229.243.75, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn7-39.vk-cdnvideo.com, host: cdn7-39.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 8", server: 77.74.123.165, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 5", server: 77.74.123.168, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 13", server: 95.133.245.133, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn4-35.yahoo.com, host: cdn4-35.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw, short-id: 7e77e7e2cf2b7a79}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 22", server: 95.133.245.163, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, alpn: [h2%2Chttp%2F1.1], host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 23", server: ttogkfexidjdfjc.fars-daxter.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: Telgram-HqV2rayNG-HqV2rayNG, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 6", server: 91.193.58.17, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: af475b0e-0c07-40fe-b4db-3dea2c0a481d, servername: edgetunnel-cmliu.lyqnihao.dpdns.org, network: ws, ws-opts: {path: /fp, headers: {Host: edgetunnel-cmliu.lyqnihao.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 16", server: 85.234.114.53, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, servername: r1.mizulina.top, host: r1.mizulina.top, path: /, flow: xtls-rprx-vision-udp443, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 10`", server: 45.130.125.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8, servername: octopusss5.info, network: ws, ws-opts: {path: /udfyfws, headers: {Host: octopusss5.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 27", server: 45.195.137.5, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: c56ff6cc-3aca-4db7-84c5-3dca67c7a1ff, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: cf9d145ad8f1ea55}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 4", server: de.vpnbase.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 19", server: 45.130.125.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eeb6823c-b926-4ea2-866a-5542edd26e59, servername: t1s1.rittbo.kdns.fr, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: t1s1.rittbo.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN 17", server: 77.83.245.133, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249, servername: tr.buycloud.app, host: tr.buycloud.app, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 3B0Zpg7qS7mRbxW16tUht3uyQDmEyjiB3u1QJ6SCe18, short-id: 7376af195fd742d5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +268,35 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@VPNSSHOCEAN 14"
+      - "@VPNSSHOCEAN 24"
+      - "@VPNSSHOCEAN 11"
+      - "@VPNSSHOCEAN 26"
+      - "@VPNSSHOCEAN 1"
+      - "@VPNSSHOCEAN 30`"
+      - "@VPNSSHOCEAN 28"
+      - "@VPNSSHOCEAN 7"
+      - "@VPNSSHOCEAN 18"
+      - "@VPNSSHOCEAN 12"
+      - "@VPNSSHOCEAN 25"
+      - "@VPNSSHOCEAN 15"
+      - "@VPNSSHOCEAN 9"
+      - "@VPNSSHOCEAN 21"
       - "@VPNSSHOCEAN 3"
+      - "@VPNSSHOCEAN 2"
+      - "@VPNSSHOCEAN 20`"
+      - "@VPNSSHOCEAN 8"
+      - "@VPNSSHOCEAN 5"
+      - "@VPNSSHOCEAN 13"
+      - "@VPNSSHOCEAN 22"
+      - "@VPNSSHOCEAN 23"
+      - "@VPNSSHOCEAN 6"
+      - "@VPNSSHOCEAN 16"
+      - "@VPNSSHOCEAN 10`"
+      - "@VPNSSHOCEAN 27"
+      - "@VPNSSHOCEAN 4"
+      - "@VPNSSHOCEAN 19"
+      - "@VPNSSHOCEAN 17"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
