@@ -468,7 +468,6 @@ proxies:
   - {name: 185.137.157.59:443, server: 185.137.157.59, port: 443, type: trojan, password: fFj7MAGy1VlAWmB_gMBG_27oPYTSHvV6MX, sni: www.lateralio.click, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 38.54.13.189:443, server: 38.54.13.189, port: 443, type: trojan, password: lhvfOzkRQqNd9cLDwpryrAkFGgqzlZR9Fi, sni: 38.54.13.189, skip-cert-verify: false, udp: true, tfo: false}
   - {name: n1.nolockhere.xyz:8444, server: n1.nolockhere.xyz, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: 06a15a9b-9c24-4b0d-aaf2-6946b5143c69, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: MYYmKsCC2_8v4ROpY7zT7sp4-XkWEvbzIxddjxuEwg8, short-id: 5673a8ac57374138}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31.56.117.211:443, server: 31.56.117.211, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 835989bc-f82c-4ae5-93d8-77bcb63105b3, network: ws, ws-opts: {path: /ws, headers: {Host: 31.56.117.211}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,7 +487,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,7 +496,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -508,7 +505,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -527,7 +523,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -537,7 +532,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -547,7 +541,6 @@ proxy-groups:
       - 185.137.157.59:443
       - 38.54.13.189:443
       - n1.nolockhere.xyz:8444
-      - 31.56.117.211:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
