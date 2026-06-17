@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: fi.avenpulse.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 02c10b0d-7d5e-4df6-b8ad-18f0f6cc7422, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: divar.ir.shakhle.ir, port: 25000, type: vless, tls: true, packet-encoding: xudp, uuid: 64c03b7a-f3f3-4d78-bc82-a233ced89cea, servername: www.yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: shakhle}, reality-opts: {public-key: D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU, short-id: 6ba85179e30d4fc3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 46.229.243.140, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 931729a8-3c20-4841-89a1-f18dc9ce0a6f, servername: cdn3-87.vk-cdnvideo.com, host: cdn3-87.vk-cdnvideo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: hm.khoycityman.ir, port: 41319, type: vless, tls: true, packet-encoding: xudp, uuid: 2e38d383-cda5-43d6-a7e1-db45800597a7, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
