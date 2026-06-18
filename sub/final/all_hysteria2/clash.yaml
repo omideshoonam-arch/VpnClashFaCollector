@@ -465,8 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad`", server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 76389 | ⚡️Telegram - t.me/SOSkeyNET, server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 76851 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.105.112.118, port: 443, type: hysteria2, ports: 443, password: EsimHy2Game_7xK9mPq2, obfs: salamander, obfs-password: EsimObfs_9mK2x7, sni: nl.esimpson.org, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 70@oneclickvpnkeys, server: 198.105.112.118, port: 443, type: hysteria2, ports: 443, password: EsimHy2Game_7xK9mPq2, obfs: salamander, obfs-password: EsimObfs_9mK2x7, sni: nl.esimpson.org, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 77230 | ⚡️Telegram - t.me/SOSkeyNET, server: 70.34.205.15, port: 443, type: hysteria2, ports: 443, password: T%24me%24V2RayyNGvpn, obfs: salamander, obfs-password: T.me%24V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad`"
-      - 76389 | ⚡️Telegram - t.me/SOSkeyNET
+      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
+      - 70@oneclickvpnkeys
+      - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
