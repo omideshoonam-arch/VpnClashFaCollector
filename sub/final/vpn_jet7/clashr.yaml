@@ -7,9 +7,8 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@Vpn_jet7", server: 104.252.19.102, port: 54040, type: hysteria2, ports: 54040, password: odnvqb4ihg396e5z, obfs: salamander, obfs-password: "%40JynMarket", sni: 104.252.19.102, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7 2", server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: s3jl.themonji.com, port: 8844, type: vless, tls: true, packet-encoding: xudp, uuid: 0ba42bb8-fcce-43d8-80a2-1d9613f66381, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: hm.khoycityman.ir, port: 41319, type: vless, tls: true, packet-encoding: xudp, uuid: 2e38d383-cda5-43d6-a7e1-db45800597a7, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: sca35.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: 20.107.209.255, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Mb3OqnxAAjNA2kgt, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 4", server: s3jl.themonji.com, port: 8844, type: vless, tls: true, packet-encoding: xudp, uuid: 0ba42bb8-fcce-43d8-80a2-1d9613f66381, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,7 +19,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,7 +29,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -42,7 +39,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -52,7 +48,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -62,7 +57,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -72,7 +66,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -104,7 +97,6 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

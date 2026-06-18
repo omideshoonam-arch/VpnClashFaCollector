@@ -475,14 +475,13 @@ proxies:
   - {name: Ettehadvpn | 17, server: 188.114.97.6, port: 443, type: vmess, uuid: b4a65611-4969-42b2-bc74-5768b940bd9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vyvzyhgz.com, network: ws, ws-opts: {path: /, headers: {Host: vyvzyhgz.com}}, udp: true, tfo: false}
   - {name: Ettehadvpn | 35, server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048"}, udp: true, tfo: false}
   - {name: Ettehadvpn | 39, server: 57.151.100.27, port: 10086, type: vmess, uuid: 550e8400-e29b-41d4-a716-446655440000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 23.138.148.96, port: 25213, type: vmess, uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad", server: 65.109.221.245, port: 33366, type: vmess, uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "[openproxylist.com] vmess-FI", server: 65.109.221.245, port: 33366, type: vmess, uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 2", server: 65.109.221.245, port: 33366, type: vmess, uuid: 2ee7eb26-8118-4d0a-a300-8d0edcfde6e5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 3", server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 4", server: 89.167.82.102, port: 4443, type: vmess, uuid: 843f253f-1cd4-41b1-af37-2e87a77d1380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 5", server: 188.121.109.55, port: 6066, type: vmess, uuid: 9aeb91f7-c539-4f15-8fbd-fb17efaca0e6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
-  - {name: "@filembad 6", server: node-fr.connectsuite.org, port: 2053, type: vmess, uuid: 2f4234f9-8f33-4c7f-952f-565ffa5f5fb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 7", server: nlt.reata.ir, port: 1020, type: vmess, uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 5", server: node-fr.connectsuite.org, port: 2053, type: vmess, uuid: 2f4234f9-8f33-4c7f-952f-565ffa5f5fb7, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 6", server: nlt.reata.ir, port: 1020, type: vmess, uuid: 6244c41a-f4c1-4733-a654-c38f7729b13c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -509,14 +508,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -533,14 +531,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -557,14 +554,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -590,14 +586,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -614,14 +609,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -638,14 +632,13 @@ proxy-groups:
       - Ettehadvpn | 17
       - Ettehadvpn | 35
       - Ettehadvpn | 39
+      - 🇺🇸 [openproxylist.com] vmess-US
       - "@filembad"
-      - "[openproxylist.com] vmess-FI"
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
       - "@filembad 5"
       - "@filembad 6"
-      - "@filembad 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:
