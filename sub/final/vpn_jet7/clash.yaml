@@ -465,10 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 104.252.19.102, port: 54040, type: hysteria2, ports: 54040, password: odnvqb4ihg396e5z, obfs: salamander, obfs-password: "%40JynMarket", sni: 104.252.19.102, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: admin.c1.havij.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 1kVr0KATIJI7mwOF, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 20.107.209.255, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Mb3OqnxAAjNA2kgt, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: s3jl.themonji.com, port: 8844, type: vless, tls: true, packet-encoding: xudp, uuid: 0ba42bb8-fcce-43d8-80a2-1d9613f66381, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 104.21.18.41, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /cdn=mitivpn, headers: {Host: linkkon-w.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: 188.114.97.6, port: 443, type: trojan, password: MiTiVPN, sni: wwww.95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: wwww.95r.ir}}, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 3", server: snapp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: ab49fcf9-f38a-4936-96a3-5143a6a085e9, network: ws, ws-opts: {path: /cdn, headers: {Host: vip.mrblueteam.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,7 +487,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,7 +496,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -508,7 +505,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -527,7 +523,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -537,7 +532,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -547,7 +541,6 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:

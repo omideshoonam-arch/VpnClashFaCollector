@@ -465,11 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 148.253.208.76:3478, server: 148.253.208.76, port: 3478, type: ss, cipher: chacha20-ietf-poly1305, password: yu2XnSPWhmQjxn83iJA3DA, udp: true, tfo: false}
-  - {name: 2.144.5.90:8443, server: 2.144.5.90, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 21784e1c-392e-4c5f-b50a-9f8a49f87e9a, network: ws, ws-opts: {path: /Stream, headers: {Host: bama.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 103.118.255.19:44058, server: 103.118.255.19, port: 44058, type: vless, tls: true, packet-encoding: xudp, uuid: 65498631-4e25-49ce-8789-b57547d8c261, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 191.44.118.101:443, server: 191.44.118.101, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: deecd21a-a24f-444d-b92a-2c8e41a6b05b, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 69_I9Wm_vP5wQUbiQhdejWS9yLlNYLFjcnF59G-0GAU, short-id: 31e36d0ac3355472}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 23.138.148.96, port: 25213, type: vmess, uuid: 17301584-89b6-4ce3-f0df-ada8184ff58e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 16.162.87.106:45744, server: 16.162.87.106, port: 45744, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 18.163.124.229:22057, server: 18.163.124.229, port: 22057, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 35.77.220.48:9731, server: 35.77.220.48, port: 9731, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 194.5.193.58:42549, server: 194.5.193.58, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 85.90.207.152:23009, server: 85.90.207.152, port: 23009, type: vless, tls: true, packet-encoding: xudp, uuid: 21db6b31-6e8b-4307-9127-994c99606e15, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 159.195.22.155:443, server: 159.195.22.155, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 859a537b-09cf-4bce-8da4-ecbb72950e3a, servername: 2.oncloudnineservicestreang.com, host: 2.oncloudnineservicestreang.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Mg3ZxHNUFbX96q1HpS3WReeM7rnhEsXXtlEzxALeTDc, short-id: d8d3dc6c3ca45dd4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 148.253.208.76:3478
-      - 2.144.5.90:8443
-      - 103.118.255.19:44058
-      - 191.44.118.101:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 16.162.87.106:45744
+      - 18.163.124.229:22057
+      - 35.77.220.48:9731
+      - 194.5.193.58:42549
+      - 85.90.207.152:23009
+      - 159.195.22.155:443
   - name: دانلود منیجر 📥
     type: select
     proxies:

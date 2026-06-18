@@ -465,20 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 172.67.210.215, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
-  - {name: Free$ 131 @Outline_Vpn, server: 138.68.150.88, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2c53af1c-c440-38f0-94f1-8bc32a4274f8, servername: learn.microsoft.com, host: learn.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SAgG_t0cdKBPSvJzlIjrwTRjtBjfaUZnpYWhXyxEHSg, short-id: 2fe2afb9c7978f36}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 135 @Outline_Vpn, server: 65.109.199.141, port: 25000, type: vless, tls: true, packet-encoding: xudp, uuid: 64c03b7a-f3f3-4d78-bc82-a233ced89cea, servername: www.yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: shakhle}, reality-opts: {public-key: D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU, short-id: 6ba85179e30d4fc3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 137 @Outline_Vpn`, server: divar.ir.shakhle.ir, port: 25000, type: vless, tls: true, packet-encoding: xudp, uuid: 64c03b7a-f3f3-4d78-bc82-a233ced89cea, servername: www.yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: shakhle}, reality-opts: {public-key: D9EktvCfJb5l8mBkJHx3U31BIUwIBHJKV85OzyNnDlU, short-id: 6ba85179e30d4fc3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 140.248.185.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9a1ca418-134f-4750-b97a-55ea81135742, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 167.82.101.251, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9a1ca418-134f-4750-b97a-55ea81135742, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: fast.cd-tur4.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9a1ca418-134f-4750-b97a-55ea81135742, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 193.228.169.221, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9c8bf6ca-5b56-4f0b-ba22-a2ecd0282daf, servername: aparat.com, host: aparat.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gJjDGu05qCVpcJMcBJKwNmUgueWgr9-6SdTrZieuVwc, short-id: 6186}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 132 @Outline_Vpn, server: 149.202.58.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b585dc5e-55bf-4a8b-913a-27c9ccac05c3, servername: bab-6.site, network: ws, ws-opts: {path: /vws/, headers: {Host: bab-6.site}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 133 @Outline_Vpn, server: 162.19.228.119, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 136 @Outline_Vpn, server: de.vpnbase.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Free$ 134 @Outline_Vpn, server: 185.177.238.246, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f64cab0a-75a4-44f1-b2f6-8ecc6c73c249, servername: alb00.sidecloud.ru, host: alb00.sidecloud.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ElEALiFaDTMj9lYwMPYaCVnbMkz22pvzD10dGW61kyc, short-id: e5948dce1ee60b31}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn", server: series-a2.samanehha.co, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: W74XFALLLuw6m5IA, udp: true, tfo: false}
+  - {name: "@bored_vpn 2", server: 172.67.210.215, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, udp: true, tfo: false}
+  - {name: "@bored_vpn 3", server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: linkkon-w.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: linkkon-w.ir}}, udp: true, tfo: false}
+  - {name: "@bored_vpn 4", server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
+  - {name: "@bored_vpn 5", server: sca26.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn`", server: 185.143.233.222, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: de8f907c-53cc-40da-b9eb-87775b31258e, network: ws, ws-opts: {path: /, headers: {Host: free.tradepal.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -495,60 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -564,60 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran`"
-      - Free$ 131 @Outline_Vpn
-      - Free$ 135 @Outline_Vpn
-      - Free$ 137 @Outline_Vpn`
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - Free$ 132 @Outline_Vpn
-      - Free$ 133 @Outline_Vpn
-      - Free$ 136 @Outline_Vpn
-      - Free$ 134 @Outline_Vpn
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn`"
   - name: دانلود منیجر 📥
     type: select
     proxies:
