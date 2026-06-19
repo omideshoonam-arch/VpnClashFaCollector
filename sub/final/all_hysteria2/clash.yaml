@@ -465,8 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 76851 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.105.112.118, port: 443, type: hysteria2, ports: 443, password: EsimHy2Game_7xK9mPq2, obfs: salamander, obfs-password: EsimObfs_9mK2x7, sni: nl.esimpson.org, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 70@oneclickvpnkeys, server: 198.105.112.118, port: 443, type: hysteria2, ports: 443, password: EsimHy2Game_7xK9mPq2, obfs: salamander, obfs-password: EsimObfs_9mK2x7, sni: nl.esimpson.org, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 77230 | ⚡️Telegram - t.me/SOSkeyNET, server: 70.34.205.15, port: 443, type: hysteria2, ports: 443, password: T%24me%24V2RayyNGvpn, obfs: salamander, obfs-password: T.me%24V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -484,8 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -493,8 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -502,8 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
@@ -520,8 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -529,8 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -538,8 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 76851 | ⚡️Telegram - t.me/SOSkeyNET
-      - 70@oneclickvpnkeys
       - 77230 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
