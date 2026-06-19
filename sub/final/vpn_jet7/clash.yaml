@@ -469,6 +469,7 @@ proxies:
   - {name: "@Vpn_jet7 2", server: codprizes.com, port: 22885, type: vless, tls: true, packet-encoding: xudp, uuid: 239b795b-41ab-42de-8c9b-1ea8f6f4fc7a, host: status.play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7 3", server: cdn.netraidly.ru, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 4bf5a71c-d726-4585-b095-7396675706d5, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU, short-id: c84f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7 4", server: 209.38.196.100, port: 16150, type: vless, tls: true, packet-encoding: xudp, uuid: bf890d66-0c47-4e62-a22f-05af3a2a6b51, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 5", server: 89.169.39.55, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c61ec320-29f1-4e00-9272-8b676e6957b4, servername: max.ru, host: max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU, short-id: 825867}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,6 +490,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -499,6 +501,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -509,6 +512,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,6 +532,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -538,6 +543,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -548,6 +554,7 @@ proxy-groups:
       - "@Vpn_jet7 2"
       - "@Vpn_jet7 3"
       - "@Vpn_jet7 4"
+      - "@Vpn_jet7 5"
   - name: دانلود منیجر 📥
     type: select
     proxies:
