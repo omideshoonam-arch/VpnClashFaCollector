@@ -5,11 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b, servername: vangoghhh.info, network: ws, ws-opts: {path: /rdfgtws, headers: {Host: vangoghhh.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: codprizes.com, port: 22885, type: vless, tls: true, packet-encoding: xudp, uuid: 239b795b-41ab-42de-8c9b-1ea8f6f4fc7a, host: status.play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: cdn.netraidly.ru, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 4bf5a71c-d726-4585-b095-7396675706d5, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D_ks4Yyk4-osnWBxCFvd0_UEgohUXvR2zJoWQg1CACU, short-id: c84f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: 209.38.196.100, port: 16150, type: vless, tls: true, packet-encoding: xudp, uuid: bf890d66-0c47-4e62-a22f-05af3a2a6b51, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 5", server: 89.169.39.55, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c61ec320-29f1-4e00-9272-8b676e6957b4, servername: max.ru, host: max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Lbug_wz0y9xgKeDK44D9kuUap0fXzNKyv_nMJxnZRzU, short-id: 825867}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: em4.uae-store-pubg.ir, port: 9097, type: vless, tls: true, packet-encoding: xudp, uuid: 74b0db6d-9627-43f0-b23d-796a333630f9, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: Sxq7naDvQjl39Jq7CirIW8Bjj-qn5_ykcrpmWCQHSTw, short-id: d7e377e4f56fbc0c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,10 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,10 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -39,40 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -101,10 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
-      - "@Vpn_jet7 4"
-      - "@Vpn_jet7 5"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: www.speedtest.org:443, server: www.speedtest.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77, servername: shegeftihaaa.net, network: ws, ws-opts: {path: /rsedgws, headers: {Host: shegeftihaaa.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 45.81.35.125:80, server: 45.81.35.125, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5f3b432c-1e4d-4aef-bf55-394ed64eaa6a, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - www.speedtest.org:443
+      - 45.81.35.125:80
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - www.speedtest.org:443
+      - 45.81.35.125:80
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
