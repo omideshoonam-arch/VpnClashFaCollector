@@ -465,6 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 16.163.106.209:41889, server: 16.163.106.209, port: 41889, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 18.162.50.252:9149, server: 18.162.50.252, port: 9149, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 83.228.230.226:42549, server: 83.228.230.226, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 45.81.35.125:80, server: 45.81.35.125, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5f3b432c-1e4d-4aef-bf55-394ed64eaa6a, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -482,6 +485,9 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -489,6 +495,9 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -496,6 +505,9 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: اتصال پایدار 🔗
     type: url-test
@@ -512,6 +524,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -519,6 +534,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -526,6 +544,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 16.163.106.209:41889
+      - 18.162.50.252:9149
+      - 83.228.230.226:42549
       - 45.81.35.125:80
   - name: دانلود منیجر 📥
     type: select
