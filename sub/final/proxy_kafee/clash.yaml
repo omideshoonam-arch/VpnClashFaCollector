@@ -467,6 +467,11 @@ rule-providers:
 proxies:
   - {name: "@proxy_kafee 65⚡", server: 151.101.110.219, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
   - {name: "@proxy_kafee 64⚡`", server: 151.101.69.219, port: 443, type: trojan, password: MITIVPN, sni: speedtest.net, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: speedtest.net}}, udp: true, tfo: false}
+  - {name: "@proxy_kafee (3🇨🇭⚡)", server: 37.156.45.237, port: 2087, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (4🇨🇭⚡)", server: 37.156.45.237, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (2🇨🇭⚡)", server: 37.156.45.237, port: 443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (🇨🇭⚡)", server: 37.156.45.237, port: 8443, type: trojan, password: SoftNetConnect, sni: play.google.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (5🇨🇭⚡)`", server: 37.156.45.237, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 89049f79-320b-48a0-b1cf-110165cae30c, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY, short-id: 4e590fdc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,6 +490,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -493,6 +503,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -501,6 +516,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -518,6 +538,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -526,6 +551,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -534,6 +564,11 @@ proxy-groups:
     proxies:
       - "@proxy_kafee 65⚡"
       - "@proxy_kafee 64⚡`"
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: دانلود منیجر 📥
     type: select
     proxies:

@@ -466,7 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@Capoit`", server: hm.khoycityman.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 921a2a0b-bfb9-445a-a4ec-d81769592d33, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: cAprase508p_Y7olUKMa-aqER9NcBqaCZ8xyvll4Xgk, short-id: edd3256dc1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Capoit` 2", server: 144.124.241.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e, servername: rezerv1.yunus.guru, host: rezerv1.yunus.guru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: -X9CZv5MYKivpxPVP1vdgFKf2AJWmZ0Pju-j8LFmlh4, short-id: 6c88854e73e86773}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 2", server: radar.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a3e2f3fc-9604-4093-8d92-c4303d822fad, servername: rocket-panel-pearl-313895.nova-5e4426f8.workers.dev, network: ws, ws-opts: {path: "/?u=f37c2ef95c", headers: {Host: rocket-panel-pearl-313895.nova-5e4426f8.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 3", server: 144.124.241.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e, servername: rezerv1.yunus.guru, host: rezerv1.yunus.guru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: -X9CZv5MYKivpxPVP1vdgFKf2AJWmZ0Pju-j8LFmlh4, short-id: 6c88854e73e86773}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,6 +486,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -493,6 +495,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -501,6 +504,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -518,6 +522,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -526,6 +531,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -534,6 +540,7 @@ proxy-groups:
     proxies:
       - "@Capoit`"
       - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
