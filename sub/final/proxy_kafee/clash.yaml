@@ -466,6 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@proxy_kafee 66⚡`", server: 146.75.121.194, port: 443, type: trojan, password: MITIVPN, sni: fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: fastly.com}}, udp: true, tfo: false}
+  - {name: "@proxy_kafee - 🇩🇪🚀 ( 1 )`", server: 151.101.1.194, port: 80, type: trojan, password: MITIVPN, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn}, udp: true, tfo: false}
+  - {name: "@proxy_kafee - 🇩🇪🚀 ( 2 )", server: 151.101.242.172, port: 80, type: trojan, password: MITIVPN, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn}, udp: true, tfo: false}
   - {name: "@proxy_kafee 67⚡", server: 199.232.173.194, port: 443, type: trojan, password: MITIVPN, sni: fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: fastly.com}}, udp: true, tfo: false}
   - {name: "@proxy_kafee (3🇨🇭⚡)", server: 37.156.44.157, port: 2087, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (4🇨🇭⚡)", server: 37.156.44.157, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
@@ -489,6 +491,8 @@ proxy-groups:
     type: select
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
@@ -502,6 +506,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
@@ -515,6 +521,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
@@ -537,6 +545,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
@@ -550,6 +560,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
@@ -563,6 +575,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee 66⚡`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 1 )`"
+      - "@proxy_kafee - 🇩🇪🚀 ( 2 )"
       - "@proxy_kafee 67⚡"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
