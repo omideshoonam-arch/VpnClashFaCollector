@@ -5,88 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: 20.107.208.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 3C1GAcIUs3gmr85y, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 20.107.193.56, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: TrU92afeT6VIneWT, udp: true, tfo: false}
   - {name: "\tn_jet7", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 151.101.110.219, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
-  - {name: "\tn_jet7 2", server: snappfood.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 640e66b2-0514-4f09-9a61-eb07b989704a, network: ws, ws-opts: {path: /Tel_IranToMars, headers: {Host: pro.iran-to-mars.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 4", server: hm.khoycityman.ir, port: 41319, type: vless, tls: true, packet-encoding: xudp, uuid: 921a2a0b-bfb9-445a-a4ec-d81769592d33, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: hm.khoycityman.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 921a2a0b-bfb9-445a-a4ec-d81769592d33, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: cAprase508p_Y7olUKMa-aqER9NcBqaCZ8xyvll4Xgk, short-id: edd3256dc1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: iknk.themonji.com, port: 8844, type: vless, tls: true, packet-encoding: xudp, uuid: 5b6a330a-8d2e-4004-83a7-59f25e9d8855, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
       - "\tn_jet7"
-      - "@Vpn_jet7 3"
-      - "\tn_jet7 2"
-      - "@Vpn_jet7 4"
-      - "@filembad"
+      - "@Vpn_jet7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
