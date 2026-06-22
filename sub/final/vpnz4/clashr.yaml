@@ -5,60 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ⤿ @VPNZ4 🇩🇪, server: 5.180.173.222, port: 448, type: vless, tls: true, packet-encoding: xudp, uuid: 626b07bd-81c4-4212-be7a-27442a579620, servername: www.googletagmanager.com, host: www.googletagmanager.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo, short-id: 15052edc8120b63d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 🇹🇷, server: 95.85.233.181, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f, servername: c.primarymaster.online, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y, short-id: c56c3ba3b9f676c5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ⤿ @VPNZ4 🇧🇻, server: 82.22.53.30, port: 448, type: vless, tls: true, packet-encoding: xudp, uuid: f82944fe-9863-494a-9a2d-0f3120a774c6, servername: www.googletagmanager.com, host: www.googletagmanager.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0B7XMJC-mBqvUkf_on0wPZeW1iVmZIbEPVyvz-V_jRI, short-id: 60d7a9bbacadc0fb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "|⚡️Telegram - @VPNZ4", server: 217.217.244.129, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "|⚡️Telegram - @VPNZ4`", server: 217.217.247.251, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "|⚡️Telegram - @VPNZ4 2", server: 217.217.247.251, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "|⚡️Telegram - @VPNZ4 3", server: all20.allenshop100.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9cda451e-0adf-4df1-a5b4-7fec8f363c10, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: YRKpNLfduSsOl3l-CCUkhZDEjvcKytnuELqnWjLZI1M, short-id: 98fa0b00d09419f7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ⤿ @VPNZ4 🇩🇪
-      - ⤿ @VPNZ4 🇹🇷
-      - ⤿ @VPNZ4 🇧🇻
+      - "|⚡️Telegram - @VPNZ4"
+      - "|⚡️Telegram - @VPNZ4`"
+      - "|⚡️Telegram - @VPNZ4 2"
+      - "|⚡️Telegram - @VPNZ4 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
