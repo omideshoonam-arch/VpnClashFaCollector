@@ -465,10 +465,13 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: proxy_kafee  ⚡3, server: 151.101.1.194, port: 80, type: trojan, password: MITIVPN, skip-cert-verify: false, network: ws, ws-opts: {path: /ed=mitivpn}, udp: true, tfo: false}
   - {name: "@proxy_kafee (3🇨🇭⚡)", server: 37.156.44.6, port: 2087, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (4🇨🇭⚡)", server: 37.156.44.6, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (2🇨🇭⚡)", server: 37.156.44.6, port: 443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (🇨🇭⚡)", server: 37.156.44.6, port: 8443, type: trojan, password: SoftNetConnect, sni: play.google.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: proxy_kafee ⚡ 2, server: 151.101.194.219, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: proxy_kafee ⚡1`, server: 145.239.137.250, port: 58748, type: vless, tls: true, packet-encoding: xudp, uuid: 21e22226-0b96-4b4e-9a91-5c7f9e3f1760, host: e1roj9ul.divarcdn.com%2C+e1roj9ul.alibaba.ir%2C+e1roj9ul.splus.ir%2C+e1roj9ul.cafebazaar.ir%2C+e1roj9ul.yjc.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (5🇨🇭⚡)`", server: 37.156.44.6, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 89049f79-320b-48a0-b1cf-110165cae30c, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY, short-id: 4e590fdc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -486,10 +489,13 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -497,10 +503,13 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -508,10 +517,13 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -528,10 +540,13 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -539,10 +554,13 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -550,10 +568,13 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - proxy_kafee  ⚡3
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
       - "@proxy_kafee (🇨🇭⚡)"
+      - proxy_kafee ⚡ 2
+      - proxy_kafee ⚡1`
       - "@proxy_kafee (5🇨🇭⚡)`"
   - name: دانلود منیجر 📥
     type: select
