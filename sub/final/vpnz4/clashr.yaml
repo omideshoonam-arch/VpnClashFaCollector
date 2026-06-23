@@ -5,179 +5,81 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "Telegram Channel : @vpnz4 3", server: 5.188.115.226, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: 09a012c8-67e9-4d92-9aa2-ecb025a786b3, servername: id.pervye.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ns}, reality-opts: {public-key: QZz4tjRkxYsgTZBlRALOQU4O5YnAGtSGkXF8OSX11m8, short-id: 00000000}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 1", server: 45.8.228.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 18655112-fd8a-44e7-a30c-37388c05816b, servername: max.ru, host: max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kIwNoNzk1uJnZD1evWxURZskv9ZY0aGoUjrAbn3uVXQ, short-id: 4d3ff920673f7534}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 2", server: 45.8.228.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 18655112-fd8a-44e7-a30c-37388c05816b, servername: max.ru, host: max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kIwNoNzk1uJnZD1evWxURZskv9ZY0aGoUjrAbn3uVXQ, short-id: 4d3ff920673f7534}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 4", server: 109.236.57.65, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 5", server: 109.73.194.240, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 6", server: 147.45.159.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 7", server: 5.129.194.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 8", server: 5.42.101.81, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 9", server: 5.188.114.73, port: 18443, type: vless, tls: true, packet-encoding: xudp, uuid: 45c8814c-c06f-4444-acda-1b745e74d33e, servername: id.pervye.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: ns}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 10`", server: hentai-cdn.apruxdomain.xyz, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 5d02362c-cda0-4c20-bc76-91f9bcf49fd7, network: ws, ws-opts: {path: /, headers: {Host: hentai-cdn.apruxdomain.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 11", server: 185.147.27.105, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 8afa4ec4-0cf4-4444-9ef9-e879436bcc09, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 12", server: 217.217.244.129, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 13", server: 217.217.244.131, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 14", server: 217.217.247.250, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 15", server: 217.217.247.252, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 16", server: 217.217.247.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 17", server: fi.faygo.bot, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 18", server: 185.147.27.105, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: d0f6d88b-589b-4147-9c72-fa76b3fea3b1, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 19", server: 185.147.27.105, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dd632900-378f-4e2b-ad89-84ea66478e94, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 20`", server: 95.85.233.181, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e0bb3250-1873-4b9d-b9b5-7aa6c863885f, servername: c.primarymaster.online, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: S05RWQUVH-p3uqekd0iRpIeH__NpCt0XEN2xCiQJs3Y, short-id: c56c3ba3b9f676c5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 2`", server: 5.42.108.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 8", server: 5.42.111.112, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 5", server: 77.223.120.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 28", server: 84.201.148.58, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 29", server: 84.201.148.58, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 9", server: 84.201.172.67, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -205,26 +107,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Telegram Channel : @vpnz4 3"
-      - "Telegram Channel : @vpnz4 1"
-      - "Telegram Channel : @vpnz4 2"
-      - "Telegram Channel : @vpnz4 4"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 6"
-      - "Telegram Channel : @vpnz4 7"
+      - "Telegram Channel : @vpnz4 2`"
       - "Telegram Channel : @vpnz4 8"
+      - "Telegram Channel : @vpnz4 5"
+      - "Telegram Channel : @vpnz4 28"
+      - "Telegram Channel : @vpnz4 29"
       - "Telegram Channel : @vpnz4 9"
-      - "Telegram Channel : @vpnz4 10`"
-      - "Telegram Channel : @vpnz4 11"
-      - "Telegram Channel : @vpnz4 12"
-      - "Telegram Channel : @vpnz4 13"
-      - "Telegram Channel : @vpnz4 14"
-      - "Telegram Channel : @vpnz4 15"
-      - "Telegram Channel : @vpnz4 16"
-      - "Telegram Channel : @vpnz4 17"
-      - "Telegram Channel : @vpnz4 18"
-      - "Telegram Channel : @vpnz4 19"
-      - "Telegram Channel : @vpnz4 20`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
