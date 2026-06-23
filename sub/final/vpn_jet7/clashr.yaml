@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: 20.166.91.10, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: dGhpdtVDwyCNsA4g, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 45.74.159.218, port: 2035, type: vless, tls: true, packet-encoding: xudp, uuid: Telegram%3ATurboConfigs, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

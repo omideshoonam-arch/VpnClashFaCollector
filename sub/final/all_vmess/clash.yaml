@@ -465,14 +465,13 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "", server: 169.197.142.22, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Ettehadvpn | 15, server: 107.173.27.219, port: 6666, type: vmess, uuid: f0a2fbe5-29bf-468c-ddc1-b524552d1a23, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /youtube}, udp: true, tfo: false}
   - {name: Ettehadvpn | 17, server: 188.114.97.6, port: 443, type: vmess, uuid: b4a65611-4969-42b2-bc74-5768b940bd9e, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: vyvzyhgz.com, network: ws, ws-opts: {path: /, headers: {Host: vyvzyhgz.com}}, udp: true, tfo: false}
   - {name: Ettehadvpn | 24, server: 47.244.120.197, port: 36703, type: vmess, uuid: 45b83519-9c4f-4052-a11b-02e017b636d4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/arki?ed=2048", headers: {Host: 47.244.120.197}}, udp: true, tfo: false}
   - {name: Ettehadvpn | 49, server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad", server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 104.17.121.43, port: 443, type: vmess, uuid: e9947b42-27ed-401e-b75e-c9ebd357c0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: omkuzygiv.com, network: ws, ws-opts: {path: /, headers: {Host: omkuzygiv.com}}, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 160.250.247.70, port: 49178, type: vmess, uuid: d7c13e10-2ba9-4677-a877-d9e9d1738394, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 95.179.142.241, port: 433, type: vmess, uuid: 79866643-2b00-401c-9424-1bff8ce9925a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: 104.17.121.43, port: 443, type: vmess, uuid: e9947b42-27ed-401e-b75e-c9ebd357c0f3, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: omkuzygiv.com, network: ws, ws-opts: {path: /, headers: {Host: omkuzygiv.com}}, udp: true, tfo: false}
   - {name: "@filembad 4", server: 2.26.231.87, port: 110, type: vmess, uuid: ad7a0934-4d8d-4343-8b6f-efa10ed54fc2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@NETMelliAnti👈🏻👈🏻سرورجدید داخل چنل🥀❤", server: 2.26.231.87, port: 110, type: vmess, uuid: f35f1bc8-a39f-4ab9-a20f-613cc6e860c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 5", server: 2.26.231.87, port: 110, type: vmess, uuid: f35f1bc8-a39f-4ab9-a20f-613cc6e860c3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
@@ -494,7 +493,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
@@ -513,7 +511,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
@@ -532,7 +529,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
@@ -560,7 +556,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
@@ -579,7 +574,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
@@ -598,7 +592,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
       - Ettehadvpn | 15
       - Ettehadvpn | 17
       - Ettehadvpn | 24
