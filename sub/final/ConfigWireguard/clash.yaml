@@ -465,12 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ✳️ - 3, server: 82.38.31.203, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: ✳️ - 2, server: 82.38.31.204, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: ✳️ - 1, server: 45.130.125.126, port: 443, type: trojan, password: 86957ec0-b213-433b-a43b-51f2175e0ec3, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /au-do, headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true, tfo: false}
-  - {name: ✳️ - 5, server: srv1.khatibirepair.ir, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: ⁰, server: 151.101.130.219, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✳️ - 4, server: sca11.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✳️ - 3, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: ✳️ - 1, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
+  - {name: ✳️ - 2, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: false}
+  - {name: ✳️ - 4, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: false}
+  - {name: ✳️ - 10, server: 45.130.125.112, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: ✳️ - 9, server: speedtest.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✳️ - 11`, server: vtodkcdisnc.fars-daxter.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: Te-HqV2rayNG-HqV2rayNG, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✳️ - 7, server: 45.130.125.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eeb6823c-b926-4ea2-866a-5542edd26e59, servername: t1s1.rittbo.kdns.fr, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/fp#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: t1s1.rittbo.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✳️ - 8, server: 45.130.125.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eeb6823c-b926-4ea2-866a-5542edd26e59, servername: t1s1.rittbo.kdns.fr, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/fp#TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: t1s1.rittbo.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,11 +491,14 @@ proxy-groups:
     type: select
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,11 +506,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -512,11 +521,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -533,11 +545,14 @@ proxy-groups:
     interval: 600
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -545,11 +560,14 @@ proxy-groups:
     interval: 600
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -557,11 +575,14 @@ proxy-groups:
     interval: 600
     proxies:
       - ✳️ - 3
-      - ✳️ - 2
       - ✳️ - 1
-      - ✳️ - 5
-      - ⁰
+      - ✳️ - 2
       - ✳️ - 4
+      - ✳️ - 10
+      - ✳️ - 9
+      - ✳️ - 11`
+      - ✳️ - 7
+      - ✳️ - 8
   - name: دانلود منیجر 📥
     type: select
     proxies:

@@ -466,6 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@VPNSSHOCEAN B2B`", server: 167.104.55.25, port: 35401, type: vless, tls: true, packet-encoding: xudp, uuid: 2c745da3-f69f-4268-810e-389e935412e9, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN B2B ²", server: 178.62.118.205, port: 29574, type: vmess, uuid: e101dd33-236f-4fdd-ae59-07b13e836c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@VPNSSHOCEAN B2B`"
+      - "@VPNSSHOCEAN B2B ²"
   - name: دانلود منیجر 📥
     type: select
     proxies:
