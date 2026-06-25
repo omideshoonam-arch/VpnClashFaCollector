@@ -465,28 +465,47 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@varkana0`", server: 82.38.31.11, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@varkana0` 2", server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 1348 @proxy_online_net`, server: 151.101.1.242, port: 443, type: trojan, password: MiTiVPN, sni: www.f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: www.f6r.ir}}, udp: true, tfo: false}
-  - {name: Public`, server: 151.101.1.242, port: 443, type: trojan, password: MiTiVPN, sni: www.f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: www.f6r.ir}}, udp: true, tfo: false}
-  - {name: 1347 @proxy_online_net`, server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 1346 @proxy_online_net`, server: 151.101.193.242, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
-  - {name: Public` 2, server: 151.101.193.242, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
-  - {name: 1351 @proxy_online_net`, server: 172.66.47.69, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
-  - {name: 1349 @proxy_online_net`, server: 89.116.180.49, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /nl=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
-  - {name: "@akhabarfori_ir🌻`", server: 104.16.174.44, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@varkana0` 3", server: 151.101.0.1, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@varkana0` 4", server: 151.101.130.219, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: /, headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@varkana0` 5", server: 151.101.2.219, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: "/?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512", headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@varkana0` 6", server: 167.82.0.1, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: "/?TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=2048", headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@varkana0` 7", server: sca33.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Sisi, server: mpt.com.mm, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a3585167-b919-4067-c770-972d53aedc5e, servername: vip.sirsis2.my.id, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: vip.sirsis2.my.id}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@varkana0` 8", server: flae2.faradl.ir, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: d601a0a9-603d-4267-8196-4ba92c6f5ef4, host: flae2.faradl.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com, server: 143.14.59.20, port: 59093, type: vless, tls: true, packet-encoding: xudp, uuid: db1b568f-8847-42bf-84e5-a51e2e49a786, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳", server: 212.74.39.42, port: 17524, type: vless, tls: true, packet-encoding: xudp, uuid: db1b568f-8847-42bf-84e5-a51e2e49a786, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com, server: 65.109.179.137, port: 55375, type: vless, tls: true, packet-encoding: xudp, uuid: db1b568f-8847-42bf-84e5-a51e2e49a786, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com, server: 91.216.104.233, port: 41930, type: vless, tls: true, packet-encoding: xudp, uuid: db1b568f-8847-42bf-84e5-a51e2e49a786, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 1350 @proxy_online_net`, server: german.monopoli.shop, port: 56626, type: vless, tls: true, packet-encoding: xudp, uuid: f4f6ea1e-5a62-4c9b-8410-20e805a6774e, servername: icloud.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: sVtMU2ZA5W6TLnBCZdgfXqDnOwWePrGVjSNnueDlYmM, short-id: d22c6bf354720287}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [18]`", server: 61.171.92.202, port: 1001, type: ss, cipher: aes-256-gcm, password: !<str> 123, udp: true, tfo: false}
+  - {name: "@vasl_bashim [17]`", server: 54.250.183.37, port: 10624, type: trojan, password: BxceQaOe, sni: t.me%252Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💟", server: 151.101.1.242, port: 443, type: trojan, password: MiTiVPN, sni: www.f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: www.f6r.ir}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [9]`", server: 151.101.1.242, port: 443, type: trojan, password: MiTiVPN, sni: www.f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: www.f6r.ir}}, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💟 2", server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [11]`", server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [4]`", server: 151.101.193.242, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [12]`", server: 167.82.101.251, port: 443, type: trojan, password: MiTiVPN, sni: default.ssl.fastly.net, skip-cert-verify: false, network: ws, ws-opts: {path: /nl, headers: {Host: default.ssl.fastly.net}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [6]`", server: 172.66.47.69, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /de=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [10]`", server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /usa=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💟 3", server: 89.116.180.49, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /nl=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [5]`", server: 89.116.180.49, port: 443, type: trojan, password: MiTiVPN, sni: f6r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /nl=mitivpn, headers: {Host: f6r.ir}}, udp: true, tfo: false}
+  - {name: "@vasl_bashim [8]`", server: 64.225.72.24, port: 443, type: trojan, password: fs9rozbqca2shhlq, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [13]`", server: 216.24.57.1, port: 443, type: trojan, password: humanity, sni: www.gossipglove.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.gossipglove.com}}, udp: true, tfo: false}
+  - {name: PUBLIC 2`, server: 45.130.125.2, port: 443, type: trojan, password: humanity, sni: Www.cReaTIOnLONG.OrG, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: Www.cReaTIOnLONG.OrG}}, udp: true, tfo: false}
+  - {name: V2RAYENGLISH@⭐`, server: 92.119.35.87, port: 443, type: trojan, password: urhj8z8R8nBovrNsYzXhL35jLGC5ruguRh, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI 💟`", server: 167.82.0.1, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 0058c215-ab1e-400c-a403-b5b2fda7e846, network: ws, ws-opts: {path: "/?TELEGRAM-MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI?ed=512", headers: {Host: max-gb1.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [15]`", server: 199.232.245.208, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0cc72cd6-29b2-4dcc-af4d-2907d19a0680, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0`, server: bypass.fr-gt-01.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 356ccb34-22cc-4446-a137-072bc60d65ca, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1oUeBtHH4DskTM_jCh-6enWRkFMDX9l1OU5kWYl4kxA, short-id: f34818a561dfd1fe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 2, server: lv.faygo.bot, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2RAYENGLISH@💎, server: sca23.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [16]`", server: 37.152.190.242, port: 49194, type: vless, tls: true, packet-encoding: xudp, uuid: a1667f69-6ef0-4f4c-a4e6-3fe555d6da71, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [1]`", server: 37.49.224.32, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5f3e5f5-ffa4-43dd-84b6-20aedd1a843e, servername: dev.max.ru, host: dev.max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QWxSKVguwUnPvmYaOR4DvxpmVxCJfPEaipbjdAfAbG4, short-id: c338fe2b01cf271a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim [2]`", server: 37.49.224.32, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5f3e5f5-ffa4-43dd-84b6-20aedd1a843e, servername: dev.max.ru, host: dev.max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QWxSKVguwUnPvmYaOR4DvxpmVxCJfPEaipbjdAfAbG4, short-id: c338fe2b01cf271a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 3, server: 38.54.45.184, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: afcac633-0e1a-46c3-bef2-cc01cc0097c8, servername: r1.mizulina.top, host: r1.mizulina.top, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MARAMBASHI ❤️‍🔥", server: 209.127.228.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d205ae68-0819-473c-b425-6c5947ac2f8d, servername: cars.morro-settings.ru, host: cars.morro-settings.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8vqOvJ5eoG_9oHla4B3Vh1E-o39RrCXW6Wr7OcXZGmI, short-id: dd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: V2RAYENGLISH@🔥, server: 162.19.228.119, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 4, server: free.qelzino.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: def62c86-e2f2-4d13-b1f1-b3c197ed4873, servername: play.google.com, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 5, server: 135.84.73.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 6, server: 154.83.2.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 7, server: 154.83.2.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 8, server: 167.68.5.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: /Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 9, server: 185.176.26.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 10, server: 185.193.28.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 11, server: 185.207.196.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 12, server: 198.177.57.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: /Telegram🇨🇳+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 13, server: 45.40.144.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: /Telegram🇨🇳+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 14, server: 45.40.148.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 15, server: 45.40.150.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: /Telegram+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 16, server: 74.49.214.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: /Telegram+@WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ☀️tel:@varkana0` 17, server: 94.247.142.140, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: f9255507-1b65-433f-bfd8-193b35e068e2, network: ws, ws-opts: {path: Telegram🇨🇳 @WangCai2, headers: {Host: s5.868001.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -503,84 +522,141 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -596,84 +672,141 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@varkana0`"
-      - "@varkana0` 2"
-      - 1348 @proxy_online_net`
-      - Public`
-      - 1347 @proxy_online_net`
-      - 1346 @proxy_online_net`
-      - Public` 2
-      - 1351 @proxy_online_net`
-      - 1349 @proxy_online_net`
-      - "@akhabarfori_ir🌻`"
-      - "@varkana0` 3"
-      - "@varkana0` 4"
-      - "@varkana0` 5"
-      - "@varkana0` 6"
-      - "@varkana0` 7"
-      - Sisi
-      - "@varkana0` 8"
-      - 🇩🇪 german 🇩🇪 azad@germany 🇩🇪-71004-netazad@gmail.com
-      - اینترنت ازاد -71004-netazad@gmail.com-21D,7H⏳
-      - helsinski 🇫🇮 azad@helsinki 🇫🇮-71004-netazad@gmail.com
-      - istanbul  🇨🇳 azad@istanbul 🇨🇳-71004-netazad@gmail.com
-      - 1350 @proxy_online_net`
+      - "@vasl_bashim [18]`"
+      - "@vasl_bashim [17]`"
+      - "@MARAMBASHI 💟"
+      - "@vasl_bashim [9]`"
+      - "@MARAMBASHI 💟 2"
+      - "@vasl_bashim [11]`"
+      - "@vasl_bashim [4]`"
+      - "@vasl_bashim [12]`"
+      - "@vasl_bashim [6]`"
+      - "@vasl_bashim [10]`"
+      - "@MARAMBASHI 💟 3"
+      - "@vasl_bashim [5]`"
+      - "@vasl_bashim [8]`"
+      - "@vasl_bashim [13]`"
+      - PUBLIC 2`
+      - V2RAYENGLISH@⭐`
+      - "@MARAMBASHI 💟`"
+      - "@vasl_bashim [15]`"
+      - ☀️tel:@varkana0`
+      - ☀️tel:@varkana0` 2
+      - V2RAYENGLISH@💎
+      - "@vasl_bashim [16]`"
+      - "@vasl_bashim [1]`"
+      - "@vasl_bashim [2]`"
+      - ☀️tel:@varkana0` 3
+      - "@MARAMBASHI ❤️‍🔥"
+      - V2RAYENGLISH@🔥
+      - ☀️tel:@varkana0` 4
+      - ☀️tel:@varkana0` 5
+      - ☀️tel:@varkana0` 6
+      - ☀️tel:@varkana0` 7
+      - ☀️tel:@varkana0` 8
+      - ☀️tel:@varkana0` 9
+      - ☀️tel:@varkana0` 10
+      - ☀️tel:@varkana0` 11
+      - ☀️tel:@varkana0` 12
+      - ☀️tel:@varkana0` 13
+      - ☀️tel:@varkana0` 14
+      - ☀️tel:@varkana0` 15
+      - ☀️tel:@varkana0` 16
+      - ☀️tel:@varkana0` 17
   - name: دانلود منیجر 📥
     type: select
     proxies:

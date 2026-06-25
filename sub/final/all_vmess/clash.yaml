@@ -465,13 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 2.26.231.87, port: 110, type: vmess, uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@VPNSSHOCEAN B2B ²", server: 178.62.118.205, port: 29574, type: vmess, uuid: e101dd33-236f-4fdd-ae59-07b13e836c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 185.226.93.66, port: 1280, type: vmess, uuid: 31e7fb4e-5006-4ecd-abdc-b27f1be617d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 192.166.82.95, port: 1040, type: vmess, uuid: 31e7fb4e-5006-4ecd-abdc-b27f1be617d0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 3.71.8.174, port: 1002, type: vmess, uuid: e2785f7a-242d-434d-96ba-28a1d9a173fa, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 4", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
+  - {name: "@filembad", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
   - {name: "@proxy_kafee ☂️", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
-  - {name: "@filembad 5", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
   - {name: "@vpnbaz ☂️", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -489,13 +487,11 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -503,13 +499,11 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -517,13 +511,11 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -540,13 +532,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -554,13 +544,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -568,13 +556,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@VPNSSHOCEAN B2B ²"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
       - "@proxy_kafee ☂️"
-      - "@filembad 5"
       - "@vpnbaz ☂️"
   - name: دانلود منیجر 📥
     type: select

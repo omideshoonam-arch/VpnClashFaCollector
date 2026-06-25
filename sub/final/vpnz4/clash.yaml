@@ -465,12 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "Telegram Channel : @vpnz4 2`", server: 5.42.108.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 8", server: 5.42.111.112, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 5", server: 77.223.120.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 33de2596-d95d-412b-a8c2-410be7060ca3, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 28", server: 84.201.148.58, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 29", server: 84.201.148.58, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram Channel : @vpnz4 9", server: 84.201.172.67, port: 2777, type: vless, tls: true, packet-encoding: xudp, uuid: a48c736e-d3de-47b8-a6eb-ef1d6fd34c63, servername: ads.x5.ru, host: ads.x5.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyxhIAJ1VbVX77n76vXAps81yWRVbKCr8AC_71sM5Ao, short-id: 0f4dacf08722a29f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`", server: chefox.kkkl.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5d2062a4-e636-58af-b488-d6bdbea719bf, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7DQXReCCCModVwZEU9j4QFsWtzEbGNtrRHwMCk2NUD8, short-id: C8EF}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1", server: tr.kkkl.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5d2062a4-e636-58af-b488-d6bdbea719bf, servername: api.samsungcloud.com, host: api.samsungcloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 41qm1VGkyODbyc7LvIyXhcG4XUKmTaomF9jDAMEaW3c, short-id: 03e223bc474c6f1d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,36 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -532,36 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "Telegram Channel : @vpnz4 2`"
-      - "Telegram Channel : @vpnz4 8"
-      - "Telegram Channel : @vpnz4 5"
-      - "Telegram Channel : @vpnz4 28"
-      - "Telegram Channel : @vpnz4 29"
-      - "Telegram Channel : @vpnz4 9"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
+      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
   - name: دانلود منیجر 📥
     type: select
     proxies:
