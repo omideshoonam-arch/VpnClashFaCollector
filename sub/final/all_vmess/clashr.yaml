@@ -6,11 +6,10 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 2.26.231.87, port: 110, type: vmess, uuid: ecd7aeca-2e37-4761-93e7-7cf4c2ff55bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 85.133.240.19, port: 14050, type: vmess, uuid: cfcafe87-08aa-42e3-b03e-9a298ae45576, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@VPNSSHOCEAN B2B ²", server: 178.62.118.205, port: 29574, type: vmess, uuid: e101dd33-236f-4fdd-ae59-07b13e836c22, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
-  - {name: "@filembad", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
-  - {name: "@proxy_kafee ☂️", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
-  - {name: "@vpnbaz ☂️", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: site.hooracoffee.ir, port: 443, type: vmess, uuid: ed954dba-5ad5-4688-8174-247944361c38, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: site.hooracoffee.ir, network: ws, ws-opts: {path: /www, headers: {Host: site.hooracoffee.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,11 +17,10 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -30,11 +28,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -42,44 +39,40 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,11 +101,10 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "@filembad"
       - "@VPNSSHOCEAN B2B ²"
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - "@filembad"
-      - "@proxy_kafee ☂️"
-      - "@vpnbaz ☂️"
+      - "@filembad 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
