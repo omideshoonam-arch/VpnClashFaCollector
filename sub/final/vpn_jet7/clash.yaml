@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: sca16.myfymain.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 185.143.235.200, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: c1d05f0a-c18c-4490-906c-42d2a20ce694, network: ws, ws-opts: {path: /arvancloud.ir, headers: {Host: taraneh.pointspeed.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 18.184.156.126, port: 1001, type: vless, tls: true, packet-encoding: xudp, uuid: 75f89edc-9d8d-4314-8530-dfa9c76e406b, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 47.251.91.241, port: 42899, type: vmess, uuid: 0925b355-2bcd-4eae-9720-d2709e4f7e36, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,7 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -492,7 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -500,7 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -517,7 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -525,7 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -533,7 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
+      - "@filembad"
   - name: دانلود منیجر 📥
     type: select
     proxies:

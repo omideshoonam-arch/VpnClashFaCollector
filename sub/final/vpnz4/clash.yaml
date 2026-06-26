@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`", server: chefox.kkkl.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5d2062a4-e636-58af-b488-d6bdbea719bf, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7DQXReCCCModVwZEU9j4QFsWtzEbGNtrRHwMCk2NUD8, short-id: C8EF}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1", server: tr.kkkl.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5d2062a4-e636-58af-b488-d6bdbea719bf, servername: api.samsungcloud.com, host: api.samsungcloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 41qm1VGkyODbyc7LvIyXhcG4XUKmTaomF9jDAMEaW3c, short-id: 03e223bc474c6f1d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`, server: 151.101.56.6, port: 443, type: trojan, password: Mitivpn, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA, server: fast.cd-tur4.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e461afdd-7c8e-473e-815d-88b72960c6b1, servername: default.ssl.fastly.net, network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 2`"
-      - "⤿ 𝐂𝐡𝐚𝐧𝐧𝐞𝐥: @vpnz4 • 🇩🇪 1"
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 US`
+      - 🇺🇸 ⤿ @VPNZ4 🇺🇸 USA
   - name: دانلود منیجر 📥
     type: select
     proxies:
