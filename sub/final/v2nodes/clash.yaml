@@ -465,6 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 15.204.254.187:12000, server: 15.204.254.187, port: 12000, type: ss, cipher: aes-256-gcm, password: 8JCsPssfgS8tiRwiMlhARg==, udp: true, tfo: false}
   - {name: kkvlvvq-a.catcat321.com:20035, server: kkvlvvq-a.catcat321.com, port: 20035, type: trojan, password: 63872b0d-87dd-4474-b690-92773af2922e, sni: hk.catxstar.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 31.76.113.29:443, server: 31.76.113.29, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dfc0cb9d-f005-41b0-848c-7703bd39d0de, servername: it.s3-cloud.xyz, host: it.s3-cloud.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zPi2L9vrl2hkaCTT3lZTzBna-qz6JrteRjDz1i-DsxY, short-id: 7a3f9e2b1c8d4f6a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
@@ -483,6 +484,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: خودکار (بهترین پینگ) 🤖
@@ -491,6 +493,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -499,6 +502,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: اتصال پایدار 🔗
@@ -516,6 +520,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: توزیع بار (گردشی) 🔁
@@ -524,6 +529,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: توزیع بار (موقت) ⏳
@@ -532,6 +538,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 15.204.254.187:12000
       - kkvlvvq-a.catcat321.com:20035
       - 31.76.113.29:443
   - name: دانلود منیجر 📥

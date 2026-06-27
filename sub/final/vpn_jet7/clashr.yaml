@@ -6,8 +6,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@Vpn_jet7", server: h3.capigodserv.ir, port: 42542, type: vless, tls: true, packet-encoding: xudp, uuid: 04f7e317-d9d5-444a-b563-0e83df862282, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 45.194.10.233, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 3e7cede4-721a-4807-b0a2-5fe6586af907, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: L3X1eh1Jq_6PKJ6LlwjgiWq0XNaDOqCVKgIElJ5nkVA, short-id: 2cfb5a0ae8ab0cb0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 18.184.156.126, port: 1001, type: vless, tls: true, packet-encoding: xudp, uuid: 75f89edc-9d8d-4314-8530-dfa9c76e406b, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,8 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,32 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,8 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
