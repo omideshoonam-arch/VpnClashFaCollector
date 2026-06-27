@@ -465,11 +465,17 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: digi8.ez0535.com, port: 443, type: vmess, uuid: 98bd500d-cd2e-4e6a-a2ae-59a1f40930af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 51.195.235.71, port: 2052, type: vmess, uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 104.21.89.181, port: 80, type: vmess, uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: accklsj.bufu.us.ci, network: ws, ws-opts: {path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess, headers: {Host: accklsj.bufu.us.ci}}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 216.106.183.35, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir., network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true, tfo: false}
+  - {name: "@filembad 4", server: skk.moe, port: 80, type: vmess, uuid: 65b17c0b-0a52-4b54-9bc9-60e31397b841, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: accklsj.bufu.us.ci, network: ws, ws-opts: {path: /65b17c0b-0a52-4b54-9bc9-60e31397b841-vmess, headers: {Host: accklsj.bufu.us.ci}}, udp: true, tfo: false}
+  - {name: "@filembad 5", server: 51.195.235.71, port: 2052, type: vmess, uuid: 59e28f78-c31b-4613-9d9f-1e6732a31f46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@v2FreeHub 🇩🇪", server: 57.129.121.230, port: 2053, type: vmess, uuid: 3d358ea5-465b-46ac-a2df-98ca1555194f, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 65.109.218.60, port: 8088, type: vmess, uuid: 65488bcf-8573-44ee-9b4f-9abf4390acca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@outline_ir", server: digi8.ez0535.com, port: 443, type: vmess, uuid: 98bd500d-cd2e-4e6a-a2ae-59a1f40930af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 67.220.72.237, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 6", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 3", server: 129.146.77.248, port: 39495, type: vmess, uuid: f836c736-87fc-4fde-aabc-00857ecdff3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8}, udp: true, tfo: false}
+  - {name: "[] 🇰🇿 KZ-62", server: 3h-kazakhstan1.09vpn.com, port: 80, type: vmess, uuid: 567f4be5-12ab-42e1-b8d9-db6fd1fdd31c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess/, headers: {Host: 3h-kazakhstan1.09vpn.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,9 +494,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -499,9 +511,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -510,9 +528,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -530,9 +554,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -541,9 +571,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -552,9 +588,15 @@ proxy-groups:
     proxies:
       - "@filembad"
       - "@filembad 2"
-      - "@v2FreeHub 🇩🇪"
       - "@filembad 3"
-      - "@outline_ir"
+      - "@filembad 4"
+      - "@filembad 5"
+      - "@v2FreeHub 🇩🇪"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "@filembad 6"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "[] 🇰🇿 KZ-62"
   - name: دانلود منیجر 📥
     type: select
     proxies:
