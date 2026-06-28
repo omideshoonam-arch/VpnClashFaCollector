@@ -5,74 +5,109 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: "@proxy_kafee (3🇨🇭⚡)", server: 83.228.250.119, port: 2087, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (4🇨🇭⚡)", server: 83.228.250.119, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (2🇨🇭⚡)", server: 83.228.250.119, port: 443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (🇨🇭⚡)", server: 83.228.250.119, port: 8443, type: trojan, password: SoftNetConnect, sni: play.google.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee, server: 103.215.239.85, port: 2050, type: vless, tls: true, packet-encoding: xudp, uuid: 2947e655-6da6-4f90-b983-4deb8b5bc539, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: CnLETCV02SjuYQ_NIET-Um0iw2YHQ5Smrs4vdnHaMB8, short-id: d2d1dad761fa733c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee, server: 185.8.51.20, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 2947e655-6da6-4f90-b983-4deb8b5bc539, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}, reality-opts: {public-key: r44-29dhInxzD-1JIMYuQMrbhieWsLm00BEHXn-6ggg, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee, server: italy.lizard2shop.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 2947e655-6da6-4f90-b983-4deb8b5bc539, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}, reality-opts: {public-key: r44-29dhInxzD-1JIMYuQMrbhieWsLm00BEHXn-6ggg, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee, server: uk.eorqen.ir, port: 8086, type: vless, tls: true, packet-encoding: xudp, uuid: 2947e655-6da6-4f90-b983-4deb8b5bc539, host: speed.cloudflare.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee, server: us.eorqen.ir, port: 2050, type: vless, tls: true, packet-encoding: xudp, uuid: 2947e655-6da6-4f90-b983-4deb8b5bc539, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: CnLETCV02SjuYQ_NIET-Um0iw2YHQ5Smrs4vdnHaMB8, short-id: d2d1dad761fa733c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee (5🇨🇭⚡)`", server: 83.228.250.119, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 89049f79-320b-48a0-b1cf-110165cae30c, servername: www.yahoo.com, host: www.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY, short-id: 4e590fdc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -100,11 +135,16 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@proxy_kafee (3🇨🇭⚡)"
+      - "@proxy_kafee (4🇨🇭⚡)"
+      - "@proxy_kafee (2🇨🇭⚡)"
+      - "@proxy_kafee (🇨🇭⚡)"
       - 21 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 22 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 20 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 18 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
       - 19 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee
+      - "@proxy_kafee (5🇨🇭⚡)`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -465,11 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "3 Telegram Channel : @vpnz4 🇧🇷", server: betty.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14b59caf-a196-4ec2-8c70-c7b388062f5b, servername: vangoghhh.info, network: ws, ws-opts: {path: /rdfgtws, headers: {Host: vangoghhh.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "5 Telegram Channel : @vpnz4 🇸🇬`", server: telewebion.com.fin2.shakhle.ir, port: 52525, type: vless, tls: true, packet-encoding: xudp, uuid: 21702d6d-7b35-4faa-8462-c23dc7e20e00, host: status.play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "1 Telegram Channel : @vpnz4 🇩🇪", server: 141.193.213.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "4 Telegram Channel : @vpnz4 🇮🇹", server: 172.64.32.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "2 Telegram Channel : @vpnz4 🇯🇵", server: news.microsoft.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 3 🇧🇷", server: 162.159.18.241, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4c1b83e4-5ade-46a8-966d-1eeb7a8dcc65, servername: wz1.fum.ccwu.cc, network: ws, ws-opts: {path: /proxyip, headers: {Host: wz1.fum.ccwu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 1 🇯🇵", server: 172.64.32.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 2 🇩🇪", server: 173.245.58.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 4 🇦🇺", server: 5.180.173.222, port: 448, type: vless, tls: true, packet-encoding: xudp, uuid: 626b07bd-81c4-4212-be7a-27442a579620, servername: www.googletagmanager.com, host: www.googletagmanager.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: y4_NnPQc2X8Bj97LpUL9r9xuK-R2pLwjd5cZbBw2HSo, short-id: 15052edc8120b63d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 6 🇸🇬`", server: 108.162.194.135, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832, servername: nbhhh.mrcool.kdns.fr, network: ws, ws-opts: {path: /, headers: {Host: nbhhh.mrcool.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram Channel : @vpnz4 5 🇮🇹", server: 62.210.172.147, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7bd180e8-1142-4387-93f5-03e8d750a896, servername: python-graysongon.wasmer.app, network: ws, ws-opts: {path: /7bd180e8, headers: {Host: python-graysongon.wasmer.app}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "3 Telegram Channel : @vpnz4 🇧🇷"
-      - "5 Telegram Channel : @vpnz4 🇸🇬`"
-      - "1 Telegram Channel : @vpnz4 🇩🇪"
-      - "4 Telegram Channel : @vpnz4 🇮🇹"
-      - "2 Telegram Channel : @vpnz4 🇯🇵"
+      - "Telegram Channel : @vpnz4 3 🇧🇷"
+      - "Telegram Channel : @vpnz4 1 🇯🇵"
+      - "Telegram Channel : @vpnz4 2 🇩🇪"
+      - "Telegram Channel : @vpnz4 4 🇦🇺"
+      - "Telegram Channel : @vpnz4 6 🇸🇬`"
+      - "Telegram Channel : @vpnz4 5 🇮🇹"
   - name: دانلود منیجر 📥
     type: select
     proxies:
