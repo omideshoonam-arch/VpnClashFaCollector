@@ -5,15 +5,9 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: samantel 15, server: 104.16.211.140, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 2, server: 104.18.195.156, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 3, server: 104.18.206.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15`, server: 104.18.45.137, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 4, server: 104.19.134.235, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 5, server: 104.21.74.63, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 6, server: 104.27.61.92, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: samantel 15 7, server: 104.27.7.125, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@VPNSSHOCEAN IR ALBA`", server: 144.31.131.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ae852d97-85f5-45cf-82a4-254eba345480, servername: cdn.cdnjst.org, host: cdn.cdnjst.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc, short-id: a120}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN IR ITALY", server: 151.115.164.129, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@VPNSSHOCEAN MCI ITALY", server: 151.115.164.129, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇵🇱 @VPNSSHOCEAN IR PL`, server: 144.31.131.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ae852d97-85f5-45cf-82a4-254eba345480, servername: cdn.cdnjst.org, host: cdn.cdnjst.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: djH9iD2QV748ocK-wPH7HvDd03lu88zHhS4G-61w6Dc, short-id: a120}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇺🇸 @VPNSSHOCEAN MCI US`, server: 137.184.218.169, port: 36925, type: vless, tls: true, packet-encoding: xudp, uuid: c9fd0fb1-8251-4106-b09a-f4b426736f67, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,15 +15,9 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: ♻️ 自动选择
     type: url-test
@@ -37,15 +25,9 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: 🌍 国外媒体
     type: select
@@ -53,60 +35,36 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
   - name: 🎯 全球直连
     type: select
@@ -135,15 +93,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - samantel 15
-      - samantel 15 2
-      - samantel 15 3
-      - samantel 15`
-      - samantel 15 4
-      - samantel 15 5
-      - samantel 15 6
-      - samantel 15 7
-      - "@VPNSSHOCEAN IR ALBA`"
+      - "@VPNSSHOCEAN IR ITALY"
+      - "@VPNSSHOCEAN MCI ITALY"
+      - 🇵🇱 @VPNSSHOCEAN IR PL`
       - 🇺🇸 @VPNSSHOCEAN MCI US`
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

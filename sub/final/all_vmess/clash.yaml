@@ -466,8 +466,6 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@FarazV2ray", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 129.146.77.248, port: 39495, type: vmess, uuid: f836c736-87fc-4fde-aabc-00857ecdff3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: 140.83.51.161, port: 25686, type: vmess, uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.a0a.xyz}}, udp: true, tfo: false}
   - {name: "@filembad", server: anten.ir, port: 80, type: vmess, uuid: 49b8b67d-bb16-415d-b791-f8a26dc3600c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8.ir.cdn.mypings.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -486,8 +484,6 @@ proxy-groups:
     type: select
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -496,8 +492,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -506,8 +500,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -525,8 +517,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -535,8 +525,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -545,8 +533,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: دانلود منیجر 📥
     type: select

@@ -6,8 +6,6 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@FarazV2ray", server: 104.17.77.77, port: 8443, type: vmess, uuid: 60441548-b68e-43b2-8191-e3b884be4b3c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: v2ray1.dozapp.xyz, network: ws, ws-opts: {path: /lMnsZUN4/, headers: {Host: v2ray1.dozapp.xyz}}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 129.146.77.248, port: 39495, type: vmess, uuid: f836c736-87fc-4fde-aabc-00857ecdff3e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /cctv13.m3u8}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: 140.83.51.161, port: 25686, type: vmess, uuid: 6733c357-ba11-4e9f-f00f-7d87f2776ff9, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: jp02.a0a.xyz}}, udp: true, tfo: false}
   - {name: "@filembad", server: anten.ir, port: 80, type: vmess, uuid: 49b8b67d-bb16-415d-b791-f8a26dc3600c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 8.ir.cdn.mypings.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -16,8 +14,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: ♻️ 自动选择
     type: url-test
@@ -26,8 +22,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: 🌍 国外媒体
     type: select
@@ -36,8 +30,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: 📲 电报信息
     type: select
@@ -45,8 +37,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: Ⓜ️ 微软服务
     type: select
@@ -54,8 +44,6 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: 🍎 苹果服务
     type: select
@@ -63,8 +51,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
   - name: 🎯 全球直连
     type: select
@@ -94,8 +80,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@FarazV2ray"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
       - "@filembad"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
