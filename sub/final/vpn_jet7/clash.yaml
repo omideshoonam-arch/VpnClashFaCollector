@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 185.226.140.140, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 30fcec7f-164b-465c-87f4-b93784a6056b, network: ws, ws-opts: {path: /, headers: {Host: azsv1.drpingservice.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 54.36.118.46, port: 55616, type: vless, tls: true, packet-encoding: xudp, uuid: ec7db5b4-c896-4460-9943-c8e5e9a30be9, servername: aws.amazon.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: ivu6p57D8qk0OGCo69Fbdt0YH7gLTmygnOQZHCHiyWs, short-id: a142}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 83.228.251.69, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7 2", server: undef.network, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 3f914759-1ff5-4f8d-84e9-e2ce956ff2e0, network: ws, ws-opts: {path: /api-v1, headers: {Host: uwu.blueknightnet.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select

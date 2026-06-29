@@ -466,9 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: 93543 | ⚡️Telegram - t.me/SOSkeyNET, server: 65.20.114.95, port: 443, type: hysteria2, ports: 443, password: V2rayyNGvpn, obfs: salamander, obfs-password: t-me-v2rayyngvpn, sni: www.oracle.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 92669 | ⚡️Telegram - t.me/SOSkeyNET, server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad`", server: 57.128.108.123, port: 443, type: hysteria2, ports: 443, password: v2rayyngvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 12@oneclickvpnkeys, server: 57.128.108.123, port: 443, type: hysteria2, ports: 443, password: v2rayyngvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.wordreference.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,9 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,9 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -506,9 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -525,9 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -535,9 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -545,9 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 93543 | ⚡️Telegram - t.me/SOSkeyNET
-      - 92669 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
-      - 12@oneclickvpnkeys
+      - "@bored_vpn"
   - name: دانلود منیجر 📥
     type: select
     proxies:
