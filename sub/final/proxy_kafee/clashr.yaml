@@ -9,7 +9,6 @@ proxies:
   - {name: "@proxy_kafee 🌊", server: 141.193.213.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee ⭐", server: 104.16.72.70, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832, servername: nbhhh.mrcool.kdns.fr, network: ws, ws-opts: {path: /proxyip, headers: {Host: nbhhh.mrcool.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 🛸", server: 104.16.72.70, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 659a9075-d5ab-4fd2-bf34-b37043fae832, servername: nbhhh.mrcool.kdns.fr, network: ws, ws-opts: {path: /proxyip, headers: {Host: nbhhh.mrcool.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 1540", server: 192.71.82.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed=2560", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 🎲`", server: 104.16.75.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b3bd8d0e-3cbe-4241-a4f1-e3dd0a9e432c, servername: server-ir-3.ariyuz.org, alpn: [h2], network: ws, ws-opts: {path: /page=2, headers: {Host: server-ir-3.ariyuz.org}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -21,7 +20,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: ♻️ 自动选择
     type: url-test
@@ -33,7 +31,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: 🌍 国外媒体
     type: select
@@ -45,7 +42,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: 📲 电报信息
     type: select
@@ -56,7 +52,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: Ⓜ️ 微软服务
     type: select
@@ -67,7 +62,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: 🍎 苹果服务
     type: select
@@ -78,7 +72,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
   - name: 🎯 全球直连
     type: select
@@ -111,7 +104,6 @@ proxy-groups:
       - "@proxy_kafee 🌊"
       - "@proxy_kafee ⭐"
       - "@proxy_kafee 🛸"
-      - "@proxy_kafee 1540"
       - "@proxy_kafee 🎲`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

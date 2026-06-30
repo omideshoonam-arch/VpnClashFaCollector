@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 93543 | ⚡️Telegram - t.me/SOSkeyNET, server: 65.20.114.95, port: 443, type: hysteria2, ports: 443, password: V2rayyNGvpn, obfs: salamander, obfs-password: t-me-v2rayyngvpn, sni: www.oracle.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@bored_vpn", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 93543 | ⚡️Telegram - t.me/SOSkeyNET
       - "@bored_vpn"
   - name: دانلود منیجر 📥
     type: select
