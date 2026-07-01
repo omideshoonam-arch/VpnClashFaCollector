@@ -465,9 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: 57.151.100.27, port: 10086, type: vmess, uuid: 550e8400-e29b-41d4-a716-446655440000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸, server: 57.151.100.27, port: 10086, type: vmess, uuid: 550e8400-e29b-41d4-a716-446655440000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 3.71.8.174, port: 1002, type: vmess, uuid: b0c1845b-41fe-431e-9639-79373afec94c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: mute-math-d64e.0e503992ad7026.WOrKERs.deV, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: mute-math-d64e.0e503992ad7026.woRKERS.DeV, network: ws, ws-opts: {path: /aveiror.com:443/linkvws, headers: {Host: mute-math-d64e.0e503992ad7026.woRKERS.DeV}}, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷, server: 140.238.2.250, port: 443, type: vmess, uuid: 41a7089a-040b-4538-8b8d-010902405bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@filembad"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
-      - "@filembad 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
   - name: دانلود منیجر 📥
     type: select
     proxies:
