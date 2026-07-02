@@ -471,6 +471,7 @@ proxies:
   - {name: "@Capoit 3", server: 172.67.180.92, port: 443, type: trojan, password: humanity, sni: www.multiplydose.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.multiplydose.com}}, udp: true, tfo: false}
   - {name: "@Capoit 4", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.creationlong.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.creationlong.org}}, udp: true, tfo: false}
   - {name: "@Capoit 5", server: go.adslimit.info, port: 2345, type: vless, tls: true, packet-encoding: xudp, uuid: 0331b690-79fc-49d5-85f0-54faa4eff89f, host: go.adslimit.info, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 2", server: 213.156.152.182, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 615cc118-2bdf-4c68-b277-f5faaa2c34c4, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: bALX2hvFIEvdai_RwJ3DwaEPafINjNsxwMBIgkaQIDc, short-id: fd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -493,6 +494,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -505,6 +507,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -517,6 +520,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -538,6 +542,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -550,6 +555,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -562,6 +568,7 @@ proxy-groups:
       - "@Capoit 3"
       - "@Capoit 4"
       - "@Capoit 5"
+      - "@Capoit` 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
