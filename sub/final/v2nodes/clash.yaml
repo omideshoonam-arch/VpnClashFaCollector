@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 83.228.251.119:2083, server: 83.228.251.119, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: c524fa8a-c431-44bb-9a1b-9a12324254e4, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: l1Ekgk-8T5rB-yolp5OIpc0XZTcd2gBeqmIR2bytKXY, short-id: 4e590fdc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 209.250.235.53:56021, server: 209.250.235.53, port: 56021, type: vless, tls: true, packet-encoding: xudp, uuid: e9ab53ab-5607-4ec2-8e01-e6e76ce9443d, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 83.228.251.119:2083
       - 209.250.235.53:56021
   - name: دانلود منیجر 📥
     type: select

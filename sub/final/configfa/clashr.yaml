@@ -5,67 +5,102 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@MiTiVPN -  🇩🇪`", server: 151.101.110.219, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
-  - {name: "@MiTiVPN -  🇺🇲`", server: 151.101.56.6, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
-  - {name: "@MiTiVPN - 🇳🇱`", server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@MiTiVPN - 🇫🇮`", server: 151.101.56.6, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=fL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`", server: 104.16.72.41, port: 443, type: trojan, password: MITIVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`", server: 45.131.4.115, port: 443, type: trojan, password: MITIVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`", server: 104.16.72.41, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`", server: 91.193.58.201, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`", server: 91.193.58.201, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=fL, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@SiNAVM کانال تلگرامی`", server: 185.143.233.234, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: a8609a02-b76d-4cc8-a8d5-496088b20ff1, servername: sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM, headers: {Host: sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@SiNAVM کانال تلگرامی` 2", server: 185.143.233.235, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: a8609a02-b76d-4cc8-a8d5-496088b20ff1, servername: sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM, headers: {Host: sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@SiNAVM کانال تلگرامی` 3", server: anten.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: a8609a02-b76d-4cc8-a8d5-496088b20ff1, servername: sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM, headers: {Host: sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@SiNAVM کانال تلگرامی` 4", server: snapp.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: a8609a02-b76d-4cc8-a8d5-496088b20ff1, servername: sinavm.sinavm.sinavm.ir, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /assignment----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM----SiNAVM, headers: {Host: sinavm.sinavm.sinavm.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -93,10 +128,15 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@MiTiVPN -  🇩🇪`"
-      - "@MiTiVPN -  🇺🇲`"
-      - "@MiTiVPN - 🇳🇱`"
-      - "@MiTiVPN - 🇫🇮`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇩🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇺🇲`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇸🇪`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇳🇱`"
+      - "@MiTiVPN - 𝙑𝙞𝙋𝙁𝙖𝙨𝙩 🇫🇮`"
+      - "@SiNAVM کانال تلگرامی`"
+      - "@SiNAVM کانال تلگرامی` 2"
+      - "@SiNAVM کانال تلگرامی` 3"
+      - "@SiNAVM کانال تلگرامی` 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

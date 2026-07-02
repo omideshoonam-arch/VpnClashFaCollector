@@ -465,10 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@proxy_kafee", server: 151.101.110.219, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: 151.101.56.6, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: 151.101.56.6, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=fL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@proxy_kafee (3🇨🇭⚡)", server: 83.228.228.243, port: 2087, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (4🇨🇭⚡)", server: 83.228.228.243, port: 42549, type: trojan, password: SoftNetConnect, sni: www.speedtest.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee (2🇨🇭⚡)", server: 83.228.228.243, port: 443, type: trojan, password: SoftNetConnect, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
@@ -494,10 +490,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
@@ -513,10 +505,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
@@ -532,10 +520,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
@@ -560,10 +544,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
@@ -579,10 +559,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
@@ -598,10 +574,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
       - "@proxy_kafee (3🇨🇭⚡)"
       - "@proxy_kafee (4🇨🇭⚡)"
       - "@proxy_kafee (2🇨🇭⚡)"
