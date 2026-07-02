@@ -465,11 +465,20 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 45.131.4.118, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: 95r.ir}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 91.193.58.201, port: 443, type: trojan, password: MiTiVPN, sni: 95r.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: 95r.ir}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 192.71.82.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed=2560", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 192.71.82.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 192.71.82.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 104.16.72.41, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🐛***", server: 104.16.72.41, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام`", server: 91.193.58.201, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: assets.fiverr.com, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: www.hcaptcha.com, port: 443, type: trojan, password: MiTiVPN, sni: PioHosting.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: PioHosting.ir}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 186.190.211.188, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, servername: 186.190.211.188, host: 186.190.211.188, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🪱***", server: fi.linuxbase.ir, port: 1152, type: vless, tls: true, packet-encoding: xudp, uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YzQz4D9KFIpJ5YB4W5UqPs8wgowbeujf9KEOyuATSE4, short-id: e5115b6a2127146d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🦄***", server: it.linuxbase.ir, port: 1152, type: vless, tls: true, packet-encoding: xudp, uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YzQz4D9KFIpJ5YB4W5UqPs8wgowbeujf9KEOyuATSE4, short-id: e5115b6a2127146d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🦋***", server: nl.linuxbase.ir, port: 1152, type: vless, tls: true, packet-encoding: xudp, uuid: 1e7e0537-c23d-43c2-afd5-4d7753831278, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YzQz4D9KFIpJ5YB4W5UqPs8wgowbeujf9KEOyuATSE4, short-id: e5115b6a2127146d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 178.105.214.65, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 42a1c069-9dc9-4181-86b8-13bf28632851, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 5", server: lala.baguvix.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 42a1c069-9dc9-4181-86b8-13bf28632851, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🐞***", server: 167.233.93.119, port: 44774, type: vless, tls: true, packet-encoding: xudp, uuid: a22050d0-fe48-4f98-b804-ff93e7157fa7, servername: www.yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: gTOO53hp1QEhtKgbTfRKK0vSIyk9WcRAqYIqZG66ajk, short-id: 60df}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🐝***", server: 188.114.98.193, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed=512", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple  ♥️👈 تلگرام***🪲***", server: 192.71.82.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed=#TELEGRAM-YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy_YamYamProxy?ed=512", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,10 +496,19 @@ proxy-groups:
     type: select
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,10 +516,19 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -509,10 +536,19 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -529,10 +565,19 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -540,10 +585,19 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -551,10 +605,19 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐛***"
+      - "@prrofile_purple  ♥️👈 تلگرام`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
+      - "@mehrosaboran`"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪱***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦄***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🦋***"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐞***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🐝***"
+      - "@prrofile_purple  ♥️👈 تلگرام***🪲***"
   - name: دانلود منیجر 📥
     type: select
     proxies:

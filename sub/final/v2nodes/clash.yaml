@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 209.250.235.53:56021, server: 209.250.235.53, port: 56021, type: vless, tls: true, packet-encoding: xudp, uuid: e9ab53ab-5607-4ec2-8e01-e6e76ce9443d, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 18.162.144.111:29449, server: 18.162.144.111, port: 29449, type: trojan, password: BxceQaOe, sni: t.me%2Fripaojiedian, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 158.160.198.162:443, server: 158.160.198.162, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e, servername: rezerv11.yunus.guru, host: rezerv11.yunus.guru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 6QIHdF1dvSK8mDPOeWXvGIqJmZ2ySq5fyc7N15h1WFE, short-id: 34256b39b4ebb864}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 209.250.235.53:56021
+      - 18.162.144.111:29449
+      - 158.160.198.162:443
   - name: دانلود منیجر 📥
     type: select
     proxies:

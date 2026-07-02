@@ -465,9 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@chillguy_vpn", server: 140.238.2.250, port: 443, type: vmess, uuid: 41a7089a-040b-4538-8b8d-010902405bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷, server: 140.238.2.250, port: 443, type: vmess, uuid: 41a7089a-040b-4538-8b8d-010902405bde, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@chillguy_vpn", server: 84.17.41.2, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.9, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦, server: 134.195.196.211, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 138.252.100.85, port: 18746, type: vmess, uuid: e314349a-7e56-4a3e-9318-eda62b5d6bd3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,7 +487,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -495,7 +497,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -504,7 +507,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -522,7 +526,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -531,7 +536,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -540,7 +546,8 @@ proxy-groups:
     proxies:
       - "@chillguy_vpn"
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇰🇷
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
+      - "@filembad"
   - name: دانلود منیجر 📥
     type: select
     proxies:
