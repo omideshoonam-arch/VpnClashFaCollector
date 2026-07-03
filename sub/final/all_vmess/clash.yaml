@@ -466,9 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@chillguy_vpn", server: linkxt.gozar8.ir, port: 443, type: vmess, uuid: 6ad27411-ee45-46ed-a33a-5f67e3d13d6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linkxt.gozar8.ir, network: ws, ws-opts: {path: /, headers: {Host: linkxt.gozar8.ir}}, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦, server: 134.195.196.211, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵, server: 172.104.80.66, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 1, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 188.114.96.42, port: 80, type: vmess, uuid: 43dcdce1-3cea-4193-bc8d-90b92071d779, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?BIA_TELEGRAM@AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1_AZARBAYJAB1", headers: {Host: tr1-smart.adelping.com}}, udp: true, tfo: false}
   - {name: "@filembad", server: varzesh3.com, port: 443, type: vmess, uuid: 6ad27411-ee45-46ed-a33a-5f67e3d13d6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linkxt.gozar8.ir, network: ws, ws-opts: {path: /, headers: {Host: linkxt.gozar8.ir}}, udp: true, tfo: false}
   - {name: "@filembad 2", server: linkxt.gozar8.ir, port: 443, type: vmess, uuid: 6ad27411-ee45-46ed-a33a-5f67e3d13d6a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: linkxt.gozar8.ir, network: ws, ws-opts: {path: /, headers: {Host: linkxt.gozar8.ir}}, udp: true, tfo: false}
 proxy-groups:
@@ -488,9 +487,8 @@ proxy-groups:
     type: select
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: خودکار (بهترین پینگ) 🤖
@@ -500,9 +498,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -512,9 +509,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: اتصال پایدار 🔗
@@ -533,9 +529,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: توزیع بار (گردشی) 🔁
@@ -545,9 +540,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: توزیع بار (موقت) ⏳
@@ -557,9 +551,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@chillguy_vpn"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇨🇦
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇯🇵
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@filembad"
       - "@filembad 2"
   - name: دانلود منیجر 📥

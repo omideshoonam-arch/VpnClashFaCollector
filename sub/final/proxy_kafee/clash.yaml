@@ -465,15 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@proxy_kafee", server: 141.193.213.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4f013568-a58b-4b04-b5dd-4d52bf1c33a4, servername: amoosamiii.net, network: ws, ws-opts: {path: /poiuyws, headers: {Host: amoosamiii.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`, server: 151.101.193.57, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 6194f73e-67de-445a-b83c-c963e42d5592, network: ws, ws-opts: {path: /, headers: {Host: superip2.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2, server: 45.86.228.237, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6194f73e-67de-445a-b83c-c963e42d5592, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: xyz}, reality-opts: {public-key: MhOa-Fkr656VVRcxXd27gam263cdXF_uyGiHZZEISUA, short-id: ce741cbe468babc7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3, server: speedtest.net, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 6194f73e-67de-445a-b83c-c963e42d5592, network: ws, ws-opts: {path: /, headers: {Host: pinghub.global.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: volexproxy.karjadidd.workers.dev, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 766f6c65-0000-4000-8000-787000000002, servername: volexproxy.karjadidd.workers.dev, network: ws, ws-opts: {path: /volexprosy, headers: {Host: volexproxy.karjadidd.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: betty.ns.cloudflare.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77, servername: shegeftihaaa.net, network: ws, ws-opts: {path: /rsedgws, headers: {Host: shegeftihaaa.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: volexproxy.karjadidd.workers.dev, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 766f6c65-0000-4000-8000-787000000002, servername: volexproxy.karjadidd.workers.dev, network: ws, ws-opts: {path: /volexprosy, headers: {Host: volexproxy.karjadidd.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: -@proxy_kafee`, server: 178.83.45.135, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 8978c513-8ada-432f-8683-f9d0db366963, servername: au2-images.shop.samsung.com, host: au2-images.shop.samsung.com, path: /, reality-opts: {public-key: NvmxDEBRwIFf8EuszUyzUsnXD52lJ6HBW6t7Z1iK8mI, short-id: cd7b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: 85.198.12.224, port: 43317, type: vless, tls: true, packet-encoding: xudp, uuid: 91ec0ca2-6847-4165-ac44-db1968251dad, network: ws, ws-opts: {path: /, headers: {Host: myket.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee`", server: 104.21.34.145, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5c05c1e-aa68-443f-8598-09800244bd4b, servername: kingcloud.biack.ir, alpn: [h3], network: ws, ws-opts: {path: "/LiL?ed=2560", headers: {Host: kingcloud.biack.ir}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -491,14 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -506,14 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -521,14 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -545,14 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -560,14 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -575,14 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 4`
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 2
-      - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee 3
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
       - -@proxy_kafee`
-      - "@proxy_kafee 4"
-      - "@proxy_kafee`"
   - name: دانلود منیجر 📥
     type: select
     proxies:
