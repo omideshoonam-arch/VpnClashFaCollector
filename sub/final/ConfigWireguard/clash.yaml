@@ -465,26 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ️ - 6, server: 104.16.72.41, port: 443, type: trojan, password: MITIVPN, sni: De.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: De.App-Cloud.ir}}, udp: true, tfo: false}
-  - {name: ️ - 12, server: 140.248.185.252, port: 443, type: trojan, password: MITIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 13, server: 151.101.56.7, port: 443, type: trojan, password: MITIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 8, server: 188.114.98.193, port: 443, type: trojan, password: MITIVPN, sni: Ge.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: Ge.App-Cloud.ir}}, udp: true, tfo: false}
-  - {name: ️ - 9, server: 199.232.2.79, port: 443, type: trojan, password: MITIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 7, server: 104.16.72.101, port: 443, type: trojan, password: MiTiVPN, sni: N--l.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: N--l.App-Cloud.ir}}, udp: true, tfo: false}
-  - {name: ️ - 5, server: 104.16.72.41, port: 443, type: trojan, password: MiTiVPN, sni: sw.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: sw.App-Cloud.ir}}, udp: true, tfo: false}
-  - {name: ️ - 10, server: 167.82.101.252, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Se, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 11, server: 199.232.237.250, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 14`, server: 199.232.78.140, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=fL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: ️ - 3, server: 141.193.213.21, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
-  - {name: ️ - 1, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: ️ - 2, server: 165.215.250.14, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: ️ - 4, server: 94.242.55.42, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ - 2 2, server: doc.elvora.quest, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: amd.com, host: amd.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Cq_c3nSlV0Z_fL8qDh4z7wneLpivZUZrxRxo8jK0NhY, short-id: f75bba94df8e09a1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ - 1 2, server: doc.elvora.quest, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: HdIPP2LN_xj0umhaUlZUDmkIPgY-8Vx2DNl12egXL28, short-id: b73fabe2aebfad37}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ - 3 2, server: files.toriva.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: files.toriva.click, alpn: [http%2F1.1], host: files.toriva.click, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ - 6 2, server: 139.100.234.44, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a, servername: cdn.tracker.yandex.net, host: cdn.tracker.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: hwrFAsPHAuQd8RKqyrHyaNVIueAjxlz-WRqJ3XqSrl4, short-id: c443b16a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ️ - 2, server: doc.elvora.quest, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: amd.com, host: amd.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Cq_c3nSlV0Z_fL8qDh4z7wneLpivZUZrxRxo8jK0NhY, short-id: f75bba94df8e09a1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ️ - 1, server: doc.elvora.quest, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: HdIPP2LN_xj0umhaUlZUDmkIPgY-8Vx2DNl12egXL28, short-id: b73fabe2aebfad37}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ️ - 3, server: files.toriva.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2f92ed-3ed2-4ef3-88e4-c12c5be53b1a, servername: files.toriva.click, alpn: [http%2F1.1], host: files.toriva.click, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ️ - 6, server: 139.100.234.44, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a, servername: cdn.tracker.yandex.net, host: cdn.tracker.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: hwrFAsPHAuQd8RKqyrHyaNVIueAjxlz-WRqJ3XqSrl4, short-id: c443b16a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ️ - 7`, server: 147.45.97.168, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a, servername: market.yandex.ru, host: market.yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: FWkH7C_t9obV_NI48ir9DHJed6OVBQTh-Hi8fVnUlDM, short-id: 118dc2786b9de6b6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ - 4 2, server: 31.77.161.40, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a, servername: 5ka.ru, host: 5ka.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 74hcaFe_YfeTvjLupQ_LyP5srMKHJt-uzAFnlAeomXo, short-id: 5541c166}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ️ - 4, server: 31.77.161.40, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: fc7d8276-2f79-48f2-92c7-2fa5c0d9aa2a, servername: 5ka.ru, host: 5ka.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 74hcaFe_YfeTvjLupQ_LyP5srMKHJt-uzAFnlAeomXo, short-id: 5541c166}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -501,78 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -588,78 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ️ - 6
-      - ️ - 12
-      - ️ - 13
-      - ️ - 8
-      - ️ - 9
-      - ️ - 7
-      - ️ - 5
-      - ️ - 10
-      - ️ - 11
-      - ️ - 14`
-      - ️ - 3
-      - ️ - 1
       - ️ - 2
-      - ️ - 4
-      - ️ - 2 2
-      - ️ - 1 2
-      - ️ - 3 2
-      - ️ - 6 2
+      - ️ - 1
+      - ️ - 3
+      - ️ - 6
       - ️ - 7`
-      - ️ - 4 2
+      - ️ - 4
   - name: دانلود منیجر 📥
     type: select
     proxies:
