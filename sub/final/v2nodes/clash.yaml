@@ -465,7 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 64.176.74.241:443, server: 64.176.74.241, port: 443, type: trojan, password: nsKBtW4V7LPHG5.iSySU8_pNM88Gkxz7eE, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: mail2.thirdpaull.monster:57327, server: mail2.thirdpaull.monster, port: 57327, type: ss, cipher: chacha20-ietf-poly1305, password: 2KAu9eMmGwShWTWcuyynmLE81PVkoKDvQ3fb29dPScc1bMUW5y6hpprXqVWqSqjTi234hFGdDf3ArCuWtBw5FA6zV5wBgWTP, udp: true, tfo: false}
+  - {name: 176.32.39.106:32432, server: 176.32.39.106, port: 32432, type: ss, cipher: aes-256-gcm, password: 1a87017d0bf57f34, udp: true, tfo: false}
+  - {name: 188.190.24.17:8443, server: 188.190.24.17, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 497631c4-a1a4-0098-a86a-f42873473bb6, servername: auto.quattro-tech.ru, host: auto.quattro-tech.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc, short-id: 43dcff53849b81e6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 87.199.200.144:8090, server: 87.199.200.144, port: 8090, type: vless, tls: true, packet-encoding: xudp, uuid: ef14c532-b69a-4f46-ae29-272f2fdaf673, network: ws, ws-opts: {path: /ws, headers: {Host: rukr.speedload.ru}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: c722s801.portablesubmarines.com, port: 16025, type: vmess, uuid: 4bd2af9a-67a3-4e1a-8eef-c443ec86e80b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +486,33 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +528,33 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 64.176.74.241:443
+      - mail2.thirdpaull.monster:57327
+      - 176.32.39.106:32432
+      - 188.190.24.17:8443
+      - 87.199.200.144:8090
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
     proxies:
