@@ -465,23 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇺🇸 US-18.222.166.251-3393, server: 18.222.166.251, port: 443, type: ss, cipher: aes-256-cfb, password: amazonskr05, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 185.143.232.201, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 16227db7-1914-4a97-bb6b-7bf98e6b525b, servername: zapzap.mc.filimo.cam, network: ws, ws-opts: {path: /, headers: {Host: zapzap.mc.filimo.cam}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 25@oneclickvpnkeys, server: 45.195.137.108, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 1🏇@oneclickvpnkeys, server: 45.195.137.114, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 24@oneclickvpnkeys, server: 45.195.137.125, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "[🇨🇭]@NetliVPN`", server: 45.195.137.142, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 98@oneclickvpnkeys, server: 45.195.137.154, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 95@oneclickvpnkeys, server: 45.195.137.183, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 5🏇@oneclickvpnkeys, server: 45.195.137.200, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 26@oneclickvpnkeys`, server: 45.195.137.208, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 2🏇@oneclickvpnkeys, server: 45.195.137.210, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 93@oneclickvpnkeys, server: 45.195.137.213, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 100@oneclickvpnkeys, server: 45.195.137.218, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 4🏇@oneclickvpnkeys, server: 45.195.137.88, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 19@oneclickvpnkeys, server: 45.195.137.89, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 96@oneclickvpnkeys, server: 45.195.137.97, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f89560c-b9f0-4c56-b3e0-1b1bdafe0b08, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: e3d38cee79d4f94c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ☀️84@oneclickvpnkeys, server: gt-ch-02.live, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: daff1228-8d1a-4812-a57a-09604faa5e0c, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IdqrygjwHBEMCOamBl7a504TVk6uMAtTRj0xLWcFcxY, short-id: cf9d145ad8f1ea55}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn`", server: 82.38.31.211, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@bored_vpn", server: 45.130.125.2, port: 443, type: trojan, password: MITIVPN, sni: deioej-ieid.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN=GE, headers: {Host: deioej-ieid.App-Cloud.ir}}, udp: true, tfo: false}
+  - {name: "@bored_vpn 2", server: 89.116.250.135, port: 443, type: trojan, password: MITIVPN, sni: ksidi-isid-d.App-Cloud.ir, skip-cert-verify: false, network: ws, ws-opts: {path: /---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN/---@M%69T%69VPN=USA, headers: {Host: ksidi-isid-d.App-Cloud.ir}}, udp: true, tfo: false}
+  - {name: "@bored_vpn 3", server: las.dearhossein-taktaz.ir, port: 47922, type: vless, tls: true, packet-encoding: xudp, uuid: 40601c06-6fbf-4f48-bcff-2a8d57038e37, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: -smckvxfg8A2QkVqkQpI3bPMcYJ_69fAxWS7u9VhND8, short-id: 09}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 4", server: 104.16.72.101, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77, servername: shegeftihaaa.net, network: ws, ws-opts: {path: /rsedgws, headers: {Host: shegeftihaaa.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 5", server: 155.117.137.44, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9480871a-3843-441c-9b83-aa8c5c96b209, servername: cdn6-49.yahoo.com, host: cdn6-49.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw, short-id: 3c9c5d01c6f824dd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 6", server: 83.168.71.216, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a18f7c2d-9e45-4b8a-af3c-1d5e7f9c8b2a, servername: ads.x5.ru, host: ads.x5.ru, path: /, reality-opts: {public-key: 8h8t5eBWL9oERK7xWHQLFJE5j6sZdgNDQAs3EGnNbho, short-id: 2f49bccf11150ef2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 7", server: 104.21.36.120, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8, servername: octopusss5.info, network: ws, ws-opts: {path: /udfyfws, headers: {Host: octopusss5.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn 8", server: 172.64.147.236, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c35050ce-01ab-45a9-91b8-54cec637d0a8, servername: octopusss5.info, network: ws, ws-opts: {path: /udfyfws, headers: {Host: octopusss5.info}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -498,69 +490,45 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -576,69 +544,45 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 US-18.222.166.251-3393
-      - "@mehrosaboran"
-      - 25@oneclickvpnkeys
-      - 1🏇@oneclickvpnkeys
-      - 24@oneclickvpnkeys
-      - "[🇨🇭]@NetliVPN`"
-      - 98@oneclickvpnkeys
-      - 95@oneclickvpnkeys
-      - 5🏇@oneclickvpnkeys
-      - 26@oneclickvpnkeys`
-      - 2🏇@oneclickvpnkeys
-      - 93@oneclickvpnkeys
-      - 100@oneclickvpnkeys
-      - 4🏇@oneclickvpnkeys
-      - 19@oneclickvpnkeys
-      - 96@oneclickvpnkeys
-      - ☀️84@oneclickvpnkeys
+      - "@bored_vpn`"
+      - "@bored_vpn"
+      - "@bored_vpn 2"
+      - "@bored_vpn 3"
+      - "@bored_vpn 4"
+      - "@bored_vpn 5"
+      - "@bored_vpn 6"
+      - "@bored_vpn 7"
+      - "@bored_vpn 8"
   - name: دانلود منیجر 📥
     type: select
     proxies:
