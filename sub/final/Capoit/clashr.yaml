@@ -8,8 +8,7 @@ proxies:
   - {name: "@Capoit", server: 151.101.110.219, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=De, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
   - {name: "@Capoit`", server: 151.101.56.6, port: 443, type: trojan, password: MITIVPN, sni: global.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=Usa, headers: {Host: global.fastly.com}}, udp: true, tfo: false}
   - {name: "@Capoit 2", server: 151.101.110.219, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /MiTiVPN=NL, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@Capoit` 2", server: panel.aminsec.ir, port: 22338, type: vless, tls: true, packet-encoding: xudp, uuid: 07a978bb-49ec-4dbe-827b-feb9243f3e63, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Capoit` 3", server: x4g-production-b104.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb6100e8-8f59-d6aa-c018-b3b48795fb7b, servername: x4g-production-b104.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/eb6100e8-8f59-d6aa-c018-b3b48795fb7b, headers: {Host: x4g-production-b104.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 2", server: x4g-production-b104.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb6100e8-8f59-d6aa-c018-b3b48795fb7b, servername: x4g-production-b104.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/eb6100e8-8f59-d6aa-c018-b3b48795fb7b, headers: {Host: x4g-production-b104.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -20,7 +19,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -31,7 +29,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -42,7 +39,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -52,7 +48,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -62,7 +57,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -72,7 +66,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -104,7 +97,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit 2"
       - "@Capoit` 2"
-      - "@Capoit` 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
