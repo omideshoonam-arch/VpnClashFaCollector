@@ -465,10 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "🇨🇳 [openproxylist.com] vmess-TW", server: tttttt.ly123.edu.kg, port: 11886, type: vmess, uuid: 77ac8771-e16a-4b4f-becd-81750057c8ad, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸, server: 57.151.100.27, port: 10086, type: vmess, uuid: 550e8400-e29b-41d4-a716-446655440000, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 144.31.234.153, port: 110, type: vmess, uuid: 8365ce94-5cc5-45df-be41-065eb9d31049, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vpnbaz 🍭", server: spt.reata.ir, port: 1050, type: vmess, uuid: b5b183b6-a4f0-41ad-a015-ba9f000ad7ed, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 129.226.157.220, port: 59121, type: vmess, uuid: d9865d63-d95c-454b-ba07-8e88b838a801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: runheng.cloud, port: 80, type: vmess, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: runheng.cloud}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 [openproxylist.com] vmess-TW
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
       - "@filembad"
-      - "@vpnbaz 🍭"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
