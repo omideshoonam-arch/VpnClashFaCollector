@@ -466,25 +466,10 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: allowing-ram.rooster465.autos:443, server: allowing-ram.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: clean-elf.rooster465.autos:443, server: clean-elf.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: close-wasp.rooster465.autos:443, server: close-wasp.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: complete-chipmunk.rooster465.autos:443, server: complete-chipmunk.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
   - {name: dashing-bedbug.rooster465.autos:443, server: dashing-bedbug.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: exotic-chicken.rooster465.autos:443, server: exotic-chicken.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: funny-hen.rooster465.autos:443, server: funny-hen.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
   - {name: immense-eagle.rooster465.autos:443, server: immense-eagle.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: new-antelope.rooster465.autos:443, server: new-antelope.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: next-ringtail.rooster465.autos:443, server: next-ringtail.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: obliging-oyster.rooster465.autos:443, server: obliging-oyster.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
   - {name: rational-joey.rooster465.autos:443, server: rational-joey.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: rational-joey.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: relaxed-unicorn.rooster465.autos:443, server: relaxed-unicorn.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: renewed-chigger.rooster465.autos:443, server: renewed-chigger.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: rich-gelding.rooster465.autos:443, server: rich-gelding.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ruling-toucan.rooster465.autos:443, server: ruling-toucan.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: wealthy-bengal.rooster465.autos:443, server: wealthy-bengal.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
   - {name: wise-rhino.rooster465.autos:443, server: wise-rhino.rooster465.autos, port: 443, type: trojan, password: XG59623478, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 159.112.235.52:443, server: 159.112.235.52, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 073d1d50-8478-47bf-a828-7a1b381931d5, servername: octopusss.net, network: ws, ws-opts: {path: /odiyfws, headers: {Host: octopusss.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.16.211.140:443, server: 104.16.211.140, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72d1797c-cef8-410a-b8fd-db9104dc3cb0, servername: amooaliii.net, network: ws, ws-opts: {path: /jdhfyws, headers: {Host: amooaliii.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -502,25 +487,10 @@ proxy-groups:
     type: select
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -528,25 +498,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -554,25 +509,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -589,25 +529,10 @@ proxy-groups:
     interval: 600
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -615,25 +540,10 @@ proxy-groups:
     interval: 600
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -641,25 +551,10 @@ proxy-groups:
     interval: 600
     proxies:
       - allowing-ram.rooster465.autos:443
-      - clean-elf.rooster465.autos:443
-      - close-wasp.rooster465.autos:443
-      - complete-chipmunk.rooster465.autos:443
       - dashing-bedbug.rooster465.autos:443
-      - exotic-chicken.rooster465.autos:443
-      - funny-hen.rooster465.autos:443
       - immense-eagle.rooster465.autos:443
-      - new-antelope.rooster465.autos:443
-      - next-ringtail.rooster465.autos:443
-      - obliging-oyster.rooster465.autos:443
       - rational-joey.rooster465.autos:443
-      - relaxed-unicorn.rooster465.autos:443
-      - renewed-chigger.rooster465.autos:443
-      - rich-gelding.rooster465.autos:443
-      - ruling-toucan.rooster465.autos:443
-      - wealthy-bengal.rooster465.autos:443
       - wise-rhino.rooster465.autos:443
-      - 159.112.235.52:443
-      - 104.16.211.140:443
   - name: دانلود منیجر 📥
     type: select
     proxies:

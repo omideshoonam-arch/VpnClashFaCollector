@@ -466,8 +466,10 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@filembad", server: 69.84.182.49, port: 80, type: vmess, uuid: f8975871-a7a0-4906-8835-a23c1258ca1e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.zula.uplaod-music.ir.}}, udp: true, tfo: false}
+  - {name: "@chillguy_vpn", server: asia.servocean.ir, port: 1070, type: vmess, uuid: cfffcbc3-8b34-4c4a-bc04-374b5990cdd1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 2", server: 129.226.157.220, port: 59121, type: vmess, uuid: d9865d63-d95c-454b-ba07-8e88b838a801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 3", server: runheng.cloud, port: 80, type: vmess, uuid: 64bd7d62-7c00-4463-954b-3dd20320dded, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess-ws, headers: {Host: runheng.cloud}}, udp: true, tfo: false}
+  - {name: "@filembad 4", server: 129.226.157.220, port: 59121, type: vmess, uuid: d9865d63-d95c-454b-ba07-8e88b838a801, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +487,10 @@ proxy-groups:
     type: select
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +498,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +509,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +529,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +540,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +551,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@filembad"
+      - "@chillguy_vpn"
       - "@filembad 2"
       - "@filembad 3"
+      - "@filembad 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
