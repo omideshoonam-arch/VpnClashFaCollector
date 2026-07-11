@@ -465,11 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: singular-lark.rooster465.autos:443, server: singular-lark.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: singular-lark.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 81.19.137.144:40443, server: 81.19.137.144, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 110.34.38.174:2552, server: 110.34.38.174, port: 2552, type: vless, tls: true, packet-encoding: xudp, uuid: d8b42cd5-a149-4356-9e61-000000000000, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 110.34.38.2:1445, server: 110.34.38.2, port: 1445, type: vless, tls: true, packet-encoding: xudp, uuid: d8b42cd5-a149-4356-9e61-111111111111, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.38.233.14:22222, server: 13.38.233.14, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 3.121.132.146:22224, server: 3.121.132.146, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - singular-lark.rooster465.autos:443
-      - 81.19.137.144:40443
-      - 110.34.38.174:2552
-      - 110.34.38.2:1445
-      - 13.38.233.14:22222
+      - 3.121.132.146:22224
   - name: دانلود منیجر 📥
     type: select
     proxies:
