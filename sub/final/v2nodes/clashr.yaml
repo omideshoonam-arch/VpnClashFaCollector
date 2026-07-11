@@ -5,88 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: happy-monkfish.rooster465.autos:443, server: happy-monkfish.rooster465.autos, port: 443, type: trojan, password: HW85960347, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ethical-raccoon.rooster465.autos:443, server: ethical-raccoon.rooster465.autos, port: 443, type: trojan, password: PI36027154, skip-cert-verify: false, udp: true, tfo: false}
   - {name: concise-buck.rooster465.autos:443, server: concise-buck.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: concise-buck.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: intense-basilisk.rooster465.autos:443, server: intense-basilisk.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: intense-basilisk.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: singular-lark.rooster465.autos:443, server: singular-lark.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: singular-lark.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: stirring-dane.rooster465.autos:443, server: stirring-dane.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: stirring-dane.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇷🇺 using.neobo-tooth.ru:2083, server: using.neobo-tooth.ru, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 0c6b632a-cd96-4b74-9b51-151e3b5697db, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: argg6.auragg.org:443, server: argg6.auragg.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 98dab41c-f18a-406b-8de2-3cc8bb797d5d, servername: argg6.auragg.org, alpn: [h2%2Chttp/1.1], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.session.poll}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.38.233.14:22222, server: 13.38.233.14, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +114,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - happy-monkfish.rooster465.autos:443
-      - ethical-raccoon.rooster465.autos:443
       - concise-buck.rooster465.autos:443
       - intense-basilisk.rooster465.autos:443
+      - singular-lark.rooster465.autos:443
       - stirring-dane.rooster465.autos:443
       - 🇷🇺 using.neobo-tooth.ru:2083
       - argg6.auragg.org:443
+      - 13.38.233.14:22222
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
