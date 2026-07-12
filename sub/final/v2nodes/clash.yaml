@@ -465,6 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: busy-lab.rooster465.autos:443, server: busy-lab.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: busy-lab.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: exciting-grizzly.rooster465.autos:443, server: exciting-grizzly.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: exciting-grizzly.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: faithful-clam.rooster465.autos:443, server: faithful-clam.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: faithful-clam.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: stirred-buck.rooster465.autos:443, server: stirred-buck.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: stirred-buck.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.36.204.235:22223, server: 13.36.204.235, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 3.121.132.146:22224, server: 3.121.132.146, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -482,6 +487,11 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -489,6 +499,11 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -496,6 +511,11 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: اتصال پایدار 🔗
     type: url-test
@@ -512,6 +532,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -519,6 +544,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -526,6 +556,11 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: دانلود منیجر 📥
     type: select

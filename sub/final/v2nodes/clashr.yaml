@@ -5,6 +5,11 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: busy-lab.rooster465.autos:443, server: busy-lab.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: busy-lab.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: exciting-grizzly.rooster465.autos:443, server: exciting-grizzly.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: exciting-grizzly.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: faithful-clam.rooster465.autos:443, server: faithful-clam.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: faithful-clam.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: stirred-buck.rooster465.autos:443, server: stirred-buck.rooster465.autos, port: 443, type: trojan, password: PI36027154, sni: stirred-buck.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.36.204.235:22223, server: 13.36.204.235, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 3.121.132.146:22224, server: 3.121.132.146, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -12,6 +17,11 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: ♻️ 自动选择
     type: url-test
@@ -19,6 +29,11 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: 🌍 国外媒体
     type: select
@@ -26,24 +41,44 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
   - name: 🎯 全球直连
     type: select
@@ -72,6 +107,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - busy-lab.rooster465.autos:443
+      - exciting-grizzly.rooster465.autos:443
+      - faithful-clam.rooster465.autos:443
+      - stirred-buck.rooster465.autos:443
+      - 13.36.204.235:22223
       - 3.121.132.146:22224
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
