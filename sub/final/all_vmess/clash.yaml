@@ -464,10 +464,7 @@ rule-providers:
     url: https://raw.githubusercontent.com/10ium/mihomo_rule/refs/heads/main/list/Spotify.yaml
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
-proxies:
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@bored_vpn", server: 94.103.167.116, port: 80, type: vmess, uuid: d1b0c103-a7ff-4bd6-887d-a73d6ebf1f50, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: cl.northbookway.shop, port: 1080, type: vmess, uuid: 5c21b2cb-9aee-4d82-80ac-b6779e6bfec9, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sub.zirolost.sbs, network: ws, ws-opts: {path: /api, headers: {Host: sub.zirolost.sbs}}, udp: true, tfo: false}
+proxies: ~
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +481,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +511,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - "@bored_vpn"
-      - "@FarazV2ray"
+      - DIRECT
   - name: دانلود منیجر 📥
     type: select
     proxies:
