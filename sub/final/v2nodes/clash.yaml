@@ -465,22 +465,19 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: lucky-chimp.rooster465.autos:443, server: lucky-chimp.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: lucky-chimp.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.171.135.184:42672, server: 104.171.135.184, port: 42672, type: vless, tls: true, packet-encoding: xudp, uuid: 1008a30d-4e23-485a-8981-fd1f103b7d11, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 82.41.131.23:443, server: 82.41.131.23, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1281ef13-f1cd-493b-903e-4c2f4ffe1eba, servername: pypi.org, host: pypi.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ao6HM6jT7l8F-c54woAti7flDZW0GU0thRNKYzu9kQ0, short-id: 57cc65bfd5ef7465}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 81.31.211.110:2085, server: 81.31.211.110, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 81.31.211.119:2085, server: 81.31.211.119, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 3067642d-02fa-47e9-a6a2-fb5dda565969, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇫🇷 fr2.helper-internet.com:443, server: fr2.helper-internet.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 59da5351-5151-417d-b2f7-6923848b717e, servername: fr2.helper-internet.com, host: fr2.helper-internet.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE, short-id: ff776ff77be48b88}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 51.195.94.187:8443, server: 51.195.94.187, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c221de4-590b-41b8-8a3d-4c7dd6d0948f, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XvqUR-fhL0E9z9b_8q_uEvyE-lpC-l1D4CivPKSthh4, short-id: cbb840f5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇳🇱 nl.hagrid-connected.com:443, server: nl.hagrid-connected.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7499f0a0-3670-4cf6-a31c-ad4cd943cf18, servername: nl.hagrid-connected.com, host: nl.hagrid-connected.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: nfkwd9xJCoNuWrvvieBB9VfpcDldsARAdFPL0dF5A1Q, short-id: 305570274c0c72cc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 117.55.202.86:443, server: 117.55.202.86, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233, servername: convertor-gamer-plastiijk.ru, host: convertor-gamer-plastiijk.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug, short-id: 9767f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 43.159.50.28:443, server: 43.159.50.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: aa83d161-1169-494a-a57e-c8d8b327f051, servername: www.apple.com, host: www.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 5KO-p5u_N5i11i_DC49SsSKTW1XvTiYMhg-eMzj3HTw, short-id: 0417be28beffdfc1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 5.253.66.203:443, server: 5.253.66.203, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692, servername: cdn-up.perecbass.ru, host: cdn-up.perecbass.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8, short-id: 8c4d9e1f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 5.253.66.63:443, server: 5.253.66.63, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c8b5f6c9-83ff-4ca1-be9c-f997a5b2f692, servername: cdn-up.perecbass.ru, host: cdn-up.perecbass.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PDBVcDR6o01XUpdNNZ6rutJ_DBqnF7VcDuWceHIpyE8, short-id: 0c6d3e2f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 81.31.211.113:2085, server: 81.31.211.113, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: cebf31b3-a467-4b84-9dce-62bed1c26719, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 81.31.211.115:2085, server: 81.31.211.115, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: f7c0db69-6963-4d7e-9743-8ef52c44c7b8, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 51.15.18.50:2053, server: 51.15.18.50, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: f7f14ab6-b9fb-4285-ae74-f6913332d30e, servername: www.apple.com, host: www.apple.com, path: /, reality-opts: {public-key: OEKOwbvWeIENbRmu5dsuijAdc4CY6qla_W6_hfaOXS4, short-id: 03e21cb7c1aa955f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: balanced-puma.rooster465.autos:443, server: balanced-puma.rooster465.autos, port: 443, type: trojan, password: CF68213490, sni: balanced-puma.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ace-liger.rooster465.autos:443, server: ace-liger.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: ace-liger.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: allowed-moose.rooster465.autos:443, server: allowed-moose.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: allowed-moose.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: amazing-troll.rooster465.autos:443, server: amazing-troll.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: amazing-troll.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: bold-eagle.rooster465.autos:443, server: bold-eagle.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: bold-eagle.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: driving-antelope.rooster465.autos:443, server: driving-antelope.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: driving-antelope.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: gentle-platypus.rooster465.autos:443, server: gentle-platypus.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: gentle-platypus.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: thorough-foxhound.rooster465.autos:443, server: thorough-foxhound.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: thorough-foxhound.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: topical-shark.rooster465.autos:443, server: topical-shark.rooster465.autos, port: 443, type: trojan, password: NQ26071394, sni: topical-shark.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: nearby-muskrat.rooster465.autos:443, server: nearby-muskrat.rooster465.autos, port: 443, type: trojan, password: OD90375861, sni: nearby-muskrat.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.16.72.2:443, server: 104.16.72.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77, servername: shegeftihaaa.net, network: ws, ws-opts: {path: /rsedgws, headers: {Host: shegeftihaaa.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 94.156.122.105:8443, server: 94.156.122.105, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: cdb8c7d3-486d-44fa-a63b-dcb675391adc, servername: www.github.com, host: www.github.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: m8NlVgma3zCfxdXIzMreVvi_O4c2-lZqPh_9UHOsM1I, short-id: 8e99fb4fa75e506f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇳🇱 [openproxylist.com] vmess-NL", server: c87s5.portablesubmarines.com, port: 18339, type: vmess, uuid: 3cd9077d-76f7-4104-bd82-eb6916b89d43, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -497,66 +494,57 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -572,66 +560,57 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - lucky-chimp.rooster465.autos:443
-      - 104.171.135.184:42672
-      - 82.41.131.23:443
-      - 81.31.211.110:2085
-      - 81.31.211.119:2085
-      - 🇫🇷 fr2.helper-internet.com:443
-      - 51.195.94.187:8443
-      - 🇳🇱 nl.hagrid-connected.com:443
-      - 117.55.202.86:443
-      - 43.159.50.28:443
-      - 5.253.66.203:443
-      - 5.253.66.63:443
-      - 81.31.211.113:2085
-      - 81.31.211.115:2085
-      - 51.15.18.50:2053
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - balanced-puma.rooster465.autos:443
+      - ace-liger.rooster465.autos:443
+      - allowed-moose.rooster465.autos:443
+      - amazing-troll.rooster465.autos:443
+      - bold-eagle.rooster465.autos:443
+      - driving-antelope.rooster465.autos:443
+      - gentle-platypus.rooster465.autos:443
+      - thorough-foxhound.rooster465.autos:443
+      - topical-shark.rooster465.autos:443
+      - nearby-muskrat.rooster465.autos:443
+      - 104.16.72.2:443
+      - 94.156.122.105:8443
+      - 🇳🇱 [openproxylist.com] vmess-NL
   - name: دانلود منیجر 📥
     type: select
     proxies:
