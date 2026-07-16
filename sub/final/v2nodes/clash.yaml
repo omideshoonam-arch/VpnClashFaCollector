@@ -521,8 +521,9 @@ proxies:
   - {name: 81.31.211.118:2085, server: 81.31.211.118, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 3d244afc-60ef-468a-9b19-f4bbad7e8ef1, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 85.192.28.199:19072, server: 85.192.28.199, port: 19072, type: vless, tls: true, packet-encoding: xudp, uuid: 47883fd8-0478-414f-8230-6eeecedc234e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: freesocks.work:2052, server: freesocks.work, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 667b9ff0-6d1b-4b7d-9eab-d47272b45509, network: ws, ws-opts: {path: /api-v1, headers: {Host: uwu.blueknightnet.qzz.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: www.speedtest.org:443, server: www.speedtest.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7e544a9d-7667-413b-bbb0-b3bb1aac6d77, servername: shegeftihaaa.net, network: ws, ws-opts: {path: /rsedgws, headers: {Host: shegeftihaaa.net}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 81.31.211.108:2085, server: 81.31.211.108, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: cebf31b3-a467-4b84-9dce-62bed1c26719, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 81.31.211.113:2085, server: 81.31.211.113, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: cebf31b3-a467-4b84-9dce-62bed1c26719, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -595,8 +596,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -659,8 +661,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -723,8 +726,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -796,8 +800,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -860,8 +865,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -924,8 +930,9 @@ proxy-groups:
       - 81.31.211.118:2085
       - 85.192.28.199:19072
       - freesocks.work:2052
-      - www.speedtest.org:443
       - 81.31.211.108:2085
+      - 81.31.211.113:2085
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
     proxies:
