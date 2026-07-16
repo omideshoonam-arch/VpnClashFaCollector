@@ -465,13 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***⚛***", server: 199.232.22.39, port: 443, type: trojan, password: MITIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN/---@MiTiVPN=u--s, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***✝***", server: 108.162.192.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 073d1d50-8478-47bf-a828-7a1b381931d5, servername: octopusss.net, network: ws, ws-opts: {path: /odiyfws, headers: {Host: octopusss.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***🆔***", server: 82.47.22.240, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 162539ad-3df4-429f-8e71-ecdb7023b786, servername: ee-hs-1.minzt.su, host: ee-hs-1.minzt.su, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***☯***", server: nl4.helper-internet.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 59da5351-5151-417d-b2f7-6923848b717e, servername: nl4.helper-internet.com, host: nl4.helper-internet.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE, short-id: ff776ff77be48b88}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***✡***", server: fn.fifapes.monster, port: 2090, type: vless, tls: true, packet-encoding: xudp, uuid: eab915bc-d2df-73d1-47d0-6eb240497055, host: fn.fifapes.monster, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام`", server: fn.fifapes.monster, port: 2090, type: vless, tls: true, packet-encoding: xudp, uuid: eab915bc-d2df-73d1-47d0-6eb240497055, host: fn.fifapes.monster, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple  ♥️👈 تلگرام***☪***", server: 185.231.101.85, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ecad47b0-249e-000c-adff-e3c8f02b1897, servername: se.quattro-tech.ru, host: se.quattro-tech.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc, short-id: 43dcff53849b81e6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 81.31.211.110, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 5fbee2a0-7ca4-46a8-aac7-9f26a1f2cb3c, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 62.60.156.35, port: 8081, type: vless, tls: true, packet-encoding: xudp, uuid: bb5b4296-e7fa-42f9-9f65-64306413e00a, host: MTMVPN--MTMVPN--MTMVPN, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 85.222.198.181, port: 2550, type: vless, tls: true, packet-encoding: xudp, uuid: d8b42cd5-a149-4356-9e61-000000000000, host: MTMVPN--MTMVPN--MTMVPN, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 2cdn.njkrpl.com, port: 443, type: vmess, uuid: a0449b33-d7f6-42a5-8bdc-3b5e727ec9f8, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 2cdn.njkrpl.com, network: ws, ws-opts: {path: /, headers: {Host: 2cdn.njkrpl.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,39 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,39 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple  ♥️👈 تلگرام***⚛***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✝***"
-      - "@prrofile_purple  ♥️👈 تلگرام***🆔***"
-      - "@prrofile_purple  ♥️👈 تلگرام***☯***"
-      - "@prrofile_purple  ♥️👈 تلگرام***✡***"
-      - "@prrofile_purple  ♥️👈 تلگرام`"
-      - "@prrofile_purple  ♥️👈 تلگرام***☪***"
+      - "@mehrosaboran`"
+      - "@mehrosaboran"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
