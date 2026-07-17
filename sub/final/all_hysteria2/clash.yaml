@@ -469,9 +469,6 @@ proxies:
   - {name: 68@oneclickvpnkeys, server: jongjmi.odnako.site, port: 8449, type: hysteria2, ports: 8449, password: 792V1zl5cJHSV3wjyGPXiFbx1YA4BrIr, sni: jongjmi.odnako.site, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast", server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: NZC2w2V2NQ, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 112770 | ⚡️Telegram - t.me/SOSkeyNET, server: 91.107.152.188, port: 40460, type: hysteria2, ports: 40460, password: NZC2w2V2NQ, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 112292 | ⚡️Telegram - t.me/SOSkeyNET, server: pristytools.com.pristytools.com, port: 2053, type: hysteria2, ports: 2053, password: TELEGRAM-ID-soalvajavaab, obfs: salamander, obfs-password: dwv3ped4yi46iw8r, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 46@oneclickvpnkeys, server: pristytools.com.pristytools.com, port: 2053, type: hysteria2, ports: 2053, password: TELEGRAM-ID-soalvajavaab, obfs: salamander, obfs-password: dwv3ped4yi46iw8r, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 112339 | ⚡️Telegram - t.me/SOSkeyNET, server: 66.92.161.59, port: 42286, type: hysteria2, ports: 42286, password: V2RayyNGvpn, obfs: salamander, obfs-password: t-me-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -492,9 +489,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -505,9 +499,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -518,9 +509,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -540,9 +528,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -553,9 +538,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -566,9 +548,6 @@ proxy-groups:
       - 68@oneclickvpnkeys
       - "@V2rayng_Fast"
       - 112770 | ⚡️Telegram - t.me/SOSkeyNET
-      - 112292 | ⚡️Telegram - t.me/SOSkeyNET
-      - 46@oneclickvpnkeys
-      - 112339 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
