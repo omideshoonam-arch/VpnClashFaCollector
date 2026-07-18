@@ -466,11 +466,9 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "Channel : @proxy_kafee", server: 2m1fa.pastilbastani.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 248a5252-9ca2-4612-91c0-7122965854d2, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 🇩🇪`", server: de-vip-unlimited.relqino.ir, port: 1020, type: vless, tls: true, packet-encoding: xudp, uuid: 37182b68-6422-4414-9518-7df6776c0150, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: jILgyIiDR7xY8WDrU9EMx_iXUi6nKr3LapCgglBVBAU, short-id: 3fa2fdb7dce16b8b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 🛸", server: new.akinamo.willbe.sinitk.outforyou.ir, port: 20580, type: vless, tls: true, packet-encoding: xudp, uuid: 612d16de-aebd-4738-829e-533dbfa9e936, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: gqjS9wwxycF16Qf02GDt1UrvdrF_neQgj1Crduo_xB0, short-id: d5c1b9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 🍭", server: 94.242.55.42, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8ca5cbd3-ec16-4728-bedc-2bc0d82f0922, servername: enterprisekitten.com, host: enterprisekitten.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee ⭐", server: ronaldo13.fordnsdirect.shop, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 🇫🇮`", server: 65.109.181.154, port: 59849, type: vless, tls: true, packet-encoding: xudp, uuid: Telegram-%40Cooonfig-%40Cooonfig, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 2", server: 31.56.146.93, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: d7b8d855-352f-44fd-a20f-7e8ff06d0f66, servername: tradingview.com, host: tradingview.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 3", server: 3.122.121.39, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee`", server: 3.122.121.39, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
@@ -495,11 +493,9 @@ proxy-groups:
     type: select
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
@@ -514,11 +510,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
@@ -533,11 +527,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
@@ -561,11 +553,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
@@ -580,11 +570,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
@@ -599,11 +587,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "@proxy_kafee 🇩🇪`"
       - "@proxy_kafee 🛸"
       - "@proxy_kafee 🍭"
       - "@proxy_kafee ⭐"
-      - "@proxy_kafee 🇫🇮`"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee`"
