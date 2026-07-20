@@ -465,9 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: genuine-grackle.rooster465.autos:443, server: genuine-grackle.rooster465.autos, port: 443, type: trojan, password: ON38567014, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: glorious-glider.rooster465.autos:443, server: glorious-glider.rooster465.autos, port: 443, type: trojan, password: ON38567014, sni: glorious-glider.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: cdn.pinecloud.net:443, server: cdn.pinecloud.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b052df40-d51c-456c-9bd6-57af01a87e4e, servername: cdn.pinecloud.net, host: cdn.pinecloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8, short-id: 6a2e3af684799b19}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: possible-pup.rooster465.autos:443, server: possible-pup.rooster465.autos, port: 443, type: trojan, password: XG59623478, sni: possible-pup.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: vips.irhubby.ir:8080, server: vips.irhubby.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 4a4b76ab-ec8a-4211-9f02-db69f4ec879b, network: ws, ws-opts: {path: /, headers: {Host: vips.irhubby.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 0w7ymj.spectrum.vu:443, server: 0w7ymj.spectrum.vu, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, host: 0w7ymj.spectrum.vu, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -485,9 +485,9 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -495,9 +495,9 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -505,9 +505,9 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
@@ -524,9 +524,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -534,9 +534,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -544,9 +544,9 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - genuine-grackle.rooster465.autos:443
-      - glorious-glider.rooster465.autos:443
-      - cdn.pinecloud.net:443
+      - possible-pup.rooster465.autos:443
+      - vips.irhubby.ir:8080
+      - 0w7ymj.spectrum.vu:443
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
