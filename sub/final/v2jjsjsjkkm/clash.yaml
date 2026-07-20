@@ -465,19 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 91.107.174.32, port: 25810, type: hysteria2, ports: 25810, password: UUoAsk2eM4, obfs: salamander, obfs-password: T-ME-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 82.38.31.39, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 165.245.222.232, port: 44713, type: vless, tls: true, packet-encoding: xudp, uuid: 6fa08837-7c1b-4f58-8858-f55faa63e533, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran` 2", server: 206.81.21.45, port: 440, type: vless, tls: true, packet-encoding: xudp, uuid: 78a1da80-7383-4ff6-b0ff-b6626b2f72cd, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 64.226.83.251, port: 440, type: vless, tls: true, packet-encoding: xudp, uuid: 78a1da80-7383-4ff6-b0ff-b6626b2f72cd, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: api.oneokgames.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: api.oneokgames.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: push.v2.FeedService}, reality-opts: {public-key: VTO26jBMVVnEnnHQON7k8lB3ED46_JHshPorJHHXSRU, short-id: a30b344b5214d62f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: dl.onetimeok.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: dl.onetimeok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 4o20JlNKKsAzSGEvEMw6g1A8Ij37tiSU1CFwTZI4b3o, short-id: 8ba32e7cefbf524a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: grid.onetimeok.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: grid.onetimeok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.MetricsService}, reality-opts: {public-key: 28oR3ji9c2CneMNkbvcDL8WfvNWHS3GfA3RdtaF-pSg, short-id: 89e97b6542785ca6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 7", server: link.oneokgames.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: link.oneokgames.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.SyncService}, reality-opts: {public-key: x9m8Vxk2YlwXy8CLrHeEMDzLJWuRQ3mh6CPWA34u2yY, short-id: ad613873130544ab}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 8", server: media.oneokgames.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: media.oneokgames.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.ObjectService}, reality-opts: {public-key: aDNsk312UNfOEh0RiyGZdK6opt__mMyKBSglqFKFP38, short-id: dbdbeaf4aa6e1a5c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 9", server: 185.209.15.91, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8f0560ec-ba22-4431-a6a7-318dc59d5233, servername: gedolam-vawset.ru, host: gedolam-vawset.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: tSxNp48AuTUzqggANCWsR6v7bqlguCoVWk_YOUs36Ug, short-id: 5e3ab3ab228625}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 10", server: 185.231.101.89, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ecad47b0-249e-4f6f-adff-e3c8f02b1897, servername: se.quattro-tech.ru, host: se.quattro-tech.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 10rVZPoOUP1TlQviIAsQ_jAROX0fRQxH0C92nq_zGQc, short-id: 43dcff53849b81e6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 11", server: 104.26.14.85, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f798a2c4-c51b-409d-b349-ca8455b36796, servername: chopin.adaspoloandco.com, network: ws, ws-opts: {path: "/download.php#TELEGRAM-PROXY_MTM?ed=2048", headers: {Host: chopin.adaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 91.107.174.32, port: 25810, type: hysteria2, ports: 25810, password: p0IbtS8wCZ, obfs: salamander, obfs-password: T-ME-V2RayyNGvpn, sni: www.amd.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: edge1.oneokgames.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: edge1.oneokgames.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: home.v1.ApiService}, reality-opts: {public-key: 0ffnN7CdnOgEEFJ3AY1lnuTtsOPDL059UaTTxGxDjTA, short-id: 66ffd800ba2ec7c3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: get.onetimeok.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86208db7-8bbc-42c2-9eb2-ffe5675502c3, servername: get.onetimeok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.ApiService}, reality-opts: {public-key: CQhnOxCj9UuA67kiDGGOcXB1G_XayWfHyhmlWGeG4Uw, short-id: cfb882e7dcf03ef2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 147.45.136.213, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: f040b49a-14d3-4b83-af82-1f84ec7317c2, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1XGOxBopp223HFaTlswL3QE_1KW3WLgEbcHMA5cX9iM, short-id: 80ba}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -497,16 +489,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -516,16 +500,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -535,16 +511,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -563,16 +531,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -582,16 +542,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -601,16 +553,8 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
-      - "@mehrosaboran 10"
-      - "@mehrosaboran 11"
   - name: دانلود منیجر 📥
     type: select
     proxies:
