@@ -465,10 +465,19 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: accurate-drake.rooster465.autos:443, server: accurate-drake.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: accurate-drake.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: correct-pony.rooster465.autos:443, server: correct-pony.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: correct-pony.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: pet-albacore.rooster465.autos:443, server: pet-albacore.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: pet-albacore.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: square-anchovy.rooster465.autos:443, server: square-anchovy.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: square-anchovy.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: dear-ferret.rooster465.autos:443, server: dear-ferret.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: dear-ferret.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: enabling-gobbler.rooster465.autos:443, server: enabling-gobbler.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: enabling-gobbler.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: flexible-pony.rooster465.autos:443, server: flexible-pony.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: flexible-pony.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: glad-javelin.rooster465.autos:443, server: glad-javelin.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: glad-javelin.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: guided-warthog.rooster465.autos:443, server: guided-warthog.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: guided-warthog.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: happy-mutt.rooster465.autos:443, server: happy-mutt.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: happy-mutt.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: humane-hawk.rooster465.autos:443, server: humane-hawk.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: humane-hawk.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: internal-sunbird.rooster465.autos:443, server: internal-sunbird.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: internal-sunbird.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: pleased-lobster.rooster465.autos:443, server: pleased-lobster.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: pleased-lobster.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: proud-escargot.rooster465.autos:443, server: proud-escargot.rooster465.autos, port: 443, type: trojan, password: IQ68037294, sni: proud-escargot.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 154.90.62.70:56127, server: 154.90.62.70, port: 56127, type: trojan, password: p5jTPcffLgi4gaNOJd2KUTb9YEPBBD5B, sni: 154.90.62.70, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +494,57 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +560,57 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - accurate-drake.rooster465.autos:443
       - correct-pony.rooster465.autos:443
-      - pet-albacore.rooster465.autos:443
-      - square-anchovy.rooster465.autos:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - dear-ferret.rooster465.autos:443
+      - enabling-gobbler.rooster465.autos:443
+      - flexible-pony.rooster465.autos:443
+      - glad-javelin.rooster465.autos:443
+      - guided-warthog.rooster465.autos:443
+      - happy-mutt.rooster465.autos:443
+      - humane-hawk.rooster465.autos:443
+      - internal-sunbird.rooster465.autos:443
+      - pleased-lobster.rooster465.autos:443
+      - proud-escargot.rooster465.autos:443
+      - 154.90.62.70:56127
   - name: دانلود منیجر 📥
     type: select
     proxies:
