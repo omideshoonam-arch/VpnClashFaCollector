@@ -465,10 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 104.21.83.115, port: 443, type: vmess, uuid: 6c168fcc-2231-4f3b-8c1e-f6391692df4a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: hms02.fxiaomi.sbs, network: ws, ws-opts: {path: /link, headers: {Host: hms02.fxiaomi.sbs}}, udp: true, tfo: false}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 104.21.95.165, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sareikela.com, network: ws, ws-opts: {path: /linkvws, headers: {Host: sareikela.com}}, udp: true, tfo: false}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 3, server: 172.67.130.140, port: 2082, type: vmess, uuid: 112ac36f-3f53-4e26-8371-d25c028e1b9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: s1c.v2.v001sss.xyz}}, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 23.227.38.3, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip2.1457230.xyz}}, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: ip.sb, port: 2086, type: vmess, uuid: e9e3cc13-db48-4cc1-8c24-7626439a5339, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: github.com/Alvin9999, headers: {Host: ip1.1789034.xyz}}, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 3, server: 104.21.74.239, port: 443, type: vmess, uuid: a1655f51-1e20-4a92-8a11-b7ca30a7a353, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: afrhms07.xfixedfloat.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: afrhms07.xfixedfloat.cfd}}, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 4, server: 172.67.71.160, port: 443, type: vmess, uuid: 05641cf5-58d2-4ba4-a9f1-b3cda0b1fb1d, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: obdii.cfd, network: ws, ws-opts: {path: /linkws, headers: {Host: obdii.cfd}}, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾, server: 47.250.135.244, port: 10000, type: vmess, uuid: aedc66b8-99d7-4a21-8310-61870e7f870d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸, server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US 2", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼, server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,8 +492,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -497,8 +507,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -507,8 +522,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -526,8 +546,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -536,8 +561,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -546,8 +576,13 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
+      - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 4
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇲🇾
       - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
+      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇹🇼
   - name: دانلود منیجر 📥
     type: select
     proxies:
