@@ -9,9 +9,11 @@ proxies:
   - {name: powerful-opossum.rooster465.autos:443, server: powerful-opossum.rooster465.autos, port: 443, type: trojan, password: FC60532879, skip-cert-verify: false, udp: true, tfo: false}
   - {name: resolved-gelding.rooster465.autos:443, server: resolved-gelding.rooster465.autos, port: 443, type: trojan, password: FC60532879, sni: resolved-gelding.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: evident-gnat.rooster465.autos:443, server: evident-gnat.rooster465.autos, port: 443, type: trojan, password: JA96378052, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: moral-dolphin.rooster465.autos:443, server: moral-dolphin.rooster465.autos, port: 443, type: trojan, password: UZ15382649, sni: moral-dolphin.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 15.224.131.242:22223, server: 15.224.131.242, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 18.198.252.91:22224, server: 18.198.252.91, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 52.57.117.158:22224, server: 52.57.117.158, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US 2", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,9 +24,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -35,9 +39,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -48,9 +54,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: 📲 电报信息
     type: select
     proxies:
@@ -60,9 +68,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -72,9 +82,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -84,9 +96,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -118,9 +132,11 @@ proxy-groups:
       - powerful-opossum.rooster465.autos:443
       - resolved-gelding.rooster465.autos:443
       - evident-gnat.rooster465.autos:443
+      - moral-dolphin.rooster465.autos:443
+      - 15.224.131.242:22223
+      - 18.198.252.91:22224
       - 52.57.117.158:22224
       - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
