@@ -5,53 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: kkvlvvq-a.catcat321.com:20023, server: kkvlvvq-a.catcat321.com, port: 20023, type: trojan, password: 7e70223b-f331-41d5-9313-02b8d2df2885, sni: hk.catxstar.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 [openproxylist.com] vmess-US 2", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US 3", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - kkvlvvq-a.catcat321.com:20023
       - 🇺🇸 [openproxylist.com] vmess-US
       - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 🇺🇸 [openproxylist.com] vmess-US 3
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

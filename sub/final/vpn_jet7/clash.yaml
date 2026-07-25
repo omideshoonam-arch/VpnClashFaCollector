@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 37.156.45.60, port: 40162, type: trojan, password: 1------------------BanV2ray------------------1, sni: world.yahoo.com%3A443, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: gm1.namirasly.com, port: 8888, type: vless, tls: true, packet-encoding: xudp, uuid: fd19f992-a4fc-4e6e-a9ea-1bbf60d6b681, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: A4dt2OuNMxhrDUa7PBP6QprHLLcT36jJW0rUT6ggCmk, short-id: 821e861174}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
