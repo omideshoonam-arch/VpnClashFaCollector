@@ -5,88 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: alert-monster.rooster465.autos:443, server: alert-monster.rooster465.autos, port: 443, type: trojan, password: AQ71834695, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 91.124.209.138:2095, server: 91.124.209.138, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 28926c34-865c-447e-8d42-a17240af743b, network: ws, ws-opts: {path: /, headers: {Host: cdn-cloudflare91.korvexe.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: jdvymxi.cvewfjg.shop:443, server: jdvymxi.cvewfjg.shop, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 711c018e-2692-4aa8-93f3-544d83fcd16c, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: HyVSZ2OyySwXT-xRhTAqoiuYflIaj_b0Jxm7S1Iq9hs, short-id: 7a76f3c4b9dd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 89.124.108.27:443, server: 89.124.108.27, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b0aeb6f0-ff78-4316-ba8f-673d8bedd94b, network: ws, ws-opts: {path: /rw}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.39.65.159:22222, server: 13.39.65.159, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: abqwe.gfdcty.ir:443, server: abqwe.gfdcty.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eeb75ded-02ad-4e8f-9bb1-ccc5cd96e7cc, servername: abqwe.gfdcty.ir, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: graphql-grpc-t7XyZ}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 154.17.234.39, port: 2086, type: vmess, uuid: 7e25875e-50bb-47ed-9627-261e6d232f69, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: 7e25875e-50bb-47ed-9627-261e6d232f69-vm, headers: {Host: www.bing.com}}, udp: true, tfo: false}
+  - {name: integral-elf.rooster465.autos:443, server: integral-elf.rooster465.autos, port: 443, type: trojan, password: AQ71834695, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: tops-marlin.rooster465.autos:443, server: tops-marlin.rooster465.autos, port: 443, type: trojan, password: AQ71834695, sni: tops-marlin.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -114,13 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - alert-monster.rooster465.autos:443
-      - 91.124.209.138:2095
-      - jdvymxi.cvewfjg.shop:443
-      - 89.124.108.27:443
-      - 13.39.65.159:22222
-      - abqwe.gfdcty.ir:443
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - integral-elf.rooster465.autos:443
+      - tops-marlin.rooster465.autos:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

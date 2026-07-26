@@ -465,14 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@proxy_kafee", server: 93.152.205.216, port: 444, type: vless, tls: true, packet-encoding: xudp, uuid: 0b9bcbc1-b289-4a64-86fa-a5b731b65384, servername: web.max.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: web.max.ru}, reality-opts: {public-key: X-YL5VNtlMNIaBrwaHt3hJCeF_gMT9gPRDDlK1Qg7Tc, short-id: 8321461729abcdef}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: fr2-azad.0xoddity.ir, port: 5666, type: vless, tls: true, packet-encoding: xudp, uuid: 0c5853e1-a606-4aa2-bbfa-86a7b58d43b1, servername: s.yimg.com, host: s.yimg.com, path: /, reality-opts: {public-key: 0qp2ibLJZMNQfIQYAbYmZzhyeeKRgVjm2AGxgbNDWhg, short-id: 2539f132f20e7271}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 51.68.166.178, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 70f28a55-1e6c-4082-aef4-2dc2cfa78fca, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.data}, reality-opts: {public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY, short-id: 524efc1f88592266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: uk.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 70f28a55-1e6c-4082-aef4-2dc2cfa78fca, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.data}, reality-opts: {public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY, short-id: 524efc1f88592266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 5", server: pa.apexi.shop, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: b4645f74-4f32-4d46-bbed-a40af9d78096, host: pa.apexi.shop, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 6", server: 13.39.65.159, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, host: "%2F%3FBIA_TELEGRAM%40MARAMBASHI_MARAMBASHI_MARAMBASHI_MARAMBASHI", path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 7", server: 13.39.65.159, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 8", server: germany2.avrilon.us, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e996abc7-cff3-4d9f-a9dc-0d717048a345, servername: image.semiconductor.samsung.com, host: image.semiconductor.samsung.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: rA_ItMaIiG_OUjcaTLpxOoF-OHh4WJsNUfWh7QUn_xU, short-id: 2f3178a1d747}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: batman4.kovira2.ir, port: 25026, type: ss, cipher: chacha20-ietf-poly1305, password: xha7ina7ws1ws6yx, udp: true, tfo: false}
+  - {name: "@proxy_kafee`", server: batman1.kovira2.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6de7a8d-9180-40af-9287-ea26e0c4ea35, host: google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 2", server: batman3.kovira2.ir, port: 13424, type: vless, tls: true, packet-encoding: xudp, uuid: e6de7a8d-9180-40af-9287-ea26e0c4ea35, network: ws, ws-opts: {path: /, headers: {Host: chatgpt.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,13 +485,8 @@ proxy-groups:
     type: select
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -504,13 +494,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -518,13 +503,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -541,13 +521,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -555,13 +530,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -569,13 +539,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@proxy_kafee"
+      - "@proxy_kafee`"
       - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
   - name: دانلود منیجر 📥
     type: select
     proxies:
