@@ -465,11 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: fair-ram.rooster465.autos:443, server: fair-ram.rooster465.autos, port: 443, type: trojan, password: JT80563429, sni: fair-ram.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: touching-pigeon.rooster465.autos:443, server: touching-pigeon.rooster465.autos, port: 443, type: trojan, password: JT80563429, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 62.60.159.137:50443, server: 62.60.159.137, port: 50443, type: vless, tls: true, packet-encoding: xudp, uuid: ab51054f-de76-4a0f-9f3a-b44c8df86a6c, servername: www.icloud.com, host: www.icloud.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US 2", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 91.124.209.138:2095, server: 91.124.209.138, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 28926c34-865c-447e-8d42-a17240af743b, network: ws, ws-opts: {path: /, headers: {Host: cdn-cloudflare91.korvexe.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.39.65.159:22222, server: 13.39.65.159, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - fair-ram.rooster465.autos:443
       - touching-pigeon.rooster465.autos:443
-      - 62.60.159.137:50443
-      - 🇺🇸 [openproxylist.com] vmess-US
-      - 🇺🇸 [openproxylist.com] vmess-US 2
+      - 91.124.209.138:2095
+      - 13.39.65.159:22222
   - name: دانلود منیجر 📥
     type: select
     proxies:
