@@ -465,7 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 45.198.96.153:443, server: 45.198.96.153, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83ab4443-ec22-4b3d-a587-53090be7beb2, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9Y-_jCI3Z1x6SXK2tHdZ6V1CN9IJPNPnoxSW0cbXxD8, short-id: 764f497dda21c4fc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: oplosgru-c.catcat321.com:20006, server: oplosgru-c.catcat321.com, port: 20006, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: oplosgru-c.catcat321.com:20048, server: oplosgru-c.catcat321.com, port: 20048, type: trojan, password: ba07a8af-5544-48ac-ab62-3b6c00a44fa6, sni: hk.catxstar.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 45.198.96.153:443
+      - oplosgru-c.catcat321.com:20006
+      - oplosgru-c.catcat321.com:20048
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
     proxies:
