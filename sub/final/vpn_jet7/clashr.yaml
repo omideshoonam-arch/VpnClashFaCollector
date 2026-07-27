@@ -5,8 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7", server: shop.jafarghasemi75.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1cad2532-89ab-471e-b4e0-272f1d0595b1, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: y-3wIqHAwZr2cwlJMBJUI-WxmgXsqe6OWl8nGMSiPjU, short-id: cc8b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 13.36.17.132, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7", server: 13.36.17.132, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -14,7 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -22,7 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -30,28 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -80,7 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7"
-      - "@Vpn_jet7 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

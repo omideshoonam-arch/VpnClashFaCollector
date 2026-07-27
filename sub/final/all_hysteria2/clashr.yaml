@@ -5,130 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 122670 | ⚡️Telegram - t.me/SOSkeyNET, server: gc4.22556666.com, port: 32050, type: hysteria2, ports: 32050, password: 083f9234-76f8-47f4-915e-726a767b7ad5, sni: gc4.22556666.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 43@oneclickvpnkeys, server: gc4.22556666.com, port: 32050, type: hysteria2, ports: 32050, password: 083f9234-76f8-47f4-915e-726a767b7ad5, sni: gc4.22556666.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad`", server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: assets.gateway-stream.com, port: 52060, type: hysteria2, ports: 52060, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: l960g2kn19nphlra, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 123108 | ⚡️Telegram - t.me/SOSkeyNET, server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: FI-🚀@V2Ray_Hub1200, server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad` 2", server: assets.gateway-stream.com, port: 52060, type: hysteria2, ports: 52060, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: l960g2kn19nphlra, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad` 3", server: assets.gateway-stream.com, port: 52061, type: hysteria2, ports: 52061, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: fd3olglr2bmimgje, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 53@oneclickvpnkeys, server: assets.gateway-stream.com, port: 52061, type: hysteria2, ports: 52061, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: fd3olglr2bmimgje, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: assets.gateway-stream.com, port: 52061, type: hysteria2, ports: 52061, password: 4z2oldt85p494bgb, obfs: salamander, obfs-password: fd3olglr2bmimgje, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 122668 | ⚡️Telegram - t.me/SOSkeyNET, server: proxy.sailreach.org, port: 8443, type: hysteria2, ports: 8443, password: 72bcd6fe388a12c386a1c40ff55f6c1e, obfs: salamander, obfs-password: ed56da70f1614311cbfc1e87, sni: proxy.sailreach.org, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 49@oneclickvpnkeys, server: proxy.sailreach.org, port: 8443, type: hysteria2, ports: 8443, password: 72bcd6fe388a12c386a1c40ff55f6c1e, obfs: salamander, obfs-password: ed56da70f1614311cbfc1e87, sni: proxy.sailreach.org, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 52@oneclickvpnkeys, server: 80.66.81.78, port: 9443, type: hysteria2, ports: 9443, password: rs2mR3g9bZiMloftx6lZQ59Um1Ld, obfs: salamander, obfs-password: oMgvuBy5Lj5kYM57sGsnjpjNcSEQ, sni: tunel1.washing.help, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 122669 | ⚡️Telegram - t.me/SOSkeyNET, server: 159.223.157.129, port: 8443, type: hysteria2, ports: 8443, password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g, sni: www.microsoft.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 48@oneclickvpnkeys, server: 159.223.157.129, port: 8443, type: hysteria2, ports: 8443, password: suAmQS9LlInNq4Wumh-FUF4GGlpgmG_g, sni: www.microsoft.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,19 +100,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 122670 | ⚡️Telegram - t.me/SOSkeyNET
-      - 43@oneclickvpnkeys
       - "@filembad`"
-      - "@FarazV2ray"
+      - 123108 | ⚡️Telegram - t.me/SOSkeyNET
+      - FI-🚀@V2Ray_Hub1200
       - "@filembad` 2"
       - "@filembad` 3"
-      - 53@oneclickvpnkeys
-      - "@filembad` 4"
-      - 122668 | ⚡️Telegram - t.me/SOSkeyNET
-      - 49@oneclickvpnkeys
-      - 52@oneclickvpnkeys
-      - 122669 | ⚡️Telegram - t.me/SOSkeyNET
-      - 48@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
