@@ -465,7 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 🚀🇩🇪, server: xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 0a268813-7200-4d23-9851-74568928fc82, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "`", server: xn--dash-4o53c.xn--ir-nz82a.netbazshop.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 0a268813-7200-4d23-9851-74568928fc82, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 2`, server: dashboard.lucypro.ir, port: 550, type: vless, tls: true, packet-encoding: xudp, uuid: de17a7f2-3071-467e-9e19-c6f9f6891475, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 🚀🇩🇪
       - "`"
+      - 2`
   - name: دانلود منیجر 📥
     type: select
     proxies:
