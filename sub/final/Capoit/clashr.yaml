@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Capoit", server: 188.214.32.218, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cabf30b3-d2a3-4d67-b52b-829297ca9a33, servername: weather.com, host: weather.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ye0UyX7fJU0dLkDdXR1V2yHbMU4nTywIqWnADA7PWGQ, short-id: 5cb14c83aab91d29}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit", server: 141.133.172.222, port: 20342, type: vless, tls: true, packet-encoding: xudp, uuid: 5eecb34f-c905-4c77-b7fb-d830b451cd11, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit`", server: 94.130.179.44, port: 1234, type: vless, tls: true, packet-encoding: xudp, uuid: 9a274b1d-788c-4a15-b3fa-7ea525198362, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +14,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Capoit"
+      - "@Capoit`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Capoit"
+      - "@Capoit`"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +30,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Capoit"
+      - "@Capoit`"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit"
+      - "@Capoit`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Capoit"
+      - "@Capoit`"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit"
+      - "@Capoit`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +80,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Capoit"
+      - "@Capoit`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
