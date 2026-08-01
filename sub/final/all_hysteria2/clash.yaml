@@ -468,12 +468,7 @@ proxies:
   - {name: "@filembad`", server: assets.gateway-stream.com, port: 52034, type: hysteria2, ports: 52034, password: 0puq3lmwv7qtp76t, obfs: salamander, obfs-password: w0tx1ju9iix6913p, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast`", server: assets.gateway-stream.com, port: 52034, type: hysteria2, ports: 52034, password: 0puq3lmwv7qtp76t, obfs: salamander, obfs-password: w0tx1ju9iix6913p, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 128556 | ⚡️Telegram - t.me/SOSkeyNET, server: wopa6.api3-max.ru, port: 443, type: hysteria2, ports: 443, password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9, sni: wopa6.api3-max.ru, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: assets.gateway-stream.com, port: 52060, type: hysteria2, ports: 52060, password: 84eyebdtl3tcbssn, obfs: salamander, obfs-password: l960g2kn19nphlra, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: configraygan_4, server: assets.gateway-stream.com, port: 52060, type: hysteria2, ports: 52060, password: 84eyebdtl3tcbssn, obfs: salamander, obfs-password: l960g2kn19nphlra, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 61@oneclickvpnkeys, server: 142.249.37.90, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 128419 | ⚡️Telegram - t.me/SOSkeyNET, server: hy2.561891.xyz, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 65@oneclickvpnkeys, server: hy2.561891.xyz, port: 44356, type: hysteria2, ports: 44356, password: dongtaiwang.com, sni: hy2.561891.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 2", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -494,11 +489,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -509,11 +499,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -524,11 +509,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -548,11 +528,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -563,11 +538,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -578,11 +548,6 @@ proxy-groups:
       - "@V2rayng_Fast`"
       - 128556 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - configraygan_4
-      - 61@oneclickvpnkeys
-      - 128419 | ⚡️Telegram - t.me/SOSkeyNET
-      - 65@oneclickvpnkeys
-      - "@filembad` 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:

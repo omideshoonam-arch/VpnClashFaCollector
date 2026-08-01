@@ -6,6 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 141.144.195.131:45819, server: 141.144.195.131, port: 45819, type: ss, cipher: chacha20-ietf-poly1305, password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=, udp: true, tfo: false}
+  - {name: 104.19.64.105:443, server: 104.19.64.105, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: 157.137.228.255:62145, server: 157.137.228.255, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: eu-gw.videomonitor.cloud:2053, server: eu-gw.videomonitor.cloud, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: b1e4bfe2-2b12-11f1-92cb-12ba70109d32, servername: dzen.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-direct}, reality-opts: {public-key: j8OW1foMwfeiy3VMbNPHLgTXgy_ZPdFFxv-H3HrbNF0, short-id: f0c18fcc1d09b637}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +16,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +26,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +36,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +94,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 141.144.195.131:45819
+      - 104.19.64.105:443
+      - 157.137.228.255:62145
+      - eu-gw.videomonitor.cloud:2053
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
