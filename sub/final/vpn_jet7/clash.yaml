@@ -468,8 +468,7 @@ proxies:
   - {name: "@Vpn_jet7", server: 20.223.136.145, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: qDCSwJiKm1gYt7Au, udp: true, tfo: false}
   - {name: "@Vpn_jet7**", server: 20.223.136.145, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: qDCSwJiKm1gYt7Au, udp: true, tfo: false}
   - {name: "@filembad", server: 188.41.249.20, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: rYfi4cQ3z7zts7BO4-Y9_A, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 2", server: 188.114.97.6, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7 3", server: 45.196.201.163, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f75814f6-8f81-4847-b792-168c41f2dc85, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zii4nGNapnFKL6SN8GzWNqFlElBvUCUFUThEP0kFH04, short-id: c6ef72e4635d15a5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 62.238.39.20, port: 8999, type: vless, tls: true, packet-encoding: xudp, uuid: 57d52736-888b-4139-a3d5-9b6d7c91c030, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dx7cY0aeosAvz0hzRR9DrAtAiKAuMH44KRBSufYYMmk, short-id: 992a171518f6f60e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,8 +488,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,8 +498,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -511,8 +508,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -531,8 +527,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -542,8 +537,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -553,8 +547,7 @@ proxy-groups:
       - "@Vpn_jet7"
       - "@Vpn_jet7**"
       - "@filembad"
-      - "@Vpn_jet7 2"
-      - "@Vpn_jet7 3"
+      - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
