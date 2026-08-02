@@ -6,6 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@Vpn_jet7", server: 78.40.195.56, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e, servername: 19.07-7.yunus.guru, host: 19.07-7.yunus.guru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank, short-id: c6d439fd92614ab0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 89.105.210.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f8ac5ad6-d8fc-452e-851b-297a4d994988, servername: ru-1.videoproeditor.com, host: ru-1.videoproeditor.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk, short-id: 6d6f13013d3e1d0c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +14,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +30,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +80,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7"
+      - "@Vpn_jet7**"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
