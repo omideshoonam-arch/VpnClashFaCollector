@@ -467,6 +467,7 @@ rule-providers:
 proxies:
   - {name: 84.235.160.109:45819, server: 84.235.160.109, port: 45819, type: ss, cipher: chacha20-ietf-poly1305, password: YTEyZDI0OGQwM2ZmZjc4ZTg1ZTBiYTNlZTZkZjIxODM=, udp: true, tfo: false}
   - {name: teain.org:1000, server: teain.org, port: 1000, type: vless, tls: true, packet-encoding: xudp, uuid: 6f436a44-f703-93da-7e45-615824a39d3b, servername: knox.cdn-apple.com, host: knox.cdn-apple.com, path: /, reality-opts: {public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY, short-id: a62d513cd709744a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: fin.sillyvpn.cc:31013, server: fin.sillyvpn.cc, port: 31013, type: vless, tls: true, packet-encoding: xudp, uuid: ddd9a320-9e93-437f-a5b6-6bf9647334a9, host: fin.sillyvpn.cc, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,6 +486,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -493,6 +495,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -501,6 +504,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -518,6 +522,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -526,6 +531,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -534,6 +540,7 @@ proxy-groups:
     proxies:
       - 84.235.160.109:45819
       - teain.org:1000
+      - fin.sillyvpn.cc:31013
   - name: دانلود منیجر 📥
     type: select
     proxies:
