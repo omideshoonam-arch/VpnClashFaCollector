@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7", server: 78.40.195.56, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a5ea9247-79f3-4655-aece-3fb51e1e669e, servername: 19.07-7.yunus.guru, host: 19.07-7.yunus.guru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: APXp2igsjxFmGkpb3L98I__FTySIY6saN6skP2y0ank, short-id: c6d439fd92614ab0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7**", server: 89.105.210.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f8ac5ad6-d8fc-452e-851b-297a4d994988, servername: ru-1.videoproeditor.com, host: ru-1.videoproeditor.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk, short-id: 6d6f13013d3e1d0c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Vpn_jet7"
       - "@Vpn_jet7**"
   - name: دانلود منیجر 📥
     type: select

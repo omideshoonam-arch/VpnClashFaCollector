@@ -5,13 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@filembad`", server: 83.243.86.80, port: 443, type: hysteria2, ports: 443, password: 1hOIVDVBG2hdKtJwOV2aUEFTDaFArCSH9-HrcOnps8yqQZeq, sni: prodfr.h2corp.org, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 131396 | ⚡️Telegram - t.me/SOSkeyNET, server: 167.104.219.217, port: 443, type: hysteria2, ports: 443, password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9, sni: taga5.api3-max.ru, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 3🧬@oneclickvpnkeys, server: 167.104.219.217, port: 443, type: hysteria2, ports: 443, password: 67a1454f-5a95-4e30-9723-1ffcbe7e97f9, sni: taga5.api3-max.ru, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 130478 | ⚡️Telegram - t.me/SOSkeyNET, server: 15.237.219.57, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-fr-002.fastervpn.world, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: assets.gateway-stream.com, port: 52008, type: hysteria2, ports: 52008, password: 76kyzc055ahiyfzy, obfs: salamander, obfs-password: 93lc6r07zfx4crct, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 130941 | ⚡️Telegram - t.me/SOSkeyNET, server: 35.181.52.234, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: vpn-fr-002.fastervpn.world, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: configraygan_7, server: 179.61.251.253, port: 37003, type: hysteria2, ports: 37003, password: TelegramVPNjey, obfs: salamander, obfs-password: 83v9muumcyikh5ch, sni: de.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 131280 | ⚡️Telegram - t.me/SOSkeyNET, server: 62.210.147.2, port: 43115, type: hysteria2, ports: 43115, password: github.com%2FAlvin9999-newpac%2Ffanqiang, sni: www.microsoft.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 130569 | ⚡️Telegram - t.me/SOSkeyNET, server: 91.107.178.22, port: 443, type: hysteria2, ports: 443, password: jeLq05gFPe, obfs: salamander, obfs-password: RedmEthIS-Join-V2RayyNGvpn-oBsPaHard183hgak, sni: www.refersion.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 131282 | ⚡️Telegram - t.me/SOSkeyNET, server: vpn-de-001.fastervpn.world, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vpn-de-001.fastervpn.world, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -19,13 +18,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
@@ -33,13 +31,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
@@ -47,52 +44,48 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
@@ -121,13 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@filembad`"
       - 131396 | ⚡️Telegram - t.me/SOSkeyNET
       - 3🧬@oneclickvpnkeys
-      - 130478 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad`"
       - 130941 | ⚡️Telegram - t.me/SOSkeyNET
+      - configraygan_7
       - 131280 | ⚡️Telegram - t.me/SOSkeyNET
-      - 130569 | ⚡️Telegram - t.me/SOSkeyNET
       - 131282 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
