@@ -465,124 +465,84 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad`", server: 138.124.68.188, port: 443, type: hysteria2, ports: 443, password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, sni: usa1.spectrumproxy.shop, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: 138.124.68.188, port: 443, type: hysteria2, ports: 443, password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: 138.124.68.188, port: 443, type: hysteria2, ports: 443, password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, sni: usa1.spectrumproxy.shop, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: 185.225.19.39, port: 443, type: hysteria2, ports: 443, password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r, sni: ro.h2corp.org, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 5", server: 68.219.96.61, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6xkGCYkrm5QxVgBV, udp: true, tfo: false}
-  - {name: "@filembad` 6", server: hg1.levikogjgfdd.ir, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true, tfo: false}
-  - {name: "@filembad` 7", server: 70.39.198.35, port: 54166, type: ss, cipher: chacha20-ietf-poly1305, password: EvLfWGe0AKvK, udp: true, tfo: false}
-  - {name: "@filembad` 8", server: 38.107.233.14, port: 42611, type: ss, cipher: chacha20-ietf-poly1305, password: OK5blaXj3WQAtRMP6pQ3OOSUcFrIDB3J, udp: true, tfo: false}
-  - {name: "@filembad` 9", server: 31.76.30.79, port: 10808, type: ss, cipher: chacha20-ietf-poly1305, password: TmXSpcRBbhvHDg66bo2w89bToxQsbMoa, udp: true, tfo: false}
-  - {name: "@filembad` 10", server: 140.238.191.246, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true, tfo: false}
-  - {name: "@filembad` 11", server: 82.38.31.42, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 12", server: 188.41.249.20, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: rYfi4cQ3z7zts7BO4-Y9_A, udp: true, tfo: false}
-  - {name: "@filembad` 13", server: 195.58.48.19, port: 10910, type: ss, cipher: aes-256-gcm, password: 2027e830399d8d08, udp: true, tfo: false}
-  - {name: "@filembad` 14", server: ht.configfast.site, port: 59618, type: trojan, password: 808ab92962abbca, sni: google.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 15", server: ifo.configfast.site, port: 58900, type: trojan, password: 808ab92962abbca, sni: google.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 16", server: 186.246.3.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: code-sandbox.blog, host: code-sandbox.blog, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI, short-id: ee57ea513371ce89}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 17", server: 186.246.3.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: code-sandbox.blog, host: code-sandbox.blog, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 84d_aHtsBvclx_Y6FnTmhhTqsZyQdfCGWtmFvefTrUI, short-id: ee57ea513371ce89}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 18", server: azw.fizikade.ir, port: 2828, type: vless, tls: true, packet-encoding: xudp, uuid: 07ee1745-9248-41f8-9706-6168527c4b2e, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: F55jhBaCQSw6Bt4jVCL8Kd2X7nJTbkqapwAfFpi7R1U, short-id: 00ba9a50c9f6e46d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 19", server: snapp.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 0ec96404-86f9-4b21-842e-2e03428a1fdb, network: ws, ws-opts: {path: /, headers: {Host: mana.parslicense.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 20", server: fr-6.flowersyellow.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b97d3d9-8320-4015-92d7-c94a07ae48fc, servername: www.samsung.com, host: www.samsung.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 21", server: 169.40.32.59, port: 37275, type: vless, tls: true, packet-encoding: xudp, uuid: 22dc5737-eee3-48b3-b11d-c004245da2b5, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 22", server: rue.kosmosapp.ru, port: 16923, type: vless, tls: true, packet-encoding: xudp, uuid: 28863986-75fb-4b2f-b006-65e62194358d, servername: yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: neurex}, reality-opts: {public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA, short-id: 10ffb85da1c2d986}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 23", server: dl12sw.cdn-ir-prime.shop, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 29ab13c9-5d69-b3f6-febb-b651ec09e085, servername: yahoo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 78B5e70YAkLUjm7Pg2OlJcPVUWIR-vjDh0u6enzqqUs, short-id: f1e1aa97}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 24", server: 185.226.92.185, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2ef04be6-7afc-454d-8723-8719942a842e, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 25", server: 3.99.41.4, port: 27775, type: vless, tls: true, packet-encoding: xudp, uuid: 309c4bd0-7430-b8aa-2238-1075e9e29370, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 26", server: 35.90.117.50, port: 27775, type: vless, tls: true, packet-encoding: xudp, uuid: 309c4bd0-7430-b8aa-2238-1075e9e29370, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 27", server: nl-bl-nl.karmatel.ir, port: 20828, type: vless, tls: true, packet-encoding: xudp, uuid: 35a6946a-2003-448f-9c1b-911efaa8c9a7, network: ws, ws-opts: {path: /, headers: {Host: nl-bl-nl.karmatel.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 28", server: 138.68.53.88, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 413a66e9-b05b-4ae6-a9eb-6d28204a28f4, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 29", server: 194.87.30.92, port: 37305, type: vless, tls: true, packet-encoding: xudp, uuid: 428f4386-9d8e-4c52-8fbe-2e7708fd108b, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 30", server: 182.16.61.3, port: 45647, type: vless, tls: true, packet-encoding: xudp, uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 31", server: 104.194.149.223, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: 4a97bed5-aa7a-468b-a240-eda4fd1d00e4, servername: www.sony.com, host: www.sony.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: MjZsTZtPlO-2sdyHhOw__wH1vSWiBSOQWivd3GwcOX4, short-id: 0bbeb8df494601}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 32", server: z-e-u-s-panel-t2ulkj.zeus-mx0gxrp9ewjz.workers.dev, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-275ee024ec12, servername: z-e-u-s-panel-t2ulkj.zeus-mx0gxrp9ewjz.workers.dev, network: ws, ws-opts: {path: "/stream/PANEL_ZEUS/275ee024ec12?loc=4", headers: {Host: z-e-u-s-panel-t2ulkj.zeus-mx0gxrp9ewjz.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 33", server: 104.17.38.59, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-ea75fcff3bb6, servername: ez-745c68.ezaccess1b85416.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/ea75fcff3bb6, headers: {Host: ez-745c68.ezaccess1b85416.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 34", server: 104.17.38.92, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-ea75fcff3bb6, servername: ez-745c68.ezaccess1b85416.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/ea75fcff3bb6, headers: {Host: ez-745c68.ezaccess1b85416.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 35", server: 5.253.30.99, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 511c1563-2cb6-4064-abc6-a59ee49818a8, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: cwmcqsfS7klQlkcoUNuATEk0NiPY-NnRb9z8rCJDQw0, short-id: 88b6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 36", server: 195.20.115.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5dc1b4ed-c897-468d-921d-266b062db2cb, servername: hu.cache-4d8a.com, host: hu.cache-4d8a.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: jwyfUdsuDBGtjuTfWOepIQ80EDSCXCp8Xe3bzXFlsjI, short-id: 9d84de9d9f7b85e9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 37", server: 185.65.202.156, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 68b4b16e-2759-47a4-8a69-33118edf5ce6, servername: ger.leontunel.ru, host: ger.leontunel.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gtKMi9Q9ZMYxe-ZvzmbpPI-uE6YcFM84xYSw7bpKF3w, short-id: 52c579ed2ce06c26}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 38", server: nl4.levikogjgfdd.ir, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a74770-7152-4a27-bef0-2615ca16e1b1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D0AQp0cWaQR55Q-zPwp6__AxN9CoT9neZj0UzlNcLCk, short-id: bd72}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 39", server: 185.71.219.199, port: 25129, type: vless, tls: true, packet-encoding: xudp, uuid: 6af3672b-8994-4cf1-aa15-23ce6574ebf0, servername: cloudflare.com, host: cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: cJ8_eQYfNhbi1CzbO53KSyhAA2QfIrr_0ssbYNNgYDw, short-id: 8e2b7f9d0c4a3516}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 40", server: ami.dearhossein-taktaz.ir, port: 14611, type: vless, tls: true, packet-encoding: xudp, uuid: 779e9985-dcbe-4813-824f-60fbb8030748, servername: api.semiconductor.samsung.com, host: api.semiconductor.samsung.com, path: /, reality-opts: {public-key: qZm_ES3VCjD7FuifdnCzb13IoTrckgm8Y4jg65LkoHc, short-id: 729d4a73753c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 41", server: ami.dearhossein-taktaz.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 779e9985-dcbe-4813-824f-60fbb8030748, network: ws, ws-opts: {path: /, headers: {Host: ami.dearhossein-taktaz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 42", server: 51.250.111.183, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7cea2b9e-bf67-4fd7-9fe5-9461a089230f, servername: yandex.ru, host: yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ, short-id: 2bb326a463fd1937}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 43", server: 51.250.111.183, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7cea2b9e-bf67-4fd7-9fe5-9461a089230f, servername: yandex.ru, host: yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ, short-id: 2bb326a463fd1937}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 44", server: pk-google.montago-shop.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 80d38a33-a9f6-462e-8bf2-3d627be0b404, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: PjR-SM4fOm2fY4mTqWoqZDRyxontvpailM0gBqUxlUQ, short-id: 070a23aed243}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 45", server: 144.31.179.7, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a, servername: get2s.skystreamgame.com, host: get2s.skystreamgame.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 46", server: get2s.skystreamgame.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a, servername: get2s.skystreamgame.com, host: get2s.skystreamgame.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 47", server: get2s.skystreamgame.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a, servername: get2s.skystreamgame.com, host: get2s.skystreamgame.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 48", server: get2s.skystreamgame.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a, servername: get2s.skystreamgame.com, host: get2s.skystreamgame.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 49", server: 85.234.69.159, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 862619ff-2139-45fd-8413-af83f98e2880, servername: icloud.com, host: icloud.com, path: /, reality-opts: {public-key: 88P7fof76Zu9GEd2AVdy1_wuEXDNjSR8nvTqLfxdp0Q, short-id: 07}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 50", server: 194.87.30.92, port: 16739, type: vless, tls: true, packet-encoding: xudp, uuid: 8c3578fe-cbaa-46eb-a20f-c834d65d9663, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 51", server: 185.247.16.49, port: 2237, type: vless, tls: true, packet-encoding: xudp, uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 52", server: 185.247.16.49, port: 2237, type: vless, tls: true, packet-encoding: xudp, uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 53", server: 185.247.16.49, port: 2273, type: vless, tls: true, packet-encoding: xudp, uuid: 8d7032fa-47e2-40b9-86ee-0072b23feff8, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 54", server: 149.130.175.28, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 55", server: 157.137.214.172, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 56", server: 157.137.223.179, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 57", server: 2.27.27.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: jp.musicwave.net, host: jp.musicwave.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 58", server: 2.27.27.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: jp.musicwave.net, host: jp.musicwave.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 59", server: 207.2.123.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: sa.ch-moltisanti.ru, host: sa.ch-moltisanti.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zb1esVBjrdlitl7Z_YkRi44kC0NXVvF5U17LAXW6fDQ, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 60", server: 207.2.123.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: sa.ch-moltisanti.ru, host: sa.ch-moltisanti.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zb1esVBjrdlitl7Z_YkRi44kC0NXVvF5U17LAXW6fDQ, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 61", server: 91.224.74.7, port: 20000, type: vless, tls: true, packet-encoding: xudp, uuid: 97fb7dfe-94aa-44f7-895b-947d07246712, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 62", server: nobitex.ir, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 9ec0f053-4dd2-4511-b5f8-00257ead90d4, network: ws, ws-opts: {path: /, headers: {Host: iranpars.yeksancloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 63", server: 63.184.141.43, port: 42886, type: vless, tls: true, packet-encoding: xudp, uuid: a70c8e5f-f915-4b9a-baa2-6017927a18da, network: ws, ws-opts: {path: /, headers: {Host: anten.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 64", server: 91.107.167.7, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ac1110a3-5082-47f0-8191-31c2b6a81aa0, servername: legal.samsungdm.com, host: legal.samsungdm.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: xd4I7d1RPb7VZnuPe7-a0FvxFqVnQnFEqiA-YxiHpRc, short-id: 84982fc043}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 65", server: 453fr41213sdafadsf.clonecloudcenter.ir, port: 11738, type: vless, tls: true, packet-encoding: xudp, uuid: b1c57fe0-ce8c-43ff-b123-5ae8281069be, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: PqDw-P557-_jeawMO_QPU1zYMRmEHCgUG6Kc35nLpXY, short-id: df12a186a1f89c33}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 66", server: 179.237.76.191, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: c877d001-de9f-43d4-87c0-b7474a662424, servername: g.co, host: g.co, path: /, reality-opts: {public-key: qhizbkaunsBTS7KH4ctsyxQBapZ3Qj5Y7Jr6J2r0HAU, short-id: b9fbd4c6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 67", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 68", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 69", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 70", server: 31.57.47.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d309d06f-a97f-46e4-b5f2-ee357f6a2bd1, servername: speedtest.co, host: speedtest.co, path: /, reality-opts: {public-key: RiIJor0LWCSSkWtPIl-xZinmRm5ng09rkq-y_bdJ-Xc, short-id: 6e64e221}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 71", server: 63.184.141.43, port: 42886, type: vless, tls: true, packet-encoding: xudp, uuid: d98aaae1-b70d-4cf7-b16f-5b7aa715d232, network: ws, ws-opts: {path: /, headers: {Host: anten.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 72", server: 195.133.18.161, port: 30153, type: vless, tls: true, packet-encoding: xudp, uuid: da97d2d7-d255-4efd-8398-7101d698768e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 73", server: 7.bmi.ir.varzesh3.com.de, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dc0f08ca-c95d-4b75-bd3b-ee75857ac82c, servername: play.google.com, alpn: [http%2F1.1], host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs, short-id: e915}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 74", server: 104.16.72.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 75", server: 13.36.19.59, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 76", server: 13.36.19.59, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 77", server: 13.36.19.59, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 78", server: 15.224.125.7, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 79", server: 15.224.125.7, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 80", server: 15.224.125.7, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 81", server: 15.224.127.219, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 82", server: 15.224.127.219, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 83", server: 15.224.127.219, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 84", server: 3.125.59.35, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 85", server: 3.125.59.35, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 86", server: 3.125.59.35, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 87", server: 51.45.45.205, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 88", server: 51.45.45.205, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 89", server: 51.45.45.205, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 90", server: 63.179.159.40, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 91", server: 63.179.159.40, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 92", server: 63.179.159.40, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 93", server: 63.179.159.40, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 94", server: arme.biscuitnazari.ir, port: 8889, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: www.icloud.com, host: www.icloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 3WLKK37y3OMoln3kQD3XjhaZJerNcrFDmI9-lS-w8g4, short-id: e463}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 95", server: arme.biscuitnazari.ir, port: 8999, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Hi9TISZFjMm0VfgAQ4NLHseieX8vZzOxqcdp5K24Oxg, short-id: 3f90}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 96", server: new.vip.biscuitnazari.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4Fhp-PFJL42pyPr4QpBK-bGcO3V0Me5dPdzIO39UpiA, short-id: 4b7f92}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 97", server: new.vip.biscuitnazari.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: www.icloud.com, host: www.icloud.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: OYhTVQU-XCRVXleXsbNotSzvqSpmi9G6H3g_NypA5iY, short-id: f777}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 98", server: vip.biscuitnazari.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: w5zhhM-mvYcW1rad2PbLhBvHtUSh8VEG1h8HPJfGb14, short-id: 30c99ba7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 99", server: vip.biscuitnazari.ir, port: 8999, type: vless, tls: true, packet-encoding: xudp, uuid: e5156fba-baa6-4210-bcf3-3f5560df1283, servername: www.sony.com, host: www.sony.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: E0bNmRAM9_CxeVZ-X-yHnLOWssLxWR8p7d051NG7z1Q, short-id: 3b59}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 100", server: m.telewebion.ir.varzesh3.com.de, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e9085087-c930-463c-830f-ca78f5cc4755, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs, short-id: e915}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 101", server: psf-1.zdshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3, servername: machinemag.ir, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 102", server: psf-1.zdshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3, servername: machinemag.ir, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 103", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 104", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 105", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 106", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 107", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 108", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 109", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 110", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 111", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 112", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 113", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 114", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 115", server: 84.32.209.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7, servername: dartsearch-cn.net, host: dartsearch-cn.net, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 116", server: perplexity.ai, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: f30a9043-6685-4cb3-aff7-04df89a857b9, network: ws, ws-opts: {path: /, headers: {Host: gerdooai.cafebario.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 117", server: newtun.soundfiy.ir, port: 27194, type: vless, tls: true, packet-encoding: xudp, uuid: fdb9af65-c7eb-4b9c-853f-1a5d7dd043cc, host: myket.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 118", server: 194.87.30.92, port: 22647, type: vless, tls: true, packet-encoding: xudp, uuid: ffa289e7-a058-493a-b234-3db1f26378d7, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: 138.124.68.188, port: 443, type: hysteria2, ports: 443, password: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 2", server: 185.225.19.39, port: 443, type: hysteria2, ports: 443, password: uj7XGZGUqRlmdpk6rysyZMN333RWsxTFj0hBIMaFV-NUCd5r, sni: ro.h2corp.org, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 3", server: 68.219.96.61, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 6xkGCYkrm5QxVgBV, udp: true, tfo: false}
+  - {name: "@filembad` 4", server: 38.107.233.14, port: 42611, type: ss, cipher: chacha20-ietf-poly1305, password: OK5blaXj3WQAtRMP6pQ3OOSUcFrIDB3J, udp: true, tfo: false}
+  - {name: "@filembad` 5", server: 31.76.30.79, port: 10808, type: ss, cipher: chacha20-ietf-poly1305, password: TmXSpcRBbhvHDg66bo2w89bToxQsbMoa, udp: true, tfo: false}
+  - {name: "@filembad` 6", server: 140.238.191.246, port: 59319, type: ss, cipher: chacha20-ietf-poly1305, password: YjliYmFlNzVmMmE4ZmJkYjAxNzQ2NWUyNzZlNjhkZGU=, udp: true, tfo: false}
+  - {name: "@filembad` 7", server: 82.38.31.42, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 8", server: ht.configfast.site, port: 59618, type: trojan, password: 808ab92962abbca, sni: google.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 9", server: ifo.configfast.site, port: 58900, type: trojan, password: 808ab92962abbca, sni: google.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 10", server: azw.fizikade.ir, port: 2828, type: vless, tls: true, packet-encoding: xudp, uuid: 07ee1745-9248-41f8-9706-6168527c4b2e, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: F55jhBaCQSw6Bt4jVCL8Kd2X7nJTbkqapwAfFpi7R1U, short-id: 00ba9a50c9f6e46d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 11", server: snapp.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 0ec96404-86f9-4b21-842e-2e03428a1fdb, network: ws, ws-opts: {path: /, headers: {Host: mana.parslicense.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 12", server: 169.40.32.59, port: 37275, type: vless, tls: true, packet-encoding: xudp, uuid: 22dc5737-eee3-48b3-b11d-c004245da2b5, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 13", server: rue.kosmosapp.ru, port: 16923, type: vless, tls: true, packet-encoding: xudp, uuid: 28863986-75fb-4b2f-b006-65e62194358d, servername: yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: neurex}, reality-opts: {public-key: _QeslG3rHGM7DoM99pYC8-jpc16pM2MbNZ6NRMoxmHA, short-id: 10ffb85da1c2d986}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 14", server: 3.99.41.4, port: 27775, type: vless, tls: true, packet-encoding: xudp, uuid: 309c4bd0-7430-b8aa-2238-1075e9e29370, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 15", server: 35.90.117.50, port: 27775, type: vless, tls: true, packet-encoding: xudp, uuid: 309c4bd0-7430-b8aa-2238-1075e9e29370, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 16", server: nl-bl-nl.karmatel.ir, port: 20828, type: vless, tls: true, packet-encoding: xudp, uuid: 35a6946a-2003-448f-9c1b-911efaa8c9a7, network: ws, ws-opts: {path: /, headers: {Host: nl-bl-nl.karmatel.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 17", server: 138.68.53.88, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 413a66e9-b05b-4ae6-a9eb-6d28204a28f4, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 18", server: 194.87.30.92, port: 37305, type: vless, tls: true, packet-encoding: xudp, uuid: 428f4386-9d8e-4c52-8fbe-2e7708fd108b, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 19", server: 104.17.38.59, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-ea75fcff3bb6, servername: ez-745c68.ezaccess1b85416.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/ea75fcff3bb6, headers: {Host: ez-745c68.ezaccess1b85416.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 20", server: 185.65.202.156, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 68b4b16e-2759-47a4-8a69-33118edf5ce6, servername: ger.leontunel.ru, host: ger.leontunel.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gtKMi9Q9ZMYxe-ZvzmbpPI-uE6YcFM84xYSw7bpKF3w, short-id: 52c579ed2ce06c26}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 21", server: 7.bmi.ir.varzesh3.com.de, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 72620a78-fe3c-4662-82cd-78f30498d7fb, servername: play.google.com, alpn: [http%2F1.1], host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs, short-id: e915}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 22", server: ami.dearhossein-taktaz.ir, port: 14611, type: vless, tls: true, packet-encoding: xudp, uuid: 779e9985-dcbe-4813-824f-60fbb8030748, servername: api.semiconductor.samsung.com, host: api.semiconductor.samsung.com, path: /, reality-opts: {public-key: qZm_ES3VCjD7FuifdnCzb13IoTrckgm8Y4jg65LkoHc, short-id: 729d4a73753c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 23", server: ami.dearhossein-taktaz.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 779e9985-dcbe-4813-824f-60fbb8030748, network: ws, ws-opts: {path: /, headers: {Host: ami.dearhossein-taktaz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 24", server: 51.250.111.183, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7cea2b9e-bf67-4fd7-9fe5-9461a089230f, servername: yandex.ru, host: yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ, short-id: 2bb326a463fd1937}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 25", server: 51.250.111.183, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7cea2b9e-bf67-4fd7-9fe5-9461a089230f, servername: yandex.ru, host: yandex.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ONSC3Bp5U0cjkMca7bXlUI16izIeN0fJKoCjEdn64RQ, short-id: 2bb326a463fd1937}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 26", server: get2s.skystreamgame.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 840336f4-2c42-4f97-9f0f-97f13642bc5a, servername: get2s.skystreamgame.com, host: get2s.skystreamgame.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QHkXBS2ENHV0khgY9VBYi8_9bpfqnUYDcfQN4cW5Qg0, short-id: 4326}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 27", server: 85.234.69.159, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 862619ff-2139-45fd-8413-af83f98e2880, servername: icloud.com, host: icloud.com, path: /, reality-opts: {public-key: 88P7fof76Zu9GEd2AVdy1_wuEXDNjSR8nvTqLfxdp0Q, short-id: 07}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 28", server: 194.87.30.92, port: 16739, type: vless, tls: true, packet-encoding: xudp, uuid: 8c3578fe-cbaa-46eb-a20f-c834d65d9663, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 29", server: 149.130.175.28, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 30", server: 157.137.214.172, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 31", server: 157.137.223.179, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 32", server: 2.27.27.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: jp.musicwave.net, host: jp.musicwave.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 33", server: 2.27.27.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: jp.musicwave.net, host: jp.musicwave.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qBtxq4RZxDLCJT8i48iaGMhacv8MOI0yhIFiuwYJm08, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 34", server: 207.2.123.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: sa.ch-moltisanti.ru, host: sa.ch-moltisanti.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zb1esVBjrdlitl7Z_YkRi44kC0NXVvF5U17LAXW6fDQ, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 35", server: 207.2.123.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94d2d711-76e5-4d82-a3c9-4f06fd5558c8, servername: sa.ch-moltisanti.ru, host: sa.ch-moltisanti.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: zb1esVBjrdlitl7Z_YkRi44kC0NXVvF5U17LAXW6fDQ, short-id: 825d392c67e4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 36", server: 91.224.74.7, port: 20000, type: vless, tls: true, packet-encoding: xudp, uuid: 97fb7dfe-94aa-44f7-895b-947d07246712, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 37", server: 63.184.141.43, port: 42886, type: vless, tls: true, packet-encoding: xudp, uuid: a70c8e5f-f915-4b9a-baa2-6017927a18da, network: ws, ws-opts: {path: /, headers: {Host: anten.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 38", server: 453fr41213sdafadsf.clonecloudcenter.ir, port: 11738, type: vless, tls: true, packet-encoding: xudp, uuid: b1c57fe0-ce8c-43ff-b123-5ae8281069be, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: PqDw-P557-_jeawMO_QPU1zYMRmEHCgUG6Kc35nLpXY, short-id: df12a186a1f89c33}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 39", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 40", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 41", server: vip.biscuitnazari.ir, port: 900, type: vless, tls: true, packet-encoding: xudp, uuid: cfc7cf07-8f95-4d20-a349-77aaf201cf6a, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JDWZObhI7V-RHZBmupQsPhZPDXYKiNPWzO3kCCCtQX4, short-id: 2df0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 42", server: 31.57.47.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d309d06f-a97f-46e4-b5f2-ee357f6a2bd1, servername: speedtest.co, host: speedtest.co, path: /, reality-opts: {public-key: RiIJor0LWCSSkWtPIl-xZinmRm5ng09rkq-y_bdJ-Xc, short-id: 6e64e221}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 43", server: 63.184.141.43, port: 42886, type: vless, tls: true, packet-encoding: xudp, uuid: d98aaae1-b70d-4cf7-b16f-5b7aa715d232, network: ws, ws-opts: {path: /, headers: {Host: anten.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 44", server: 195.133.18.161, port: 30153, type: vless, tls: true, packet-encoding: xudp, uuid: da97d2d7-d255-4efd-8398-7101d698768e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 45", server: 7.bmi.ir.varzesh3.com.de, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dc0f08ca-c95d-4b75-bd3b-ee75857ac82c, servername: play.google.com, alpn: [http%2F1.1], host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JtA0d5K6Jnmg35oWP9SDOsc1ceuqaxOsNg33fiPHJQs, short-id: e915}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 46", server: 104.16.72.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 47", server: rlt.onlin011.ir, port: 42257, type: vless, tls: true, packet-encoding: xudp, uuid: ded130fa-2e2f-4a63-ad9c-c11842ce9aba, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: 7hsrhFplywvYqZ4OX7Ae82hdqIVU6r2rIo_gZdqLtE8, short-id: e6b89724e2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 48", server: 13.36.19.59, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 49", server: 13.36.19.59, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 50", server: 13.36.19.59, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 51", server: 3.125.59.35, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 52", server: 3.125.59.35, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 53", server: 3.125.59.35, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 54", server: 51.45.45.205, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 55", server: 51.45.45.205, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 56", server: 51.45.45.205, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 57", server: 63.179.159.40, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 58", server: 63.179.159.40, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 59", server: 63.179.159.40, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 60", server: 63.179.159.40, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 61", server: 64.49.38.6, port: 993, type: vless, tls: true, packet-encoding: xudp, uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d, servername: dl.google.com, host: dl.google.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 62", server: psf-1.zdshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3, servername: machinemag.ir, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 63", server: psf-1.zdshop.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: ea1278d8-c65a-4bdf-8c68-e84a26be53a3, servername: machinemag.ir, network: ws, ws-opts: {path: /, headers: {Host: machinemag.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 64", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 65", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 66", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 67", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 68", server: 78.159.250.214, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 69", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 70", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 71", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 72", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 73", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 74", server: 84.32.209.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f1c496bf-d2ab-45be-bc13-051d60d227b7, servername: dartsearch-cn.net, host: dartsearch-cn.net, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 75", server: perplexity.ai, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: f30a9043-6685-4cb3-aff7-04df89a857b9, network: ws, ws-opts: {path: /, headers: {Host: gerdooai.cafebario.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 76", server: newtun.soundfiy.ir, port: 27194, type: vless, tls: true, packet-encoding: xudp, uuid: fdb9af65-c7eb-4b9c-853f-1a5d7dd043cc, host: myket.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 77", server: 194.87.30.92, port: 22647, type: vless, tls: true, packet-encoding: xudp, uuid: ffa289e7-a058-493a-b234-3db1f26378d7, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 195.133.193.18, port: 27726, type: vmess, uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -676,47 +636,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -800,47 +720,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -924,47 +804,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -1057,47 +897,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -1181,47 +981,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -1305,47 +1065,7 @@ proxy-groups:
       - "@filembad` 75"
       - "@filembad` 76"
       - "@filembad` 77"
-      - "@filembad` 78"
-      - "@filembad` 79"
-      - "@filembad` 80"
-      - "@filembad` 81"
-      - "@filembad` 82"
-      - "@filembad` 83"
-      - "@filembad` 84"
-      - "@filembad` 85"
-      - "@filembad` 86"
-      - "@filembad` 87"
-      - "@filembad` 88"
-      - "@filembad` 89"
-      - "@filembad` 90"
-      - "@filembad` 91"
-      - "@filembad` 92"
-      - "@filembad` 93"
-      - "@filembad` 94"
-      - "@filembad` 95"
-      - "@filembad` 96"
-      - "@filembad` 97"
-      - "@filembad` 98"
-      - "@filembad` 99"
-      - "@filembad` 100"
-      - "@filembad` 101"
-      - "@filembad` 102"
-      - "@filembad` 103"
-      - "@filembad` 104"
-      - "@filembad` 105"
-      - "@filembad` 106"
-      - "@filembad` 107"
-      - "@filembad` 108"
-      - "@filembad` 109"
-      - "@filembad` 110"
-      - "@filembad` 111"
-      - "@filembad` 112"
-      - "@filembad` 113"
-      - "@filembad` 114"
-      - "@filembad` 115"
-      - "@filembad` 116"
-      - "@filembad` 117"
-      - "@filembad` 118"
+      - "@filembad"
   - name: دانلود منیجر 📥
     type: select
     proxies:

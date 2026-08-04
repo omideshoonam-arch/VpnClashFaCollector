@@ -476,6 +476,7 @@ proxies:
   - {name: definite-malamute.rooster465.autos:443, server: definite-malamute.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-malamute.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: definite-sturgeon.rooster465.autos:443, server: definite-sturgeon.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: definite-sturgeon.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: devoted-heron.rooster465.autos:443, server: devoted-heron.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: devoted-heron.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: discrete-basilisk.rooster465.autos:443, server: discrete-basilisk.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: discrete-basilisk.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: distinct-llama.rooster465.autos:443, server: distinct-llama.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: distinct-llama.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: exotic-chow.rooster465.autos:443, server: exotic-chow.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: exotic-chow.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: grateful-owl.rooster465.autos:443, server: grateful-owl.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: grateful-owl.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
@@ -510,6 +511,9 @@ proxies:
   - {name: upright-impala.rooster465.autos:443, server: upright-impala.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: upright-impala.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: wise-bengal.rooster465.autos:443, server: wise-bengal.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: wise-bengal.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: great-krill.rooster465.autos:443, server: great-krill.rooster465.autos, port: 443, type: trojan, password: QV31589740, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 84.235.166.124:62145, server: 84.235.166.124, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 51.45.45.205:22222, server: 51.45.45.205, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -537,6 +541,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -571,6 +576,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -588,6 +596,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -622,6 +631,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -639,6 +651,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -673,6 +686,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -699,6 +715,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -733,6 +750,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -750,6 +770,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -784,6 +805,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -801,6 +825,7 @@ proxy-groups:
       - definite-malamute.rooster465.autos:443
       - definite-sturgeon.rooster465.autos:443
       - devoted-heron.rooster465.autos:443
+      - discrete-basilisk.rooster465.autos:443
       - distinct-llama.rooster465.autos:443
       - exotic-chow.rooster465.autos:443
       - grateful-owl.rooster465.autos:443
@@ -835,6 +860,9 @@ proxy-groups:
       - upright-impala.rooster465.autos:443
       - wise-bengal.rooster465.autos:443
       - great-krill.rooster465.autos:443
+      - 84.235.166.124:62145
+      - 51.45.45.205:22222
+      - 🇺🇸 [openproxylist.com] vmess-US
   - name: دانلود منیجر 📥
     type: select
     proxies:
