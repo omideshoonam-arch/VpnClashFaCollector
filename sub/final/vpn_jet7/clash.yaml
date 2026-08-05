@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 193.233.74.57, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e, servername: www.telekom.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js, short-id: 89136b6e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: dl.sorvexa.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 90919a53-cc25-46b0-99d6-3d219bea0962, host: dl.sorvexa.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 63.182.59.68, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

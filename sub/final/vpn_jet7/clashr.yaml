@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 193.233.74.57, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 218fd696-e3a2-4c33-b397-a5f13a82969e, servername: www.telekom.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: P5eqN_q-Vq7M8YgrTIS_yZBgWLskGKQ9hAHhW__R6js, short-id: 89136b6e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: dl.sorvexa.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 90919a53-cc25-46b0-99d6-3d219bea0962, host: dl.sorvexa.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 63.182.59.68, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +14,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +22,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +30,28 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +80,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

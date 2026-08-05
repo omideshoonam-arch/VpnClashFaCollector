@@ -5,81 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@proxy_kafee`", server: vip.sinavm.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 07730597-ba4f-4ca8-abe5-a53b28ad318c, servername: android.com, host: android.com, path: /, reality-opts: {public-key: 7JDEwF5DtVN9ym8x_tHcdA5-L5hH_JlYNf-ZXUYqu18, short-id: 3f958af268}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee", server: 31.77.170.228, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 2181d0c8-448a-4f75-b848-1718029baef9, servername: max.ru, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: grpc2}, reality-opts: {public-key: -Dg4mGAAM5Lwe9ri7Bx5WlYdPBsyYJy-Pai2Z0FGlyc, short-id: afee962d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: 162.159.38.119, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 49e76398-5127-4005-90cb-c2a971f745f1, servername: oekja.megacitylab-nomt.sbs, network: ws, ws-opts: {path: /carbon, headers: {Host: oekja.megacitylab-nomt.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d10c997-4781-4cd9-82c3-15453523e12c, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 5", server: fj260403.freechatup.com, port: 27726, type: vmess, uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee", server: vip.sinavm.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 07730597-ba4f-4ca8-abe5-a53b28ad318c, servername: android.com, host: android.com, path: /, reality-opts: {public-key: 7JDEwF5DtVN9ym8x_tHcdA5-L5hH_JlYNf-ZXUYqu18, short-id: 3f958af268}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 2", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d10c997-4781-4cd9-82c3-15453523e12c, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 3", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee `", server: 104.18.175.58, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: b9ec63fa-d5e6-4063-9f5d-60442e9f427b, servername: panelz.zlinkid.shop, network: ws, ws-opts: {path: /, headers: {Host: panelz.zlinkid.shop}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
+      - "Channel : @proxy_kafee"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee `"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
