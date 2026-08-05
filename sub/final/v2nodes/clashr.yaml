@@ -7,6 +7,7 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 129.151.76.103:61312, server: 129.151.76.103, port: 61312, type: ss, cipher: chacha20-ietf-poly1305, password: MGU4ZjVkMGNhY2Y3YzM0NmIxMDgyNDQ5OGVjZjY2Y2Y=, udp: true, tfo: false}
   - {name: 130.61.178.208:59924, server: 130.61.178.208, port: 59924, type: ss, cipher: chacha20-ietf-poly1305, password: OWVhYWM4OTFlNGFhNTFiNjY5NDNlODI3ZDE5Njc0ZmE=, udp: true, tfo: false}
+  - {name: 🇨🇳 speed-01.aliyun-web-tracker.cn:39221, server: speed-01.aliyun-web-tracker.cn, port: 39221, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ace-starling.rooster465.autos:443, server: ace-starling.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: ace-starling.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: careful-tadpole.rooster465.autos:443, server: careful-tadpole.rooster465.autos, port: 443, type: trojan, password: ND91608427, skip-cert-verify: false, udp: true, tfo: false}
   - {name: classic-gator.rooster465.autos:443, server: classic-gator.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: classic-gator.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
@@ -15,6 +16,8 @@ proxies:
   - {name: rapid-firefly.rooster465.autos:443, server: rapid-firefly.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: rapid-firefly.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: skilled-lioness.rooster465.autos:443, server: skilled-lioness.rooster465.autos, port: 443, type: trojan, password: ND91608427, sni: skilled-lioness.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 78.17.103.162:443, server: 78.17.103.162, port: 443, type: trojan, password: yooog56ts3ymtpp5, sni: driveservice.mooo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: www.fbi.gov:2095, server: www.fbi.gov, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: fuckingfangbinxing.pusytroller.cf}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 193.123.32.155:62145, server: 193.123.32.155, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -24,6 +27,7 @@ proxy-groups:
       - DIRECT
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -32,6 +36,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: ♻️ 自动选择
     type: url-test
@@ -41,6 +47,7 @@ proxy-groups:
     proxies:
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -49,6 +56,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🌍 国外媒体
     type: select
@@ -58,6 +67,7 @@ proxy-groups:
       - 🎯 全球直连
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -66,6 +76,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: 📲 电报信息
     type: select
@@ -74,6 +86,7 @@ proxy-groups:
       - 🎯 全球直连
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -82,6 +95,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: Ⓜ️ 微软服务
     type: select
@@ -90,6 +105,7 @@ proxy-groups:
       - 🚀 节点选择
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -98,6 +114,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🍎 苹果服务
     type: select
@@ -106,6 +124,7 @@ proxy-groups:
       - 🎯 全球直连
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -114,6 +133,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
   - name: 🎯 全球直连
     type: select
@@ -144,6 +165,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 129.151.76.103:61312
       - 130.61.178.208:59924
+      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - ace-starling.rooster465.autos:443
       - careful-tadpole.rooster465.autos:443
       - classic-gator.rooster465.autos:443
@@ -152,6 +174,8 @@ proxy-groups:
       - rapid-firefly.rooster465.autos:443
       - skilled-lioness.rooster465.autos:443
       - 78.17.103.162:443
+      - www.fbi.gov:2095
+      - 193.123.32.155:62145
       - 🇺🇸 [openproxylist.com] vmess-US
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
