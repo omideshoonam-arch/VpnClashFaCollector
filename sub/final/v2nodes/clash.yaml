@@ -465,11 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇨🇳 speed-01.aliyun-web-tracker.cn:39221, server: speed-01.aliyun-web-tracker.cn, port: 39221, type: trojan, password: 55354c2b8ee339571bd657a9bb9858cc, sni: speed-01.aliyun-web-tracker.cn, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 14.137.238.144:10000, server: 14.137.238.144, port: 10000, type: vless, tls: true, packet-encoding: xudp, uuid: 431fe973-a43a-4fac-bf83-2a772e0d0625, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: teain.org:1000, server: teain.org, port: 1000, type: vless, tls: true, packet-encoding: xudp, uuid: 6f436a44-f703-93da-7e45-615824a39d3b, servername: knox.cdn-apple.com, host: knox.cdn-apple.com, path: /, reality-opts: {public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY, short-id: a62d513cd709744a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 134.98.150.57:62145, server: 134.98.150.57, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 158.101.194.120:62145, server: 158.101.194.120, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 149.130.176.140:62145, server: 149.130.176.140, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇨🇳 speed-01.aliyun-web-tracker.cn:39221
       - 14.137.238.144:10000
       - teain.org:1000
-      - 134.98.150.57:62145
-      - 158.101.194.120:62145
+      - 149.130.176.140:62145
   - name: دانلود منیجر 📥
     type: select
     proxies:
