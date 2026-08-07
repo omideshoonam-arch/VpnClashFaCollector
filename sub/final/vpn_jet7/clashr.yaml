@@ -6,6 +6,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: ekhtesaai, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 294177fc-1d61-4306-9d8c-33dc393e45ba, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: test, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5afed0f2-7f91-4c35-9554-1c16902115fc, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d7bbfdf5-684f-4594-9cc5-58b5f061155e, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +15,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +24,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +33,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ekhtesaai
+      - test
+      - ekhtesasi
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +87,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ekhtesaai
+      - test
+      - ekhtesasi
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
