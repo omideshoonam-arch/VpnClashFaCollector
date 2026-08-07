@@ -465,7 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@kia_net`", server: 77.42.125.134, port: 1234, type: vless, tls: true, packet-encoding: xudp, uuid: 42632980-9f42-4762-a313-a31e8ec88da4, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Kia_Net", server: 179.61.251.253, port: 37003, type: hysteria2, ports: 37003, password: TelegramVPNjey, obfs: salamander, obfs-password: 83v9muumcyikh5ch, sni: de.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Kia_Net`", server: 179.61.251.253, port: 37003, type: hysteria2, ports: 37003, password: TelegramVPNjey, obfs: salamander, obfs-password: 83v9muumcyikh5ch, sni: de.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Kia_Net 2", server: assets.gateway-stream.com, port: 52046, type: hysteria2, ports: 52046, password: ik0zt621uw9iqvsi, obfs: salamander, obfs-password: 7h5we82pkgh4qwid, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Kia_Net 3", server: assets.gateway-stream.com, port: 52062, type: hysteria2, ports: 52062, password: ik0zt621uw9iqvsi, obfs: salamander, obfs-password: hg7rfvz151ftjh0w, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Kia_Net 4", server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: hy2.aspidnet.xyz:443, server: hy2.aspidnet.xyz, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@kia_net`"
+      - "@Kia_Net"
+      - "@Kia_Net`"
+      - "@Kia_Net 2"
+      - "@Kia_Net 3"
+      - "@Kia_Net 4"
+      - hy2.aspidnet.xyz:443
   - name: دانلود منیجر 📥
     type: select
     proxies:

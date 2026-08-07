@@ -465,10 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 104.19.47.168, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}, udp: true, tfo: false}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 104.19.47.248, port: 8080, type: vmess, uuid: b551aa22-22af-11ee-b8d8-f23c932eb68d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2048&Telegram🇨🇳 @WangCai2", headers: {Host: oiictw.yydsii.com}}, udp: true, tfo: false}
-  - {name: "@vasl_bashim", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2ray_official", server: 195.133.193.18, port: 27726, type: vmess, uuid: 98e2be3c-8f84-4b85-996b-b68dcc2fbcb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: direct, server: trk.levikogjgfdd.ir, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN, server: cf.levikogjgfdd.ir, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram
-      - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - "@vasl_bashim"
-      - "@V2ray_official"
+      - direct
+      - CDN
   - name: دانلود منیجر 📥
     type: select
     proxies:

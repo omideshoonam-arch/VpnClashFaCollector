@@ -5,116 +5,144 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: direct, server: pl1.levikogjgfdd.ir, port: 45635, type: ss, cipher: chacha20-ietf-poly1305, password: QxU3Q3O44spzHBb6z3l4OS, udp: true, tfo: false}
-  - {name: CDN, server: millionaire.levikogjgfdd.ir, port: 443, type: trojan, password: !<str> 521314, sni: tjplay.lxdxo.kdns.fr, skip-cert-verify: false, network: ws, ws-opts: {path: /Leviko_v2ray, headers: {Host: tjplay.lxdxo.kdns.fr}}, udp: true, tfo: false}
-  - {name: direct 2, server: gr1.levikogjgfdd.ir, port: 51822, type: vless, tls: true, packet-encoding: xudp, uuid: 200e4181-caf2-4261-bd98-b1fd9ad1fce1, host: Telegram-Leviko_v2ray, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 3, server: nl4.levikogjgfdd.ir, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a74770-7152-4a27-bef0-2615ca16e1b1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D0AQp0cWaQR55Q-zPwp6__AxN9CoT9neZj0UzlNcLCk, short-id: bd72}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 4, server: sw1.levikogjgfdd.ir, port: 1000, type: vless, tls: true, packet-encoding: xudp, uuid: 6f436a44-f703-93da-7e45-615824a39d3b, servername: knox.cdn-apple.com, host: knox.cdn-apple.com, path: /, reality-opts: {public-key: ECxm-BdHYhxYK9MtN33NkkrFSdFZXp-OB-yhN8AleRY, short-id: a62d513cd709744a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 5, server: nl3.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, servername: uwu.spectrumproxy.shop, host: uwu.spectrumproxy.shop, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo, short-id: 143627f1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 6, server: it1.levikogjgfdd.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dc7722c-2767-4eea-a28b-2f8daacc07e3, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 2, server: millionaire.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217, servername: terazhediii.info, network: ws, ws-opts: {path: /hdgrbws, headers: {Host: terazhediii.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 7, server: gb1.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.data}, reality-opts: {public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY, short-id: 524efc1f88592266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 8, server: us3.levikogjgfdd.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6d41d6f-d58a-7650-bba4-d7f0dde3ba4d, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: TunService}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 9, server: gr2.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fc3f9347-7542-483c-833c-cd561384783d, servername: google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: data-sync}, reality-opts: {public-key: kPBXTe2KCp55GrHS_qU_sF7ohUcT8Vu-e8i6Yd9MERI, short-id: d5c7f84e37e0c12d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN, server: millionaire.levikogjgfdd.ir, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: CDN 2, server: cf.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d10c997-4781-4cd9-82c3-15453523e12c, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: direct, server: nl4.levikogjgfdd.ir, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a74770-7152-4a27-bef0-2615ca16e1b1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D0AQp0cWaQR55Q-zPwp6__AxN9CoT9neZj0UzlNcLCk, short-id: bd72}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: direct 2, server: nl3.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, servername: uwu.spectrumproxy.shop, host: uwu.spectrumproxy.shop, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo, short-id: 143627f1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 3, server: millionaire.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN`, server: millionaire.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 4, server: one-for-all.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 5, server: cf.levikogjgfdd.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: fuckingfangbinxing.pusytroller.cf}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 6, server: one-for-all.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217, servername: terazhediii.info, network: ws, ws-opts: {path: /hdgrbws, headers: {Host: terazhediii.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 7, server: millionaire.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a, servername: ov.iran-servers.shop, network: ws, ws-opts: {path: /J5aLQOY1R9ONWYCM, headers: {Host: ov.iran-servers.shop}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 8, server: cf.levikogjgfdd.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035, network: ws, ws-opts: {path: /, headers: {Host: weathered-lake-e883.35-bc4.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: direct 3, server: gb1.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.data}, reality-opts: {public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY, short-id: 524efc1f88592266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 9, server: cf.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c, servername: po.fastbrokencompony.com, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/?ed=2053", headers: {Host: po.fastbrokencompony.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: direct 4, server: trk.levikogjgfdd.ir, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: CDN 10, server: cf.levikogjgfdd.ir, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -142,17 +170,21 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - direct
       - CDN
-      - direct 2
-      - direct 3
-      - direct 4
-      - direct 5
-      - direct 6
       - CDN 2
-      - direct 7
-      - direct 8
-      - direct 9
+      - direct
+      - direct 2
+      - CDN 3
+      - CDN`
+      - CDN 4
+      - CDN 5
+      - CDN 6
+      - CDN 7
+      - CDN 8
+      - direct 3
+      - CDN 9
+      - direct 4
+      - CDN 10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
