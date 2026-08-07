@@ -5,30 +5,17 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@V2rayng_Fast", server: 185.253.117.217, port: 443, type: hysteria2, ports: 443, password: pjyFpMEKFH, obfs: salamander, obfs-password: TelEgRam%3DV2RayyNGvpn, sni: www.intel.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: hg1.levikogjgfdd.ir, port: 40028, type: ss, cipher: chacha20-ietf-poly1305, password: 28789988-887e-4e41-83cd-27bbfb7999ad, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: 31.76.30.79, port: 10808, type: ss, cipher: chacha20-ietf-poly1305, password: TmXSpcRBbhvHDg66bo2w89bToxQsbMoa, udp: true, tfo: false}
-  - {name: CDN, server: millionaire.levikogjgfdd.ir, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: CDN 2, server: cf.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d10c997-4781-4cd9-82c3-15453523e12c, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast`", server: 62.238.55.96, port: 1234, type: vless, tls: true, packet-encoding: xudp, uuid: 5de3f60c-7cc2-4f66-9177-706a2693dc19, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct, server: nl4.levikogjgfdd.ir, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 69a74770-7152-4a27-bef0-2615ca16e1b1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: D0AQp0cWaQR55Q-zPwp6__AxN9CoT9neZj0UzlNcLCk, short-id: bd72}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 2, server: nl3.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76713d07-5a6b-49c2-abd8-bc450a2fa7fc, servername: uwu.spectrumproxy.shop, host: uwu.spectrumproxy.shop, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: EyzTSZxq5qlUT2xW0l7VP-DzIh2ucabMan9ekEv9Owo, short-id: 143627f1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 3, server: millionaire.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 4, server: one-for-all.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 5, server: cf.levikogjgfdd.ir, port: 2095, type: vless, tls: true, packet-encoding: xudp, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, network: ws, ws-opts: {path: /, headers: {Host: fuckingfangbinxing.pusytroller.cf}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: pro.polnejat.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: a104a6c1-f725-467c-9701-6fe5d16b4ce8, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: DaN-Oyl858Ok1XvkHIzYsbBeKstn0OpHf5a98etuFC4, short-id: 4eab4c26}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 5", server: EN1.ZAG-FA.SOLVETA.IR, port: 9982, type: vless, tls: true, packet-encoding: xudp, uuid: b2a21714-fd64-461f-9364-49ea2ddc8b59, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: mPYP_E1bJqvNXD-uKRU4QFyXk6B9lweXX5cqgbq3l3M, short-id: 16b3713dce93ee0c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 6, server: one-for-all.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b2f6aa3a-2550-4a1c-b2c0-1c94b1207217, servername: terazhediii.info, network: ws, ws-opts: {path: /hdgrbws, headers: {Host: terazhediii.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 7, server: millionaire.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d361072e-9e0e-4e2d-8ec7-2a4189b5b23a, servername: ov.iran-servers.shop, network: ws, ws-opts: {path: /J5aLQOY1R9ONWYCM, headers: {Host: ov.iran-servers.shop}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 8, server: cf.levikogjgfdd.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: d7ec3e31-a9c4-4bdf-a2d8-7f75a8381035, network: ws, ws-opts: {path: /, headers: {Host: weathered-lake-e883.35-bc4.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 3, server: gb1.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: d9aa9ea3-9388-483f-a58d-a754f33ec505, servername: play.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.data}, reality-opts: {public-key: GS0dfvzX-bVKBDl2brVxsrE6T2WyXXkfgP3x-mQC7BY, short-id: 524efc1f88592266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 9, server: cf.levikogjgfdd.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: e7961655-9674-4cbd-a36f-ec0d5d7d660c, servername: po.fastbrokencompony.com, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/?ed=2053", headers: {Host: po.fastbrokencompony.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 6", server: qq.utiltools.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eb78e1f0-d921-4ca9-a889-261fcc5a0547, servername: qq.utiltools.ru, host: qq.utiltools.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 7", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f3a21b24-5963-495a-a82f-1f62cb459335, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 8", server: 82.40.62.103, port: 1234, type: vless, tls: true, packet-encoding: xudp, uuid: f3a21b24-5963-495a-a82f-1f62cb459335, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast` 2", server: new.frizan.ir, port: 2019, type: vless, tls: true, packet-encoding: xudp, uuid: fba7da11-1d4e-4c74-9a90-fe290eb9539d, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: direct 4, server: trk.levikogjgfdd.ir, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: CDN 10, server: cf.levikogjgfdd.ir, port: 2053, type: vmess, uuid: 9a1a05d9-69be-45d3-e326-c6621edf7b31, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /devm, headers: {Host: deapp.jisuyun.top}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 85.234.69.247, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 35f955ac-6904-4eae-81d5-432dbb545c21, host: icloud.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 72.56.247.70, port: 2200, type: vless, tls: true, packet-encoding: xudp, uuid: 59525c39-e731-4c27-bc9e-6d8cef67572c, network: ws, ws-opts: {path: /v1, headers: {Host: rzd.ru}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: book2.korzelo.ir, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 867bac5c-b78e-4f5c-ac03-4ec4b18141aa, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 46.225.220.111, port: 1234, type: vless, tls: true, packet-encoding: xudp, uuid: 9b2c31f4-dc67-4e5a-88d9-79d0a04cc2bd, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FreakConfig", server: 93.114.194.118, port: 448, type: vless, tls: true, packet-encoding: xudp, uuid: bc5b801f-49a7-4db7-ac92-a2c57d42d132, servername: www.samsung.com, host: www.samsung.com, path: /, reality-opts: {public-key: qX6IJfWNN-SNray6xJugb8pCpgY_zjeyCfvq9IUyd3w, short-id: e1bdc95c1554c8eb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: 89.208.198.151, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: bdba330b-dfc6-001f-93e4-b10f906bf4fb, servername: api-maps.yandex.ru, host: api-maps.yandex.ru, path: /, reality-opts: {public-key: 0J8o7RTIGJzUV6gOjCtpPvgzCZz7Yowfla_I0a01GRY, short-id: ddd6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 104.167.197.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bdba330b-dfc6-4b66-93e4-b10f906bf4fb, servername: monalisgame.com, host: monalisgame.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 3.124.132.221, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 7", server: 3.124.132.221, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 8", server: 3.124.132.221, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast` 2", server: b4y7t2p9j6f1m8x3q5kd.th3team.ir, port: 20071, type: vless, tls: true, packet-encoding: xudp, uuid: f4146152-f622-4466-a233-cc01ca908bcb, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -37,28 +24,15 @@ proxy-groups:
       - DIRECT
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -67,28 +41,15 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -97,28 +58,15 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: 📲 电报信息
     type: select
     proxies:
@@ -126,28 +74,15 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -155,28 +90,15 @@ proxy-groups:
       - 🚀 节点选择
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -184,28 +106,15 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -235,28 +144,15 @@ proxy-groups:
       - ♻️ 自动选择
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - CDN
-      - CDN 2
       - "@V2rayng_Fast`"
-      - direct
-      - direct 2
-      - CDN 3
-      - CDN 4
-      - CDN 5
+      - "@V2rayng_Fast 3"
+      - "@FreakConfig"
       - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 5"
-      - CDN 6
-      - CDN 7
-      - CDN 8
-      - direct 3
-      - CDN 9
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast` 2"
-      - direct 4
-      - CDN 10
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
