@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0f0f608d-1531-4aa3-a289-d59da1c0da5f, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: test, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5afed0f2-7f91-4c35-9554-1c16902115fc, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ekhtesasi 2, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d7bbfdf5-684f-4594-9cc5-58b5f061155e, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 02ac669d-93ba-4c53-9348-a6c3c2900d50, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - ekhtesasi
-      - test
-      - ekhtesasi 2
   - name: دانلود منیجر 📥
     type: select
     proxies:
