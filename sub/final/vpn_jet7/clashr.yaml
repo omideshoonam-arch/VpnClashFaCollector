@@ -6,6 +6,12 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 02ac669d-93ba-4c53-9348-a6c3c2900d50, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 81.177.215.156, port: 13868, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: amd.com, host: amd.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko, short-id: e852dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 3.64.99.156, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: 3.77.122.78, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 4", server: 51.44.50.247, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 5", server: 144.31.218.18, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f692629b-3557-488a-9c9b-60775331e423, servername: fi1-cosmostechnology.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: fi1cosmos}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7**, server: 31.76.55.0, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f692629b-3557-488a-9c9b-60775331e423, servername: fi1-cosmostechnology.ru, host: fi1-cosmostechnology.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +19,12 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +32,12 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +45,48 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +115,12 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ekhtesasi
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
+      - Vpn_jet7**
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
