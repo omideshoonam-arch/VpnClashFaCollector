@@ -465,9 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ekhtesaai, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 294177fc-1d61-4306-9d8c-33dc393e45ba, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0f0f608d-1531-4aa3-a289-d59da1c0da5f, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: test, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5afed0f2-7f91-4c35-9554-1c16902115fc, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ekhtesasi, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d7bbfdf5-684f-4594-9cc5-58b5f061155e, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ekhtesasi 2, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d7bbfdf5-684f-4594-9cc5-58b5f061155e, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ekhtesaai
-      - test
       - ekhtesasi
+      - test
+      - ekhtesasi 2
   - name: دانلود منیجر 📥
     type: select
     proxies:
