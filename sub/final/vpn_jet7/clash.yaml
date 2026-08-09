@@ -465,12 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 81.177.215.156, port: 13868, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: amd.com, host: amd.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: FaX6hUpswBFFN-GaXFmFK8bVWYcPlrB4KP26n_INgko, short-id: e852dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 5.254.14.165, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 408e08b4-4e08-4819-9eb6-0e660ec87530, servername: cdn4-81.yahoo.com, host: cdn4-81.yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: CMkW1axrhEXoiJ6anMz9XEjlfqlAtEZya7L0b5ZPMyw, short-id: abe4a59b9f2407e3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 3.64.99.156, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 4", server: 3.77.122.78, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 5", server: 51.44.50.247, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 6", server: 144.31.218.18, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f692629b-3557-488a-9c9b-60775331e423, servername: fi1-cosmostechnology.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: fi1cosmos}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 159.223.65.190, port: 9090, type: vless, tls: true, packet-encoding: xudp, uuid: 0fdee718-bf74-48d3-967d-ab7a0801a5c1, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,11 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,11 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -512,11 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -533,11 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -545,11 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -557,11 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
-      - "@Vpn_jet7** 5"
-      - "@Vpn_jet7** 6"
   - name: دانلود منیجر 📥
     type: select
     proxies:
