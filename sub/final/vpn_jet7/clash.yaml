@@ -466,6 +466,10 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@Vpn_jet7**", server: 159.223.65.190, port: 9090, type: vless, tls: true, packet-encoding: xudp, uuid: 0fdee718-bf74-48d3-967d-ab7a0801a5c1, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 193.233.255.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50e636af-b554-4526-94ad-d0f4b34adecc, servername: de.sellflow.org, host: de.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: 193.233.255.14, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6, servername: fr.sellflow.org, host: fr.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 4", server: 13.38.221.117, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 5", server: 170.168.99.4, port: 993, type: vless, tls: true, packet-encoding: xudp, uuid: fc03a9a8-ef0f-5794-e119-0c3b68b178e8, servername: download.nvidia.com, host: download.nvidia.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +487,10 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +498,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +509,10 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +529,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +540,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +551,10 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
+      - "@Vpn_jet7** 5"
   - name: دانلود منیجر 📥
     type: select
     proxies:
