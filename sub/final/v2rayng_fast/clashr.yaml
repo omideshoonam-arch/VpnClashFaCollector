@@ -6,17 +6,37 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@V2rayng_Fast", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: 188.255.236.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a, servername: cosmic-aurora.cdn.cachefleet.com, host: cosmic-aurora.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: 141.11.149.200, port: 11650, type: vless, tls: true, packet-encoding: xudp, uuid: 2aa2be33-b987-461e-8d0e-2ffe15cb8e4c, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: 193.233.255.23, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50e636af-b554-4526-94ad-d0f4b34adecc, servername: de.sellflow.org, host: de.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 5", server: 204.168.196.173, port: 6985, type: vless, tls: true, packet-encoding: xudp, uuid: 832e0199-9614-4d74-a7ba-1dca5453dab5, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 6", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 7", server: 193.233.255.14, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6, servername: fr.sellflow.org, host: fr.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 8", server: 45.131.212.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6, servername: fr.sellflow.org, host: fr.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 9", server: 104.18.1.1, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96, servername: Amphetamine.aDaspoloandco.com, network: ws, ws-opts: {path: /download.php, headers: {Host: Amphetamine.aDaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 10", server: 31.43.191.39, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: luminous-vortex.cdn.cachefleet.com, host: luminous-vortex.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast`", server: 45.143.201.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: hasty-dolphin.cdn.cachefleet.com, host: hasty-dolphin.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 11", server: 170.168.97.5, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a, servername: download.nvidia.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: TunService}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 78.17.112.103, port: 13868, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: www.epicgames.com, host: www.epicgames.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8SX8GXMe3lXOyY_acO4HFXXYJn_rOOf4zkYFrifV1Tk, short-id: e852dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 78.17.125.201, port: 13868, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: booking.com, host: booking.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk, short-id: e852dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: 78.17.126.47, port: 13868, type: vless, tls: true, packet-encoding: xudp, uuid: 06d44c57-8e1a-41f4-b9c4-65d35869e078, servername: booking.com, host: booking.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: sgpya-5ohMKCjzyrDe4RWz7b8O9XegDzQ88oHCV45Gk, short-id: e852dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 168.222.140.204, port: 4100, type: vless, tls: true, packet-encoding: xudp, uuid: 155e8dd4-a559-407a-9ea8-13a5e829f066, network: ws, ws-opts: {path: /v1}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 130.78.216.196, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a, servername: calm-panther.cdn.cachefleet.com, host: calm-panther.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 7", server: 188.255.236.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a, servername: cosmic-aurora.cdn.cachefleet.com, host: cosmic-aurora.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: 188.255.236.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a, servername: cosmic-aurora.cdn.cachefleet.com, host: cosmic-aurora.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 8", server: 141.11.149.200, port: 11650, type: vless, tls: true, packet-encoding: xudp, uuid: 2aa2be33-b987-461e-8d0e-2ffe15cb8e4c, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 9", server: 193.233.255.23, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50e636af-b554-4526-94ad-d0f4b34adecc, servername: de.sellflow.org, host: de.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 10", server: 185.136.12.28, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 56e409a0-0042-4f50-92cd-741f78bfc8d0, servername: g.co, host: g.co, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: AJaF22KofrLCIR4CTB1vtLk-jFOD2uZXbuUh2cKT4Bk, short-id: 8f5ed0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 11", server: 204.168.196.173, port: 6985, type: vless, tls: true, packet-encoding: xudp, uuid: 832e0199-9614-4d74-a7ba-1dca5453dab5, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2raynf_Fast", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 12", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 13", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 14", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85_musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 15", server: 193.233.255.14, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6, servername: fr.sellflow.org, host: fr.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 16", server: 45.131.212.28, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdf6dde-a1ca-456d-9b18-86b74d5768e6, servername: fr.sellflow.org, host: fr.sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 17", server: 104.18.1.1, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 97ea73b6-2043-4238-903c-a1e3d4a43c96, servername: Amphetamine.aDaspoloandco.com, network: ws, ws-opts: {path: /download.php, headers: {Host: Amphetamine.aDaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 18", server: nzze.paydar.site, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: c01185b6-7d1d-4d94-a895-835fc74389b2, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2raynf_Fast 2", server: 164.37.109.187, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-0064-8e6a-6397ed0ffc03, servername: gb.cdn.cachefleet.com, host: gb.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 19", server: 31.43.191.39, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: luminous-vortex.cdn.cachefleet.com, host: luminous-vortex.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 20", server: 31.43.191.39, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: luminous-vortex.cdn.cachefleet.com, host: luminous-vortex.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 21", server: 45.143.201.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: hasty-dolphin.cdn.cachefleet.com, host: hasty-dolphin.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 22", server: 45.143.201.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: hasty-dolphin.cdn.cachefleet.com, host: hasty-dolphin.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 23", server: 45.143.201.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: hasty-dolphin.cdn.cachefleet.com, host: hasty-dolphin.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast` 2", server: 45.143.201.8, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c28ee61d-0d43-4e69-8e6a-6397ed0ffc03, servername: hasty-dolphin.cdn.cachefleet.com, host: hasty-dolphin.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 24", server: 170.168.97.5, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: c6f220ed-41f2-21ba-438c-80f05ebbf92a, servername: download.nvidia.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: TunService}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 5225 @V2rayng_Fast, server: 172.67.172.95, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575, servername: rubifen.adaspoloandco.com, network: ws, ws-opts: {path: /GOrbEh, headers: {Host: rubifen.adaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 25", server: 173.245.49.157, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cf39fab0-bb85-42cb-9945-2ad69d78e575, servername: rubifen.adaspoloandco.com, network: ws, ws-opts: {path: /GOrbEh, headers: {Host: rubifen.adaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 26", server: 144.31.157.104, port: 20017, type: vless, tls: true, packet-encoding: xudp, uuid: d2733ae6-44e7-4b14-8c2d-3f5bef74cdec, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 27", server: 194.5.207.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eda6b321-aa59-4b1e-b823-3616af020b4a, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: 8Cho6K3KB6Aoty9x_TCAbY3yv7m-ToCHqaKkZTxR3jM, short-id: d6c3c9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -30,11 +50,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -48,11 +88,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -66,11 +126,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -83,11 +163,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -100,11 +200,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -117,11 +237,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -156,11 +296,31 @@ proxy-groups:
       - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
-      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 11"
+      - "@V2raynf_Fast"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
+      - "@V2rayng_Fast 14"
+      - "@V2rayng_Fast 15"
+      - "@V2rayng_Fast 16"
+      - "@V2rayng_Fast 17"
+      - "@V2rayng_Fast 18"
+      - "@V2raynf_Fast 2"
+      - "@V2rayng_Fast 19"
+      - "@V2rayng_Fast 20"
+      - "@V2rayng_Fast 21"
+      - "@V2rayng_Fast 22"
+      - "@V2rayng_Fast 23"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 24"
+      - 5225 @V2rayng_Fast
+      - "@V2rayng_Fast 25"
+      - "@V2rayng_Fast 26"
+      - "@V2rayng_Fast 27"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
