@@ -465,16 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 139653 | ⚡️Telegram - t.me/SOSkeyNET, server: 35.183.85.24, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: css.rbxcdn.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***✅***@AR14N24b", server: 35.183.85.24, port: 443, type: hysteria2, ports: 443, password: H7mP2xY9kJ4nQ8wR5tF6vB3z, sni: css.rbxcdn.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 139909 | ⚡️Telegram - t.me/SOSkeyNET, server: 54.213.89.22, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vk.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "***✅***@AR14N24b 2", server: 54.213.89.22, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vk.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "***✅***@AR14N24b", server: 54.213.89.22, port: 443, type: hysteria2, ports: 443, password: qQe1z5kU8kN6SlKnDt9Ru3Qp, sni: vk.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad`", server: 78.159.240.69, port: 8443, type: hysteria2, ports: 8443, password: 7836b28e-8451-4596-ad3e-e3601b2335ba, sni: quic.tyr-agentstvo.tech, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 140010 | ⚡️Telegram - t.me/SOSkeyNET, server: 78.159.240.69, port: 8443, type: hysteria2, ports: 8443, password: 7836b28e-8451-4596-ad3e-e3601b2335ba, sni: quic.tyr-agentstvo.tech, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 140009 | ⚡️Telegram - t.me/SOSkeyNET, server: 46.8.210.209, port: 443, type: hysteria2, ports: 443, password: 95c61940-2823-4665-a033-d4f2218329b6, sni: ru3.kinotorg.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad` 2", server: 107.181.155.107, port: 2096, type: hysteria2, ports: 2096, password: Configvibes, obfs: salamander, obfs-password: IL%2Bpm5%22K%3F4gef%3AJvn8%5EG%2B%3AN%2CNeyy8, sni: ftp.debian.org, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 139636 | ⚡️Telegram - t.me/SOSkeyNET, server: 93.114.194.122, port: 8443, type: hysteria2, ports: 8443, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: grape-zet-ro-turbo.bumbleshrimp.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 53@oneclickvpnkeys, server: 93.114.194.122, port: 8443, type: hysteria2, ports: 8443, password: Jz40_mIJ934vK0_k9D3jz92_Vx48q_GHa1_sz0, sni: grape-zet-ro-turbo.bumbleshrimp.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -491,48 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -548,48 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 139653 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b"
       - 139909 | ⚡️Telegram - t.me/SOSkeyNET
-      - "***✅***@AR14N24b 2"
+      - "***✅***@AR14N24b"
       - "@filembad`"
       - 140010 | ⚡️Telegram - t.me/SOSkeyNET
       - 140009 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 2"
-      - 139636 | ⚡️Telegram - t.me/SOSkeyNET
-      - 53@oneclickvpnkeys
   - name: دانلود منیجر 📥
     type: select
     proxies:

@@ -7,7 +7,6 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: direct, server: au1.levikogjgfdd.ir, port: 27116, type: ss, cipher: chacha20-ietf-poly1305, password: bIOoi5TuImG2KccxV7-jcA7Cez+vun-c_E, udp: true, tfo: false}
   - {name: direct 2, server: fr1.levikogjgfdd.ir, port: 443, type: trojan, password: ND91608427, sni: classic-gator.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: kia_net👑💐, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: direct 3, server: fr2.levikogjgfdd.ir, port: 2053, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: direct 4, server: gb2.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2a12bb81-f3a3-41bb-99ab-36febf676b4a, servername: calm-panther.cdn.cachefleet.com, host: calm-panther.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: direct 5, server: us2.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 79911446-1e45-cc99-f480-9763d37c3f34, servername: rvg-production-689c.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/79911446-1e45-cc99-f480-9763d37c3f34, headers: {Host: rvg-production-689c.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -26,7 +25,6 @@ proxy-groups:
       - DIRECT
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -44,7 +42,6 @@ proxy-groups:
     proxies:
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -62,7 +59,6 @@ proxy-groups:
       - 🎯 全球直连
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -79,7 +75,6 @@ proxy-groups:
       - 🎯 全球直连
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -96,7 +91,6 @@ proxy-groups:
       - 🚀 节点选择
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -113,7 +107,6 @@ proxy-groups:
       - 🎯 全球直连
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
@@ -152,7 +145,6 @@ proxy-groups:
       - ♻️ 自动选择
       - direct
       - direct 2
-      - kia_net👑💐
       - direct 3
       - direct 4
       - direct 5
