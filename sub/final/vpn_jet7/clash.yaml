@@ -465,9 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 95.216.161.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 22199ed8-5f22-4906-9917-67e3609d8776, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg, short-id: 29fd3dc0210c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 3.71.241.48, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 94.249.225.83, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3, servername: plucky-kestrel.cdn.cachefleet.com, host: plucky-kestrel.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 3.71.241.48, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 94.249.225.83, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f4dbc770-016d-4a0f-82f0-d83ee6f45da3, servername: plucky-kestrel.cdn.cachefleet.com, host: plucky-kestrel.cdn.cachefleet.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad", server: 168.222.49.188, port: 80, type: vmess, uuid: 6a9f1cc0-0a97-4d85-8294-f92369984bdc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -487,7 +486,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -497,7 +495,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -507,7 +504,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -526,7 +522,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -536,7 +531,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -546,7 +540,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
       - "@filembad"
   - name: دانلود منیجر 📥
     type: select

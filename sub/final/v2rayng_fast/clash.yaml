@@ -476,6 +476,12 @@ proxies:
   - {name: V2rayng_Fast@ 9, server: 95.216.160.158, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 22199ed8-5f22-4906-9917-67e3609d8776, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg, short-id: 29fd3dc0210c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: V2rayng_Fast@ 10, server: 95.216.165.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 22199ed8-5f22-4906-9917-67e3609d8776, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg, short-id: 29fd3dc0210c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: V2rayng_Fast@ 11, server: 95.216.165.65, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 22199ed8-5f22-4906-9917-67e3609d8776, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: XS_4X8Ti1WuBEYbWCFuN2gEc-YG0EwN3cNPRV4dAvCg, short-id: 29fd3dc0210c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:31298, server: 185.226.92.175, port: 31298, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:36980, server: 185.226.92.175, port: 36980, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:37414, server: 185.226.92.175, port: 37414, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, network: ws, ws-opts: {path: /, headers: {Host: www.samsung.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:47030, server: 185.226.92.175, port: 47030, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: AHp8H79GIMcWuuAS-nVQmb93RGUeKGrYwadd3r-40QQ, short-id: f4b2dbe494c8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:49736, server: 185.226.92.175, port: 49736, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 72YYFwmWjUG4MF8Jyon9yBGT31lboO__K-x9FjCO70M, short-id: 2942cebdac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.226.92.175:59230, server: 185.226.92.175, port: 59230, type: vless, tls: true, packet-encoding: xudp, uuid: 442e1d8f-d2d3-422c-b03a-00b13098fb9a, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: V2rayng_Fast@ 12, server: 64.188.77.184, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8033102198, servername: nl13.fast-connect-service.site, alpn: [http%2F1.1], host: nl13.fast-connect-service.site, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: V2rayng_Fast@ 13, server: 95.85.246.104, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8033102198, servername: pl7.fast-connect-service.site, alpn: [http%2F1.1], host: pl7.fast-connect-service.site, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: V2rayng_Fast@ 14, server: 95.85.253.5, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8033102198, servername: pl4.fast-connect-service.site, alpn: [http%2F1.1], host: pl4.fast-connect-service.site, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
@@ -513,6 +519,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
@@ -540,6 +552,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
@@ -567,6 +585,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
@@ -603,6 +627,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
@@ -630,6 +660,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
@@ -657,6 +693,12 @@ proxy-groups:
       - V2rayng_Fast@ 9
       - V2rayng_Fast@ 10
       - V2rayng_Fast@ 11
+      - 185.226.92.175:31298
+      - 185.226.92.175:36980
+      - 185.226.92.175:37414
+      - 185.226.92.175:47030
+      - 185.226.92.175:49736
+      - 185.226.92.175:59230
       - V2rayng_Fast@ 12
       - V2rayng_Fast@ 13
       - V2rayng_Fast@ 14
