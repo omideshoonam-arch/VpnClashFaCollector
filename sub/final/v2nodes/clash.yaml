@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: v2jp.k1.ssnss.live:44184, server: v2jp.k1.ssnss.live, port: 44184, type: trojan, password: d050aca3-9df2-4461-90ec-92373c1d7636, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 134.98.155.169:62145, server: 134.98.155.169, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇸🇬 [openproxylist.com] vmess-SG", server: 366-1095.rabbitpro-in-3.com, port: 29006, type: vmess, uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - v2jp.k1.ssnss.live:44184
       - 134.98.155.169:62145
+      - 🇸🇬 [openproxylist.com] vmess-SG
   - name: دانلود منیجر 📥
     type: select
     proxies:

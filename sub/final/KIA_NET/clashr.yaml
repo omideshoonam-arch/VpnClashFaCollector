@@ -5,16 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv, server: assets.gateway-stream.com, port: 52020, type: hysteria2, ports: 52020, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: kkh2qmrbxmh8h22a, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv, server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv, server: assets.gateway-stream.com, port: 52022, type: hysteria2, ports: 52022, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: 1wcfqg6gwoyxlplo, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv, server: assets.gateway-stream.com, port: 52023, type: hysteria2, ports: 52023, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: detgimgm8qh8i2g2, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv, server: assets.gateway-stream.com, port: 52024, type: hysteria2, ports: 52024, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: t72hzzenktxmrvgu, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`, server: assets.gateway-stream.com, port: 52025, type: hysteria2, ports: 52025, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: iknjsvsjagi449mm, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv, server: assets.gateway-stream.com, port: 52026, type: hysteria2, ports: 52026, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: d6pv15sghiq1onts, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv, server: assets.gateway-stream.com, port: 52027, type: hysteria2, ports: 52027, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: 4hnuy2eg2xgo6ue0, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv, server: assets.gateway-stream.com, port: 52030, type: hysteria2, ports: 52030, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: x5y77oxwfcl868u3, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv, server: assets.gateway-stream.com, port: 52031, type: hysteria2, ports: 52031, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: p61ckuavkc1s2hfl, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv", server: assets.gateway-stream.com, port: 52085, type: hysteria2, ports: 52085, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: bjk7yxuzu7a0cpik, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv", server: assets.gateway-stream.com, port: 52086, type: hysteria2, ports: 52086, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: dscbu47eev49tv84, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv", server: assets.gateway-stream.com, port: 52087, type: hysteria2, ports: 52087, password: 3ff7b2e75ce84d05ae16572b60a9b707, obfs: salamander, obfs-password: bwgy7ppdoiz448uw, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
@@ -29,16 +19,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -53,16 +33,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -77,16 +47,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -100,16 +60,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -123,16 +73,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -146,16 +86,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
@@ -191,16 +121,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇨🇿 dc-udp-🇨🇿 Czech Republic-Prague-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Berlin-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Dusseldorf-met_vg8l31sv
-      - 🇩🇪 dc-udp-🇩🇪 Germany-Frankfurt-met_vg8l31sv
-      - 🇩🇰 dc-udp-🇩🇰 Denmark-Copenhagen-met_vg8l31sv
-      - 🇪🇪 dc-udp-🇪🇪 Estonia-Tallinn-met_vg8l31sv`
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Barcelona-met_vg8l31sv
-      - 🇪🇸 dc-udp-🇪🇸 Spain-Madrid-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Bordeaux-met_vg8l31sv
-      - 🇫🇷 dc-udp-🇫🇷 France-Marseille-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Salt Lake City, UT-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-McAllen, TX-met_vg8l31sv
       - 🇺🇸 dc-udp-🇺🇸 USA-Secaucus, NJ-met_vg8l31sv
