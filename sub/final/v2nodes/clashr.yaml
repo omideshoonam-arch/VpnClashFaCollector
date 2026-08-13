@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 134.98.155.169:62145, server: 134.98.155.169, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 16.162.109.29:3415, server: 16.162.109.29, port: 3415, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 16.162.109.29:50887, server: 16.162.109.29, port: 50887, type: trojan, password: 6ec301428255a78a1d826988d86cc87e, sni: www.nintendogames.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "🇸🇬 [openproxylist.com] vmess-SG", server: 366-1095.rabbitpro-in-3.com, port: 29006, type: vmess, uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -13,7 +14,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: ♻️ 自动选择
     type: url-test
@@ -21,7 +23,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: 🌍 国外媒体
     type: select
@@ -29,28 +32,32 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
   - name: 🎯 全球直连
     type: select
@@ -79,7 +86,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 134.98.155.169:62145
+      - 16.162.109.29:3415
+      - 16.162.109.29:50887
       - 🇸🇬 [openproxylist.com] vmess-SG
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
