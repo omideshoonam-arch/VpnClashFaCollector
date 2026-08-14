@@ -5,81 +5,137 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: "🇭🇰 [openproxylist.com] vmess-HK", server: 366-1095.rabbitpro-in-3.com, port: 29011, type: vmess, uuid: e351d6d8-c167-3e07-8fda-3f2f4ec0760b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad", server: 65.109.178.10, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 65.109.178.10, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee", server: 65.109.178.10, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⚡@V2ray_official, server: 66.42.72.146, port: 46373, type: vmess, uuid: f98fdefd-1b61-4052-c5b5-2a196f6e0541, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /my-vmess-path}, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧, server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@", server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@vpnbaz 🍭", server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@meliproxyy", server: 165.140.216.141, port: 443, type: vmess, uuid: e7d72a8d-26f2-4b54-b366-0c43e0bcba7d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 178.105.210.96, port: 80, type: vmess, uuid: 78fb1a62-b276-4a13-ab57-f2b87d0f37a5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 2", server: 178.83.45.29, port: 38998, type: vmess, uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⚡@V2ray_official 2, server: 202.47.89.133, port: 53548, type: vmess, uuid: 3a03613b-bbac-4a22-bee6-2c9a751a2761, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /dkfjh222}, udp: true, tfo: false}
+  - {name: "@outline_ir", server: 23.137.249.110, port: 30010, type: vmess, uuid: 2f3f767d-3dea-4de0-8861-5b5a0dbf9061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +163,20 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 🇭🇰 [openproxylist.com] vmess-HK
       - "@filembad"
+      - "@filembad 2"
       - "Channel : @proxy_kafee"
+      - ⚡@V2ray_official
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇬🇧
+      - برای اتصال دائمی جوین شو🥏 TelegramID ⌲Express_freevpn 🪩
+      - "☑➜چنلمون: Express_freevpn@"
       - "@vpnbaz 🍭"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
       - "@meliproxyy"
+      - "@FarazV2ray"
       - "Channel : @proxy_kafee 2"
+      - ⚡@V2ray_official 2
+      - "@outline_ir"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
