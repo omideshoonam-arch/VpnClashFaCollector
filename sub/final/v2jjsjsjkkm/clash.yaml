@@ -465,14 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-38", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-38", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-39", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-39", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-40", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-40", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-41", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-41", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-40", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 140.248.186.45, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-40", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-41", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-41", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -493,10 +489,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -507,10 +499,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -521,10 +509,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -544,10 +528,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -558,10 +538,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -572,10 +548,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran`"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran` 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
