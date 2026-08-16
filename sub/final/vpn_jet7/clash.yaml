@@ -465,10 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "@Vpn_jet**", server: 64.188.77.13, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-west.cendora.ru, host: eu-west.cendora.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0, short-id: dd3ff38418d29d22}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7**", server: 64.188.77.13, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: eu-west.cendora.ru, host: eu-west.cendora.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: m6RDw1b8R4lCaRUIzhHpy6TtX2Dhk6nyby8dWzeQqA0, short-id: dd3ff38418d29d22}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 91.196.35.146, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: russia.cendora.ru, host: russia.cendora.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: uo-U-FDlo7Cqldg7JKUe8jHvYnwP08NanGX0tUFrqEc, short-id: bef240e96a8474a3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 3.74.196.166, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 4", server: 3.78.155.1, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 144.172.91.227, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 45c595fa-988f-11f1-8024-54db13ea7d40, servername: www.nvidia.com, host: www.nvidia.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn_jet**"
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
-      - "@Vpn_jet7** 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
