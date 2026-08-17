@@ -465,6 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "@v2box_meli👈 عضو شو", server: 57.129.47.4, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: c7e9c591-2764-423a-afca-efbd010fd396, servername: forfreeuse.rtqa.ru, network: ws, ws-opts: {path: /, headers: {Host: forfreeuse.rtqa.ru}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@v2box_meli 🇺🇸", server: 69.46.46.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e841c0a7-03bb-4058-95e2-0e811100d02a, servername: x4g-production-d65b.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/e841c0a7-03bb-4058-95e2-0e811100d02a, headers: {Host: x4g-production-d65b.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -482,6 +483,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -489,6 +491,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -496,6 +499,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -512,6 +516,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -519,6 +524,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -526,6 +532,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@v2box_meli👈 عضو شو"
       - "@v2box_meli 🇺🇸"
   - name: دانلود منیجر 📥
     type: select
