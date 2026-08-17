@@ -465,23 +465,17 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@V2rayng_Fast", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: 188.114.97.6, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 05cf7b0e-ad1a-42bb-80e7-73ae45b1019a, servername: france.io-com-de-dev.org, network: ws, ws-opts: {path: /api/voip/updates/static/x9i2, headers: {Host: france.io-com-de-dev.org}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: 202.37.33.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: "/id-tksi?ed=2048", headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: to.blueheartz.ir, port: 2762, type: vless, tls: true, packet-encoding: xudp, uuid: 5de3e55f-dff4-4934-8cfe-91b8b67b1892, servername: yahoo.com, host: yahoo.com, path: /, reality-opts: {public-key: BJwrnuzrcHkSCFR43-QGcbsuZuoPj13IMdFL3BrWSG0, short-id: c9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 5", server: deconverter.teddylink.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7a3fa6b9-e862-4b3f-b742-a9168c4fa3b6, servername: deconverter.teddylink.com, host: deconverter.teddylink.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: OjYfFyxxb6SWmbxAoj00xWXqBzs-IuXr3xaShB_cIDI, short-id: 9ba2199aa517c9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 6", server: 104.16.79.73, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 7", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 8", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "/sg?ed", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 9", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi/=512, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 10", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=2048", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 11", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=2560", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 12", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 13", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85_musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 14", server: 5.129.194.34, port: 4100, type: vless, tls: true, packet-encoding: xudp, uuid: af325624-e28d-44fd-a8a7-058a439d128f, network: ws, ws-opts: {path: /v1}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 15", server: 193.111.78.106, port: 61134, type: vless, tls: true, packet-encoding: xudp, uuid: bd73cb46-5d86-42ca-ac4e-e702825a221a, network: ws, ws-opts: {path: /, headers: {Host: node.badrangteb.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 16", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e0454af2-6fe9-4983-a55d-05e1da202602, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 17", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b, servername: hhlfy.twiladaphne.ndjp.net, network: ws, ws-opts: {path: "?ed=512", headers: {Host: hhlfy.twiladaphne.ndjp.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 202.37.33.80, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5aafc2be-9348-4dec-b896-f4a91253bbca, servername: support.zoom.us.yxls.eu.cc, network: ws, ws-opts: {path: "/id-tksi?ed=2048_/@sil3nt_network", headers: {Host: support.zoom.us.yxls.eu.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 104.16.79.73, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85?ed", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi/=512, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 7", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=2048", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 8", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=2560", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 9", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 10", server: 172.66.44.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 83afd88f-200f-4d89-bfc7-66eff160c1d8, servername: josni.hoyes.cloudns.ch, network: ws, ws-opts: {path: "musiclovers85_musiclovers85?ed=512", headers: {Host: josni.hoyes.cloudns.ch}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 11", server: 104.18.37.228, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b, servername: hhlfy.twiladaphne.ndjp.net, network: ws, ws-opts: {path: "?ed=512", headers: {Host: hhlfy.twiladaphne.ndjp.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -509,12 +503,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -532,12 +520,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -555,12 +537,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -587,12 +563,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -610,12 +580,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -633,12 +597,6 @@ proxy-groups:
       - "@V2rayng_Fast 9"
       - "@V2rayng_Fast 10"
       - "@V2rayng_Fast 11"
-      - "@V2rayng_Fast 12"
-      - "@V2rayng_Fast 13"
-      - "@V2rayng_Fast 14"
-      - "@V2rayng_Fast 15"
-      - "@V2rayng_Fast 16"
-      - "@V2rayng_Fast 17"
   - name: دانلود منیجر 📥
     type: select
     proxies:
