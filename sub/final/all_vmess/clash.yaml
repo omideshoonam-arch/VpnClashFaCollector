@@ -465,11 +465,14 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: nima7n_nq0v1-100.00MB📊-23H⏳, server: markovps.iransazentworkteh.top, port: 2082, type: vmess, uuid: 20f3d76e-5ecd-4dd0-8039-cbf690184cf8, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: markovps.iransazentworkteh.top}}, udp: true, tfo: false}
-  - {name: "Channel : @Daily_Configs", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: JP_67_@Surfboardv2ray, server: 168.138.43.75, port: 80, type: vmess, uuid: 11c3627f-31e8-4695-dfbd-34076e2f1f5d, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, servername: None, network: ws, ws-opts: {path: /cctv13.m3u8, headers: {Host: None}}, udp: true, tfo: false}
+  - {name: US_21_@Surfboardv2ray, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 68.183.209.180, port: 80, type: vmess, uuid: d5121154-ced6-460d-a9fd-5892027ab4a0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /graphql}, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "TaP to Join : @vexoncfg", server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: 🇩🇪 Germany 🇩🇪, server: 178.83.45.29, port: 38998, type: vmess, uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Npv_iR 🌞🌶️", server: 178.83.45.29, port: 38998, type: vmess, uuid: 48422300-458f-4dbb-b0f5-96f45450ab9f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 193.111.78.106, port: 58304, type: vmess, uuid: 26b6fd32-04e6-43ff-a065-bea36f748655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 193.111.78.106, port: 58304, type: vmess, uuid: 26b6fd32-04e6-43ff-a065-bea36f748655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: "@filembad 3", server: 193.111.78.106, port: 58304, type: vmess, uuid: 26b6fd32-04e6-43ff-a065-bea36f748655, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +489,42 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +540,42 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - nima7n_nq0v1-100.00MB📊-23H⏳
-      - "Channel : @Daily_Configs"
-      - 🇩🇪 Germany 🇩🇪
-      - "@Npv_iR 🌞🌶️"
+      - JP_67_@Surfboardv2ray
+      - US_21_@Surfboardv2ray
       - "@filembad"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇩🇪
+      - "TaP to Join : @vexoncfg"
+      - 🇩🇪 Germany 🇩🇪
+      - "@filembad 2"
+      - "@filembad 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
