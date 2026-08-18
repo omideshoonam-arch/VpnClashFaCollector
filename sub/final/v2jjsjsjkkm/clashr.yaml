@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@mehrosaboran", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-5", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-5", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-7", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-7", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
