@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 155.103.70.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: tr.savesafe.cc, host: tr.savesafe.cc, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: fyOnHd_PZ6UjxCLPDFfxrT3XIJnjTpHXyluFakC3v14, short-id: 95d36da964f4e951}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 209.50.241.126, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bb05f9d7-a3d1-4b81-a790-f6dba0301907, servername: us.servers.gracevpnbuy.com, host: us.servers.gracevpnbuy.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: i00_tpIO0Oe2TV2lxm2BLm6QUzzkncyJtauMa7Rn500, short-id: b91a73752053b039}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 163.128.98.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f67e149c-e1f4-4162-876b-a34591b8349f, servername: www.apple.com, host: www.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: f7ysLjHXSTFqwfeUvS26zrbLmjwpvsa0xtfMYz46OjQ, short-id: 0123456789abcdef}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 140.99.223.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.run, host: savesafe.run, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8, short-id: e4f6a3446ac34a24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
