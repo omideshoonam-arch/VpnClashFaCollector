@@ -5,6 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: "@Vpn__jet7**", server: 128.1.12.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86ff5721-87f2-4682-9bc2-b1b34a8ca91f, servername: www.bing.com, host: www.bing.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4vnK2LLhfy9-plqFrSE3Di9fqTXlajXtll7NoYZYQ28, short-id: 05ac92984da91336}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7**", server: 140.99.223.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.run, host: savesafe.run, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8, short-id: e4f6a3446ac34a24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -12,6 +13,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: ♻️ 自动选择
     type: url-test
@@ -19,6 +21,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: 🌍 国外媒体
     type: select
@@ -26,24 +29,28 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: 🎯 全球直连
     type: select
@@ -72,6 +79,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

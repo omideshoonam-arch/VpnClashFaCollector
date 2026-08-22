@@ -465,6 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "@Vpn__jet7**", server: 128.1.12.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86ff5721-87f2-4682-9bc2-b1b34a8ca91f, servername: www.bing.com, host: www.bing.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4vnK2LLhfy9-plqFrSE3Di9fqTXlajXtll7NoYZYQ28, short-id: 05ac92984da91336}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7**", server: 140.99.223.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.run, host: savesafe.run, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8, short-id: e4f6a3446ac34a24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -482,6 +483,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -489,6 +491,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -496,6 +499,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -512,6 +516,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -519,6 +524,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -526,6 +532,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
   - name: دانلود منیجر 📥
     type: select
