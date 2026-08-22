@@ -5,53 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn__jet7**", server: 128.1.12.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86ff5721-87f2-4682-9bc2-b1b34a8ca91f, servername: www.bing.com, host: www.bing.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4vnK2LLhfy9-plqFrSE3Di9fqTXlajXtll7NoYZYQ28, short-id: 05ac92984da91336}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7**", server: 140.99.223.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: savesafe.run, host: savesafe.run, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wx4B5IBeGc_0h6XZW6714G7951zLUYILv6eNRSgPDl8, short-id: e4f6a3446ac34a24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 89.47.55.7, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 28a53b24-f7cc-c55d-75d6-86dfff4e3a4c, servername: download.nvidia.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: TunService}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: hu10.levikogjgfdd.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 66824c94-7ba9-4113-908e-bd793f296852, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg, short-id: 2715592069f36fe7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: 116.203.193.15, port: 16679, type: vless, tls: true, packet-encoding: xudp, uuid: 7a04ab9c-493a-43fc-b382-a5adb3b6e2cb, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Vpn__jet7**"
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
