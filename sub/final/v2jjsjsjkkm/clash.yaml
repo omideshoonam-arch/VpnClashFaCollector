@@ -465,15 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 140.248.185.253, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-25", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-25", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 31.76.91.138, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44, servername: ads.x5.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4, short-id: c226283c4de5b1ad}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 162.128.71.118, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 690ad3be-991b-4a2c-b351-42dd06789d03, servername: www.bing.com, host: www.bing.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 3ZKNZEktRaPxt-XoWmx68EGsFwglnICVkvIl96973iA, short-id: 4014ce9b0d82ad9d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 184.107.106.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d, servername: lizca2.footballfantasyforum.com, host: lizca2.footballfantasyforum.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 103.126.50.203, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76f6b7fe-5de8-4637-87a0-6ddd33d67b3e, servername: ro.getvlessvpn.com, host: ro.getvlessvpn.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: xp7g5asMyVx4aI7vEwfZZPrpd57izUvnNzAOpBs4mh0, short-id: b9f8f9772217538f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 7", server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 903daa6f-534c-4f4a-bbc8-024993f5cb01, servername: ptr.cyberbear.io, alpn: [h3%2Ch2%2Chttp%2F1.1], network: ws, ws-opts: {path: "/CMlsadnCISdss#TELEGRAM-mehrosaboran?ed=2560", headers: {Host: ptr.cyberbear.io}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 8", server: 162.128.87.50, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: be154d71-04ca-4389-8a89-d14219b25cd7, servername: www.bing.com, host: www.bing.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kwZBG2HBA1WN4eZW1GK0D9OVC4TPEs5J-ZeeBA2bVBw, short-id: 08f1620e7ad50ca8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-29", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-29", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -491,14 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -506,14 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -521,14 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -545,14 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -560,14 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -575,14 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran 2"
-      - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
       - "@mehrosaboran`"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
   - name: دانلود منیجر 📥
     type: select
     proxies:
