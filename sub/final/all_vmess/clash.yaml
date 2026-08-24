@@ -465,10 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 188.114.96.221, port: 80, type: vmess, uuid: 310fabb7-2abc-4301-b302-22aa49c954fb, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl2.127.0.0.1.pикерл.里克爾.kлексaкадемия.kl3ksacad3my.克萊克斯學院.wonkacapitano.buzz.}}, udp: true, tfo: false}
-  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 188.114.98.40, port: 80, type: vmess, uuid: f491cbe4-7548-446c-8d3e-64008e3b1325, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /vmess, headers: {Host: dl3.127.0.0.1.control.控制.kонтроль.cводкаhовостей.農達懲罰.wonkacapitano.buzz.}}, udp: true, tfo: false}
-  - {name: "🇺🇸 [openproxylist.com] vmess-US", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: ai.configfast.ir, port: 9992, type: vmess, uuid: 67e2444b-e4f5-4b25-89af-e0f47cdc20fd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram, server: 104.16.61.8, port: 2086, type: vmess, uuid: 441da342-ce90-441e-bff9-d2ceb55e68ca, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /ivideos.sbs/linkws, headers: {Host: vmess.taxar71054.workers.dev}}, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 2, server: 172.66.213.38, port: 443, type: vmess, uuid: dfbbc8de-8a4f-407d-8069-6de38d83c4e1, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: "", network: grpc, grpc-opts: {grpc-service-name: WgCmp8p80KDzo64uHE}, udp: true, tfo: false}
+  - {name: 🇺🇸 @Hope_Net-join-us-on-Telegram 3, server: www.speedtest.net, port: 2053, type: vmess, uuid: 00fb7867-95ad-4eaf-99f1-22255beb6251, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: www.speedtest.net, network: grpc, grpc-opts: {grpc-service-name: /}, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn, server: 51.38.71.147, port: 2053, type: vmess, uuid: 72f2cbe4-2874-45b7-b6aa-b93077c10c72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: node-uk.connectsuite.org, udp: true, tfo: false}
+  - {name: "@filembad", server: tokien.mrmtn.xyz, port: 2121, type: vmess, uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: cdn-api.mrmtn.xyz, port: 2020, type: vmess, uuid: 29c4a3bd-9d8c-4ac3-b279-8b201560c227, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,8 +489,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -497,8 +501,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -507,8 +513,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -526,8 +534,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -536,8 +546,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -546,8 +558,10 @@ proxy-groups:
     proxies:
       - 🇺🇸 @Hope_Net-join-us-on-Telegram
       - 🇺🇸 @Hope_Net-join-us-on-Telegram 2
-      - 🇺🇸 [openproxylist.com] vmess-US
+      - 🇺🇸 @Hope_Net-join-us-on-Telegram 3
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - "@filembad 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
