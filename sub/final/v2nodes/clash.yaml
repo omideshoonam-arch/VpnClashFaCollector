@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 130.61.80.61:59924, server: 130.61.80.61, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: jKNMaMEd3mivEOtJZC/XxuvwGTS8fDE8GUWs7V/wmdQ=, udp: true, tfo: false}
+  - {name: 129.146.6.252:50356, server: 129.146.6.252, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: R8BOkugdJijfJpFE2KWz6RKMdj7hWGj6Qo05a0N9STs=, udp: true, tfo: false}
+  - {name: 157.137.239.241:62145, server: 157.137.239.241, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 45.134.38.204:8064, server: 45.134.38.204, port: 8064, type: vless, tls: true, packet-encoding: xudp, uuid: a88e2744-3555-4a0a-9635-0aae23e038f8, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: hjJ1VN2xwcl1n7vrwvOspB2NFWrXNySUNPexutOVvAM, short-id: d3aea86e1949}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +484,8 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +493,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +502,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +520,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +529,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +538,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.80.61:59924
+      - 129.146.6.252:50356
+      - 157.137.239.241:62145
       - 45.134.38.204:8064
   - name: دانلود منیجر 📥
     type: select
