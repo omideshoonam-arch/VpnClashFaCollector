@@ -6,6 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@Vpn_jet7**", server: 45.195.111.108, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg, short-id: f4b4a6365558ea2e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "\tn_jet7**", server: sw.volnalink.uk, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 4f8efa61-96db-1391-b134-9ce844e31228, servername: www.booking.com, host: www.booking.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: a3_DLO6p_ZfPf7I0JFTVlAI2pPAPtC-ji2diyPcHcQA, short-id: b4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: anet2.pinkiola.shop, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 53042463-db3c-442f-aced-c6dc507ec494, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: QbEFPAfsgGgCqXjaKCnHi7dEDQdWIWzirr0bN3xowWI, short-id: 0df159}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: 66.163.118.75, port: 11000, type: vless, tls: true, packet-encoding: xudp, uuid: a0e48bd2-3360-486b-9042-ee17951d76da, servername: amp-api-edge.apps.apple.com, alpn: [h3%2Ch2%2Chttp%2F1.1], host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +16,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +26,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +36,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +94,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7**"
+      - "\tn_jet7**"
+      - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
