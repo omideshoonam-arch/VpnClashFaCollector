@@ -465,9 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩, server: 194.93.61.66, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY, short-id: cbb0a5c1dc905505}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`, server: 89.35.14.30, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2, server: 194.93.61.95, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d11613a1-2e1f-4209-a275-aabd986b7ad1, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY, short-id: 58fbcddfaae3ade9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@", server: 31.76.91.138, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44, servername: ads.x5.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4, short-id: c226283c4de5b1ad}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@`", server: node-fra01.rkitman.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81, servername: node-fra01.rkitman.ru, host: node-fra01.rkitman.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU, short-id: 88d9dc52ef39c8bd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 2", server: 103.109.234.199, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: de.savesafe.cc, host: de.savesafe.cc, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c, short-id: c37c2ae6f6eb0d71}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 3", server: us03hk.lockdwn.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bbba2d10-b617-404c-a29a-cc2d29386fbf, servername: us03hk.lockdwn.com, network: ws, ws-opts: {path: /, headers: {Host: us03hk.lockdwn.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 4", server: 162.19.10.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, servername: nasnet-162191099-direct.mbghalibaf.com, alpn: [h2], host: nasnet-162191099-direct.mbghalibaf.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 5", server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩`
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
+      - "☑➜چنلمون: Express_freevpn@"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@ 3"
+      - "☑➜چنلمون: Express_freevpn@ 4"
+      - "☑➜چنلمون: Express_freevpn@ 5"
   - name: دانلود منیجر 📥
     type: select
     proxies:

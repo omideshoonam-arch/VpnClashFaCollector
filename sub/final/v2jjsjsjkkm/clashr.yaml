@@ -5,12 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@mehrosaboran", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-33", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 185.147.26.175, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 00ca2ff9-c6a1-48e2-812d-2b15f7b6c3a5, servername: yt.orpheous.ru, host: yt.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4, short-id: e4aa362b5f9d07d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 194.93.61.66, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1b627e4d-4ea4-4dce-8bd8-fc2d3ffbeaba, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0AVsyS7udTbxKRdSyQ2rtFC63icDQOVWq8FvAhhU-WY, short-id: cbb0a5c1dc905505}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: maker1-makertest`, server: switchyard.proxy.rlwy.net, port: 16174, type: vless, tls: true, packet-encoding: xudp, uuid: 66ad9115-bba7-4d17-abff-b287b4411050, servername: youtubeeducation.com, host: youtubeeducation.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XuYaGPx6iSTagvZHd-D25-VsdWXyFQLnie9AkCIg4kU, short-id: 9a8c7c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 93.114.98.84, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: c365f399-c7e9-4b3f-aa61-5fb399386af8, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 188.114.97.4, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: f798a2c4-c51b-409d-b349-ca8455b36796, servername: chopin.adaspoloandco.com, network: ws, ws-opts: {path: "/download.php#/?TELEGRAM-TOOTFFARANGI?ed=512", headers: {Host: chopin.adaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 30610baf-4645-4c7b-9a22-0d0a0a79eab5, servername: mao.kipfel.kdns.fr, network: ws, ws-opts: {path: /glasspanel/guest000_0_5de14443985f/, headers: {Host: mao.kipfel.kdns.fr}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 67.159.43.203, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9d8a55de-70df-44a9-973e-4ffa02d05f32, servername: cli-q.bosx.net, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/connect, headers: {Host: cli-q.bosx.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 151.101.56.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: da6ece67-aff5-4f94-94f3-08e87ca8cd51, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: da6ece67-aff5-4f94-94f3-08e87ca8cd51, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,11 +16,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -30,11 +26,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -42,44 +36,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -108,11 +94,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - maker1-makertest`
-      - "@mehrosaboran`"
-      - "@mehrosaboran 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

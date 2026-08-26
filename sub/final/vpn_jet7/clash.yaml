@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 45.195.111.108, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 219762a7-b918-4e2b-8a3d-d309ef98bb61, servername: storage.yandex.net, host: storage.yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7zd9mJilgjOrg_ohtw23Vmio-pdnYqeP_r-kiWt87Cg, short-id: f4b4a6365558ea2e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "\tn_jet7**", server: sw.volnalink.uk, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 4f8efa61-96db-1391-b134-9ce844e31228, servername: www.booking.com, host: www.booking.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: a3_DLO6p_ZfPf7I0JFTVlAI2pPAPtC-ji2diyPcHcQA, short-id: b4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: anet2.pinkiola.shop, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 53042463-db3c-442f-aced-c6dc507ec494, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: QbEFPAfsgGgCqXjaKCnHi7dEDQdWIWzirr0bN3xowWI, short-id: 0df159}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 66.163.118.75, port: 11000, type: vless, tls: true, packet-encoding: xudp, uuid: a0e48bd2-3360-486b-9042-ee17951d76da, servername: amp-api-edge.apps.apple.com, alpn: [h3%2Ch2%2Chttp%2F1.1], host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 5.255.126.104, port: 46142, type: vless, tls: true, packet-encoding: xudp, uuid: 255386a8-aec5-4425-bfe7-ca49b7448deb, servername: www.yahoo.com, host: www.yahoo.com, path: /, reality-opts: {public-key: l-OE7EwER1Z_jAifGE_UZ3FqHDMGzaR0jQHFYj5RNAk, short-id: 39feeba3085c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 194.110.207.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3aaf6f5a-bebe-42c9-a2da-0c5500146451, servername: fernandfoxgloveinteriors.co.uk, host: fernandfoxgloveinteriors.co.uk, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wHf1nSF3byWgtI0aprUDgbEBrgtE6Y8bpqnNxl9lhhg, short-id: 763a06472e66efff}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: 83.168.111.66, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QdGXMBWibJZdfDmDk3YcCMxNPd0yd_CkHAOt2yDYJCE, short-id: 97ac193c0962477c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 4", server: 51.44.89.128, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,9 +486,9 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,9 +496,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -506,9 +506,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -525,9 +525,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -535,9 +535,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -545,9 +545,9 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
       - "@Vpn_jet7** 3"
+      - "@Vpn_jet7** 4"
   - name: دانلود منیجر 📥
     type: select
     proxies:
