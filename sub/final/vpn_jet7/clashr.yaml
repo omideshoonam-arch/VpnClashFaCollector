@@ -5,8 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 83.168.111.66, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QdGXMBWibJZdfDmDk3YcCMxNPd0yd_CkHAOt2yDYJCE, short-id: 97ac193c0962477c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 51.44.89.128, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 207.241.173.146, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 60b7a047-db7e-47a9-894b-e99d36556dce, servername: google.com, host: google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: -x9vdxai-qKAzuhxV7H2RIbEmIh_ZgdiFxiUA5q0B1I, short-id: 64ae6bd40a37a8b7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 88.216.63.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 84a794a5-2420-4ca7-8e08-8d21571f36f3, servername: nlded.plus-hit.ru, host: nlded.plus-hit.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: N4UtYAhibzkb0n_U2Qmqze5-lZMQqDozqg7OCqvufGA, short-id: 7c8e3d4a9b1f26d3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select

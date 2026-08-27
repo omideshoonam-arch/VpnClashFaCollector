@@ -5,81 +5,165 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "☑➜چنلمون: Express_freevpn@", server: 31.76.91.138, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 309b0ce3-09a8-4883-bfe4-bd56e215be44, servername: ads.x5.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: JfuItzJ81sJehx1PbxyliWSJvuBMKoa9ahNgPO3R7R4, short-id: c226283c4de5b1ad}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@`", server: node-fra01.rkitman.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81, servername: node-fra01.rkitman.ru, host: node-fra01.rkitman.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU, short-id: 88d9dc52ef39c8bd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@ 2", server: 103.109.234.199, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b5ca5ab3-8cbc-4ac3-89da-9cd360589ecb, servername: de.savesafe.cc, host: de.savesafe.cc, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YULPgY4Knu4LVqKcc2uhzTcndqIWWKr74W1dVXcLQ0c, short-id: c37c2ae6f6eb0d71}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@ 3", server: us03hk.lockdwn.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bbba2d10-b617-404c-a29a-cc2d29386fbf, servername: us03hk.lockdwn.com, network: ws, ws-opts: {path: /, headers: {Host: us03hk.lockdwn.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@ 4", server: 162.19.10.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e8b1500b-e9e8-5492-8312-f4eadf7d0767, servername: nasnet-162191099-direct.mbghalibaf.com, alpn: [h2], host: nasnet-162191099-direct.mbghalibaf.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "☑➜چنلمون: Express_freevpn@ 5", server: 156.245.232.239, port: 35043, type: vmess, uuid: b15e481d-17e4-41a8-84c2-23d4f0514d9a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2, server: 15.204.246.111, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@", server: 15.204.246.111, port: 5498, type: ss, cipher: aes-256-gcm, password: lGqs95QkFHo2NV, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn, server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 2", server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@`", server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2, server: 72.35.246.31, port: 1244, type: vless, tls: true, packet-encoding: xudp, uuid: 2d96d4d6-a276-4ab5-9f20-8dc5cbf6e902, servername: axisvpn.ru, host: axisvpn.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gHG_cbbi-OJKY2tBQTqz1QryfmmRZEQ7BQgymimukkQ, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 3", server: 45.121.50.241, port: 50159, type: vless, tls: true, packet-encoding: xudp, uuid: 47a97b7f-044d-43d6-86b0-8b256873d1b5, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: E9gCs_C_mSDcHmlCZSMk1kSXpmua48DhgsT_aDpZ1WE, short-id: 4c3f80051030ba1b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 4", server: us01hk.lockdwn.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 505826d0-10c7-4bb9-a405-e151ea515935, servername: us01hk.lockdwn.com, network: ws, ws-opts: {path: /, headers: {Host: us01hk.lockdwn.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3, server: 31.76.91.72, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 524e00ce-ed89-481d-b4a4-6d7017f884e3, servername: ads.x5.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: -ZTJcZ_UcqAB7LHgkUqhnlJsQs_oBafRgjsFtWZElmM, short-id: c226283c4de5b1ad}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 5", server: 192.88.182.105, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81, servername: node-nd01.rkitman.ru, host: node-nd01.rkitman.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU, short-id: 88d9dc52ef39c8bd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 6", server: node-nd01.rkitman.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64774bd8-3116-4eaa-a046-5ea4fc230b81, servername: node-nd01.rkitman.ru, host: node-nd01.rkitman.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU, short-id: 88d9dc52ef39c8bd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4, server: 184.107.106.68, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 716426fa-bcb7-4eb9-b460-36399ebf740d, servername: lizca2.footballfantasyforum.com, host: lizca2.footballfantasyforum.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3, server: 88.216.220.87, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401, servername: api.noneok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.StreamService}, reality-opts: {public-key: S8O8R938N960cpQfIIDXsJTxeGAkbVv6PlIqP0-d30w, short-id: 1ea59febb8d4fc8e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "☑➜چنلمون: Express_freevpn@ 7", server: cdn.pinecloud.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b052df40-d51c-456c-9bd6-57af01a87e4e, servername: cdn.pinecloud.net, host: cdn.pinecloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: vWSgdMDirb9aDZLWijSXXXl-NCTrtBgEe9MQqcgV6h8, short-id: 6a2e3af684799b19}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5, server: 169.40.42.104, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4, server: 51.77.217.70, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: fae272a6-a184-4c91-83ed-771abdcff404, servername: www.google.com, host: www.google.com, path: /, reality-opts: {public-key: 5Me9XEMwr9siyrnV5zPHYfxB3QLqw-OzNAOuzkFu1kw, short-id: 7af95330630a7327}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6, server: 31.76.79.118, port: 2444, type: vless, tls: true, packet-encoding: xudp, uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA, short-id: 0809f782a29a2030}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +191,24 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 2
       - "☑➜چنلمون: Express_freevpn@"
-      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "☑➜چنلمون: Express_freevpn@ 2"
+      - "☑➜چنلمون: Express_freevpn@`"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 2
       - "☑➜چنلمون: Express_freevpn@ 3"
       - "☑➜چنلمون: Express_freevpn@ 4"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 3
       - "☑➜چنلمون: Express_freevpn@ 5"
+      - "☑➜چنلمون: Express_freevpn@ 6"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 4
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 3
+      - "☑➜چنلمون: Express_freevpn@ 7"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 5
+      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩 4
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn 6
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
