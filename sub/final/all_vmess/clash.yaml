@@ -465,10 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 130.185.122.177, port: 443, type: vmess, uuid: f232d454-b014-4e00-a7ae-430341909db4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 130.185.122.177}}, udp: true, tfo: false}
-  - {name: "| 10", server: x-ui.zxhh.top, port: 53385, type: vmess, uuid: 6aac0241-0c66-4bec-942d-e8a8d9b11a3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: guanwang.awsno.com, port: 443, type: vmess, uuid: 6a89a215-22bf-4bd7-9642-b95b2e09583a, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 176.65.140.210, port: 23981, type: vmess, uuid: ae6999a4-8839-4d81-be13-d18a9d75818a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bobo.badrangteb.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - "@mehrosaboran"
-      - "| 10"
-      - "@FarazV2ray"
+      - "@filembad"
   - name: دانلود منیجر 📥
     type: select
     proxies:
