@@ -466,7 +466,6 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "Channel : @proxy_kafee", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : %…", server: ger3.orangesms.ir, port: 1824, type: vless, tls: true, packet-encoding: xudp, uuid: 56c82857-c0f9-42c4-9696-f0cfc5ae9e47, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: JIv_D-Lpo1cosiCUgu-qzGSJwOCGciyXSZ8ucNn6aBo, short-id: 8390ee7a5996648b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 2", server: 204.10.194.82, port: 56539, type: vless, tls: true, packet-encoding: xudp, uuid: 5cca99cd-f02d-4379-b5c3-27df6dd16a01, host: www.unscramblerer.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee", server: 144.31.1.201, port: 8090, type: vless, tls: true, packet-encoding: xudp, uuid: 5f829d2f-2f13-450c-81ac-e9832b8e47ec, servername: mold.speedload.online, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: J5ITJbg5FQFembAfkogKHHQB6DigsFXQxK7xu-QMWUs, short-id: 6b2f4e6ac9b1d2f0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 3", server: 185.194.177.120, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
@@ -489,7 +488,6 @@ proxy-groups:
     type: select
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
@@ -502,7 +500,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
@@ -515,7 +512,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
@@ -537,7 +533,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
@@ -550,7 +545,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
@@ -563,7 +557,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "Channel : @proxy_kafee"
-      - "Channel : %…"
       - "Channel : @proxy_kafee 2"
       - "@proxy_kafee"
       - "Channel : @proxy_kafee 3"
