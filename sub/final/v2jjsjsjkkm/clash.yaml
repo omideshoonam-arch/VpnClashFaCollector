@@ -465,15 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 5.188.26.176, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: 1206bad5-dcc9-410e-9595-d9fe9ee54085, servername: max.ru, host: max.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kGxErpyTzyh6Md1MLGYaR_0j3X6jrCzgTDRqRbbfOCg, short-id: a1b2c3d4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: de1.cnyvpn.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 201.24.54.210, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: a8a08a507c}, reality-opts: {public-key: GYGRmooJbciRJqgRyAhyuY4taALwvAGNN721zIKA4g0, short-id: d2f6787eda1b6fa0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 185.209.15.198, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8, servername: nl8.helper-internet.com, host: nl8.helper-internet.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE, short-id: ff776ff77be48b88}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 7", server: 104.24.19.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: aebeb940-51cb-429f-830d-c421351d18e3, servername: novapanell.abdollahvand3.ir, network: ws, ws-opts: {path: /LUANVO, headers: {Host: novapanell.abdollahvand3.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 8", server: 95.154.196.63, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bae47c97-9bc1-48f6-a133-a383ee71c12e, servername: foodnetwork.com, host: foodnetwork.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: o3OWFYnKad6q2C-eo6-rA74OCbjQoZfaUFYZsNqJJz0, short-id: 1e977d0b52eab755}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 9", server: adminv2.jikecloud.cc, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d896043a-440a-4377-88db-2dac132bc176, servername: adminv2.jikecloud.cc, network: ws, ws-opts: {path: /vless, headers: {Host: adminv2.jikecloud.cc}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 84.32.189.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f73681a4-1654-446f-a7eb-bda3bfd9e521, servername: app23.jarvestip.ru, host: app23.jarvestip.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 2zLFL9xRZ_hAqBHIUpZrj3z5o5Bvt3OAFy5yDat7h0U, short-id: 2aef5875}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 31.76.79.118, port: 2444, type: vless, tls: true, packet-encoding: xudp, uuid: fc1ee51e-72ec-4af0-ab0f-540c9e22427b, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: JsSTmS0VKNaHF-_QKYS-_utnS-LJuPOBrWcMbVE2RDA, short-id: 0809f782a29a2030}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -494,11 +489,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -509,11 +499,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -524,11 +509,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -548,11 +528,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -563,11 +538,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -578,11 +548,6 @@ proxy-groups:
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
-      - "@mehrosaboran 8"
-      - "@mehrosaboran 9"
   - name: دانلود منیجر 📥
     type: select
     proxies:
