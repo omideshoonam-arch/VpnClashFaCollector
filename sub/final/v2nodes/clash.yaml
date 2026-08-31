@@ -465,8 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 129.146.116.35:50356, server: 129.146.116.35, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: nEL9gHcge5INdJhIJL0r9RdkxBOn6nvmaf6wYwH+Jxg=, udp: true, tfo: false}
-  - {name: 84.235.175.73:62145, server: 84.235.175.73, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ne1385.cdn-video.pro:443, server: ne1385.cdn-video.pro, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f980aecd-d243-4910-b231-db172d434541, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: trgrpc}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -484,8 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -493,8 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -502,8 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: اتصال پایدار 🔗
     type: url-test
@@ -520,8 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -529,8 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -538,8 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.116.35:50356
-      - 84.235.175.73:62145
       - ne1385.cdn-video.pro:443
   - name: دانلود منیجر 📥
     type: select

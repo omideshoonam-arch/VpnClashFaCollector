@@ -5,192 +5,150 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@filembad`", server: 31.76.80.69, port: 443, type: hysteria2, ports: 443, password: 6aab8efdf13945829ae3699c342be406, obfs: salamander, obfs-password: uw9b2qq5rx, sni: fiproxy1.lockdwn.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: k1dom6dyqelryllv, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: 129.146.116.35, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: nEL9gHcge5INdJhIJL0r9RdkxBOn6nvmaf6wYwH+Jxg=, udp: true, tfo: false}
-  - {name: "@filembad` 5", server: 31.76.88.10, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 03c48eca-e0aa-4e18-998c-1f53f1de293c, servername: www.google.com, host: www.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: LceNbOus12Xf9wqkpHRV98Q6DHY8w-5twDvjLHFW8jI, short-id: ade84e150892ab4a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 6", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0a9a4f2a-4144-4147-9018-d44627088ac8, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 16d9cabe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 7", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 8", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 9", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 10", server: usa1.selqora.ir, port: 50303, type: vless, tls: true, packet-encoding: xudp, uuid: 14079f86-f06b-48a5-a83c-5a6a0f6f14bd, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XhfHr5VYPbNs6BrrsYc7Wd6-D2nJAO8QrixRuJarFkU, short-id: c7158ef32c1d2a7e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 11", server: 144.172.119.9, port: 110, type: vless, tls: true, packet-encoding: xudp, uuid: 18450ff3-1ebb-4665-957b-219aef3d83c7, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 12", server: 118.167.224.189, port: 24215, type: vless, tls: true, packet-encoding: xudp, uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 13", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: 1dd334f9-8730-42fd-9c91-ffc1933c7db3, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 14", server: istan.hostingdayam.com.tr, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: 2c73ed0a-3712-4a67-96b9-022d3bf1b672, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 4_-SYNUa6FNFe4yKiomBiyW9UqUZwlJfA8LnXZ0QRXA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 15", server: istan.hostingdayam.com.tr, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: 2c73ed0a-3712-4a67-96b9-022d3bf1b672, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 4_-SYNUa6FNFe4yKiomBiyW9UqUZwlJfA8LnXZ0QRXA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 16", server: mn11.levikogjgfdd.ir, port: 19825, type: vless, tls: true, packet-encoding: xudp, uuid: 2d1ad594-80a4-4bfb-87a6-038e39701f51, servername: sg2-8sb.6121999.dpdns.org, host: sg2-8sb.6121999.dpdns.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: GvvkY8xYb9QjvwvzYq_uNC4tOGd0DCxRnz6770-xgkI, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 17", server: 150.40.126.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.ObjectService}, reality-opts: {public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE, short-id: 1469af2040b7c323}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: assets.gateway-stream.com, port: 52021, type: hysteria2, ports: 52021, password: k1dom6dyqelryllv, obfs: salamander, obfs-password: mtg2vchyir6la3et, sni: assets.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 2", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 3", server: 129.146.116.35, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: nEL9gHcge5INdJhIJL0r9RdkxBOn6nvmaf6wYwH+Jxg=, udp: true, tfo: false}
+  - {name: "@filembad` 4", server: 36.224.152.189, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: 7e731ec3-f8e1-43f6-92cf-3978d14705c4, udp: true, tfo: false}
+  - {name: "@filembad` 5", server: cdn-2d12.giftcardbazarbot.com, port: 8243, type: ss, cipher: chacha20-ietf-poly1305, password: tpuWvAQtjd-Mvvk81l7OLg, udp: true, tfo: false}
+  - {name: "@filembad` 6", server: 207.241.172.111, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: OhGXJG4nEqTN62cDDcD_8_CddrpTHn0u, udp: true, tfo: false}
+  - {name: "@filembad` 7", server: de-server-1.zelnora.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: OhGXJG4nEqTN62cDDcD_8_CddrpTHn0u, udp: true, tfo: false}
+  - {name: "@filembad` 8", server: 36.224.152.189, port: 50099, type: ss, cipher: chacha20-ietf-poly1305, password: b1ae0fce-9340-4f2e-882d-fdb2218e2e2b, udp: true, tfo: false}
+  - {name: "@filembad` 9", server: 65.109.216.227, port: 10521, type: trojan, password: 8MAmkCERLW, sni: play.google.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 10", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0a9a4f2a-4144-4147-9018-d44627088ac8, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 16d9cabe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 11", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 12", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 13", server: 108.61.177.236, port: 32263, type: vless, tls: true, packet-encoding: xudp, uuid: 1236329f-bc88-43a2-ae3b-7cf63ab1bf11, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 14", server: 118.167.224.189, port: 24215, type: vless, tls: true, packet-encoding: xudp, uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 15", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: 1dd334f9-8730-42fd-9c91-ffc1933c7db3, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 16", server: 150.40.126.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.ObjectService}, reality-opts: {public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE, short-id: 1469af2040b7c323}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 17", server: 150.40.126.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad` 18", server: 150.40.126.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 19", server: 150.40.126.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 20", server: 150.40.126.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 21", server: 150.40.126.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 22", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 23", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 24", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 25", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 26", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 27", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 28", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 29", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 30", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 31", server: 45.9.156.20, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.StreamService}, reality-opts: {public-key: vCxac528c27GggqKBDwXVYvnzyI_BIlc7eqRTo8xqEY, short-id: 954891aec4fe0be9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 32", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 33", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 34", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 35", server: 89.35.14.30, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 36", server: 89.35.14.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 37", server: bg5.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v2.RelayService}, reality-opts: {public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw, short-id: 1a3102bb8e51399e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 38", server: md1.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 39", server: md4.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 40", server: md5.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: app.v1.PushService}, reality-opts: {public-key: 99MRki6b93wC-hhDHe9yq3IXE3KtPGw4RkFAnpI-8gg, short-id: aa9884f2982b7d3c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 41", server: rs1.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: node.v2.ObjectService}, reality-opts: {public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY, short-id: ed0cd5cc2e26e6e7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 42", server: rs2.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.ObjectService}, reality-opts: {public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE, short-id: 1469af2040b7c323}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 43", server: rs3.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 44", server: rs4.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 45", server: rs5.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 46", server: tr2.diginoisb.ir, port: 54178, type: vless, tls: true, packet-encoding: xudp, uuid: 31f0e05b-2126-46ea-8f47-34e60defaa1b, host: tr2.diginoisb.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 47", server: tr2.diginoisb.ir, port: 54178, type: vless, tls: true, packet-encoding: xudp, uuid: 31f0e05b-2126-46ea-8f47-34e60defaa1b, host: tr2.diginoisb.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 48", server: fin.hostingdayam.com.tr, port: 8447, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 2vemWMcM5_ONPpHNr0nLE1w2Y90gmwGPRy5vieJjvxA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 49", server: fin.hostingdayam.com.tr, port: 8447, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 2vemWMcM5_ONPpHNr0nLE1w2Y90gmwGPRy5vieJjvxA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 50", server: fin.hostingdayam.com.tr, port: 8452, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: n7_Ddz9DUWdhhtPh92wOWNehjZr1ewHMvJmVyRYGhX4, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 51", server: fin.hostingdayam.com.tr, port: 8452, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: n7_Ddz9DUWdhhtPh92wOWNehjZr1ewHMvJmVyRYGhX4, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 52", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 34eb8260-d0aa-4d3d-8e30-8447fc57a60b, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 16d9cabe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 53", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 34eb8260-d0aa-4d3d-8e30-8447fc57a60b, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 16d9cabe}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 54", server: 85.198.11.201, port: 13784, type: vless, tls: true, packet-encoding: xudp, uuid: 356eb531-dbaa-45cf-b2cc-cef80a5fe379, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 55", server: hamid.hlsd.ir, port: 4000, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: play-lh.googleusercontent.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Hamid}, reality-opts: {public-key: p_-bElvezRO_z9MBb0m_T866lAmn-CH8i7G0x95fVmM, short-id: a7d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 56", server: hamid.hlsd.ir, port: 4003, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: play-lh.googleusercontent.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: p_-bElvezRO_z9MBb0m_T866lAmn-CH8i7G0x95fVmM, short-id: a7d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 57", server: hamid.hlsd.ir, port: 4440, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: amp-api-edge.apps.apple.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 58", server: hamid.hlsd.ir, port: 4445, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: amp-api-edge.apps.apple.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 59", server: hamid.hlsd.ir, port: 7000, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: api.steampowered.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Hamid}, reality-opts: {public-key: p_-bElvezRO_z9MBb0m_T866lAmn-CH8i7G0x95fVmM, short-id: a7d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 60", server: hamid.hlsd.ir, port: 7003, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: api.steampowered.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: Hamid}, reality-opts: {public-key: p_-bElvezRO_z9MBb0m_T866lAmn-CH8i7G0x95fVmM, short-id: a7d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 61", server: hamid.hlsd.ir, port: 7770, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: api-edge.apps.apple.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 62", server: hamid.hlsd.ir, port: 7771, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: sg-public-api.hoyoverse.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 63", server: hamid.hlsd.ir, port: 7773, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: genshin.hoyoverse.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 64", server: hamid.hlsd.ir, port: 7775, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: api.faceit.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 0qX8IIejiNzzDuy62m4gFLZSixLPWD2edf9tEGIe5EM, short-id: 2b69c88d1ca07b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 65", server: hamid.hlsd.ir, port: 7777, type: vless, tls: true, packet-encoding: xudp, uuid: 35805133-21b5-4cbd-b06b-b5f38b9880ee, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: 3_fqUk6krOMIypIIhaMo55sCMvZjU6aWdUnO4qrJBAE, short-id: b16208}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 66", server: 185.143.233.5, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67, network: ws, ws-opts: {path: /, headers: {Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 67", server: 185.143.233.5, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67, network: ws, ws-opts: {path: /, headers: {Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 68", server: 185.143.233.5, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67, network: ws, ws-opts: {path: /, headers: {Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 69", server: 185.147.26.175, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c3e3170-fe36-4925-a089-d55f29114f07, servername: yt.orpheous.ru, host: yt.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4, short-id: e4aa362b5f9d07d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 70", server: 193.202.11.201, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c3e3170-fe36-4925-a089-d55f29114f07, servername: usa.orpheous.ru, host: usa.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q, short-id: 9e4eced6e98ed4d4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 71", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 3c8e52ef-30f6-4a51-9fe9-5afeeb0a7fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 72", server: it3.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 3c8e52ef-30f6-4a51-9fe9-5afeeb0a7fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 73", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 74", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 75", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 76", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 77", server: 0lzw35eluyys.56zv22emuags.workers.dev, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-9df80d553692, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/9df80d553692, headers: {Host: 0lzw35eluyys.56zv22emuags.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 78", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 79", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 80", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 81", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 82", server: 132.243.235.53, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: dhlparcel.nl, host: dhlparcel.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0XSgK4OAEjNPsjYdhNBV5xl5mCCRRzYucSQ9LIO0Gkg, short-id: 3dad96f8693ea653}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 83", server: 185.194.177.120, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 84", server: 185.194.177.120, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 85", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 86", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 87", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 88", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 89", server: de1.cnyvpn.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 90", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 91", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 92", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 93", server: nl1.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: dhlparcel.nl, host: dhlparcel.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0XSgK4OAEjNPsjYdhNBV5xl5mCCRRzYucSQ9LIO0Gkg, short-id: 3dad96f8693ea653}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 94", server: nl1.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: dhlparcel.nl, host: dhlparcel.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0XSgK4OAEjNPsjYdhNBV5xl5mCCRRzYucSQ9LIO0Gkg, short-id: 3dad96f8693ea653}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 95", server: 146.19.248.148, port: 27015, type: vless, tls: true, packet-encoding: xudp, uuid: 6389249c-d415-4950-9538-0566ec2438d5, servername: amp-api-edge.apps.apple.com, alpn: [h3%2Ch2%2Chttp%2F1.1], host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: myZLrO9tJaKpgF6hTWgWPEXU0-MHyQlI6XnRVtDOCQI, short-id: fd9929d5a0ee7171}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 96", server: it.selqora.ir, port: 22211, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, host: it.selqora.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 97", server: usa1.selqora.ir, port: 50303, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XhfHr5VYPbNs6BrrsYc7Wd6-D2nJAO8QrixRuJarFkU, short-id: 4fd1b3b30e82af52}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 98", server: usa1.selqora.ir, port: 50303, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XhfHr5VYPbNs6BrrsYc7Wd6-D2nJAO8QrixRuJarFkU, short-id: 4fd1b3b30e82af52}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 99", server: 404.e404ng.fun, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 70bbf524-8175-48f3-9593-cc83361574f4, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 100", server: 404.e404ng.fun, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 70bbf524-8175-48f3-9593-cc83361574f4, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 101", server: 3.112.47.207, port: 29860, type: vless, tls: true, packet-encoding: xudp, uuid: 7460547d-e83c-4843-b404-9142b22261a7, servername: www.intel.com, host: www.intel.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4, short-id: c992a34f288be189}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 102", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 751caaf6-39c7-41a3-803d-6001cdbc6517, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 103", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 751caaf6-39c7-41a3-803d-6001cdbc6517, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 104", server: f0c2d650cee42d40.1p6.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76677220-aa74-41a1-82e5-b10659542fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qWFKtfDAZUjVmAjLqceNbWTpn7TwWIkeN_PQ2LH19h8, short-id: 140f5f8d21126c91}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 105", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 106", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 107", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 108", server: 95.179.153.185, port: 24706, type: vless, tls: true, packet-encoding: xudp, uuid: 773f2ff3-3faa-4f71-a6f9-394c5ac1ca86, servername: www.nvidia.com, host: www.nvidia.com, path: /, reality-opts: {public-key: BqXhOzPSKKaChXgXuMgKEFeRvQQ5zFxJQJdu8hE3kzo, short-id: 82}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 109", server: 95.179.153.185, port: 24706, type: vless, tls: true, packet-encoding: xudp, uuid: 773f2ff3-3faa-4f71-a6f9-394c5ac1ca86, servername: www.nvidia.com, host: www.nvidia.com, path: /, reality-opts: {public-key: BqXhOzPSKKaChXgXuMgKEFeRvQQ5zFxJQJdu8hE3kzo, short-id: 82}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 110", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 78c51f0e-9ec2-43f4-b3cb-487b9f758307, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 111", server: it3.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 78c51f0e-9ec2-43f4-b3cb-487b9f758307, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 112", server: 201.24.54.210, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: a8a08a507c}, reality-opts: {public-key: GYGRmooJbciRJqgRyAhyuY4taALwvAGNN721zIKA4g0, short-id: d2f6787eda1b6fa0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 113", server: 201.24.54.210, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: a8a08a507c}, reality-opts: {public-key: GYGRmooJbciRJqgRyAhyuY4taALwvAGNN721zIKA4g0, short-id: d2f6787eda1b6fa0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 114", server: 83.147.246.153, port: 4100, type: vless, tls: true, packet-encoding: xudp, uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 115", server: 83.147.246.153, port: 4100, type: vless, tls: true, packet-encoding: xudp, uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 116", server: ticket.cutizeh.ir, port: 1102, type: vless, tls: true, packet-encoding: xudp, uuid: 888ace32-07d3-4000-b6c2-1268d9715f1b, servername: ookla.com, host: ookla.com, path: /, reality-opts: {public-key: DbArC_oPTXXRSuurm980XmEJTAQrz31ThG_3C0xFlxg, short-id: 5a6cac3470a92c66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 117", server: ticket.cutizeh.ir, port: 1120, type: vless, tls: true, packet-encoding: xudp, uuid: 888ace32-07d3-4000-b6c2-1268d9715f1b, host: ticket.cutizeh.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 118", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 119", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 120", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 121", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 122", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: 8a0c5bc5-4fed-44e9-a9b5-037704d4ad24, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 123", server: 404.e404ng.fun, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a87f7e1-faa1-4040-a417-b263605da0de, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 124", server: 104.105.78.231, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 8c2d5e7e-116a-49c4-8437-937f4bfce346, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 125", server: 104.238.189.115, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 8c2d5e7e-116a-49c4-8437-937f4bfce346, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 126", server: parr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 8c2d5e7e-116a-49c4-8437-937f4bfce346, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 127", server: 85.17.116.115, port: 9145, type: vless, tls: true, packet-encoding: xudp, uuid: 969f9d0d-28ca-47d6-a328-cdcf31fae220, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0, short-id: 5e06032a9c448538}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 128", server: 138.16.141.59, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ibm.com, host: ibm.com, path: /, reality-opts: {public-key: RY7zkFQ01lI92jxNAyCa8T33UBW1fgpJgg8ZEqMA10k, short-id: a09ff9f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 129", server: 195.211.124.243, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 130", server: 37.221.79.61, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 131", server: 45.38.19.123, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 132", server: 5.75.193.116, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 133", server: 5.75.193.116, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 134", server: 5.75.193.116, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 135", server: 65.109.205.9, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 136", server: 65.109.205.9, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 137", server: finland.hosting-96.ir, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 138", server: nthl.hosting-96.biz.id, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 139", server: tunnel.hosting-96.ir, port: 31131, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: www.afr-data-15.myket.ir, host: www.afr-data-15.myket.ir, path: /, reality-opts: {public-key: _o6iGjdqVntBONq4iyr5mE-VrlySyYMR33Ql0c_s-BQ, short-id: 727b0fd25d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 140", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 141", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 142", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 143", server: lopa1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 144", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 145", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 146", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 147", server: 131.123.42.150, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8, servername: bul2.helper-internet.com, host: bul2.helper-internet.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE, short-id: ff776ff77be48b88}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 148", server: 104.238.189.115, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: c100e5ba-1cf5-45ce-b491-5c2b02cdde5e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 149", server: parr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: c100e5ba-1cf5-45ce-b491-5c2b02cdde5e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 150", server: jsv-ir.jmovies.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c26fe2f0-5c69-11f1-8a1a-bf116ceb9215, servername: aparat.com, host: aparat.com, path: /, reality-opts: {public-key: fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc, short-id: f373df45a687eaff}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 151", server: 144.31.224.72, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3, servername: nlplay.tgflow.me, host: nlplay.tgflow.me, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4mlryhYiCf6KtnCEU55-CSuVZ4dlRhSv9MpNDBqeSAs, short-id: 1bc96deb0a9e3f6a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 152", server: 203.23.179.147, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: d53f098c-c146-4c16-b8fc-263743fdb6b3, servername: palworld.mega-play.app, host: palworld.mega-play.app, path: /, reality-opts: {public-key: ADsgS2NlS_Mi16n8h1beCVgWL4KvNj5tnRg9qYzFG14, short-id: ae47480fa46b76b0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 153", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 154", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 155", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 156", server: 45.89.60.235, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d, servername: alblack.vodniki.monster, host: alblack.vodniki.monster, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wTITbZ7gXSeLOTMLOVC4ePziVIyELIgQeaPihXrbqAk, short-id: 946b7ff3ebdd350c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 157", server: 104.16.72.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 158", server: 149.112.84.49, port: 54237, type: vless, tls: true, packet-encoding: xudp, uuid: dd358774-cd02-42b7-9716-d9f3627cefac, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wqgM2hNgNhv3a0_zLHYiitoFGkN_ubAQMhW48WfW-io, short-id: c386acc3c7b89538}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 159", server: 104.252.30.239, port: 15201, type: vless, tls: true, packet-encoding: xudp, uuid: dd7ea5ae-d430-4e7b-a733-8c562f49a3de, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 160", server: 18.239.134.69, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: de27291c-15a9-4256-9ba7-ad517569877e, network: ws, ws-opts: {path: /, headers: {Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 161", server: 18.239.134.69, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: de27291c-15a9-4256-9ba7-ad517569877e, network: ws, ws-opts: {path: /, headers: {Host: d2e1v87ko56lyw.cloudfront.net%3Aassets.opensignal.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 162", server: 176.97.218.225, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: e184e002-0169-462a-a709-5bbc1f30e6b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 163", server: 176.97.218.225, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: e184e002-0169-462a-a709-5bbc1f30e6b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 164", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: e41603b5-3315-4cbc-acae-dfeeaddc2a4d, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 165", server: 13.36.182.220, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 166", server: 13.37.75.61, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 167", server: 13.42.99.148, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 168", server: 13.42.99.148, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 169", server: 18.130.61.248, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 170", server: 18.130.61.248, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 171", server: 51.45.56.12, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 172", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 173", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 174", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 175", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 176", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 177", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 178", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 179", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 180", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 181", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 182", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 183", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 184", server: api-de.data-media-social.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36, servername: api-de.data-media-social.org, host: api-de.data-media-social.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7X8ifHa-K72alW7ly5SRYwotXdjA-gEQoEGUK1EagVM, short-id: f3c4d918e7c4f744}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 185", server: parr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: f09ca7ff-bfc2-4f72-8cf4-a3c81100cc15, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 186", server: hadikeikei.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: f1a22614-ff7a-423c-8cb4-d322c88985ae, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: jPjDwxHaOIVV7mnCccqLoY_t3-Cd0h__EMCp1Yd_KX8, short-id: a7f31c9d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 19", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 20", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 21", server: 150.40.126.22, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 22", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 23", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 24", server: 150.40.126.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.ObjectService}, reality-opts: {public-key: X8mPYnsoTd8QCnvFZKSy7VvpSn_nrt_NWJkCUJhFCyE, short-id: 4872856d5489c37d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 25", server: 45.9.156.20, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v1.StreamService}, reality-opts: {public-key: vCxac528c27GggqKBDwXVYvnzyI_BIlc7eqRTo8xqEY, short-id: 954891aec4fe0be9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 26", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 27", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 28", server: 45.9.156.24, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v2.PushService}, reality-opts: {public-key: 0f0dh_FUju5cHgQcIwUjHvxQb9aIZ00p0kZRHeE7Ey4, short-id: 501ab3325b77e1ca}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 29", server: 89.35.14.30, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 30", server: 89.35.14.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 31", server: 89.35.14.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 32", server: 89.35.14.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 33", server: bg5.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg5.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: gw.v2.RelayService}, reality-opts: {public-key: RDWvDEygSk1eyAQhIK95H9EteFbrS2d9JEjBrco54Bw, short-id: 1a3102bb8e51399e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 34", server: md4.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 35", server: rs1.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: node.v2.ObjectService}, reality-opts: {public-key: upIzyaSbVz2ZK6KfGtXmPl_-sCwn8XLDyFDH5CsL9iY, short-id: ed0cd5cc2e26e6e7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 36", server: rs2.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs2.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.ObjectService}, reality-opts: {public-key: tL16MVY08r-7YDXb1_gxuBBWInpSFp97ZLJ_ax3R2iE, short-id: 1469af2040b7c323}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 37", server: rs3.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: edge.v2.FeedService}, reality-opts: {public-key: gHDoSWGWMVZKWNKONWHw-Cpl0-bdI6GaKusgJIQ-vWQ, short-id: 35d05b666e2c6cdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 38", server: rs4.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 39", server: tr2.diginoisb.ir, port: 54178, type: vless, tls: true, packet-encoding: xudp, uuid: 31f0e05b-2126-46ea-8f47-34e60defaa1b, host: tr2.diginoisb.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 40", server: tr2.diginoisb.ir, port: 54178, type: vless, tls: true, packet-encoding: xudp, uuid: 31f0e05b-2126-46ea-8f47-34e60defaa1b, host: tr2.diginoisb.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 41", server: fin.hostingdayam.com.tr, port: 8447, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 2vemWMcM5_ONPpHNr0nLE1w2Y90gmwGPRy5vieJjvxA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 42", server: fin.hostingdayam.com.tr, port: 8447, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 2vemWMcM5_ONPpHNr0nLE1w2Y90gmwGPRy5vieJjvxA, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 43", server: fin.hostingdayam.com.tr, port: 8452, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: n7_Ddz9DUWdhhtPh92wOWNehjZr1ewHMvJmVyRYGhX4, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 44", server: fin.hostingdayam.com.tr, port: 8452, type: vless, tls: true, packet-encoding: xudp, uuid: 34c6b520-fa66-49e9-a337-b7a6a3af28ba, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: n7_Ddz9DUWdhhtPh92wOWNehjZr1ewHMvJmVyRYGhX4, short-id: 68d2d5f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 45", server: 85.198.11.201, port: 13784, type: vless, tls: true, packet-encoding: xudp, uuid: 356eb531-dbaa-45cf-b2cc-cef80a5fe379, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 46", server: 185.143.233.5, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67, network: ws, ws-opts: {path: /, headers: {Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 47", server: 185.143.233.5, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 38dd06a1-e1cb-492b-bb87-218ce05d0d67, network: ws, ws-opts: {path: /, headers: {Host: fox-a9e04bb07a-test.apps.ir-central1.arvancaas.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 48", server: 185.147.26.175, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c3e3170-fe36-4925-a089-d55f29114f07, servername: yt.orpheous.ru, host: yt.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4, short-id: e4aa362b5f9d07d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 49", server: 193.202.11.201, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c3e3170-fe36-4925-a089-d55f29114f07, servername: usa.orpheous.ru, host: usa.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: lHCkAu_DOVFtE-iL2JGrPt44QeTCFijXuRfuGaSni3Q, short-id: 9e4eced6e98ed4d4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 50", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 3c8e52ef-30f6-4a51-9fe9-5afeeb0a7fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 51", server: it3.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 3c8e52ef-30f6-4a51-9fe9-5afeeb0a7fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 52", server: 162.35.231.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 419f25c1-bc35-412e-93fb-258efee859b5, servername: 162.35.231.31.sslip.io, host: 162.35.231.31.sslip.io, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XOcyZvF63CHDPnh3UCL-u-X8HYeNGiRtrwDVRLBC1DI, short-id: f41bc0b00ca1a978}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 53", server: 87.58.206.98, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 423b1d79-08c4-403f-9d5e-c541f791b55f, servername: auto.cendora.ru, host: auto.cendora.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gc9oXe37KCCm3J1dJ03wdGsnxPBdeEkRPOvl_t-vfVM, short-id: a7f3c91b2e6d84c0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 54", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 55", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 56", server: 82.40.62.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5bfc6650-8b56-0012-b0e9-b98fc6367c0d, servername: auto.api-yandex.net, host: auto.api-yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBjOloEUgyAHoLqvcGo_t3jTY8Jya77j5dsNB1VJ8Bo, short-id: 0f4dacffd272e65f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 57", server: 132.243.235.53, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: dhlparcel.nl, host: dhlparcel.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0XSgK4OAEjNPsjYdhNBV5xl5mCCRRzYucSQ9LIO0Gkg, short-id: 3dad96f8693ea653}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 58", server: 185.194.177.120, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 59", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 60", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 61", server: 81.18.48.97, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 62", server: de1.cnyvpn.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: finanzfluss.de, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: remnagrpc}, reality-opts: {public-key: 5_kjhGPcPUiUNJ0Mt4-YoRjphhDz3Hfvx1YCdbBRUA0, short-id: 8b71da690c3d5d03}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 63", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 64", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 65", server: de2.cnyvpn.com, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 60e2a548-96aa-4850-a279-1edab743c39b, servername: conrad.de, host: conrad.de, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: pVUUDlLKPprJgV_ZcehzuhOFmw44Gk1DlRsny1zyxCI, short-id: e3e76808b9fcd591}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 66", server: it.selqora.ir, port: 22211, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, host: it.selqora.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 67", server: usa1.selqora.ir, port: 50303, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XhfHr5VYPbNs6BrrsYc7Wd6-D2nJAO8QrixRuJarFkU, short-id: 4fd1b3b30e82af52}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 68", server: usa1.selqora.ir, port: 50303, type: vless, tls: true, packet-encoding: xudp, uuid: 640a1f84-3273-4e3e-8465-7633ab16a585, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XhfHr5VYPbNs6BrrsYc7Wd6-D2nJAO8QrixRuJarFkU, short-id: 4fd1b3b30e82af52}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 69", server: 404.e404ng.fun, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 70bbf524-8175-48f3-9593-cc83361574f4, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 70", server: 404.e404ng.fun, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 70bbf524-8175-48f3-9593-cc83361574f4, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 71", server: 3.112.47.207, port: 29860, type: vless, tls: true, packet-encoding: xudp, uuid: 7460547d-e83c-4843-b404-9142b22261a7, servername: www.intel.com, host: www.intel.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: g7I81MzpM7J6K9WLbZdaMPS9We6GYeeNY3EKRvyiKW4, short-id: c992a34f288be189}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 72", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 751caaf6-39c7-41a3-803d-6001cdbc6517, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 73", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 751caaf6-39c7-41a3-803d-6001cdbc6517, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 74", server: f0c2d650cee42d40.1p6.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 76677220-aa74-41a1-82e5-b10659542fa2, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qWFKtfDAZUjVmAjLqceNbWTpn7TwWIkeN_PQ2LH19h8, short-id: 140f5f8d21126c91}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 75", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 76", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 77", server: 91.99.81.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 766b0dd4-907d-42fb-8ea8-58868e7dcfb4, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dYsy51W78tzZf26ql7Fh0Db65VlRSjGp6EH9nsAIRgo, short-id: 0b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 78", server: frssr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 78c51f0e-9ec2-43f4-b3cb-487b9f758307, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 79", server: it3.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 78c51f0e-9ec2-43f4-b3cb-487b9f758307, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 80", server: 201.24.54.210, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 7ab9fe4f-6699-427f-a828-9fcf2496d714, servername: www.cloudflare.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: a8a08a507c}, reality-opts: {public-key: GYGRmooJbciRJqgRyAhyuY4taALwvAGNN721zIKA4g0, short-id: d2f6787eda1b6fa0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 81", server: 83.147.246.153, port: 4100, type: vless, tls: true, packet-encoding: xudp, uuid: 85223e1a-f55d-4d0d-b27d-39e8be49d220, network: ws, ws-opts: {path: /v1, headers: {Host: live.ok.ru}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 82", server: potok84.slovovpn.com, port: 48682, type: vless, tls: true, packet-encoding: xudp, uuid: 852c7b52-ca2d-4c63-9413-586c611c2ba6, servername: yandex.lt, host: yandex.lt, path: /, reality-opts: {public-key: IoP794V4wh0SxFDooTa4ZUl9s5W7ViJBo1-rBm7aEFg, short-id: 8c48e512ffd0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 83", server: ticket.cutizeh.ir, port: 1102, type: vless, tls: true, packet-encoding: xudp, uuid: 888ace32-07d3-4000-b6c2-1268d9715f1b, servername: ookla.com, host: ookla.com, path: /, reality-opts: {public-key: DbArC_oPTXXRSuurm980XmEJTAQrz31ThG_3C0xFlxg, short-id: 5a6cac3470a92c66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 84", server: ticket.cutizeh.ir, port: 1120, type: vless, tls: true, packet-encoding: xudp, uuid: 888ace32-07d3-4000-b6c2-1268d9715f1b, host: ticket.cutizeh.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 85", server: 132.243.212.238, port: 17831, type: vless, tls: true, packet-encoding: xudp, uuid: 894722d0-400c-446d-8651-056c7fddc5d0, servername: www.github.com, host: www.github.com, path: /, reality-opts: {public-key: 7I1b1LvMTKyjXKDE4NQpWbSujuaVrKpUKt6jSiiMhnM, short-id: 46729ba7bf95de}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 86", server: plru.slovovpn.com, port: 17831, type: vless, tls: true, packet-encoding: xudp, uuid: 894722d0-400c-446d-8651-056c7fddc5d0, servername: www.github.com, host: www.github.com, path: /, reality-opts: {public-key: 7I1b1LvMTKyjXKDE4NQpWbSujuaVrKpUKt6jSiiMhnM, short-id: 46729ba7bf95de}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 87", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 88", server: 31.76.80.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8975546a-375c-4966-8064-19fc0f66f30a, servername: www.amd.com, host: www.amd.com, path: /, reality-opts: {public-key: zq3gOJkXi6laNuxMohL3lr-wFOKi4Z9oG7QuMMiTDAk, short-id: 5caa2ef81132c306}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 89", server: 404.e404ng.fun, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a87f7e1-faa1-4040-a417-b263605da0de, host: 404.e404ng.fun, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 90", server: 104.105.78.231, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 8c2d5e7e-116a-49c4-8437-937f4bfce346, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 91", server: 104.238.189.115, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: 8c2d5e7e-116a-49c4-8437-937f4bfce346, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 92", server: 85.17.116.115, port: 9145, type: vless, tls: true, packet-encoding: xudp, uuid: 969f9d0d-28ca-47d6-a328-cdcf31fae220, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: Fw1tpKBQ_bT_eSTbaCSYBthpXAQ76kujwfywvjgpUA0, short-id: 5e06032a9c448538}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 93", server: 138.16.141.59, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: a289a3d3-5833-4b28-8809-ae72898a98d0, servername: ibm.com, host: ibm.com, path: /, reality-opts: {public-key: RY7zkFQ01lI92jxNAyCa8T33UBW1fgpJgg8ZEqMA10k, short-id: a09ff9f8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 94", server: 195.211.124.243, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 95", server: 37.221.79.61, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 96", server: 45.38.19.123, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 97", server: 5.75.193.116, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 98", server: 65.109.205.9, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 99", server: 65.109.205.9, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 100", server: finland.hosting-96.ir, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 101", server: nthl.hosting-96.biz.id, port: 6554, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ldKJPryKehb7higLXSUk90F8kNrvhQLj0o2MNN7TSjE, short-id: 458e130100}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 102", server: tunnel.hosting-96.ir, port: 31131, type: vless, tls: true, packet-encoding: xudp, uuid: a61abe08-05d6-f72d-58ab-b92576abd790, servername: www.afr-data-15.myket.ir, host: www.afr-data-15.myket.ir, path: /, reality-opts: {public-key: _o6iGjdqVntBONq4iyr5mE-VrlySyYMR33Ql0c_s-BQ, short-id: 727b0fd25d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 103", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 104", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 105", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 106", server: lopa1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 107", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 108", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 109", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: aceee6cd-a794-4d21-b18a-6e41b08cc10a, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 110", server: 131.123.42.150, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ae8e0f7d-b661-41ca-b55d-d8c383adb2f8, servername: bul2.helper-internet.com, host: bul2.helper-internet.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: W-zf_ncm9sYALF5EqvUsxqTkYGdAw-tQczT2SqwVMGE, short-id: ff776ff77be48b88}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 111", server: 104.238.189.115, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: c100e5ba-1cf5-45ce-b491-5c2b02cdde5e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 112", server: parr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: c100e5ba-1cf5-45ce-b491-5c2b02cdde5e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 113", server: jsv-ir.jmovies.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c26fe2f0-5c69-11f1-8a1a-bf116ceb9215, servername: aparat.com, host: aparat.com, path: /, reality-opts: {public-key: fwS6bEyF28VsSapBZZ2vz6LJmVismH0NYupk6STFRWc, short-id: f373df45a687eaff}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 114", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 115", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 116", server: 192.142.37.217, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d62d49cb-a9b5-4f1f-90a4-316ecc3dadc4, servername: www.oracle.com, host: www.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: aFbCyrLOre-V3ORpBjqenGfDt62Ng_i1sSq-DmZHVgc, short-id: 89e0494514ec}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 117", server: 45.89.60.235, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dabb9a19-03ab-4cdf-8963-d3c45eb0f80d, servername: alblack.vodniki.monster, host: alblack.vodniki.monster, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wTITbZ7gXSeLOTMLOVC4ePziVIyELIgQeaPihXrbqAk, short-id: 946b7ff3ebdd350c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 118", server: 104.16.72.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: dc8eccdb-ecfa-435f-9ac1-5dc4882e7b51, network: ws, ws-opts: {path: /http, headers: {Host: de.vpnbase.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 119", server: 149.112.84.49, port: 54237, type: vless, tls: true, packet-encoding: xudp, uuid: dd358774-cd02-42b7-9716-d9f3627cefac, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: wqgM2hNgNhv3a0_zLHYiitoFGkN_ubAQMhW48WfW-io, short-id: c386acc3c7b89538}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 120", server: 104.252.30.239, port: 15201, type: vless, tls: true, packet-encoding: xudp, uuid: dd7ea5ae-d430-4e7b-a733-8c562f49a3de, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 121", server: 176.97.218.225, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: e184e002-0169-462a-a709-5bbc1f30e6b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 122", server: 176.97.218.225, port: 2020, type: vless, tls: true, packet-encoding: xudp, uuid: e184e002-0169-462a-a709-5bbc1f30e6b2, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 123", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: e41603b5-3315-4cbc-acae-dfeeaddc2a4d, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 124", server: 13.36.182.220, port: 22223, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 125", server: 13.37.75.61, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 126", server: 13.42.99.148, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 127", server: 18.130.61.248, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 128", server: 18.130.61.248, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 129", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 130", server: aml.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 131", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 132", server: frkks.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 133", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 134", server: ita1.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 135", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 136", server: swqaa.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 137", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 138", server: tuuy.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 139", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 140", server: usaoq.plasdomain.ir, port: 32855, type: vless, tls: true, packet-encoding: xudp, uuid: ed6efa6e-4159-485f-b465-de2d7c9d2e84, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: fRtTW1zQqje-Yh1DqPAHA8nWOMsX983pZUxy58FaY10, short-id: deb7a9e5a6e1d41a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 141", server: api-de.data-media-social.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef4f4c3d-0b16-48ad-a8d8-2d22512b3b36, servername: api-de.data-media-social.org, host: api-de.data-media-social.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 7X8ifHa-K72alW7ly5SRYwotXdjA-gEQoEGUK1EagVM, short-id: f3c4d918e7c4f744}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 142", server: ser.astershop.ir, port: 56076, type: vless, tls: true, packet-encoding: xudp, uuid: efabf259-6e31-4fb3-aa96-fa29287fca66, host: ser.astershop.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 143", server: parr.mechanicir.ir, port: 10694, type: vless, tls: true, packet-encoding: xudp, uuid: f09ca7ff-bfc2-4f72-8cf4-a3c81100cc15, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: CHNEnURyZzZ1OQwb5SD2Ze8K9eIY2oggyrV5FOIsU28, short-id: a0fbc54d937aaccb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 144", server: hadikeikei.ir, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: f1a22614-ff7a-423c-8cb4-d322c88985ae, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: jPjDwxHaOIVV7mnCccqLoY_t3-Cd0h__EMCp1Yd_KX8, short-id: a7f31c9d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad", server: masster.bigchanger.site, port: 9090, type: vmess, uuid: c6253350-247c-4900-a601-80ebd0733897, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -342,48 +300,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: ♻️ 自动选择
     type: url-test
@@ -535,48 +451,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: 🌍 国外媒体
     type: select
@@ -728,48 +602,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: 📲 电报信息
     type: select
@@ -920,48 +752,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: Ⓜ️ 微软服务
     type: select
@@ -1112,48 +902,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: 🍎 苹果服务
     type: select
@@ -1304,48 +1052,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
   - name: 🎯 全球直连
     type: select
@@ -1518,48 +1224,6 @@ proxy-groups:
       - "@filembad` 142"
       - "@filembad` 143"
       - "@filembad` 144"
-      - "@filembad` 145"
-      - "@filembad` 146"
-      - "@filembad` 147"
-      - "@filembad` 148"
-      - "@filembad` 149"
-      - "@filembad` 150"
-      - "@filembad` 151"
-      - "@filembad` 152"
-      - "@filembad` 153"
-      - "@filembad` 154"
-      - "@filembad` 155"
-      - "@filembad` 156"
-      - "@filembad` 157"
-      - "@filembad` 158"
-      - "@filembad` 159"
-      - "@filembad` 160"
-      - "@filembad` 161"
-      - "@filembad` 162"
-      - "@filembad` 163"
-      - "@filembad` 164"
-      - "@filembad` 165"
-      - "@filembad` 166"
-      - "@filembad` 167"
-      - "@filembad` 168"
-      - "@filembad` 169"
-      - "@filembad` 170"
-      - "@filembad` 171"
-      - "@filembad` 172"
-      - "@filembad` 173"
-      - "@filembad` 174"
-      - "@filembad` 175"
-      - "@filembad` 176"
-      - "@filembad` 177"
-      - "@filembad` 178"
-      - "@filembad` 179"
-      - "@filembad` 180"
-      - "@filembad` 181"
-      - "@filembad` 182"
-      - "@filembad` 183"
-      - "@filembad` 184"
-      - "@filembad` 185"
-      - "@filembad` 186"
       - "@filembad"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
