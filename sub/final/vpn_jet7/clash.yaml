@@ -467,6 +467,7 @@ rule-providers:
 proxies:
   - {name: "@Vpn_jet7**", server: 217.11.164.92, port: 37430, type: vless, tls: true, packet-encoding: xudp, uuid: d20be48f-6317-4350-858b-d00929bdefc1, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7** 2", server: 16.61.111.198, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Vpn_jet7**, server: 157.22.133.130, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: e6d369db-22be-4f30-8685-455c717aaa8c, network: ws, ws-opts: {path: /5021201ef53f}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,6 +486,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -493,6 +495,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -501,6 +504,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -518,6 +522,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -526,6 +531,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -534,6 +540,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - Vpn_jet7**
   - name: دانلود منیجر 📥
     type: select
     proxies:
