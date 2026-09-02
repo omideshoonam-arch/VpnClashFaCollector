@@ -465,15 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@proxy_kafee", server: giftcard.gateway-stream.com, port: 52023, type: hysteria2, ports: 52023, password: 4savc5ig1n3549e4, sni: giftcard.gateway-stream.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: 130.49.161.70, port: 443, type: hysteria2, ports: 443, password: p7Q76LzlnS4hIzr1W3staBOnUe_WwSkR, obfs: salamander, obfs-password: rG07s3COMIEvdnQipRyWzx_H_2xygNC3, sni: hy2.aspidnet.xyz, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 249⚡", server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: 151.101.56.7:443, server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN}, udp: true, tfo: false}
   - {name: "@proxy_kafee 248⚡`", server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0bbd1c9c-bd0a-4c47-8ad1-4ca7da1a1114, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: bg3.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: bg3.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: home.v1.ApiService}, reality-opts: {public-key: XBfCioniAKXgKYBUVnvBXu80AIaIa4SpAB3w8qeF7Gk, short-id: 1be1bd931c98c84a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 5", server: md1.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 6", server: 51.24.3.30, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,45 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -544,45 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@proxy_kafee"
-      - "@proxy_kafee 2"
       - "@proxy_kafee 249⚡"
       - 151.101.56.7:443
       - "@proxy_kafee 248⚡`"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
-      - "@proxy_kafee 6"
   - name: دانلود منیجر 📥
     type: select
     proxies:
