@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "%40fr33c0nfig", server: dashboard.lunaramarket.top, port: 41501, type: vmess, uuid: 1af1b7f5-eb1e-4176-ab60-c134fd283b6c, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💚 کانال تلگرام", server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💚 کانال تلگرام 2", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🩵 کانال تلگرام", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
@@ -488,7 +487,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
@@ -501,7 +499,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
@@ -514,7 +511,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
@@ -536,7 +532,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
@@ -549,7 +544,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
@@ -562,7 +556,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%40fr33c0nfig"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام 2"
       - "@Vpn_Tehran 🩵 کانال تلگرام"

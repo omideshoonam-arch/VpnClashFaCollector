@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 129.146.56.236:50356, server: 129.146.56.236, port: 50356, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: ePPBJythkyFICgU0+BmSFSNJCLWIH/n8VIeBuM22DTU=, udp: true, tfo: false}
+  - {name: xn--1ugy405pdua.gayvibe.dpdns.org:2174, server: xn--1ugy405pdua.gayvibe.dpdns.org, port: 2174, type: trojan, password: tripitropa444, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 144.21.43.131:62145, server: 144.21.43.131, port: 62145, type: vless, tls: true, packet-encoding: xudp, uuid: 8fb65472-5957-4f64-ba2d-b5812b2f155a, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 129.146.56.236:50356
+      - xn--1ugy405pdua.gayvibe.dpdns.org:2174
+      - 144.21.43.131:62145
   - name: دانلود منیجر 📥
     type: select
     proxies:
