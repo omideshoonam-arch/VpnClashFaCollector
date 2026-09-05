@@ -465,12 +465,15 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 151.101.56.7, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-50", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-52", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 46.28.64.242, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1e560bb6-4d52-4625-a629-54b1282f1b93, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 2FrYX1NTCe-fnm0kvNLYMPAuOZ8jbsYOSCKu3lY3CBQ, short-id: 64c147592a2f84d9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 45.90.58.216, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2e8077d9-7bd9-444b-b2e3-de940d2eb35e, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PMYLdOtnvW-ca8Zf6u7CFgGXoGXCvmCMPerPjGY3AAc, short-id: 77d7abe2c55892f1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 78.17.186.154, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8535e46f-4c0b-4b02-9369-d4d553c9a892, servername: www.nokia.com, host: www.nokia.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 151.101.56.7, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "%40mehrosaboran", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 199.232.78.160, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 91.92.33.95, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0dd9cfaa-cebd-4444-8778-70cb22737944, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: HFTFARa1OS53m4HWnjwtZ0J3lu7aoKkE7OujIyM62QI, short-id: 2a236a7fcbe0ce61}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 193.239.179.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1d38d2b2-342f-4a01-93df-f24fb0277c70, servername: worldoftanks.asia, host: worldoftanks.asia, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 5", server: 3.166.17.55, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2b262080-f68a-4108-9ac3-d89140faaf6f, servername: d2757rhm6iotvq.cloudfront.net, network: ws, ws-opts: {path: /, headers: {Host: d2757rhm6iotvq.cloudfront.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 6", server: 89.35.14.33, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.ApiService}, reality-opts: {public-key: TZVMqglhHzteJ6t34mtku75LKzXNq0CB6glKYMAH6zg, short-id: 8e07337954f9823f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 7", server: 45.129.142.41, port: 49325, type: vless, tls: true, packet-encoding: xudp, uuid: 68f7465d-6edb-4317-a1a9-ffe87e3a7c38, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: T0RmoxSgAtx71kYW_ENHcU1cMHXpz0IzFJYHOn9WZm8, short-id: 886921b120b2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 8", server: 89.34.90.68, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: fe8e2ffb-8796-408c-af5b-0d4774215e00, servername: 360.yandex.ru, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: dTdncizxtVTqDZDkQoYdRTkf2Mn6XuKtkzg8vZhrkzA, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,11 +491,14 @@ proxy-groups:
     type: select
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,11 +506,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -512,11 +521,14 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -533,11 +545,14 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -545,11 +560,14 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -557,11 +575,14 @@ proxy-groups:
     interval: 600
     proxies:
       - "@mehrosaboran"
-      - "@mehrosaboran`"
-      - "@mehrosaboran` 2"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
       - "@mehrosaboran 3"
       - "@mehrosaboran 4"
+      - "@mehrosaboran 5"
+      - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran 8"
   - name: دانلود منیجر 📥
     type: select
     proxies:
