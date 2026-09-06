@@ -5,9 +5,10 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@mehrosaboran", server: 151.101.56.7, port: 443, type: trojan, password: M%69T%69VPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "%40mehrosaboran", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-64", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 130.250.137.171, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-66", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: k2.cloud--vpn.site, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 95b5d1d0-a878-4a52-bf2a-c8e323457b02, servername: ssl.fastly.com, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 46.62.135.67, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d2351240-3ef6-4ec3-a82c-0e71742895dc, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: 1U9eTADaumTYxiO9NifVHUv5mbMowU2NSjgc2rBdvHo, short-id: 7a0300af51a1c4cf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,6 +18,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,6 +28,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -35,6 +38,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -43,6 +47,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -51,6 +56,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -59,6 +65,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -89,6 +96,7 @@ proxy-groups:
       - "@mehrosaboran"
       - "@mehrosaboran`"
       - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
