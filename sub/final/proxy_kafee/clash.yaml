@@ -465,21 +465,14 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@proxy_kafee", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 03dee437-67ef-4239-95ae-3aaa2f3effff, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: 185.207.198.186, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 174622e3-2d1d-47ab-bf74-aef54996ec46, servername: film.dearhossein-taktaz.ir, network: ws, ws-opts: {path: /, headers: {Host: film.dearhossein-taktaz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 89.35.14.30, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: md1.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: md1.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hub.v1.RelayService}, reality-opts: {public-key: xWejOQUn2koOUorUPSrHMLM-lyHlZ441KzxKc9bLmkY, short-id: 221ba6174224ca5b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 5", server: rs4.univesalsrv.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f35965a-9a9b-45fd-ba32-987296dfb6be, servername: rs4.univesalsrv.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.v1.StreamService}, reality-opts: {public-key: sXsJ4ET-50TYqlhKZf03nPQr2JIy1F0D4m6lOsI0cAs, short-id: 861ac7d66953e55f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 6", server: yt.orpheous.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 55ed97fc-77d1-4802-baf3-acef70776331, servername: yt.orpheous.ru, host: yt.orpheous.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9rdvkUGJyNbRvsB0Pp06h1URq9AHDPRtH9-wmNB1-j4, short-id: e4aa362b5f9d07d7}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 7", server: 149.118.55.234, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 58f7687b-5209-4dcd-a11e-6e4eb2191378, servername: www.zoom.com, network: ws, ws-opts: {path: /xlordgrim/sg, headers: {Host: www.zoom.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 8", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 5b8165d4-87bb-4584-96af-a4997261ffd9, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 9", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 9d1edc82-a983-496a-954a-a52e4fb13f37, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 10", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 9e320f5b-6574-41bc-bb41-59f21c943b0d, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 11", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: XpnTeam-66, servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 12", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: bfd636ff-59f3-4e98-8a31-a47985e6bc3e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 13", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: c2f33b4c-aae2-4e1d-be70-0eecfd50c55c, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee`", server: 144.31.5.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cd3bb7d9-7df3-4644-ac05-c260990ac277, servername: pl6.moritech.net, alpn: [h2], host: pl6.moritech.net, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee` 2", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: ee8c8894-25b3-40c2-bb3d-7b71ee9f3b57, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: 185.207.198.186, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 174622e3-2d1d-47ab-bf74-aef54996ec46, servername: film.dearhossein-taktaz.ir, network: ws, ws-opts: {path: /, headers: {Host: film.dearhossein-taktaz.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 2", server: 149.118.55.234, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 58f7687b-5209-4dcd-a11e-6e4eb2191378, servername: www.zoom.com, network: ws, ws-opts: {path: /xlordgrim/sg, headers: {Host: www.zoom.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 3", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 5b8165d4-87bb-4584-96af-a4997261ffd9, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 4", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 9d1edc82-a983-496a-954a-a52e4fb13f37, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 5", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: 9e320f5b-6574-41bc-bb41-59f21c943b0d, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 6", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: bfd636ff-59f3-4e98-8a31-a47985e6bc3e, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 7", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: c2f33b4c-aae2-4e1d-be70-0eecfd50c55c, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee`", server: www.f.mobilesari.ir, port: 12345, type: vless, tls: true, packet-encoding: xudp, uuid: ee8c8894-25b3-40c2-bb3d-7b71ee9f3b57, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1N8CIM6v_TgbIDNneyEPNQ92hyq5Eyh_irJWOXKDBDw, short-id: 2b368990a94e8cbb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -503,14 +496,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -524,14 +510,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -545,14 +524,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -575,14 +547,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -596,14 +561,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -617,14 +575,7 @@ proxy-groups:
       - "@proxy_kafee 5"
       - "@proxy_kafee 6"
       - "@proxy_kafee 7"
-      - "@proxy_kafee 8"
-      - "@proxy_kafee 9"
-      - "@proxy_kafee 10"
-      - "@proxy_kafee 11"
-      - "@proxy_kafee 12"
-      - "@proxy_kafee 13"
       - "@proxy_kafee`"
-      - "@proxy_kafee` 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

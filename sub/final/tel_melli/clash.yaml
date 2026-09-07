@@ -466,9 +466,6 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@v2box_meli🇫🇮", server: sls.sdiramnewmaxc.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14e84681-eba8-4503-9bfd-c64e35ef4726, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, reality-opts: {public-key: ZfQ1p-pbRuQ-fKLEBSHLzNT1WAkIbaG4sAEShgnm6hA, short-id: 84b81738fed3ebfd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@v2box_meli⚫", server: tgfree.rush-server.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64, servername: anyfile2file.com, host: anyfile2file.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: 64c1fe36c7846400}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@v2box_meli💎", server: tgfree.rush-server.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64, servername: anyfile2file.com, host: anyfile2file.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: 64c1fe36c7846400}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@v2box_meli☔", server: 5.75.192.206, port: 15307, type: vmess, uuid: 18c1c45d-95bf-435b-ae4c-7eb96f793af4, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,9 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,9 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -506,9 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -525,9 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -535,9 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -545,9 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@v2box_meli🇫🇮"
-      - "@v2box_meli⚫"
-      - "@v2box_meli💎"
-      - "@v2box_meli☔"
   - name: دانلود منیجر 📥
     type: select
     proxies:
