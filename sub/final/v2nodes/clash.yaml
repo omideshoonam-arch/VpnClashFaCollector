@@ -465,7 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 130.61.179.188:59924, server: 130.61.179.188, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: ILby12dpIbRC+JyGy1Wevfw5i8VL2786URmmlX25BsQ=, udp: true, tfo: false}
   - {name: 130.61.231.219:59924, server: 130.61.231.219, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: IqGBz5QqcOCmSLFq3Byz30nz+eafkJ98Zxlffhvc48A=, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -483,7 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -491,7 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -499,7 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: اتصال پایدار 🔗
     type: url-test
@@ -516,7 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -524,7 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -532,7 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 130.61.179.188:59924
       - 130.61.231.219:59924
   - name: دانلود منیجر 📥
     type: select
