@@ -465,19 +465,27 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@MTproxy22_v2ray", server: 23.227.38.100, port: 443, type: vmess, uuid: 7b1b2fa3-e361-48cc-b73d-2c9636c76f4b, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
-  - {name: "@filembad", server: 5.75.192.206, port: 15307, type: vmess, uuid: 1c3b61a1-cfd5-41e3-99b7-061203decf66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 5.75.192.206, port: 15307, type: vmess, uuid: 1c3b61a1-cfd5-41e3-99b7-061203decf66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: 104.21.27.139, port: 443, type: vmess, uuid: 03fcc618-b93d-6796-6aed-8a38c975d581, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: edeen.makeup}}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 2", server: 172.64.88.109, port: 2095, type: vmess, uuid: 417d27fb-cb93-3bd8-9bf7-71cd91319821, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 3", server: 47.250.45.234, port: 43063, type: vmess, uuid: c77f48f5-4be3-4461-b52b-49998e7b897b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 Germany 🇩🇪, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇩🇪 Germany 🇩🇪 2, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 112.132.215.108, port: 50002, type: vmess, uuid: 418048af-a293-4b99-9b0c-98ca3580dd24, alterId: 64, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💜 کانال تلگرام", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@vasl_bashim", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@outline_ir", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Freenet_vt, server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 176.65.140.210, port: 23981, type: vmess, uuid: 1c3b61a1-cfd5-41e3-99b7-061203decf66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bobo.badrangteb.ir}}, udp: true, tfo: false}
-  - {name: "@filembad 4", server: 176.65.140.210, port: 28267, type: vmess, uuid: 1c3b61a1-cfd5-41e3-99b7-061203decf66, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bobo.badrangteb.ir}}, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 185.211.59.57, port: 31234, type: vmess, uuid: e111908d-7a72-44d8-a12b-35de867dde72, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: 185.211.59.57, udp: true, tfo: false}
+  - {name: ⚡آمریکا مستقیم 🇺🇸, server: dashboard.aframall.top, port: 5386, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: dashboard.aframall.top, port: 5386, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: dashboard.aframall.top, port: 5386, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 4", server: dashboard.afragame.top, port: 5387, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: لهستان تانل شده 🇵🇱, server: dashboard.afrapay.top, port: 5385, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 5", server: dashboard.afrapayment.top, port: 5382, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⚡🎮ترکیه مستقیم | گیم 🇹🇷, server: dashboard.afrastore.top, port: 5384, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 6", server: dashboard.afrashop.top, port: 5381, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: هلند تانل شده 🇳🇱, server: dashboard.afrasim.top, port: 5388, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: انگلستان تانل شده 🇬🇧, server: dashboard.afrasoft.top, port: 5383, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 7", server: dashboard.afrasoft.top, port: 5383, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 8", server: dashboard.afrasoft.top, port: 5383, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 9", server: dashboard.afrasoft.top, port: 5383, type: vmess, uuid: 63a01857-93c1-490b-95f5-991bd79116c5, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -495,18 +503,26 @@ proxy-groups:
     type: select
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -514,18 +530,26 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -533,18 +557,26 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -561,18 +593,26 @@ proxy-groups:
     interval: 600
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -580,18 +620,26 @@ proxy-groups:
     interval: 600
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -599,18 +647,26 @@ proxy-groups:
     interval: 600
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
-      - "@filembad 2"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 🇩🇪 Germany 🇩🇪
-      - 🇩🇪 Germany 🇩🇪 2
+      - "@filembad"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@vasl_bashim"
-      - "@outline_ir"
-      - Freenet_vt
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - ⚡آمریکا مستقیم 🇺🇸
+      - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
+      - لهستان تانل شده 🇵🇱
+      - "@filembad 5"
+      - ⚡🎮ترکیه مستقیم | گیم 🇹🇷
+      - "@filembad 6"
+      - هلند تانل شده 🇳🇱
+      - انگلستان تانل شده 🇬🇧
+      - "@filembad 7"
+      - "@filembad 8"
+      - "@filembad 9"
   - name: دانلود منیجر 📥
     type: select
     proxies:
