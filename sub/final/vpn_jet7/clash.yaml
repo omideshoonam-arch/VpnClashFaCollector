@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 13.37.8.213, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@", server: 185.203.4.204, port: 1, type: ss, cipher: chacha20-ietf-poly1305, password: 816Efx8yiCSDDpvvpxXL8Q, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 178.83.45.98, port: 3038, type: vless, tls: true, packet-encoding: xudp, uuid: 2dd590a4-fc7b-4ad8-a8d6-c5f19f686cfd, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,6 +483,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -489,6 +491,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -496,6 +499,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -512,6 +516,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -519,6 +524,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -526,6 +532,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@"
       - "@Vpn_jet7**"
   - name: دانلود منیجر 📥
     type: select
