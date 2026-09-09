@@ -6,10 +6,16 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@MTproxy22_v2ray", server: newrelax.relaxedboy.online, port: 110, type: vmess, uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 18.168.124.58, port: 80, type: vmess, uuid: ff7be42d-7d09-445e-b89f-96d7712eb4bf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /graphql}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸, server: 85.90.217.42, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 94.184.21.218, port: 80, type: vmess, uuid: 09e18d23-eaa6-43bd-8cd0-3bd191962bcc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 165.140.217.2, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💜 کانال تلگرام", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 188.132.232.85, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vpnbaz 🍭", server: 31.77.8.97, port: 110, type: vmess, uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: alman.asasin6.ir, port: 110, type: vmess, uuid: 4fcdbb54-17bf-41e2-8879-1d708a02cfdd, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸, server: newrelax.relaxedboy.online, port: 110, type: vmess, uuid: 8e9687fc-a3a7-414a-8676-8e2136797cfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,10 +23,16 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,10 +40,16 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -39,40 +57,64 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -101,10 +143,16 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@MTproxy22_v2ray"
-      - "@filembad"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
+      - "@filembad"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💜 کانال تلگرام"
+      - "@filembad 2"
+      - "@vpnbaz 🍭"
+      - "@filembad 3"
+      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇺🇸
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
