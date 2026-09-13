@@ -465,13 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@filembad", server: 51.103.28.247, port: 54555, type: vmess, uuid: e57e9bb4-a442-44dd-a4bb-2aac72cfd1f2, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💜 کانال تلگرام", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran ☢️ کانال تلگرام", server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸, server: 85.90.217.42, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran ✅️ کانال تلگرام", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran ✅️ کانال تلگرام 2", server: 165.140.216.142, port: 443, type: vmess, uuid: b65a2d69-5634-42a2-e4be-54e8a6176900, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran ☯️ کانال تلگرام", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg-gcore.sharecentre.online, network: ws, ws-opts: {path: /, headers: {Host: cf-lt.sharecentre.online}}, udp: true, tfo: false}
+  - {name: "@filembad", server: 47.85.188.30, port: 12004, type: vmess, uuid: 8b5552bd-4cc7-4cac-af08-81c21686fd4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 152.228.145.5, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: gr.qjcm.ir, port: 2086, type: vmess, uuid: 43c7c028-4309-41c8-99f2-0896766615f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,39 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,39 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@MTproxy22_v2ray"
       - "@filembad"
-      - "@Vpn_Tehran 💜 کانال تلگرام"
-      - "@Vpn_Tehran ☢️ کانال تلگرام"
-      - ✨ @NamiraConfigs | ❤️ وصل شدی جوین شو | ⚡ | 🇪🇸
-      - "@Vpn_Tehran ✅️ کانال تلگرام"
-      - "@Vpn_Tehran ✅️ کانال تلگرام 2"
-      - "@Vpn_Tehran ☯️ کانال تلگرام"
+      - "@filembad 2"
+      - "@filembad 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
