@@ -12,6 +12,8 @@ proxies:
   - {name: "@mehrosaboran 5", server: 199.232.78.160, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "%40mehrosaboran", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@mehrosaboran 6", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-19", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@mehrosaboran`", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-20", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 7", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-21", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-22", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,6 +27,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -38,6 +42,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -51,6 +57,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -63,6 +71,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -75,6 +85,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -87,6 +99,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -121,6 +135,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

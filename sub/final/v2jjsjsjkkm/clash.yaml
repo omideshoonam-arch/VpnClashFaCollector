@@ -472,6 +472,8 @@ proxies:
   - {name: "@mehrosaboran 5", server: 199.232.78.160, port: 443, type: trojan, password: M%69TiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "%40mehrosaboran", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@mehrosaboran 6", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-19", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@mehrosaboran`", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-20", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 7", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-21", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-22", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -495,6 +497,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -508,6 +512,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -521,6 +527,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -543,6 +551,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -556,6 +566,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -569,6 +581,8 @@ proxy-groups:
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
       - "@mehrosaboran`"
+      - "@mehrosaboran 7"
+      - "@mehrosaboran` 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
