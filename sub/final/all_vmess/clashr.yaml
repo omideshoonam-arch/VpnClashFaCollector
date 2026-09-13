@@ -7,8 +7,11 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "@MTproxy22_v2ray", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg-gcore.sharecentre.online, network: ws, ws-opts: {path: /, headers: {Host: cf-lt.sharecentre.online}}, udp: true, tfo: false}
   - {name: "@filembad", server: 47.85.188.30, port: 12004, type: vmess, uuid: 8b5552bd-4cc7-4cac-af08-81c21686fd4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 152.228.145.5, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: gr.qjcm.ir, port: 2086, type: vmess, uuid: 43c7c028-4309-41c8-99f2-0896766615f1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 Germany 🇩🇪, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 Germany 🇩🇪 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 Germany 🇩🇪 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 94.184.17.130, port: 44580, type: vmess, uuid: 03508b01-f824-43d9-993f-cc491664ab2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 3", server: 152.228.145.5, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,6 +20,9 @@ proxy-groups:
       - DIRECT
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: ♻️ 自动选择
@@ -27,6 +33,9 @@ proxy-groups:
     proxies:
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: 🌍 国外媒体
@@ -37,6 +46,9 @@ proxy-groups:
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: 📲 电报信息
@@ -46,6 +58,9 @@ proxy-groups:
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: Ⓜ️ 微软服务
@@ -55,6 +70,9 @@ proxy-groups:
       - 🚀 节点选择
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: 🍎 苹果服务
@@ -64,6 +82,9 @@ proxy-groups:
       - 🎯 全球直连
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
   - name: 🎯 全球直连
@@ -95,6 +116,9 @@ proxy-groups:
       - ♻️ 自动选择
       - "@MTproxy22_v2ray"
       - "@filembad"
+      - 🇩🇪 Germany 🇩🇪
+      - 🇩🇪 Germany 🇩🇪 2
+      - 🇩🇪 Germany 🇩🇪 3
       - "@filembad 2"
       - "@filembad 3"
 rules:
