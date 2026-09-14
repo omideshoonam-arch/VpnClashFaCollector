@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇷🇺 plan.api3-max.ru:443, server: plan.api3-max.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97ecaad4-452c-45ec-b591-d68d3308aad4, servername: plan.api3-max.ru, alpn: ["h2,http/1.1"], host: plan.api3-max.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 78.141.221.126:25585, server: 78.141.221.126, port: 25585, type: vless, tls: true, packet-encoding: xudp, uuid: 8b84bbec-9a55-47c2-ac2e-03c41065e572, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇷🇺 plan.api3-max.ru:443
+      - 78.141.221.126:25585
   - name: دانلود منیجر 📥
     type: select
     proxies:

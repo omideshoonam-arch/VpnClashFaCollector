@@ -465,13 +465,11 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@MTproxy22_v2ray", server: cf-lt.sharecentre.online, port: 443, type: vmess, uuid: 20e92881-5fb4-4b05-bc77-57929476dc69, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: sg-gcore.sharecentre.online, network: ws, ws-opts: {path: /, headers: {Host: cf-lt.sharecentre.online}}, udp: true, tfo: false}
-  - {name: "@filembad", server: 47.85.188.30, port: 12004, type: vmess, uuid: 8b5552bd-4cc7-4cac-af08-81c21686fd4f, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇩🇪 Germany 🇩🇪, server: 82.198.246.250, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇩🇪 Germany 🇩🇪 2, server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇩🇪 Germany 🇩🇪 3, server: 82.198.246.97, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 94.183.207.223, port: 9091, type: vmess, uuid: e92a55fb-7849-4bf4-a342-064a3fa145cc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 2", server: 94.184.17.130, port: 44580, type: vmess, uuid: 03508b01-f824-43d9-993f-cc491664ab2e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: 152.228.145.5, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,39 +486,33 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,39 +528,33 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@MTproxy22_v2ray"
-      - "@filembad"
       - 🇩🇪 Germany 🇩🇪
       - 🇩🇪 Germany 🇩🇪 2
       - 🇩🇪 Germany 🇩🇪 3
+      - "@filembad"
       - "@filembad 2"
-      - "@filembad 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:

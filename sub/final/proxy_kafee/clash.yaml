@@ -465,19 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Daily_Configs", server: 91.107.249.32, port: 30141, type: trojan, password: JCY6NydkBA, sni: play.google.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Telegram: @proxy_kafee", server: it.kanzelo.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 0ecf2aa4-0ae7-1a4f-5455-b116c864542d, host: play-apps-features.googleusercontent.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Telegram: @proxy_kafee`", server: 2.29.10.99, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1a67126c-b9c4-4e78-b96e-eabd4002ab0c, servername: amp-api-edge.apps.apple.com, host: amp-api-edge.apps.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Bj9X3UJ2D5Q14wfBOwTz3s09SkFRVgMKTcn93s6kNHo, short-id: 41d14939ae4d616f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee", server: 77.233.213.106, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 279a8eef-898f-44ef-b4f5-67a494f4b542, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: vAG5o6TQvpZAlvDnlyhHEFZBuSgEV_ybQigD_mGKh1M, short-id: 5b98}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee`", server: 77.233.213.106, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 279a8eef-898f-44ef-b4f5-67a494f4b542, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: vAG5o6TQvpZAlvDnlyhHEFZBuSgEV_ybQigD_mGKh1M, short-id: 5b98}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 2", server: 64.225.107.161, port: 440, type: vless, tls: true, packet-encoding: xudp, uuid: 59906cb2-a61b-4cf3-b77b-5762ef61d2b0, host: store.steampowered.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Telegram: @proxy_kafee 2", server: freeman.cvbesty.ir, port: 10210, type: vless, tls: true, packet-encoding: xudp, uuid: 80c17f6f-4fbb-4055-b2b5-9f46ce00dd80, servername: doctor-yab.ir, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: twRm8a1BBdz2Q5jTuNbXxA7ZdtDPAyQNEycDYkW9DFc, short-id: 13121b7150ad7fc6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 3", server: 81.90.25.123, port: 46908, type: vless, tls: true, packet-encoding: xudp, uuid: 8b6aceff-1db9-4d5b-b4b2-d727d55b0f96, servername: it.nvidia.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: xnETFrUlaDiU4HMW9E0MnKMNNeihztGyA1QKLcyX_xU, short-id: d8f1}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 4", server: tr-t1.easyodin.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 993cd4f7-c8b6-4de2-a594-c9eb13913bc7, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 5", server: 102.165.41.98, port: 46199, type: vless, tls: true, packet-encoding: xudp, uuid: BD1F7E5E-9E0B-4919-A7F1-84BC9E69426D, servername: is4-ssl.mzstatic.com, host: is4-ssl.mzstatic.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: jnu0rNHECTe_v7H9Fmgg0iUSepHz4QQQRPW0XpX5URs, short-id: 1359c9bf9f7442e5}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Telegram: @proxy_kafee 3", server: app-ss-97.deep-aispb-analytics.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a71ad164-3b29-4dbe-aa66-24d095ca7b6d, servername: assets-ss-97.deep-aispb-analytics.com, host: assets-ss-97.deep-aispb-analytics.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ie82DDS-JoUrtvRfEWWOdcp2cEqs6v0-t2QFw3v7qiE, short-id: e3f7fec3cfb3a806}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 6", server: 31.15.18.174, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d9caa63c-37fb-46ac-b85a-693dcbe776b6, host: play-apps-features.googleusercontent.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@proxy_kafee 7", server: 15.236.112.22, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Telegram: @proxy_kafee 4", server: lp.mtcmicserver.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: fa87edcc-4751-4d28-b53b-3abf7bee7ece, servername: play-apps-features.googleusercontent.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: wegUSBXt8tLaCp7Ze22cuKJa-MQ0KRSe7BX1dDgLRQg, short-id: b397faa58de7c5f3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -495,19 +486,10 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -515,19 +497,10 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -535,19 +508,10 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -564,19 +528,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -584,19 +539,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -604,19 +550,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@Daily_Configs"
       - "Telegram: @proxy_kafee"
       - "Telegram: @proxy_kafee`"
-      - "@proxy_kafee"
-      - "@proxy_kafee`"
-      - "@proxy_kafee 2"
       - "Telegram: @proxy_kafee 2"
-      - "@proxy_kafee 3"
-      - "@proxy_kafee 4"
-      - "@proxy_kafee 5"
       - "Telegram: @proxy_kafee 3"
-      - "@proxy_kafee 6"
-      - "@proxy_kafee 7"
       - "Telegram: @proxy_kafee 4"
   - name: دانلود منیجر 📥
     type: select
