@@ -1,5 +1,177 @@
 # آرشیو کانال: @ConfigWireguard
-بروزرسانی: 2026-09-16 14:31:00 UTC
+بروزرسانی: 2026-09-16 22:32:59 UTC
+
+### 🕒 2026-09-16 14:58:02 UTC
+> ↪️ **Forwarded**
+
+***🚀***
+ معرفی ابزار DNS Benchmark Pro
+**سریع‌ترین DNS را با عدد پیدا کن، نه با حدس!**
+ 
+***📊***
+ 
+***🔍***
+ این ابزار چیست؟
+یک ابزار متن‌باز و رایگان برای 
+**مقایسه دقیق DNS سرورها**
+ روی سه پروتکل UDP، DoH و DoT با امتیازدهی شفاف ۰ تا ۱۰۰، تشخیص هایجک و مانیتورینگ دائمی.
+***🔗***
+ 
+**لینک پروژه:**
+ 
+[github.com/Alvandcode/dns-benchmark-pro](http://github.com/Alvandcode/dns-benchmark-pro)
+ 
+***🎯***
+ به درد چه کسانی می‌خورد؟
+| 
+***👤***
+ کاربر | چرا به این ابزار نیاز دارد؟ |
+| --- | --- |
+| 
+***🇮🇷***
+ 
+**کاربران ایرانی**
+ | تست شکان، الکترو، 403 و عمومی‌ها با تفکیک دامنه داخلی/خارجی |
+| 
+***🖥️***
+ 
+**ادمین‌های شبکه**
+ | انتخاب DNS شرکت با داده واقعی + مانیتورینگ ۲۴/۷ |
+| 
+***👨‍💻***
+ 
+**توسعه‌دهندگان**
+ | مقایسه چندرانه با فاصله اطمینان ۹۵٪ و گزارش HTML |
+| 
+***🎓***
+ 
+**دانشجویان شبکه**
+ | یادگیری DNS واقعی با کد تمیز و تست‌شده |
+| 
+***🛡️***
+ 
+**فعالان حریم خصوصی**
+ | تشخیص DNS hijacking و شنود |
+ 
+***⚡***
+ شروع سریع (۳ دستور)
+# ۱. نصب
+pip install -r requirements.txt
+# ۲. تست ساده ۳ DNS معروف
+python main.py
+# ۳. تست حرفه‌ای با پریست ایران
+python main.py --preset ir --queries 20 --seed 42
+ 
+***✨***
+ قابلیت‌های کلیدی
+***🔀***
+ 
+**۳ پروتکل:**
+ UDP + DoH + DoT
+***🏆***
+ 
+**امتیاز ۰-۱۰۰**
+ با گرید A+ تا F
+***🕵️***
+ 
+**تشخیص هایجک**
+ خودکار (RFC 2606)
+***🇮🇷***
+ 
+**پریست ایران:**
+ شکان، الکترو، 403 + تفکیک داخلی/خارجی
+***📈***
+ 
+**مانیتورینگ:**
+ SQLite + نمودار روند
+***📄***
+ 
+**گزارش:**
+ CSV، JSON، HTML
+***🛡️***
+ 
+**امنیت:**
+ NXDOMAIN موفق حساب نمی‌شود
+ 
+***📊***
+ نمونه خروجی
+COMPARISON (3 runs, 95% CI)
+1.  1.1.1.1  score=99.75±0.11  grade=A+ avg=0.95ms loss=0.0% hijack=clean
+2.  8.8.8.8  score=94.47±10.44 grade=A  avg=12.86ms loss=0.0% hijack=clean
+ 
+***💡***
+ چرا این ابزار متفاوت است؟
+***✅***
+ 
+**صادقانه:**
+ فقط NOERROR موفق است، loss=100% → امتیاز ۰
+***✅***
+ 
+**شفاف:**
+ فرمول امتیاز مستند و قابل بازتولید
+***✅***
+ 
+**ایرانی:**
+ پریست اختصاصی با دامنه‌های داخلی/خارجی
+***✅***
+ 
+**تست‌شده:**
+ ۷۰ تست واقعی با mock
+***✅***
+ 
+**رایگان:**
+ MIT License
+ 
+***📢***
+ برای چه کسانی 
+**مناسب نیست**
+؟
+***❌***
+ کسانی که فقط می‌خواهند «اینترنت کار کند»
+***❌***
+ کسانی که GUI می‌خواهند (فقط CLI)
+***❌***
+ کسانی که MX/TXT نیاز دارند (فقط A/AAAA)
+ 
+***🌟***
+ حمایت از پروژه
+اگر این ابزار به تو کمک کرد:
+- 
+***⭐***
+ به ریپو 
+**ستاره**
+ بده
+- 
+***📣***
+ با دوستانت 
+**به اشتراک**
+ بگذار
+- 
+***🐛***
+ باگ و ایده را 
+**ایشو**
+ کن
+**ساخته‌شده برای همه کسانی که DNSشان را شانسی انتخاب نمی‌کنند!**
+ 
+***🎯***
+***💬***
+ کانال تلگرام: a_c_official
+***🌐***
+ وب‌سایت: 
+[alvandcode.github.io](http://alvandcode.github.io/)
+[#DNS](?q=%23DNS)
+ 
+[#Benchmark](?q=%23Benchmark)
+ 
+[#Network](?q=%23Network)
+ 
+[#Iran](?q=%23Iran)
+ 
+[#OpenSource](?q=%23OpenSource)
+ 
+[#Python](?q=%23Python)
+
+---
 
 ### 🕒 2026-09-16 11:40:24 UTC
 > ↪️ **Forwarded**
@@ -63,126 +235,6 @@
  دانلود از GitHub:
 [https://github.com/joycecurcirt539-dot/Mirrly-TG-Proxy/releases/tag/v1.1.8.3](https://github.com/joycecurcirt539-dot/Mirrly-TG-Proxy/releases/tag/v1.1.8.3)
 [#اوپن_سورس](?q=%23%D8%A7%D9%88%D9%BE%D9%86_%D8%B3%D9%88%D8%B1%D8%B3)
-
----
-
-### 🕒 2026-09-16 07:51:02 UTC
-> ↪️ **Forwarded**
-
-**🔄 لینک دانلود OPENVPN**
-***♦️***
-[**IOS**](https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8)
-***♦️***
-[**Android**](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
-***♦️***
-[**macos**](https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg)
-***♦️***
-[**Openvpn Windows7/8**](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I602-Win7.exe)
-***♦️***
-[**Openvpn Windows 10**](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I602-Win10.exe)
-***♦️***
-[Other Devices](https://www.ovpn.com/en/guides#openvpn)
-
----
-
-### 🕒 2026-09-16 07:51:01 UTC
-> ↪️ **Forwarded**
-
-**🔄 لینک دانلود OPENVPN**
-***♦️***
-[**IOS**](https://itunes.apple.com/us/app/openvpn-connect/id590379981?mt=8)
-***♦️***
-[**Android**](https://play.google.com/store/apps/details?id=net.openvpn.openvpn)
-***♦️***
-[**macos**](https://openvpn.net/downloads/openvpn-connect-v3-macos.dmg)
-***♦️***
-[**Openvpn Windows7/8**](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I602-Win7.exe)
-***♦️***
-[**Openvpn Windows 10**](https://swupdate.openvpn.org/community/releases/openvpn-install-2.4.8-I602-Win10.exe)
-***♦️***
-[Other Devices](https://www.ovpn.com/en/guides#openvpn)
-
----
-
-### 🕒 2026-09-16 07:17:02 UTC
-***🔥***
- 
-**Livdub حالا برای اندروید هم اومد! 🤯**
-اگه ویدیوی قبلی Livdub رو دیده باشید، می‌دونید که این پروژه قبلاً فقط به‌صورت Extension برای Chrome روی ویندوز در دسترس بود.
-اما حالا نسخه 
-**Android**
- منتشر شده و قابلیت‌های جذاب‌تری بهش اضافه شده! 
-***🚀***
-***🎙***
- با استفاده از 
-**Gemini API**
- می‌تونید دوبله هوشمند و آنلاین رو روی ویدیوها داشته باشید؛ حتی به‌صورت همزمان!
-***📱***
- ویدیوهای داخل گوشی
-***▶️***
- ویدیوهای YouTube
-***🌐***
- ویدیوهای سایت‌های مختلف
-***🎬***
- تقریباً هر محتوای ویدیویی که روی گوشی پخش می‌کنید
-توی ویدیوی جدید 
-**Mobamoz**
- نسخه اندروید Livdub رو معرفی کردم و نحوه راه‌اندازی و استفاده ازش رو قدم‌به‌قدم توضیح دادم. 
-***🔥***
-اگه به 
-**هوش مصنوعی و ابزارهای خفن و متن‌باز**
- علاقه دارید، این یکی رو از دست ندید! 
-***😎***
-***👇***
- 
-**لینک تماشای ویدیو:**
-[https://youtu.be/BLf1h4CDfdY](https://youtu.be/BLf1h4CDfdY)
-[https://youtu.be/BLf1h4CDfdY](https://youtu.be/BLf1h4CDfdY)
-حمایت فراموش نشه ! 
-[@mobamoz_channel](https://t.me/mobamoz_channel)
-
----
-
-### 🕒 2026-09-16 05:53:02 UTC
-Wireguard Config  [Interface] Address = 62.61.191.24/32 DNS = 62.61.191.24, 9.9.9.9 MTU = 1200 PrivateKey = KKkP9ihatOrxpu/+UAsE3HvfBN6g4U5gGjoTUotF20U=  [Peer] AllowedIPs = 62.61.191.24/32 PersistentKeepalive = 25 PublicKey = NQ091wE6Qn6T+mGdGgS2cE64pISy…
-
----
-
-### 🕒 2026-09-16 05:51:25 UTC
-Wireguard Config
-[Interface]
-Address = 62.61.191.24/32
-DNS = 62.61.191.24, 9.9.9.9
-MTU = 1200
-PrivateKey = KKkP9ihatOrxpu/+UAsE3HvfBN6g4U5gGjoTUotF20U=
-[Peer]
-AllowedIPs = 62.61.191.24/32
-PersistentKeepalive = 25
-PublicKey = NQ091wE6Qn6T+mGdGgS2cE64pISymljOUhrxZ79qpBM=
-•
-[Interface]
-PrivateKey = bcD0qj5Djp18HS2nfmHbg12xtVbEHqtUIL2ZxmUdjg0=
-Address = 8.152.52.66/32, 5f00::f900:d2f1:6900/32
-DNS = 8.8.8.8, 1.1.1.1, 1a1f::3789:4864:040b, 1a1f::3789:1ccd:ecb4
-MTU = 1300
-ListenPort = 44573
-[Peer]
-PublicKey = ljizHABvty/yXGj0wRKRN5VGwV2nrD4u5t7S3KhUuHs=
-AllowedIPs = 8.156.13.153/32, 8.213.200.150/32, 8.200.177.148/32, 8.75.220.68/32, 8.229.114.102/32, 8.236.189.87/32, 8.98.192.64/32, 8.187.223.169/32, 8.142.170.38/32, 8.114.51.60/32
-Endpoint = 141.245.145.89:44573
-PersistentKeepalive = 1
-•
-[Interface]
-PrivateKey = bcD0qj5Djp18HS2nfmHbg12xtVbEHqtUIL2ZxmUdjg0=
-Address = 8.245.67.83/32, 5f00::f900:8265:73f4/32
-DNS = 8.8.8.8, 1.1.1.1, 1a1f::3789:efaa:9f1e, 1a1f::3789:714f:b00c
-MTU = 1300
-ListenPort = 25665
-[Peer]
-PublicKey = ljizHABvty/yXGj0wRKRN5VGwV2nrD4u5t7S3KhUuHs=
-AllowedIPs = 8.78.134.37/32, 8.131.168.139/32, 8.233.108.31/32, 8.56.4.222/32, 8.99.12.185/32, 8.21.99.147/32, 8.215.127.245/32, 8.57.64.157/32, 8.178.113.103/32, 8.27.170.233/32
-Endpoint = 203.93.118.2:25665
-PersistentKeepalive = 1
 
 ---
 
