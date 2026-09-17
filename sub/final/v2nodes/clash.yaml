@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 212.16.92.112:443, server: 212.16.92.112, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 32721515-985b-4773-9e70-5d2e1b88a060, servername: jobinvest.ru, host: jobinvest.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 130.61.35.239:59924, server: 130.61.35.239, port: 59924, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: FL7Njqx7acZnllLYPIZhRxXMtCBw8Tct6FFY7Yqd8lw=, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 212.16.92.112:443
+      - 130.61.35.239:59924
   - name: دانلود منیجر 📥
     type: select
     proxies:
