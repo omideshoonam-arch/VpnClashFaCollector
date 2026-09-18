@@ -465,9 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 134.65.61.47:61312, server: 134.65.61.47, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: sDhEhHHvZ8tSUziGGDt1rQuh7bgTpUccfw5JnGsAvB4=, udp: true, tfo: false}
-  - {name: 13.37.81.71:22224, server: 13.37.81.71, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "🇨🇳 [openproxylist.com] vmess-TW", server: 7dba81fc3a0b.oylfmxz.cn, port: 443, type: vmess, uuid: d90e4077-bc7e-414d-a650-70bf1baae4d6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: 7dba81fc3a0b.oylfmxz.cn}}, udp: true, tfo: false}
+  - {name: 144.24.226.249:61312, server: 144.24.226.249, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: axZ54YHizH8C2/85gqPV+VCC6r0h+nWWGemeypymi2I=, udp: true, tfo: false}
+  - {name: 92.5.231.133:45819, server: 92.5.231.133, port: 45819, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: gBPl8MuQUn/PBFVy+dKiMcPL6c0Ergh8ZmmGqMIH2NA=, udp: true, tfo: false}
+  - {name: solipor-production-7697.up.railway.app:443, server: solipor-production-7697.up.railway.app, port: 443, type: trojan, password: 047c5913-4618-010c-6a52-bb584d71d8b6, sni: solipor-production-7697.up.railway.app, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan-ws, headers: {Host: solipor-production-7697.up.railway.app}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 134.65.61.47:61312
-      - 13.37.81.71:22224
-      - 🇨🇳 [openproxylist.com] vmess-TW
+      - 144.24.226.249:61312
+      - 92.5.231.133:45819
+      - solipor-production-7697.up.railway.app:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
