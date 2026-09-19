@@ -7,15 +7,17 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: " 2", server: 82.198.246.37, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray", server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.42088326.xyz}}, udp: true, tfo: false}
-  - {name: "@filembad", server: 45.39.33.10, port: 8443, type: vmess, uuid: 4d6997cf-7856-4aab-85e5-f22169e56e65, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: 203.23.106.157, port: 443, type: vmess, uuid: 824c58b1-65ba-4680-a609-663a000dbb92, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 2", server: 37.120.236.251, port: 443, type: vmess, uuid: ed162daa-ee20-44ed-830f-b522c501387a, alterId: 64, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: www.42088326.xyz}}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 3", server: 66.241.124.93, port: 443, type: vmess, uuid: de04add9-5c68-8bab-950c-08cd5320df18, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام", server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💚 کانال تلگرام", server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🩵 کانال تلگرام", server: 82.198.246.233, port: 180, type: vmess, uuid: d13fc2f5-3e05-4795-81eb-44143a09e552, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran ❤️ کانال تلگرام", server: 118.193.57.167, port: 49667, type: vmess, uuid: d46bf492-45f4-4c33-82d1-ea2a1cb54eb6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /d46bf492}, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 139.28.240.68, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 139.28.240.68, port: 2086, type: vmess, uuid: f6361af8-bb8f-4609-bf5d-3fc0f688f47b, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran ❤️ کانال تلگرام 2", server: 165.154.195.38, port: 35034, type: vmess, uuid: 959a8caf-4cea-43d0-a548-3628e7ddfafc, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: vip3.coinchain.site, port: 8080, type: vmess, uuid: 992b7390-b7e7-4adf-82aa-a8953a997380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: vip3.coinchain.site, port: 8080, type: vmess, uuid: 992b7390-b7e7-4adf-82aa-a8953a997380, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: cloir.devilfruit.ir, port: 443, type: vmess, uuid: 3baf26ff-a25d-4776-9333-a3c979324bb6, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: tr.oneping.org, network: ws, ws-opts: {path: /download, headers: {Host: cloir.devilfruit.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,14 +27,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,14 +46,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,14 +65,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -75,14 +83,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -91,14 +101,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,14 +119,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,14 +159,16 @@ proxy-groups:
       - ""
       - " 2"
       - "@MTproxy22_v2ray"
-      - "@filembad"
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
       - "@Vpn_Tehran 💛 کانال تلگرام"
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@filembad 2"
+      - "@filembad"
       - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - "@filembad 3"
+      - "@filembad 2"
+      - "@FarazV2ray"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
