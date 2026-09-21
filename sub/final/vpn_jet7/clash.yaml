@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: vip.fi.veraxideas.ir, port: 20700, type: vless, tls: true, packet-encoding: xudp, uuid: b41e32ce-426d-46a2-8c27-98024bd1e9a4, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: hLMggUThR-UQTA1qGk_yAixl5XgkzzJq55gkg6Xo_TI, short-id: 443b095cb4d4118a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 104.16.107.139, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 486ebf01-0b45-4c38-9ef6-198aa0f9d2c3, network: ws, ws-opts: {path: /pyip=ProxyIP.SG.CMLiussss.net, headers: {Host: quiet-feather-19f3.410-a69.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 150.241.71.245, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c795bdd5-0460-42bd-927b-fbff154d2ab5, servername: gag.fl.iki-servers.com, host: gag.fl.iki-servers.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
