@@ -465,52 +465,45 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@FarazV2ray", server: 74.234.59.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: znEtjgHLXH4FBLic, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 2.27.59.206, port: 443, type: hysteria2, ports: 443, password: cd74c0a406664a5bc0bac098220a2468, obfs: salamander, obfs-password: 44f1c1e2f8b99e792ceed574627a1eb0, sni: de1.sferavpn.pro, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 2", server: 74.234.59.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: znEtjgHLXH4FBLic, udp: true, tfo: false}
   - {name: " ", server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: "  2", server: 82.38.31.203, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: "  3", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: "  4", server: 82.38.31.215, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: 2903 | 🇵🇱 NetFreedom0, server: 217.30.10.44, port: 9099, type: ss, cipher: aes-256-cfb, password: 7heRqkPG3hg4UnRm, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray", server: 167.88.63.44, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 2", server: 172.99.190.149, port: 443, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: false}
-  - {name: 0810 | 🇺🇸 NetFreedom0, server: 151.101.56.7, port: 443, type: trojan, password: MITIVpN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 4228 | 🇺🇸 NetFreedom0, server: 167.82.76.7, port: 443, type: trojan, password: MITIVpN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 3", server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 2", server: 191.44.113.95, port: 443, type: trojan, password: pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr, sni: 16.img.avito.st, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: www.speedtest.org, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 3", server: 191.44.113.95, port: 443, type: trojan, password: pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr, sni: 16.img.avito.st, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 2, server: 191.44.113.95, port: 443, type: trojan, password: pkj3BBnG2NE4wD-72SwgzNcfaHSes-dr, sni: 16.img.avito.st, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@bored_vpn", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-20", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 3, server: 118.167.206.152, port: 24215, type: vless, tls: true, packet-encoding: xudp, uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c6d1933-b22a-484b-ac8a-63e24f5fba75, servername: server9.9966338.xyz, network: ws, ws-opts: {path: /imnotarealherox, headers: {Host: server9.9966338.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ZikkOVpnBot | خوش‌قیمت و باکیفیت, server: 104.16.10.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 44eae030-290b-4083-8102-6f8bab05701b, servername: cfvvv-ev1.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: cfvvv-ev1.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel, server: milan.adaspoloandco.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 69ac162b-1643-4acb-9f49-09d8b0fad609, servername: milan.adaspoloandco.com, network: ws, ws-opts: {path: /RoBeRt, headers: {Host: milan.adaspoloandco.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 4, server: 84.75.255.140, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6c49576d-ea4a-4441-b8ef-ba78f11694d4, servername: ch2.responsiblecare.uk, host: ch2.responsiblecare.uk, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: nilJ07r1KZ0-KhmRNYeICXGhM9HeG9uxnRaqjYz3fWg, short-id: c6ff7424cb12c5ed}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 2, server: 104.21.8.201, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: 735b8344-0b95-464c-b687-1c5616138908, servername: cdn-de.skyvora.app, network: ws, ws-opts: {path: /3cagtz3, headers: {Host: cdn-de.skyvora.app}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 2265 | 🇵🇱 NetFreedom0, server: 92.62.251.18, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 89a0fe83-dcb3-4e3c-92ed-407fc668e7b1, servername: pl-1.brodvpn.com, host: pl-1.brodvpn.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 4", server: 153.76.185.84, port: 3090, type: vless, tls: true, packet-encoding: xudp, uuid: 995b4d19-8c0d-4f81-a199-35a4f1d7744e, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 2", server: 153.76.185.84, port: 3090, type: vless, tls: true, packet-encoding: xudp, uuid: 995b4d19-8c0d-4f81-a199-35a4f1d7744e, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@mehrosaboran", server: 144.31.128.84, port: 24531, type: vless, tls: true, packet-encoding: xudp, uuid: 9a3d5f36-fa72-4ced-94d3-7f6f046ec085, servername: www.aviasales.com, host: www.aviasales.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 5, server: 144.31.128.84, port: 24531, type: vless, tls: true, packet-encoding: xudp, uuid: 9a3d5f36-fa72-4ced-94d3-7f6f046ec085, servername: www.aviasales.com, host: www.aviasales.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 5", server: 88.216.220.88, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401, servername: files.noneok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.StreamService}, reality-opts: {public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g, short-id: d3b394558cfe0266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 3", server: 88.216.220.88, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a8e3155b-ceb1-4fcb-bc0c-2e77ec005401, servername: files.noneok.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: api.v1.StreamService}, reality-opts: {public-key: q3kOYHdjmqWLLYj8oikvna1bTjofk45ktegGaJE611g, short-id: d3b394558cfe0266}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 3, server: 104.21.8.201, port: 2096, type: vless, tls: true, packet-encoding: xudp, uuid: bdc5e450-3e2d-4001-928e-e3bc6cecb249, servername: cdn.skyvora.app, network: ws, ws-opts: {path: /hux9duzm54, headers: {Host: cdn.skyvora.app}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net l, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c4edb87e-8544-4fa4-bd1c-b0cda9a34b46, servername: a.cwvps.eu.org, network: ws, ws-opts: {path: "/ws?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: a.cwvps.eu.org}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 3", server: 193.58.121.224, port: 5432, type: vless, tls: true, packet-encoding: xudp, uuid: cc01f435-d561-4525-bf1f-7a9876d33207, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 4", server: 193.58.121.224, port: 5432, type: vless, tls: true, packet-encoding: xudp, uuid: cc01f435-d561-4525-bf1f-7a9876d33207, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 6, server: 45.86.245.107, port: 5865, type: vless, tls: true, packet-encoding: xudp, uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1, servername: ru.vkroom-it-service.xyz, host: ru.vkroom-it-service.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1UlHWXQ11dMmBYHq7XYsyKnfPVGTh9UssmiJE_zRnjI, short-id: a4f7c2e91b6d8035}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 7, server: 62.60.152.1, port: 56328, type: vless, tls: true, packet-encoding: xudp, uuid: ce230b9c-0531-40da-bc3f-f27a8e059db1, servername: table.vkroom-it-service.xyz, host: table.vkroom-it-service.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: iI1pc8k9-mIPHL2Dga-4n4h3KoBT68lN434nglpgm2M, short-id: f3a9c21e8b6d4571}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "  5", server: 169.40.42.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 4", server: uusd66.th3store.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: df2086c8-c706-4fe2-af07-cc5eff272a8d, servername: jjsajajsjjajsjjasjajsjajsjsaj.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /hjhjsahsa6sa6sa, headers: {Host: jjsajajsjjajsjjasjajsjajsjsaj.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ONEX-Aliasghar, server: onex-production-ad55.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dbbd80c3-b991-49ca-c6ca-24e63a5cb326, servername: onex-production-ad55.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/dbbd80c3-b991-49ca-c6ca-24e63a5cb326, headers: {Host: onex-production-ad55.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 5", server: uusd66.th3store.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: df2086c8-c706-4fe2-af07-cc5eff272a8d, servername: jjsajajsjjajsjjasjajsjajsjsaj.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /hjhjsahsa6sa6sa, headers: {Host: jjsajajsjjajsjjasjajsjajsjsaj.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 4, server: 89.185.81.95, port: 8765, type: vless, tls: true, packet-encoding: xudp, uuid: df9f5aca-eda0-428f-a752-e53866153d12, servername: r-b8a34c.vless.monster, host: r-b8a34c.vless.monster, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Da_s-Cgqm5kqaIbCgXVJdrq_KF7fCQveRByRhKUzonc, short-id: 7bf47eabf939728b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 5", server: 91.215.40.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67, servername: id.dframe.app, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk, short-id: 5c766813929a1fdd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.36.123.107:22222, server: 13.36.123.107, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 15.188.175.211:22222, server: 15.188.175.211, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 6", server: 91.215.40.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e3c3b722-1264-4cdc-a97c-b0a1bb73cd67, servername: id.dframe.app, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: ivgTfLR13A6xBsicIA28OPoav2tXlsstTTmGuETfnSk, short-id: 5c766813929a1fdd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 35.181.77.1:22222, server: 35.181.77.1, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 6", server: 144.31.129.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e950cb84-4d46-44f8-ba9a-e6064e7ec2a4, servername: media-crown.ru, host: media-crown.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gF0oeN2ndJ1hDZynSUu504hiXzUI6oioEerdyG7yMVQ, short-id: d9662905}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 7", server: 144.31.129.19, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e950cb84-4d46-44f8-ba9a-e6064e7ec2a4, servername: media-crown.ru, host: media-crown.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: gF0oeN2ndJ1hDZynSUu504hiXzUI6oioEerdyG7yMVQ, short-id: d9662905}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 5, server: 91.210.169.181, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ff0b6ba8-bed0-4c4d-bbc9-23af47582615, network: ws, ws-opts: {path: /api/connect, headers: {Host: wstg.datasynctrue.online}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 6", server: 145.223.70.129, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: ad20d2bc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3", server: 31.76.82.109, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: d8d4ee24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 4", server: 145.223.70.129, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: ad20d2bc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4", server: 31.76.82.109, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: d8d4ee24}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 7", server: 104.16.85.20, port: 80, type: vmess, uuid: c6747da4-fb2e-4a2a-bdb7-8614bdd6b0b3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: sg4-v2ray.sshkit.org}}, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 8", server: 188.114.99.29, port: 2053, type: vmess, uuid: 72f76c36-3e3c-45b3-a61f-d8f017345958, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /}, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 9", server: ip.saintink.eu.org, port: 443, type: vmess, uuid: b15ee8ec-0b0e-4ce2-b35c-f4be265ba217, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: ip.saintink.eu.org}}, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 6, server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 7, server: 66.163.117.58, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t.me/iProxyChannel 8, server: 66.163.118.73, port: 22324, type: vmess, uuid: 04621bae-ab36-11ec-b909-0242ac120002, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
@@ -531,51 +524,44 @@ proxy-groups:
     type: select
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
@@ -586,51 +572,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
@@ -641,51 +620,44 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
@@ -705,51 +677,44 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
@@ -760,51 +725,44 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
@@ -815,51 +773,44 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
       - " "
       - "  2"
       - "  3"
       - "  4"
-      - 2903 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray"
-      - "@MTproxy22_v2ray 2"
-      - 0810 | 🇺🇸 NetFreedom0
-      - 4228 | 🇺🇸 NetFreedom0
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net
-      - "@MTproxy22_v2ray 3"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray"
+      - "@FarazV2ray 3"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
+      - "@bored_vpn"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - ZikkOVpnBot | خوش‌قیمت و باکیفیت
       - t.me/iProxyChannel
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
       - t.me/iProxyChannel 2
-      - 2265 | 🇵🇱 NetFreedom0
-      - "@MTproxy22_v2ray 4"
+      - "@MTproxy22_v2ray 2"
       - "@mehrosaboran"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 3"
       - t.me/iProxyChannel 3
       - 𝗝𝗼𝗶𝗻➠@PlanB_net l
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 6
       - 𝗝𝗼𝗶𝗻➠@PlanB_net 7
       - "  5"
-      - "@FarazV2ray 4"
-      - t.me/iProxyChannel 4
+      - ONEX-Aliasghar
       - "@FarazV2ray 5"
-      - 13.36.123.107:22222
-      - 15.188.175.211:22222
-      - 35.181.77.1:22222
+      - t.me/iProxyChannel 4
       - "@FarazV2ray 6"
+      - 35.181.77.1:22222
+      - "@FarazV2ray 7"
       - t.me/iProxyChannel 5
-      - "@MTproxy22_v2ray 6"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
+      - "@MTproxy22_v2ray 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - ""
-      - "@MTproxy22_v2ray 7"
-      - "@MTproxy22_v2ray 8"
-      - "@MTproxy22_v2ray 9"
       - t.me/iProxyChannel 6
       - t.me/iProxyChannel 7
       - t.me/iProxyChannel 8
