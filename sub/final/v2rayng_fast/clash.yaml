@@ -465,11 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@V2rayng_Fast", server: 74.234.59.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: znEtjgHLXH4FBLic, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: k2.cloud--vpn.site, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1fac5e18-2ca8-4626-c299-1f3f21c6b55e, servername: ssl.fastly.com, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: a2.arshia-nova.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a, servername: ssl.fastly.com, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: k2.cloud--vpn.site, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 622cd467-ae00-4afe-b7ee-15dca6b9649a, servername: ssl.fastly.com, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast `", server: 89.124.69.148, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: d8d4ee29}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: p1tun4.greewebservices.ir, port: 1080, type: ss, cipher: chacha20-ietf-poly1305, password: cVvgP0Bz69hsErPBvqKbwQ, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast `", server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,9 +487,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -499,9 +497,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -510,9 +507,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -530,9 +526,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -541,9 +536,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -552,9 +546,8 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast `"
+      - "@V2rayng_Fast 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:

@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 194.150.166.230, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: ad20d2ba}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "%4**", server: 104.18.32.35, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 498a8e0a-e40d-418b-8209-e6e437e97d83, network: ws, ws-opts: {path: /ws, headers: {Host: prisonvpnc.n8xyd0tsxn-b25.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad**", server: 188.114.97.6, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a148f4c1-f95f-4c03-9768-e5d80b6b4996, network: ws, ws-opts: {path: /CooonfigCooonfigCooonfigCooonfigCooonfig, headers: {Host: msjsi.azazilvpn.sbs.}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@Vpn_jet7**"
+      - "%4**"
+      - "@filembad**"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
