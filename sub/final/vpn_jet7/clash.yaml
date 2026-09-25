@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "%4**", server: 104.18.32.35, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 498a8e0a-e40d-418b-8209-e6e437e97d83, network: ws, ws-opts: {path: /ws, headers: {Host: prisonvpnc.n8xyd0tsxn-b25.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad**", server: 188.114.97.6, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: a148f4c1-f95f-4c03-9768-e5d80b6b4996, network: ws, ws-opts: {path: /CooonfigCooonfigCooonfigCooonfigCooonfig, headers: {Host: msjsi.azazilvpn.sbs.}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 95.85.252.223, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 06765620-7fd9-4927-bf74-fa4b551f26b7, servername: www.amazon.com, host: www.amazon.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: 93.190.9.172, port: 3090, type: vless, tls: true, packet-encoding: xudp, uuid: 552d68c0-dccf-4623-9eca-f4203e2203d1, network: grpc, grpc-opts: {grpc-mode: multi, grpc-service-name: vless}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "%4**"
-      - "@filembad**"
+      - "@Vpn_jet7**"
+      - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
