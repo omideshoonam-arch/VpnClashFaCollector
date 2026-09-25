@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Capoit`", server: 46.225.11.46, port: 209, type: vless, tls: true, packet-encoding: xudp, uuid: 90c8673d-416b-4ea8-b75c-5cc2db2308b0, servername: aparat.com, host: aparat.com, path: /, reality-opts: {public-key: 4Q5c7xpGQa7AH591KSZQzfU7gFkBxCwMSL9LkgSat3w, short-id: 0aeb62b0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit`", server: 151.101.56.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: efd8d1f0-8c99-4733-9654-a2c959a1d1ca, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select

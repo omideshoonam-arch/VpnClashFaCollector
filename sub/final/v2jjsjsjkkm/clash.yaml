@@ -465,12 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-27", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-28", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-29", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-30", servername: ssl.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,10 +483,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: خودکار (بهترین پینگ) 🤖
@@ -499,10 +491,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -511,10 +499,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: اتصال پایدار 🔗
@@ -532,10 +516,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: توزیع بار (گردشی) 🔁
@@ -544,10 +524,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: توزیع بار (موقت) ⏳
@@ -556,10 +532,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💋***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🥰***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***😍***"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
       - "@mehrosaboran"
       - "@mehrosaboran`"
   - name: دانلود منیجر 📥
