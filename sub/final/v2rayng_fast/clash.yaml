@@ -465,11 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@V2rayng_Fast", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast `", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 20.234.96.89, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: C8QhmBLJzhKo2JHR, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 20.164.220.82, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Qy7KyMo4epSCiluJ, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 188.137.231.200, port: 24562, type: vless, tls: true, packet-encoding: xudp, uuid: b706bd4d-14d5-48dd-9fe3-1d79ecfeed17, servername: android.com, host: android.com, path: /, reality-opts: {public-key: 0Ke_kOZwpSESFBQCfYWn7pDY_tJyv8gsWX6fXbO7Zyo, short-id: 6279cd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,10 +488,11 @@ proxy-groups:
     type: select
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,10 +500,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -509,10 +512,11 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -529,10 +533,11 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -540,10 +545,11 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -551,10 +557,11 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
-      - "@V2rayng_Fast `"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast 5"
+      - "@V2rayng_Fast 6"
   - name: دانلود منیجر 📥
     type: select
     proxies:
