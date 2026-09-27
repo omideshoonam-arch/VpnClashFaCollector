@@ -465,12 +465,20 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "@V2rayng_Fast", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🇬🇧", server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂", server: 72.56.41.33, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: 5be7fb02-b6a5-450f-b041-3243b98e8420, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Uvj5H9pDJP0HX2bN7NN7sCQwVCrC5N2NbKf-yuy1ikE, short-id: ee33}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, servername: llm-api.sofurry.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: llm-api.sofurry.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂 2", server: 188.225.77.241, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 94877739-3af6-4fbb-85b6-ca6fe86c7696, servername: api.betust.net, host: api.betust.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: YczbievYAOeZIypa58aRpil6XbfdyifK_0cFJWn8-yg, short-id: d6c172d3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9e9fd625-e4d7-4944-ae7e-4145342fa5db, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9e9fd625-e4d7-4944-ae7e-4145342fa5db, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🇬🇧 2", server: 201.7.25.126, port: 24446, type: vless, tls: true, packet-encoding: xudp, uuid: b229d38c-35ec-4a0b-9c86-8fceba243d6c, servername: spry-jolt.cdn.cachefleet.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: telegram-bridge}, reality-opts: {public-key: esOi15BFVX7pHyci7GQp8_FVlY2EmjSF2-0pPu4lIlk, short-id: defeaa98406c7bdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂 3", server: 5.149.248.227, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf8c34f4-3c93-4428-8042-8834662d75e6, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: RmsCt_VXBwBC8WF3TqprhXMbu7xZl18dVDwq0kDfqzE, short-id: 9d3372aebdef5228}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂 4", server: 150.241.71.245, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c795bdd5-0460-42bd-927b-fbff154d2ab5, servername: gag.fl.iki-servers.com, host: gag.fl.iki-servers.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 69.48.229.50, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: d2761575-3f08-41ae-9dd1-33ccf86dddd1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂 5", server: 31.76.80.230, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: d544c858-b1ba-45b2-8868-8197daf2a6ee, servername: fin.luxes.network, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/assets#TELEGRAM--MARAMBASHI--MARAMBASHI?ed=512", headers: {Host: fin.luxes.network}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🫂 6", server: 159.194.217.26, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e48e4377-1f29-485b-80d4-85fd4fa27bfa, servername: www.siemens.com, host: www.siemens.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: APL7UqMEGSeIQNe4evUy3gdFRnTD_l3UMtgTcIfh2XY, short-id: babcbe551bde8268}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 🇬🇧 3", server: 193.56.135.233, port: 9543, type: vless, tls: true, packet-encoding: xudp, uuid: ff6d2dda-7b90-404e-9951-34b3124bfdfa, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: 123abcde}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
@@ -490,12 +498,20 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
@@ -505,12 +521,20 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
@@ -520,12 +544,20 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
@@ -544,12 +576,20 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
@@ -559,12 +599,20 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
@@ -574,12 +622,20 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast"
+      - "@V2rayng_Fast 2"
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast 4"
       - "@V2rayng_Fast 🇬🇧"
       - "@V2rayng_Fast 🫂"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 🫂 2"
+      - "@FarazV2ray"
+      - "@V2rayng_Fast`"
       - "@V2rayng_Fast 🇬🇧 2"
       - "@V2rayng_Fast 🫂 3"
       - "@V2rayng_Fast 🫂 4"
+      - "@V2rayng_Fast 6"
       - "@V2rayng_Fast 🫂 5"
       - "@V2rayng_Fast 🫂 6"
       - "@V2rayng_Fast 🇬🇧 3"
