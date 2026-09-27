@@ -5,8 +5,6 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 104.18.32.87:443, server: 104.18.32.87, port: 443, type: trojan, password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00, sni: id1.nathaya.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: id1.nathaya.web.id}}, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net, server: 104.18.32.87, port: 443, type: trojan, password: 018b8e7b-7813-4dcb-84a5-3c98f1521e00, sni: id1.nathaya.web.id, skip-cert-verify: false, network: ws, ws-opts: {path: /trojan#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: id1.nathaya.web.id}}, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN`", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
   - {name: "@i10VPN - Psiphon 79", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
   - {name: 104.16.72.101:443, server: 104.16.72.101, port: 443, type: trojan, password: 6c862415-30d2-4813-8e49-42e99a0bd415, sni: space.byu.id.yxls.eu.cc, skip-cert-verify: false, network: ws, ws-opts: {path: /us-gllc@ThePackageCom, headers: {Host: space.byu.id.yxls.eu.cc}}, udp: true, tfo: false}
@@ -19,78 +17,50 @@ proxies:
   - {name: 151.101.56.7:443, server: 151.101.56.7, port: 443, type: trojan, password: MiTIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: 181768 | ⚡️Telegram - t.me/SOSkeyNET, server: 151.101.56.7, port: 443, type: trojan, password: MiTIVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: configraygan_2, server: 140.248.185.253, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/s-w@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 151.101.56.255:443, server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 151.101.56.255:443, server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@HajmVPN_Config - 🇩🇪", server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 151.101.56.255:443 2, server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: 181789 | ⚡️Telegram - t.me/SOSkeyNET, server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@Capoit`", server: 151.101.56.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩", server: 151.101.56.6, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩", server: 151.101.56.6, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 151.101.56.7:443 2, server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 151.101.56.7:443 2, server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@HajmVPN_Config - 🇩🇪 2", server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 151.101.56.7:443 3, server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚", server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: 181845 | ⚡️Telegram - t.me/SOSkeyNET, server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩", server: 151.101.56.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e2@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 151.101.56.9:443, server: 151.101.56.9, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181678 | ⚡️Telegram - t.me/SOSkeyNET, server: 151.101.56.9, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 151.101.56.9:443 2, server: 151.101.56.9, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 151.101.56.9:443, server: 151.101.56.9, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2", server: 151.101.56.9, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪", server: 167.82.101.75, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLS4s---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩", server: 167.82.76.27, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 167.82.76.7:443, server: 167.82.76.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181676 | ⚡️Telegram - t.me/SOSkeyNET, server: 167.82.76.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: "@HajmVPN_Config - 🇩🇪 3", server: 167.82.76.7, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩", server: 167.82.79.164, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`", server: 167.82.96.58, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSs---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩", server: 185.31.18.255, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.101:443, server: 199.232.78.101, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181675 | ⚡️Telegram - t.me/SOSkeyNET, server: 199.232.78.101, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.160:443 2, server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181674 | ⚡️Telegram - t.me/SOSkeyNET, server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.160:443 3, server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 199.232.78.160:443 2, server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3", server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩", server: 199.232.78.160, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.188:443, server: 199.232.78.188, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181677 | ⚡️Telegram - t.me/SOSkeyNET, server: 199.232.78.188, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/NLSus---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.188:443 2, server: 199.232.78.188, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 199.232.78.188:443, server: 199.232.78.188, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4", server: 199.232.78.188, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`", server: 199.232.78.20, port: 443, type: trojan, password: MiTiVPN, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-ei@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: neat-octopus.rooster465.autos:443, server: neat-octopus.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 181685 | ⚡️Telegram - t.me/SOSkeyNET, server: neat-octopus.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray", server: neat-octopus.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: square-gnat.rooster465.autos:443, server: square-gnat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 181686 | ⚡️Telegram - t.me/SOSkeyNET, server: square-gnat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 2", server: square-gnat.rooster465.autos, port: 443, type: trojan, password: NQ26071394, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 182143 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.21.41.207, port: 80, type: trojan, password: PIGUIcige4LiV.tv6., skip-cert-verify: false, network: ws, ws-opts: {path: "/tr/0q4KckQ4ssYPT3klEHtvyt9io9dcpY?ed=2560"}, udp: true, tfo: false}
   - {name: "@filembad`", server: 91.107.176.78, port: 45406, type: trojan, password: dS0DbW2j1-xL0X08HZjkDgtNcxCCYa5e, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.67.149.60:443, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "@V2rayng_Fast", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 172.67.149.60:443 2, server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: Freenet_vt 🐍 - 5, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: //assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 188.114.97.6:443, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 2, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
   - {name: Freenet_vt 🐍 - 4, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 188.114.97.6:443 2, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
+  - {name: 188.114.97.6:443, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
   - {name: 181812 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 188.114.97.6:443 3, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: 188.114.97.6:443 2, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: Freenet_vt 🐍 - 3, server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 188.114.97.7:443, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 3, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 188.114.97.7:443 2, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 2", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "- @configraygan-65", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "- @configraygan-70", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 188.114.97.7:443 3, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: 188.114.97.7:443, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: 181916 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---MTMVPN---MTMVPN---MTMVPN---MTMVPN, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 8.47.69.0:443, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام", server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 181722 | ⚡️Telegram - t.me/SOSkeyNET, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 181723 | ⚡️Telegram - t.me/SOSkeyNET, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: render.com:443, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 4, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: render.com:443 2, server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: www.speedtest.net:443, server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 𝗝𝗼𝗶𝗻➠@PlanB_net 5, server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: www.speedtest.net:443 2, server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 3", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.160:443 4, server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 181718 | ⚡️Telegram - t.me/SOSkeyNET, server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/D-e1i@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN/---@MiTiVPN---@MiTiVPN, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
+  - {name: 45.157.118.23:30775, server: 45.157.118.23, port: 30775, type: trojan, password: r6lygvrt9mjaydoq, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 182075 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.157.118.23, port: 30775, type: trojan, password: r6lygvrt9mjaydoq, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 47.240.80.220:2052, server: 47.240.80.220, port: 2052, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: vpn.12169.top, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 181940 | ⚡️Telegram - t.me/SOSkeyNET, server: 47.240.80.220, port: 2052, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: vpn.12169.top, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 5🐸@oneclickvpnkeys`, server: 47.240.80.220, port: 2052, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: vpn.12169.top, skip-cert-verify: false, udp: true, tfo: false}
@@ -100,8 +70,6 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -115,77 +83,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -195,8 +135,6 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -210,77 +148,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -290,8 +200,6 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -305,77 +213,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -384,8 +264,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -399,77 +277,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -478,8 +328,6 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -493,77 +341,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -572,8 +392,6 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -587,77 +405,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
@@ -688,8 +478,6 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 104.18.32.87:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
       - 104.16.72.101:443
@@ -703,77 +491,49 @@ proxy-groups:
       - 181768 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan_2
       - 151.101.56.255:443
+      - "@HajmVPN_Config - 🇩🇪"
+      - 151.101.56.255:443 2
       - 181789 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@Capoit`"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 2🇩"
       - "@MiTiVPN |  [ ᴘʀᴇᴍɪᴜᴍ ]1🇩"
       - 151.101.56.7:443 2
+      - "@HajmVPN_Config - 🇩🇪 2"
+      - 151.101.56.7:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
       - 181845 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 2🇩"
       - 151.101.56.9:443
-      - 181678 | ⚡️Telegram - t.me/SOSkeyNET
-      - 151.101.56.9:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]5🇩🇪"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 3🇩"
-      - 167.82.76.7:443
-      - 181676 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪 3"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 4🇩"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ] 3🇩`"
       - "@MiTiVPN |  [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]1🇩"
-      - 199.232.78.101:443
-      - 181675 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443 2
-      - 181674 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.160:443 3
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
       - "@MiTiVPN | [ ᴘʀᴇᴍɪᴜᴍ ] 4🇩"
       - 199.232.78.188:443
-      - 181677 | ⚡️Telegram - t.me/SOSkeyNET
-      - 199.232.78.188:443 2
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 4"
       - "@MiTiVPN | [ 𝑵𝒆𝑻𝑴𝒆𝒍𝒊 ]6🇩🇪`"
-      - neat-octopus.rooster465.autos:443
-      - 181685 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - square-gnat.rooster465.autos:443
-      - 181686 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 182143 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
-      - 172.67.149.60:443
       - "@V2rayng_Fast"
-      - 172.67.149.60:443 2
       - Freenet_vt 🐍 - 5
-      - 188.114.97.6:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 2
       - Freenet_vt 🐍 - 4
-      - 188.114.97.6:443 2
+      - 188.114.97.6:443
       - 181812 | ⚡️Telegram - t.me/SOSkeyNET
-      - 188.114.97.6:443 3
+      - 188.114.97.6:443 2
       - Freenet_vt 🐍 - 3
-      - 188.114.97.7:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 3
-      - 188.114.97.7:443 2
-      - "@FarazV2ray"
       - "@V2rayng_Fast 2"
       - "- @configraygan-65"
       - "- @configraygan-70"
-      - 188.114.97.7:443 3
+      - 188.114.97.7:443
       - 181916 | ⚡️Telegram - t.me/SOSkeyNET
-      - 8.47.69.0:443
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 181722 | ⚡️Telegram - t.me/SOSkeyNET
-      - 181723 | ⚡️Telegram - t.me/SOSkeyNET
-      - render.com:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 4
-      - render.com:443 2
-      - www.speedtest.net:443
-      - 𝗝𝗼𝗶𝗻➠@PlanB_net 5
-      - www.speedtest.net:443 2
       - "@V2rayng_Fast 3"
-      - 199.232.78.160:443 4
-      - 181718 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.157.118.23:30775
+      - 182075 | ⚡️Telegram - t.me/SOSkeyNET
       - 47.240.80.220:2052
       - 181940 | ⚡️Telegram - t.me/SOSkeyNET
       - 5🐸@oneclickvpnkeys`
