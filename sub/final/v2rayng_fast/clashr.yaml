@@ -5,14 +5,21 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@V2rayng_Fast", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 102.133.165.160, port: 16233, type: ss, cipher: chacha20-ietf-poly1305, password: Xsy8Ox4yOV3xLlpxtjzs3X, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 2", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: render.com, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 5", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 86c50e3a-5b87-49dd-bd20-03c7f2735e40, servername: llm-api.sofurry.dpdns.org, network: ws, ws-opts: {path: /, headers: {Host: llm-api.sofurry.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9e9fd625-e4d7-4944-ae7e-4145342fa5db, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast`", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9e9fd625-e4d7-4944-ae7e-4145342fa5db, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 6", server: 69.48.229.50, port: 40443, type: vless, tls: true, packet-encoding: xudp, uuid: d2761575-3f08-41ae-9dd1-33ccf86dddd1, servername: deepl.com, host: deepl.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 172.67.149.60, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: 188.114.97.7, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.ignitelimit.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.ignitelimit.com}}, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast` 2", server: 158.160.160.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 06d05a0a-f298-0001-8fab-3de32e3fb770, servername: matrix.stargazed.space, host: matrix.stargazed.space, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: RMjWKm3Jj09ytfHD-90J0c3qdpQtjqJ4muUSAuF2eXQ, short-id: 0e9e64843ec8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 176.108.244.178, port: 9881, type: vless, tls: true, packet-encoding: xudp, uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU, short-id: aa}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: 176.108.244.178, port: 9881, type: vless, tls: true, packet-encoding: xudp, uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: ycPIUcY6ci2yi7YA_OHc20e4gzxEdJTqpmeShxSuHRU, short-id: aa}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 7", server: 176.108.244.38, port: 9881, type: vless, tls: true, packet-encoding: xudp, uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0, short-id: aabb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 8", server: 176.108.247.104, port: 9881, type: vless, tls: true, packet-encoding: xudp, uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0, short-id: aabb}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 9", server: 176.123.165.180, port: 9881, type: vless, tls: true, packet-encoding: xudp, uuid: 5d16ac22-6eea-426f-b778-6f4c2961faef, servername: dl.google.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc-tunnel}, reality-opts: {public-key: Dfgu8Ey0M8Hz4gXGZAwQ3H9jLt2HByVsjAOTWiuKDB0, short-id: aabbccdd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 10", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 940fcf3f-50da-469f-b67a-72de953343e2, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 11", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 940fcf3f-50da-469f-b67a-72de953343e2, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 12", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 940fcf3f-50da-469f-b67a-72de953343e2, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 13", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e2a4dbed-1353-44ac-b4ff-51dcfdc58dcf, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -22,11 +29,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -36,11 +50,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -50,11 +71,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -63,11 +91,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -76,11 +111,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -89,11 +131,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -124,11 +173,18 @@ proxy-groups:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
       - "@V2rayng_Fast 3"
-      - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast 5"
-      - "@FarazV2ray"
       - "@V2rayng_Fast`"
+      - "@V2rayng_Fast 4"
+      - "@V2rayng_Fast` 2"
+      - "@V2rayng_Fast 5"
       - "@V2rayng_Fast 6"
+      - "@V2rayng_Fast 7"
+      - "@V2rayng_Fast 8"
+      - "@V2rayng_Fast 9"
+      - "@V2rayng_Fast 10"
+      - "@V2rayng_Fast 11"
+      - "@V2rayng_Fast 12"
+      - "@V2rayng_Fast 13"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
