@@ -5,9 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 37.143.131.147, port: 58449, type: vless, tls: true, packet-encoding: xudp, uuid: 1dd99ec7-298b-4113-be64-2bab44f672cb, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: android.pcapps.ir, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 5e90bbb0-4880-419f-99a4-8ba3648f880e, servername: booking.com, host: booking.com, path: /, reality-opts: {public-key: khVfcjtJeIhqSvWh5pXlBlZrRN2evKtlerhMozeul28, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 88.99.15.182, port: 1280, type: vless, tls: true, packet-encoding: xudp, uuid: ec2398cc-5ea8-4999-950e-54d7832513c7, network: ws, ws-opts: {path: /, headers: {Host: is1-ssl.mzstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 65.109.249.114, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 794990ea-dc34-4eff-8a43-020a92fec381, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,8 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,32 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,8 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

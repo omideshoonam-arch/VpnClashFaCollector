@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 37.143.131.147, port: 58449, type: vless, tls: true, packet-encoding: xudp, uuid: 1dd99ec7-298b-4113-be64-2bab44f672cb, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: android.pcapps.ir, port: 2085, type: vless, tls: true, packet-encoding: xudp, uuid: 5e90bbb0-4880-419f-99a4-8ba3648f880e, servername: booking.com, host: booking.com, path: /, reality-opts: {public-key: khVfcjtJeIhqSvWh5pXlBlZrRN2evKtlerhMozeul28, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: 88.99.15.182, port: 1280, type: vless, tls: true, packet-encoding: xudp, uuid: ec2398cc-5ea8-4999-950e-54d7832513c7, network: ws, ws-opts: {path: /, headers: {Host: is1-ssl.mzstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 65.109.249.114, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 794990ea-dc34-4eff-8a43-020a92fec381, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -494,8 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -503,8 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -521,8 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -530,8 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -539,8 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:
