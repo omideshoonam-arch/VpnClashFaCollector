@@ -468,9 +468,7 @@ proxies:
   - {name: 129.151.70.113:61312, server: 129.151.70.113, port: 61312, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: n12fSnv7G5u+/HcjQHq61FsQgrGuTfkXt/vbUMzRi3E=, udp: true, tfo: false}
   - {name: 72.4.65.116:443, server: 72.4.65.116, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0dca2cfe-98eb-4f9d-9a47-cf87510c558b, servername: assets-de2.pleiades.codes, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: cdn.v1.AssetService}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 172.104.237.173:20855, server: 172.104.237.173, port: 20855, type: vless, tls: true, packet-encoding: xudp, uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8, short-id: efe9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.104.237.173:20855 2, server: 172.104.237.173, port: 20855, type: vless, tls: true, packet-encoding: xudp, uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: c6Pu0_yAYxIrnYjbwIYLsKB_xhcLsk17BgojLeaIvE8, short-id: efe9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 18.136.119.69:20975, server: 18.136.119.69, port: 20975, type: vless, tls: true, packet-encoding: xudp, uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: GVg6RWWCJfXATSmArzQD69rXqs9-804Ot-_uX3WrJE4, short-id: 2bb0dc48}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 18.139.227.162:28243, server: 18.139.227.162, port: 28243, type: vless, tls: true, packet-encoding: xudp, uuid: d00d9d18-20cf-4191-be76-6f73d43a27ec, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IXxfPvq2OkbSuA-ZTBFpMzkDU1uO8dEI1e7s9VfHh1Y, short-id: 7996bf4dcf194d18}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,9 +488,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -502,9 +498,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -514,9 +508,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -535,9 +527,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -547,9 +537,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -559,9 +547,7 @@ proxy-groups:
       - 129.151.70.113:61312
       - 72.4.65.116:443
       - 172.104.237.173:20855
-      - 172.104.237.173:20855 2
       - 18.136.119.69:20975
-      - 18.139.227.162:28243
   - name: دانلود منیجر 📥
     type: select
     proxies:
