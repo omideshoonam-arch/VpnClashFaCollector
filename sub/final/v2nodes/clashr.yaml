@@ -5,53 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 113.30.154.65:443, server: 113.30.154.65, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 550a69ec-fec1-4eca-b939-4ee076875fa8, servername: sellflow.org, host: sellflow.org, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31.59.125.75:443, server: 31.59.125.75, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e9844617-e393-4876-afa7-11859695f4ee, servername: pl.gazladder.work, host: pl.gazladder.work, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇳🇱 nl-irancell3.xelfona.ir:49548, server: nl-irancell3.xelfona.ir, port: 49548, type: ss, cipher: 2022-blake3-aes-256-gcm, password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=, udp: true, tfo: false}
+  - {name: 89.125.65.110:443, server: 89.125.65.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 228ecfd3-9bf0-42fd-a50e-581f84022513, servername: ozone.nl, host: ozone.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 94vM83D04n5QHxwxT-DSY8Q5YqGjMFEHnDVS_M-L2wc, short-id: 5d8ec7b1dbc0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: tk1.high-speed-test-56424.me:443, server: tk1.high-speed-test-56424.me, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM, short-id: 21270a66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 91.190.155.173:2083, server: 91.190.155.173, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 9e3132b8-b595-444a-833a-2de44789f9d7, servername: shephe.dpdns.org, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: shephe.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 139.84.177.239:443, server: 139.84.177.239, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d90087c3-54f5-4283-a13f-615260c8b0c7, servername: googleapis.com, host: googleapis.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +100,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 113.30.154.65:443
-      - 31.59.125.75:443
+      - 🇳🇱 nl-irancell3.xelfona.ir:49548
+      - 89.125.65.110:443
+      - tk1.high-speed-test-56424.me:443
+      - 91.190.155.173:2083
+      - 139.84.177.239:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
