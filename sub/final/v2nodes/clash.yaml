@@ -468,8 +468,10 @@ proxies:
   - {name: 🇳🇱 nl-irancell3.xelfona.ir:49548, server: nl-irancell3.xelfona.ir, port: 49548, type: ss, cipher: 2022-blake3-aes-256-gcm, password: zZ+k8UwdTQ9ZTnxEodTN2YI6KrFKEAcBWgCbLZIVUTE=:LbWEdFyjKcvZcv9agyGttSn0HNap+ecf50/UrlGMBCQ=, udp: true, tfo: false}
   - {name: 89.125.65.110:443, server: 89.125.65.110, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 228ecfd3-9bf0-42fd-a50e-581f84022513, servername: ozone.nl, host: ozone.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 94vM83D04n5QHxwxT-DSY8Q5YqGjMFEHnDVS_M-L2wc, short-id: 5d8ec7b1dbc0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: tk1.high-speed-test-56424.me:443, server: tk1.high-speed-test-56424.me, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM, short-id: 21270a66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 103.71.22.234:8443, server: 103.71.22.234, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 9e3132b8-b595-444a-833a-2de44789f9d7, servername: shephe.dpdns.org, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: shephe.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 91.190.155.173:2083, server: 91.190.155.173, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 9e3132b8-b595-444a-833a-2de44789f9d7, servername: shephe.dpdns.org, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: shephe.dpdns.org}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 139.84.177.239:443, server: 139.84.177.239, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d90087c3-54f5-4283-a13f-615260c8b0c7, servername: googleapis.com, host: googleapis.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 143.246.194.213:443, server: 143.246.194.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dc9e93bc-b53a-11f1-91d3-52540030ba36, servername: www.ikea.com, host: www.ikea.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,8 +491,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,8 +504,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -511,8 +517,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -531,8 +539,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -542,8 +552,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -553,8 +565,10 @@ proxy-groups:
       - 🇳🇱 nl-irancell3.xelfona.ir:49548
       - 89.125.65.110:443
       - tk1.high-speed-test-56424.me:443
+      - 103.71.22.234:8443
       - 91.190.155.173:2083
       - 139.84.177.239:443
+      - 143.246.194.213:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
