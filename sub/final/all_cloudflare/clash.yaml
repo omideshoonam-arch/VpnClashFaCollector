@@ -465,22 +465,16 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: ip.sb:443, server: ip.sb, port: 443, type: trojan, password: auto, sni: trojanmz.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/trojanmz.pages.dev/?ed=2560", headers: {Host: trojanmz.pages.dev}}, udp: true, tfo: false}
-  - {name: 185413 | ⚡️Telegram - t.me/SOSkeyNET, server: ip.sb, port: 443, type: trojan, password: auto, sni: trojanmz.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/trojanmz.pages.dev/?ed=2560", headers: {Host: trojanmz.pages.dev}}, udp: true, tfo: false}
-  - {name: 104.19.229.21:8080, server: 104.19.229.21, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 16c23193-ce68-fe74-96d2-2f3400000021, servername: bnukoe-y937zy-b5943c.tiufucuc8r737f.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: bnukoe-y937zy-b5943c.tiufucuc8r737f.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 185405 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.19.229.21, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 16c23193-ce68-fe74-96d2-2f3400000021, servername: bnukoe-y937zy-b5943c.tiufucuc8r737f.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: bnukoe-y937zy-b5943c.tiufucuc8r737f.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad`", server: skk.moe, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 3fe8191f-52ae-4e38-8385-5869ab47fb70, network: ws, ws-opts: {path: /pyip=ProxyIP.US.CMLiussss.net, headers: {Host: jolly-violet-a006.10-ae8.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185677 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.21.55.229, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 4a40e7a6-9179-42c1-9bd7-eefec23a62f8, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: soft-meadow-980a.458.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: 172.67.187.219, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 4a40e7a6-9179-42c1-9bd7-eefec23a62f8, alpn: [http/1.1], network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: soft-meadow-980a.458.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: www.gov.ua:8880, server: www.gov.ua, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 580af126-448f-407b-a4c2-785e702cd8ea, network: ws, ws-opts: {path: /pyip=proxyip.jp.cmliussss.net, headers: {Host: misty-wood-62b4.263-93e.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 185449 | ⚡️Telegram - t.me/SOSkeyNET, server: www.gov.ua, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 580af126-448f-407b-a4c2-785e702cd8ea, network: ws, ws-opts: {path: /pyip=proxyip.jp.cmliussss.net, headers: {Host: misty-wood-62b4.263-93e.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 188.114.97.6:8080, server: 188.114.97.6, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 730cbebb-39b2-4a1c-b2f8-f922095d6623, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: wandering-bonus-e035.272.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: 188.114.97.6, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 730cbebb-39b2-4a1c-b2f8-f922095d6623, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: wandering-bonus-e035.272.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 185494 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.97.6, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 730cbebb-39b2-4a1c-b2f8-f922095d6623, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: wandering-bonus-e035.272.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ferantooreskob.ronaldoefotbal95.workers.dev:443, server: ferantooreskob.ronaldoefotbal95.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9844fe1d-9caf-5dd8-f346-e51000000000, servername: ferantooreskob.ronaldoefotbal95.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: ferantooreskob.ronaldoefotbal95.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 185319 | ⚡️Telegram - t.me/SOSkeyNET, server: ferantooreskob.ronaldoefotbal95.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9844fe1d-9caf-5dd8-f346-e51000000000, servername: ferantooreskob.ronaldoefotbal95.workers.dev, network: ws, ws-opts: {path: /sync, headers: {Host: ferantooreskob.ronaldoefotbal95.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 2", server: 172.67.179.98, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8546bcef-8456-41a2-82bc-d2231b42b769, network: ws, ws-opts: {path: /, headers: {Host: small-tree-9ec0.84-971.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 198.41.223.119:443, server: 198.41.223.119, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2ecebe-3a52-460e-80ac-74a21fffdaf7, servername: licfgytggv.esmalkjj.workers.dev, network: ws, ws-opts: {path: /V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet, headers: {Host: licfgytggv.esmalkjj.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 185549 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.41.223.119, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2ecebe-3a52-460e-80ac-74a21fffdaf7, servername: licfgytggv.esmalkjj.workers.dev, network: ws, ws-opts: {path: /V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet, headers: {Host: licfgytggv.esmalkjj.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: deepl.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: b1b99d33-8df1-4c74-b140-28941b43a4d2, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: nameless-poetry-cc33.268-910.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: www.ipget.net, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: bbecfa92-4f64-4eb8-82e6-388394d909fe, network: ws, ws-opts: {path: /pyip=ProxyIP.JP.CMLiussss.net, headers: {Host: empty-poetry-07b6.477-e0d.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad` 3", server: 104.21.89.181, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: ba746959-18e7-471c-b00f-fa5cdd930abf, network: ws, ws-opts: {path: /pyip=ProxyIP.JP.CMLiussss.net, headers: {Host: crimson-bread-c38e.295.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 104.16.4.108:443, server: 104.16.4.108, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c1ec56b6-2c2f-4e6c-8c94-7a6b83a88b37, servername: EdGe-RElAy-c0C1C0.hAmidrezamanSooRi8561.WoRKers.DEv, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/5RZgnrsVqlRFxvHcaKwCaTZ?ed=2560", headers: {Host: EdGe-RElAy-c0C1C0.hAmidrezamanSooRi8561.WoRKers.DEv}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 185491 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.16.4.108, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c1ec56b6-2c2f-4e6c-8c94-7a6b83a88b37, servername: EdGe-RElAy-c0C1C0.hAmidrezamanSooRi8561.WoRKers.DEv, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/5RZgnrsVqlRFxvHcaKwCaTZ?ed=2560", headers: {Host: EdGe-RElAy-c0C1C0.hAmidrezamanSooRi8561.WoRKers.DEv}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -488,9 +482,6 @@ proxies:
   - {name: 185446 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.17.178.154, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: c3f4ee0c-3c64-466d-ae14-9bcf685e1efd, network: ws, ws-opts: {path: /pyip=ProxyIP.KR.CMLiussss.net, headers: {Host: shiny-waterfall-fa51.300-c6f.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 188.114.97.6:443, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fdc48be3-a615-41ac-8bd1-ed844c931048, servername: edgetunnel-4uw.pages.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: edgetunnel-4uw.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fdc48be3-a615-41ac-8bd1-ed844c931048, servername: edgetunnel-4uw.pages.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: edgetunnel-4uw.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 2.26.30.216:443, server: 2.26.30.216, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fdc48be3-a615-41ac-8bd1-ed844c931048, servername: edgetunnel-4uw.pages.dev, network: ws, ws-opts: {path: "%2Ffp%3Dchrome", headers: {Host: edgetunnel-4uw.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 185374 | ⚡️Telegram - t.me/SOSkeyNET, server: 2.26.30.216, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fdc48be3-a615-41ac-8bd1-ed844c931048, servername: edgetunnel-4uw.pages.dev, network: ws, ws-opts: {path: "%2Ffp%3Dchrome", headers: {Host: edgetunnel-4uw.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️68@oneclickvpnkeys, server: 2.26.30.216, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: fdc48be3-a615-41ac-8bd1-ed844c931048, servername: edgetunnel-4uw.pages.dev, network: ws, ws-opts: {path: "%2Ffp%3Dchrome", headers: {Host: edgetunnel-4uw.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -507,22 +498,16 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -530,31 +515,22 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -562,31 +538,22 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -594,9 +561,6 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -612,22 +576,16 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -635,31 +593,22 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -667,31 +616,22 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ip.sb:443
-      - 185413 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.19.229.21:8080
-      - 185405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185677 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad`"
       - www.gov.ua:8880
       - 185449 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:8080
-      - "@filembad` 2"
       - 185494 | ⚡️Telegram - t.me/SOSkeyNET
-      - ferantooreskob.ronaldoefotbal95.workers.dev:443
-      - 185319 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - 198.41.223.119:443
       - 185549 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 3"
-      - "@filembad` 4"
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.16.4.108:443
       - 185491 | ⚡️Telegram - t.me/SOSkeyNET
@@ -699,9 +639,6 @@ proxy-groups:
       - 185446 | ⚡️Telegram - t.me/SOSkeyNET
       - 188.114.97.6:443
       - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - 2.26.30.216:443
-      - 185374 | ⚡️Telegram - t.me/SOSkeyNET
-      - ️68@oneclickvpnkeys
   - name: دانلود منیجر 📥
     type: select
     proxies:
