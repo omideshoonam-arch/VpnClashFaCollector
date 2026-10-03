@@ -8,8 +8,6 @@ proxies:
   - {name: 186172 | ⚡️Telegram - t.me/SOSkeyNET, server: 77.232.139.128, port: 11592, type: hysteria2, ports: 11592, password: 033dc6b532, obfs: salamander, obfs-password: eba1b4766d2a26d6c167e2d2e9efabf4, sni: srv-8718e6.frd21.ru, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 186073 | ⚡️Telegram - t.me/SOSkeyNET, server: 108.181.5.106, port: 51285, type: hysteria2, ports: 51285, password: 6c077487-06af-4fb1-9e46-d485d98f0a31, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 75@oneclickvpnkeys`, server: 108.181.5.106, port: 51285, type: hysteria2, ports: 51285, password: 6c077487-06af-4fb1-9e46-d485d98f0a31, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 186009 | ⚡️Telegram - t.me/SOSkeyNET, server: sg4.dexlos.com, port: 20654, type: hysteria2, ports: 20654, password: 8A9905B7-801B-41AF-BFC9-2034212770F6, obfs: salamander, obfs-password: xK9mN2pLq5vR8wB3, sni: sg4.dexlos.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 185949 | ⚡️Telegram - t.me/SOSkeyNET, server: fastly.vexogf.ir, port: 5443, type: hysteria2, ports: 5443, password: vN1VQF6w2zHxSokgJcaUyUL52yRMzUB7, obfs: salamander, obfs-password: 6ccfcef2e116b03ce9047333, sni: tun-a-1.bexait.ir, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -19,8 +17,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -30,8 +26,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -41,8 +35,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
@@ -51,8 +43,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -61,8 +51,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -71,8 +59,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -103,8 +89,6 @@ proxy-groups:
       - 186172 | ⚡️Telegram - t.me/SOSkeyNET
       - 186073 | ⚡️Telegram - t.me/SOSkeyNET
       - 75@oneclickvpnkeys`
-      - 186009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 185949 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
