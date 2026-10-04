@@ -5,9 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 20.238.125.195, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: Qr3RLHJLngbplPWd, udp: true, tfo: false}
-  - {name: "[🏁]t.me?pn_jet7**", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1fcb913a-8739-4f96-ae07-b9baf68faf37, servername: ssl.fastly.com, network: ws, ws-opts: {path: /, headers: {Host: ssl.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: 185.166.154.111, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 91d734be-a3d0-4d50-83ab-74cf7b6966fa, servername: cdn.bulkavpn.top, host: cdn.bulkavpn.top, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: bQZcMViJWXus9rMSTOa-ZAaUJC0mIlPx7XmzrLp8GQU, short-id: 94f32cfc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 20.107.219.181, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 2fGnKgP8k8EHFuvj, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,8 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,32 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,8 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7**"
-      - "[🏁]t.me?pn_jet7**"
-      - "@Vpn_jet7** 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
