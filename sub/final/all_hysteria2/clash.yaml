@@ -467,8 +467,6 @@ rule-providers:
 proxies:
   - {name: 186741 | ⚡️Telegram - t.me/SOSkeyNET, server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, ports: 18333, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 96@oneclickvpnkeys, server: ru1.xiaoliyu.cyou, port: 18333, type: hysteria2, ports: 18333, password: 19f72087-4591-4d72-930b-2697078ec2be, sni: ru1.xiaoliyu.cyou, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 186529 | ⚡️Telegram - t.me/SOSkeyNET, server: 153.76.190.41, port: 8443, type: hysteria2, ports: 8443, password: 3a92b39a-5f02-415e-a908-783ec320e83f, sni: speedtestmark.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31@oneclickvpnkeys, server: 153.76.190.41, port: 8443, type: hysteria2, ports: 8443, password: 3a92b39a-5f02-415e-a908-783ec320e83f, sni: speedtestmark.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 186646 | ⚡️Telegram - t.me/SOSkeyNET, server: 129.213.91.185, port: 35013, type: hysteria2, ports: 35013, password: 4291c983-c520-46ac-82cc-48f14bef573f, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 70@oneclickvpnkeys, server: 129.213.91.185, port: 35013, type: hysteria2, ports: 35013, password: 4291c983-c520-46ac-82cc-48f14bef573f, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 186650 | ⚡️Telegram - t.me/SOSkeyNET, server: els.mangshe.xyz, port: 2060, type: hysteria2, ports: 2060, password: 5d0a6445-a30d-4522-bb1f-94f1d3ad63be, sni: els.mangshe.xyz, skip-cert-verify: false, udp: true, tfo: false}
@@ -476,7 +474,6 @@ proxies:
   - {name: 186770 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 8444, type: hysteria2, ports: 8444, password: capadm96216165:nXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 186743 | ⚡️Telegram - t.me/SOSkeyNET, server: 138.2.89.249, port: 443, type: hysteria2, ports: 443, password: d042d150716709bb778cc73889cddb02, obfs: salamander, obfs-password: 309502c4a8df10b46fb976d4a8c43f42, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 98@oneclickvpnkeys, server: 138.2.89.249, port: 443, type: hysteria2, ports: 443, password: d042d150716709bb778cc73889cddb02, obfs: salamander, obfs-password: 309502c4a8df10b46fb976d4a8c43f42, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 37@oneclickvpnkeys, server: 222.167.245.240, port: 28015, type: hysteria2, ports: 28015, password: e19b5aa3-16c9-435a-8bc9-76f2f6ddff43, sni: api-test-udp-traffic.kaneki.cfd, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -495,8 +492,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -504,7 +499,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -513,8 +507,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -522,7 +514,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -531,8 +522,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -540,7 +529,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -558,8 +546,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -567,7 +553,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -576,8 +561,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -585,7 +568,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -594,8 +576,6 @@ proxy-groups:
     proxies:
       - 186741 | ⚡️Telegram - t.me/SOSkeyNET
       - 96@oneclickvpnkeys
-      - 186529 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
       - 186646 | ⚡️Telegram - t.me/SOSkeyNET
       - 70@oneclickvpnkeys
       - 186650 | ⚡️Telegram - t.me/SOSkeyNET
@@ -603,7 +583,6 @@ proxy-groups:
       - 186770 | ⚡️Telegram - t.me/SOSkeyNET
       - 186743 | ⚡️Telegram - t.me/SOSkeyNET
       - 98@oneclickvpnkeys
-      - 37@oneclickvpnkeys
   - name: دانلود منیجر 📥
     type: select
     proxies:
