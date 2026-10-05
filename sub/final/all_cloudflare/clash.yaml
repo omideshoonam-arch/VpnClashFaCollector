@@ -465,6 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 155.46.167.30:8880, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 187565 | ⚡️Telegram - t.me/SOSkeyNET, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: upwork.com:8880, server: upwork.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: b92380e2-e03f-4861-856e-7c2373b04728, network: ws, ws-opts: {path: /, headers: {Host: dry-thunder-7f57.57-1a3.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: upwork.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: b92380e2-e03f-4861-856e-7c2373b04728, network: ws, ws-opts: {path: /, headers: {Host: dry-thunder-7f57.57-1a3.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 187513 | ⚡️Telegram - t.me/SOSkeyNET, server: upwork.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: b92380e2-e03f-4861-856e-7c2373b04728, network: ws, ws-opts: {path: /, headers: {Host: dry-thunder-7f57.57-1a3.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -492,6 +494,8 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET
@@ -509,6 +513,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET
@@ -526,6 +532,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET
@@ -552,6 +560,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET
@@ -569,6 +579,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET
@@ -586,6 +598,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 155.46.167.30:8880
+      - 187565 | ⚡️Telegram - t.me/SOSkeyNET
       - upwork.com:8880
       - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
       - 187513 | ⚡️Telegram - t.me/SOSkeyNET

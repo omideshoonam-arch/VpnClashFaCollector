@@ -468,6 +468,8 @@ proxies:
   - {name: 187353 | ⚡️Telegram - t.me/SOSkeyNET, server: 109.104.153.124, port: 11592, type: hysteria2, ports: 11592, password: 35d26d53bc, obfs: salamander, obfs-password: 87d72c2949c0ca85bbda09459244e374, sni: srv-0e5387.frd21.ru, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@vasl_bashim", server: mhzedir.qzz.io, port: 51791, type: hysteria2, ports: 51791, password: 9ed56ba1c7c44bbab670d83a435591b8, obfs: salamander, obfs-password: 7y0p9k93w7ryw8tz, sni: mhzedir.qzz.io, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 187350 | ⚡️Telegram - t.me/SOSkeyNET, server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim 2", server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,6 +489,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -496,6 +500,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -505,6 +511,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -523,6 +531,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -532,6 +542,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -541,6 +553,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

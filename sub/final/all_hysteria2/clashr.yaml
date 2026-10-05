@@ -8,6 +8,8 @@ proxies:
   - {name: 187353 | ⚡️Telegram - t.me/SOSkeyNET, server: 109.104.153.124, port: 11592, type: hysteria2, ports: 11592, password: 35d26d53bc, obfs: salamander, obfs-password: 87d72c2949c0ca85bbda09459244e374, sni: srv-0e5387.frd21.ru, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@vasl_bashim", server: mhzedir.qzz.io, port: 51791, type: hysteria2, ports: 51791, password: 9ed56ba1c7c44bbab670d83a435591b8, obfs: salamander, obfs-password: 7y0p9k93w7ryw8tz, sni: mhzedir.qzz.io, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 187350 | ⚡️Telegram - t.me/SOSkeyNET, server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vasl_bashim 2", server: 155.94.134.183, port: 11592, type: hysteria2, ports: 11592, password: ca78f919e6, obfs: salamander, obfs-password: ec66908dbc46e6920143d9b684adf277, sni: srv-3fc7c9.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -17,6 +19,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -26,6 +30,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -35,6 +41,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -43,6 +51,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -51,6 +61,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -59,6 +71,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -89,6 +103,8 @@ proxy-groups:
       - 187353 | ⚡️Telegram - t.me/SOSkeyNET
       - "@vasl_bashim"
       - 187350 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@proxy_kafee"
+      - "@vasl_bashim 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
