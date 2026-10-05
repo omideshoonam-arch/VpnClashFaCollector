@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 31.77.168.35:443, server: 31.77.168.35, port: 443, type: trojan, password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo, sni: d3-de2.cloud-cdn.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 47.240.80.220:2052, server: 47.240.80.220, port: 2052, type: trojan, password: tFjD2X1F6i9FfWp2GDU5Vbi1conuaChDKIYbw9zMFrqvMoSz, sni: vpn.12169.top, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31.77.109.35:443, server: 31.77.109.35, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910, servername: d3-de1.cloud-cdn.xyz, host: d3-de1.cloud-cdn.xyz, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SPyieysl8w1lo950icthB72kn_ElyJXkpCdKqmnjGEY, short-id: 494afdc75f8c2fa8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 87.58.201.170:443, server: 87.58.201.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 87fd990d-ca93-440a-bbd4-e8281c4a0910, servername: d3-nl1.cloud-cdn.xyz, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: vlgrpc}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: neutral-quail.rooster465.autos:443, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 77.74.123.106:4443, server: 77.74.123.106, port: 4443, type: trojan, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-test-italy.dynuddns.net, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 de2.srv.vbuste.ru:443, server: de2.srv.vbuste.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386, servername: de2.srv.vbuste.ru, host: de2.srv.vbuste.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08, short-id: 4be4110078ebed4a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇳🇱 nl-1.srv.dvzh.net:443, server: nl-1.srv.dvzh.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 91344c03-b37f-42c5-90f1-cbb95c5cf256, servername: nl-1.srv.dvzh.net, alpn: ["h3,h2"], network: ws, ws-opts: {path: /upload/session, headers: {Host: nl-1.srv.dvzh.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 31.77.168.35:443
-      - 47.240.80.220:2052
-      - 31.77.109.35:443
-      - 87.58.201.170:443
+      - neutral-quail.rooster465.autos:443
+      - 77.74.123.106:4443
+      - 🇩🇪 de2.srv.vbuste.ru:443
+      - 🇳🇱 nl-1.srv.dvzh.net:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
