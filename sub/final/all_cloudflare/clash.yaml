@@ -465,27 +465,23 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 172.67.248.85:443, server: 172.67.248.85, port: 443, type: trojan, password: 9e1006cd4fa01b63e710d6550c0de1a1, sni: edge-relay-af904f2b.nova-963a1b9c8400.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/u/fb66dcb77cc6?ed=2560", headers: {Host: edge-relay-af904f2b.nova-963a1b9c8400.workers.dev}}, udp: true, tfo: false}
+  - {name: 188164 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.67.248.85, port: 443, type: trojan, password: 9e1006cd4fa01b63e710d6550c0de1a1, sni: edge-relay-af904f2b.nova-963a1b9c8400.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/u/fb66dcb77cc6?ed=2560", headers: {Host: edge-relay-af904f2b.nova-963a1b9c8400.workers.dev}}, udp: true, tfo: false}
+  - {name: lm2vpn.zafbuc.workers.dev:443, server: lm2vpn.zafbuc.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14bba440-275a-4f61-9504-7955070b0bb1, servername: lm2vpn.zafbuc.workers.dev, network: ws, ws-opts: {path: /stream/LML_PANEL/7955070b0bb1, headers: {Host: lm2vpn.zafbuc.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 188050 | ⚡️Telegram - t.me/SOSkeyNET, server: lm2vpn.zafbuc.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14bba440-275a-4f61-9504-7955070b0bb1, servername: lm2vpn.zafbuc.workers.dev, network: ws, ws-opts: {path: /stream/LML_PANEL/7955070b0bb1, headers: {Host: lm2vpn.zafbuc.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.66.140.62:8880, server: 172.66.140.62, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 160ca353-676d-4b7f-a041-0289e388b865, servername: skk.moe, network: ws, ws-opts: {path: /, headers: {Host: skk.moe}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 187718 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.66.140.62, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 160ca353-676d-4b7f-a041-0289e388b865, servername: skk.moe, network: ws, ws-opts: {path: /, headers: {Host: skk.moe}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad`", server: 172.67.165.8, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 2c4c513c-5422-4daf-80ce-62b3dde5da54, network: ws, ws-opts: {path: /ws, headers: {Host: jolly-voice-eed5.prisonvpn34.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 172.67.91.87:8080, server: 172.67.91.87, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 2c4c513c-5422-4daf-80ce-62b3dde5da54, network: ws, ws-opts: {path: /ws, headers: {Host: jolly-voice-eed5.prisonvpn34.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: 172.67.91.87, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 2c4c513c-5422-4daf-80ce-62b3dde5da54, network: ws, ws-opts: {path: /ws, headers: {Host: jolly-voice-eed5.prisonvpn34.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 187858 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.67.91.87, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: 2c4c513c-5422-4daf-80ce-62b3dde5da54, network: ws, ws-opts: {path: /ws, headers: {Host: jolly-voice-eed5.prisonvpn34.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.67.182.89:443, server: 172.67.182.89, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 56b52604-0074-44b9-8f7d-2826943a54d7, servername: YEllOW-tRUTH-67EB.FRGFEREFg234E4343.WORkERs.DeV, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/eyJqdW5rIjoiamd3OFpKWlluUFlMM25IUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560", headers: {Host: YEllOW-tRUTH-67EB.FRGFEREFg234E4343.WORkERs.DeV}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 187776 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.67.182.89, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 56b52604-0074-44b9-8f7d-2826943a54d7, servername: YEllOW-tRUTH-67EB.FRGFEREFg234E4343.WORkERs.DeV, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/eyJqdW5rIjoiamd3OFpKWlluUFlMM25IUyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzI2MDI6ZmM1OTpiMDo2NDo6XSJdfQ==?ed=2560", headers: {Host: YEllOW-tRUTH-67EB.FRGFEREFg234E4343.WORkERs.DeV}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: www.gov.ua, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 725c66a2-2bce-4a24-ba52-b4e2e7047076, servername: www.gov.ua, network: ws, ws-opts: {path: /pyip=ProxyIP.SG.CMLiussss.net, headers: {Host: www.gov.ua}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: 188.114.96.0, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: 81d0dbc8-e69e-4cb1-b1a0-7d86af7f0db4, network: ws, ws-opts: {path: /eyJqdW5rIjoiTGNlS21Bb0pMQUZaNEtUNiIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJlZml4IiwicGFuZWxJUHMiOlsiWzJhMDI6ODk4OjE0Njo2NDo6XSJdfQ, headers: {Host: solitary-rain-0c9b.freecreat2.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 5", server: 104.21.88.129, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 86d998bc-a5a2-45d5-8169-b906259110a6, network: ws, ws-opts: {path: /, headers: {Host: muddy-art-8cda.197-0c6.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 188.114.99.0:8880, server: 188.114.99.0, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d, network: ws, ws-opts: {path: /pyip=ProxyIP.SG.CMLiussss.net, headers: {Host: young-wind-3c58.240-2ce.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 187701 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.99.0, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 878dd962-027b-4bd3-a1f8-66be68a03c4d, network: ws, ws-opts: {path: /pyip=ProxyIP.SG.CMLiussss.net, headers: {Host: young-wind-3c58.240-2ce.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 172.67.148.41:80, server: 172.67.148.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 8be64379-08a5-4362-b8cf-234a65409bda, network: ws, ws-opts: {path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ, headers: {Host: telegram4.freepersianland8.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 6", server: 172.67.148.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 8be64379-08a5-4362-b8cf-234a65409bda, network: ws, ws-opts: {path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ, headers: {Host: telegram4.freepersianland8.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 187725 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.67.148.41, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 8be64379-08a5-4362-b8cf-234a65409bda, network: ws, ws-opts: {path: /eyJqdW5rIjoiOW56N0hTRm9IS252IiwicHJvdG9jb2wiOiJ2bCIsIm1vZGUiOiJwcmVmaXgiLCJwYW5lbElQcyI6WyJbMjYwMjpmYzU5OmIwOjY0OjpdIiwiWzI2MDI6ZmM1OToxMTo2NDo6XSJdfQ, headers: {Host: telegram4.freepersianland8.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 7", server: 104.21.23.72, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 8dd8af16-cae0-4431-b04c-a637b4d7645b, network: ws, ws-opts: {path: /pyip=ProxyIP.US.CMLiussss.net, headers: {Host: wild-frog-c709.403-6ff.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443, server: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 586afbd0-c818-4271-a845-c84790677587, servername: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev, network: ws, ws-opts: {path: /surfboardv2ray, headers: {Host: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 188065 | ⚡️Telegram - t.me/SOSkeyNET, server: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 586afbd0-c818-4271-a845-c84790677587, servername: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev, network: ws, ws-opts: {path: /surfboardv2ray, headers: {Host: bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.17.165.24:2087, server: 104.17.165.24, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✈️ @FreeConfigForYou, server: 104.17.165.24, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 188139 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.17.165.24, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.17.178.182:2083, server: 104.17.178.182, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ✈️ @FreeConfigForYou 2, server: 104.17.178.182, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 188140 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.17.178.182, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: a32c6023-1433-4d93-8db1-171a509b776f, servername: nova-coral-wave-3d82.nova-c6eabf.workers.dev, network: ws, ws-opts: {path: "/?u=zed-netmeli", headers: {Host: nova-coral-wave-3d82.nova-c6eabf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 8", server: 173.245.49.114, port: 2086, type: vless, tls: true, packet-encoding: xudp, uuid: d028eaf5-c5ef-49a0-85c6-4f4816af8053, network: ws, ws-opts: {path: /eyJqdW5rIjoiZUJZR2pXVFByVyIsInByb3RvY29sIjoidmwiLCJtb2RlIjoicHJveHlpcCIsInBhbmVsSVBzIjpbIjEwOS4xMjAuMTU4LjE0OSJdfQ, headers: {Host: misty-bread-fd96.salehinezhadali.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad` 9", server: 188.114.97.6, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: fe467f51-b2cc-4b16-b50b-a78865ed3dd9, network: ws, ws-opts: {path: /, headers: {Host: crimson-wind-71bc.19-5fd.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: wwytzrw.tesnut.workers.dev:443, server: wwytzrw.tesnut.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f3f16b13-109f-41e0-8889-339aa85f22f6, servername: wwytzrw.tesnut.workers.dev, network: ws, ws-opts: {path: /stream/LML_PANEL/339aa85f22f6, headers: {Host: wwytzrw.tesnut.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 188067 | ⚡️Telegram - t.me/SOSkeyNET, server: wwytzrw.tesnut.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f3f16b13-109f-41e0-8889-339aa85f22f6, servername: wwytzrw.tesnut.workers.dev, network: ws, ws-opts: {path: /stream/LML_PANEL/339aa85f22f6, headers: {Host: wwytzrw.tesnut.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -502,81 +498,69 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -592,81 +576,69 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 172.67.248.85:443
+      - 188164 | ⚡️Telegram - t.me/SOSkeyNET
+      - lm2vpn.zafbuc.workers.dev:443
       - 188050 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.66.140.62:8880
-      - 187718 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad`"
       - 172.67.91.87:8080
-      - "@filembad` 2"
       - 187858 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.182.89:443
-      - 187776 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 3"
-      - "@filembad` 4"
-      - "@filembad` 5"
-      - 188.114.99.0:8880
-      - 187701 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.67.148.41:80
-      - "@filembad` 6"
-      - 187725 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@filembad` 7"
+      - bbb0ec1b48225169e1925a7dd54e8af01c2f979c90103b6091b7e7e694b15e2.d3ffe73feaf16aa06299b0e32cfb230db65ac53341176e9aea23c99302acdbb.workers.dev:443
+      - 188065 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.165.24:2087
+      - ✈️ @FreeConfigForYou
+      - 188139 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.17.178.182:2083
+      - ✈️ @FreeConfigForYou 2
+      - 188140 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - "@filembad` 8"
-      - "@filembad` 9"
+      - wwytzrw.tesnut.workers.dev:443
+      - 188067 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:

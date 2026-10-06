@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: neutral-quail.rooster465.autos:443, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 45.32.52.173:8886, server: 45.32.52.173, port: 8886, type: trojan, password: e26a229d-e8f2-4ff9-8c7d-58a9d83ee437, sni: 45.32.52.173, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 77.74.123.106:4443, server: 77.74.123.106, port: 4443, type: trojan, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-test-italy.dynuddns.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇩🇪 de2.srv.vbuste.ru:443, server: de2.srv.vbuste.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386, servername: de2.srv.vbuste.ru, host: de2.srv.vbuste.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08, short-id: 4be4110078ebed4a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 🇳🇱 nl-1.srv.dvzh.net:443, server: nl-1.srv.dvzh.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 91344c03-b37f-42c5-90f1-cbb95c5cf256, servername: nl-1.srv.dvzh.net, alpn: ["h3,h2"], network: ws, ws-opts: {path: /upload/session, headers: {Host: nl-1.srv.dvzh.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇩🇪 de2.srv.vbuste.ru:443 2, server: de2.srv.vbuste.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386, servername: de2.srv.vbuste.ru, host: de2.srv.vbuste.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08, short-id: 4be4110078ebed4a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - neutral-quail.rooster465.autos:443
+      - 45.32.52.173:8886
       - 77.74.123.106:4443
       - 🇩🇪 de2.srv.vbuste.ru:443
-      - 🇳🇱 nl-1.srv.dvzh.net:443
+      - 🇩🇪 de2.srv.vbuste.ru:443 2
   - name: دانلود منیجر 📥
     type: select
     proxies:
