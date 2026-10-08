@@ -5,7 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 177.1.192.74:443, server: 177.1.192.74, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: qC0g7Y0pwyLFTGAPG2zfZNuo64Cda695wdKgLU4KkF8, short-id: 770618b6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: tk1.high-speed-test-56424.me:443, server: tk1.high-speed-test-56424.me, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM, short-id: 21270a66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇺🇸 support.zoom.us:80, server: support.zoom.us, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 9b0025a3-3a36-4915-b4e1-89c5cd65c9cb, network: ws, ws-opts: {path: /shalana, headers: {Host: onhit.shalana.shop}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -13,7 +13,7 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: ♻️ 自动选择
     type: url-test
@@ -21,7 +21,7 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: 🌍 国外媒体
     type: select
@@ -29,28 +29,28 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
   - name: 🎯 全球直连
     type: select
@@ -79,7 +79,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 177.1.192.74:443
+      - tk1.high-speed-test-56424.me:443
       - 🇺🇸 support.zoom.us:80
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

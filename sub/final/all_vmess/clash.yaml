@@ -465,9 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 65.109.186.55, port: 8080, type: vmess, uuid: 958df7fc-6861-4c91-8532-5695ff4bd69a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn, server: 145.239.55.210, port: 80, type: vmess, uuid: e5e563fb-cf72-4250-bfff-fa0385301061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.}}, udp: true, tfo: false}
-  - {name: "@filembad", server: 173.249.198.111, port: 443, type: vmess, uuid: XEXEVIL, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tel=@user_xexevil}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 173.249.198.111, port: 443, type: vmess, uuid: XEXEVIL, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tel=@user_xexevil}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:

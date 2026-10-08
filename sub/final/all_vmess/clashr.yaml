@@ -5,60 +5,60 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 65.109.186.55, port: 8080, type: vmess, uuid: 958df7fc-6861-4c91-8532-5695ff4bd69a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn, server: 145.239.55.210, port: 80, type: vmess, uuid: e5e563fb-cf72-4250-bfff-fa0385301061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.}}, udp: true, tfo: false}
-  - {name: "@filembad", server: 173.249.198.111, port: 443, type: vmess, uuid: XEXEVIL, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tel=@user_xexevil}, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 173.249.198.111, port: 443, type: vmess, uuid: XEXEVIL, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tel=@user_xexevil}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +86,9 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ""
-      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
       - "@filembad"
+      - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
+      - "@filembad 2"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
