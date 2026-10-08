@@ -6,16 +6,8 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: "", server: 38.110.1.246, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩, server: 57.128.164.21, port: 80, type: vmess, uuid: 10029c03-5d2f-4185-aab2-cbf91eef7361, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/d3d3LmlyYW5ob3N0LmNvbQ==?ed=2560", headers: {Host: https.http.www.net.com.ramseyv2.ir.}}, udp: true, tfo: false}
   - {name: برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn, server: 145.239.55.210, port: 80, type: vmess, uuid: e5e563fb-cf72-4250-bfff-fa0385301061, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: google.whatsapp.snapp.torob.basalam.fortresshost.ir.}}, udp: true, tfo: false}
-  - {name: "@meliproxyy", server: 31.76.11.83, port: 50551, type: vmess, uuid: 57160c16-b7db-40d8-bd06-ced30edd4df6, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: fera3.povrak.ir, port: 65075, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 2", server: finla2.povrak.ir, port: 58179, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 3", server: finla2.povrak.ir, port: 58179, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 4", server: fisgww.povrak.ir, port: 58179, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 5", server: fisgww.povrak.ir, port: 58179, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 6", server: frjssj.povrak.ir, port: 24336, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 7", server: frjssj.povrak.ir, port: 24336, type: vmess, uuid: af5e3422-337e-43e3-88ca-2687eb379866, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad", server: 173.249.198.111, port: 443, type: vmess, uuid: XEXEVIL, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /tel=@user_xexevil}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -23,16 +15,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -40,16 +24,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -57,64 +33,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -143,16 +87,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - ""
-      - برای اتصال دائمی جوین شو🕖 TelegramID ⌲Express_freevpn 🪩
       - برای اتصال دائمی جوین شو🫟 TelegramID ⌲Express_freevpn
-      - "@meliproxyy"
       - "@filembad"
-      - "@filembad 2"
-      - "@filembad 3"
-      - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
-      - "@filembad 7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

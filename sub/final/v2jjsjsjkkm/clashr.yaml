@@ -5,53 +5,67 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@mehrosaboran`", server: 196.240.125.3, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 20ef7310-0b50-4943-98a6-3d0856b383b1, servername: vusr-6ac431f4.adhil.uk, host: vusr-6ac431f4.adhil.uk, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 87.107.169.115, port: 3143, type: vless, tls: true, packet-encoding: xudp, uuid: 6b342fc8-ab13-4777-b97a-28c0b88d26fd, servername: play.google.com, host: play.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: vV-2PCr-5vRmTKEYAMpJtbLLQ2RVlxlYrhb48e_2viE, short-id: e9ace586b5e2d038}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 141.193.213.172, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-81", servername: http%3A%2F%2Fglobal.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: http%3A%2F%2Fglobal.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-82", servername: http%3A%2F%2Fglobal.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: http%3A%2F%2Fglobal.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +93,10 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
+      - "@mehrosaboran 2"
+      - "@mehrosaboran 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

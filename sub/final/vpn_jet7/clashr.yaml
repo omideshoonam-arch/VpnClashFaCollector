@@ -5,9 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: c3.nastuh.link, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: y7KeRTzmH0vXT2kp, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: dns7.m3hrzd.ir, port: 8030, type: vless, tls: true, packet-encoding: xudp, uuid: a82ba292-5a68-4f01-94df-fcb9c0902525, servername: race.egistration.ir, host: race.egistration.ir, path: /, reality-opts: {public-key: yNCiWHU2y1M-cWl5jJLfSDwwYM_9gdP5sqBLANxxdAs, short-id: 38dda82955d5791e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: dl2.uploadeliasiran03.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ea0d7e96-529f-481f-9d49-a2a849e76f2a, servername: www.aparat.com, host: www.aparat.com, path: /, reality-opts: {public-key: uh67g4brJ3f4oGMcRpp2UyBD3R7HydwLMUFyhdBENxk, short-id: 164b2cb4ee0e9352}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: dns7.m3hrzd.ir, port: 8030, type: vless, tls: true, packet-encoding: xudp, uuid: a82ba292-5a68-4f01-94df-fcb9c0902525, servername: race.egistration.ir, host: race.egistration.ir, path: /, reality-opts: {public-key: yNCiWHU2y1M-cWl5jJLfSDwwYM_9gdP5sqBLANxxdAs, short-id: 38dda82955d5791e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 2", server: dl2.uploadeliasiran03.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ea0d7e96-529f-481f-9d49-a2a849e76f2a, servername: www.aparat.com, host: www.aparat.com, path: /, reality-opts: {public-key: uh67g4brJ3f4oGMcRpp2UyBD3R7HydwLMUFyhdBENxk, short-id: 164b2cb4ee0e9352}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,7 +15,6 @@ proxy-groups:
       - DIRECT
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,7 +23,6 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,7 +31,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -42,7 +38,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -50,7 +45,6 @@ proxy-groups:
       - 🚀 节点选择
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -58,7 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,7 +81,6 @@ proxy-groups:
       - ♻️ 自动选择
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
