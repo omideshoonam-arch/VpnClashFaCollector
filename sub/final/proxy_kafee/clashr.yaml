@@ -9,13 +9,16 @@ proxies:
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 2, server: ir28482.jdjcr.3842.marzara.ir, port: 1111, type: ss, cipher: chacha20-ietf-poly1305, password: 6Nr35NP8wZJ6DmHbIUvFxw, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 3, server: c3.nastuh.link, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: y7KeRTzmH0vXT2kp, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 4, server: 20.164.212.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e6UqAb4130ycM7qM, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee", server: 20.164.212.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e6UqAb4130ycM7qM, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 2", server: 151.101.38.7, port: 443, type: trojan, password: mitivpn, sni: jjl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: jjl.fastly.com}}, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 3", server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: mitivpn.fastly.com}}, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee", server: comoiran.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c21ea2e-462a-4e03-b3d0-0d381d3b887c, servername: comoiran.ir, alpn: [h2%2Chttp%2F1.1], host: comoiran.ir, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 2", server: www.comoiran.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c21ea2e-462a-4e03-b3d0-0d381d3b887c, servername: www.comoiran.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/flights/dest-de/price-stream, headers: {Host: www.comoiran.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 3", server: www.mobocomcloud.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3c21ea2e-462a-4e03-b3d0-0d381d3b887c, servername: www.mobocomcloud.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /MoboCloud/OTA/Germany, headers: {Host: www.mobocomcloud.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 4", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5, servername: snip.edgeoneai.cc.cd, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#", headers: {Host: snip.edgeoneai.cc.cd}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 5", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 495c7195-85b8-498a-bf20-2ea9ce9175b5, servername: snip.edgeoneai.cc.cd, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/fdip=sstp://vpn:vpn@vpn748359672.opengw.net:1458?ed=2560#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: snip.edgeoneai.cc.cd}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5, server: dns8.m3hrzd.ir, port: 8030, type: vless, tls: true, packet-encoding: xudp, uuid: ad1a0725-3e51-4c88-8548-e98e593c7e63, servername: race.egistration.ir, host: race.egistration.ir, path: /, reality-opts: {public-key: yNCiWHU2y1M-cWl5jJLfSDwwYM_9gdP5sqBLANxxdAs, short-id: 38dda82955d5791e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`, server: 199.232.78.187, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c326b0af-e926-4dc8-a8a3-e7790cc0bdec, servername: default.ssl.fastly.net, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 4", server: 199.232.78.187, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c326b0af-e926-4dc8-a8a3-e7790cc0bdec, servername: default.ssl.fastly.net, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: default.ssl.fastly.net}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6, server: 45.88.12.151, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: cc4074d6-f450-4025-833a-a6e0100ceaff, servername: crt.molniya.sbs, alpn: [http%2F1.1], network: ws, ws-opts: {path: /vless-ws, headers: {Host: crt.molniya.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 6", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 7", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---TOOTFARANGI", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7, server: ir2.fastraytel9880.ir, port: 26557, type: vmess, uuid: bfecf901-5fa6-4bf4-b0b5-9bda7cd41384, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: panelm.fastraytel9880.ir, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -30,10 +33,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: ♻️ 自动选择
     type: url-test
@@ -48,10 +54,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: 🌍 国外媒体
     type: select
@@ -66,10 +75,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: 📲 电报信息
     type: select
@@ -83,10 +95,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: Ⓜ️ 微软服务
     type: select
@@ -100,10 +115,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: 🍎 苹果服务
     type: select
@@ -117,10 +135,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
   - name: 🎯 全球直连
     type: select
@@ -156,10 +177,13 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Channel : @proxy_kafee 5"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 5
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️`
-      - "Channel : @proxy_kafee 4"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 6
+      - "Channel : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 7"
       - 𝗝𝗼𝗶𝗻 ➠ @proxy_kafee ☄️ 7
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

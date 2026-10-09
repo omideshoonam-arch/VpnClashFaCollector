@@ -467,6 +467,7 @@ rule-providers:
 proxies:
   - {name: "@Vpn_jet7**", server: 20.164.212.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e6UqAb4130ycM7qM, udp: true, tfo: false}
   - {name: "@Vpn_jet7** 2", server: gril1.sublinkplas.ir, port: 12040, type: vless, tls: true, packet-encoding: xudp, uuid: 21063f06-c22f-438f-9040-24a2b37717a1, servername: testspeed-foreign.tci.ir, host: testspeed-foreign.tci.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM, short-id: 3e5cba1bd6eb6221}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7** 3", server: geminilanzerotte.live, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b, servername: geminilanzerotte.live, host: geminilanzerotte.live, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,6 +486,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -493,6 +495,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -501,6 +504,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -518,6 +522,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -526,6 +531,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -534,6 +540,7 @@ proxy-groups:
     proxies:
       - "@Vpn_jet7**"
       - "@Vpn_jet7** 2"
+      - "@Vpn_jet7** 3"
   - name: دانلود منیجر 📥
     type: select
     proxies:

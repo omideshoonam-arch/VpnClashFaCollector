@@ -465,106 +465,54 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 104.16.246.173:443, server: 104.16.246.173, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
-  - {name: 189982 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.16.246.173, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 104.19.150.163:443, server: 104.19.150.163, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 190193 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.19.150.163, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 162.159.152.31:443, server: 162.159.152.31, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 190192 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.159.152.31, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
-  - {name: 162.159.152.81:443, server: 162.159.152.81, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
-  - {name: 189981 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.159.152.81, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 162.159.153.42:443, server: 162.159.153.42, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
   - {name: 190191 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.159.153.42, port: 443, type: trojan, password: !<str> 123456, sni: now-pages-sub-em4.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: now-pages-sub-em4.pages.dev}}, udp: true, tfo: false}
+  - {name: 188.114.98.0:443, server: 188.114.98.0, port: 443, type: trojan, password: !<str> 1710442808, sni: subb.nrshop198.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: subb.nrshop198.workers.dev}}, udp: true, tfo: false}
+  - {name: 190331 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.98.0, port: 443, type: trojan, password: !<str> 1710442808, sni: subb.nrshop198.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: subb.nrshop198.workers.dev}}, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN`", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
   - {name: "@i10VPN - Psiphon 79", server: 79.127.82.170, port: 443, type: trojan, password: 2a599135-886f-4359-bf68-0993baa990f1, sni: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd, skip-cert-verify: false, network: ws, ws-opts: {path: /1000/10/b449693f-1869-4379-946d-279f2ad95021, headers: {Host: wow-game-server-gb-nb-d.world-of-warcraft-game-server.cfd}}, udp: true, tfo: false}
-  - {name: jjyeye.cloudflare.182682.xyz:443, server: jjyeye.cloudflare.182682.xyz, port: 443, type: trojan, password: 2c366360-0333-4738-9423-6d5b378e3594, sni: bjbx8xu6iih7zht5.jptimecsgo.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: bjbx8xu6iih7zht5.jptimecsgo.xyz}}, udp: true, tfo: false}
-  - {name: 189781 | ⚡️Telegram - t.me/SOSkeyNET, server: jjyeye.cloudflare.182682.xyz, port: 443, type: trojan, password: 2c366360-0333-4738-9423-6d5b378e3594, sni: bjbx8xu6iih7zht5.jptimecsgo.xyz, skip-cert-verify: false, network: ws, ws-opts: {path: /images, headers: {Host: bjbx8xu6iih7zht5.jptimecsgo.xyz}}, udp: true, tfo: false}
-  - {name: 5.75.204.152:10532, server: 5.75.204.152, port: 10532, type: trojan, password: 62CMS%2BqB6RTA%2BqIJxiz3pVEHYu2A7tpfoQcgf4GqtQg%3D, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 5.75.204.152, port: 10532, type: trojan, password: 62CMS%2BqB6RTA%2BqIJxiz3pVEHYu2A7tpfoQcgf4GqtQg%3D, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189829 | ⚡️Telegram - t.me/SOSkeyNET, server: 5.75.204.152, port: 10532, type: trojan, password: 62CMS%2BqB6RTA%2BqIJxiz3pVEHYu2A7tpfoQcgf4GqtQg%3D, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189815 | ⚡️Telegram - t.me/SOSkeyNET, server: 5.75.204.152, port: 57228, type: trojan, password: 62CMS%2BqB6RTA%2BqIJxiz3pVEHYu2A7tpfoQcgf4GqtQg%3D, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 193.233.216.27:443, server: 193.233.216.27, port: 443, type: trojan, password: 95621b8e-5cf7-4123-9df4-38d903054a1b, sni: www.garmin.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad`", server: 193.233.216.27, port: 443, type: trojan, password: 95621b8e-5cf7-4123-9df4-38d903054a1b, sni: www.garmin.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚", server: 193.233.216.27, port: 443, type: trojan, password: 95621b8e-5cf7-4123-9df4-38d903054a1b, sni: www.garmin.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190317 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.233.216.27, port: 443, type: trojan, password: 95621b8e-5cf7-4123-9df4-38d903054a1b, sni: www.garmin.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "***🚀***@V2ray_official", server: 193.233.216.27, port: 443, type: trojan, password: 95621b8e-5cf7-4123-9df4-38d903054a1b, sni: www.garmin.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام", server: 31.77.168.33, port: 443, type: trojan, password: MDYVt6HgSqB7d537GPQXjk6Rk0E4RxWo, sni: d3-de2.cloud-cdn.xyz, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.125.69.162:443, server: 13.125.69.162, port: 443, type: trojan, password: UX82473651, sni: engaging-toucan.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189798 | ⚡️Telegram - t.me/SOSkeyNET, server: 13.125.69.162, port: 443, type: trojan, password: UX82473651, sni: engaging-toucan.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 176.34.5.100:443, server: 176.34.5.100, port: 443, type: trojan, password: UX82473651, sni: assuring-skink.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 18.143.92.167:443, server: 18.143.92.167, port: 443, type: trojan, password: UX82473651, sni: glowing-marmoset.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189784 | ⚡️Telegram - t.me/SOSkeyNET, server: 18.143.92.167, port: 443, type: trojan, password: UX82473651, sni: glowing-marmoset.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 3.112.245.255:443, server: 3.112.245.255, port: 443, type: trojan, password: UX82473651, sni: dynamic-imp.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189894 | ⚡️Telegram - t.me/SOSkeyNET, server: 3.112.245.255, port: 443, type: trojan, password: UX82473651, sni: dynamic-imp.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 3.39.225.215:443, server: 3.39.225.215, port: 443, type: trojan, password: UX82473651, sni: kind-stork.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189924 | ⚡️Telegram - t.me/SOSkeyNET, server: 3.39.225.215, port: 443, type: trojan, password: UX82473651, sni: kind-stork.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 34.242.77.118:443, server: 34.242.77.118, port: 443, type: trojan, password: UX82473651, sni: sacred-anemone.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 190032 | ⚡️Telegram - t.me/SOSkeyNET, server: 34.242.77.118, port: 443, type: trojan, password: UX82473651, sni: sacred-anemone.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 35@oneclickvpnkeys, server: 34.242.77.118, port: 443, type: trojan, password: UX82473651, sni: sacred-anemone.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 43.203.172.96:443, server: 43.203.172.96, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189794 | ⚡️Telegram - t.me/SOSkeyNET, server: 43.203.172.96, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 52.221.220.227:443, server: 52.221.220.227, port: 443, type: trojan, password: UX82473651, sni: pet-antelope.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189886 | ⚡️Telegram - t.me/SOSkeyNET, server: 52.221.220.227, port: 443, type: trojan, password: UX82473651, sni: pet-antelope.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 52.78.203.191:443, server: 52.78.203.191, port: 443, type: trojan, password: UX82473651, sni: delicate-buck.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189787 | ⚡️Telegram - t.me/SOSkeyNET, server: 52.78.203.191, port: 443, type: trojan, password: UX82473651, sni: delicate-buck.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 54.238.153.132:443, server: 54.238.153.132, port: 443, type: trojan, password: UX82473651, sni: obliging-louse.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189785 | ⚡️Telegram - t.me/SOSkeyNET, server: 54.238.153.132, port: 443, type: trojan, password: UX82473651, sni: obliging-louse.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 54.65.177.190:443, server: 54.65.177.190, port: 443, type: trojan, password: UX82473651, sni: winning-marten.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189782 | ⚡️Telegram - t.me/SOSkeyNET, server: 54.65.177.190, port: 443, type: trojan, password: UX82473651, sni: winning-marten.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 56.10.9.77:443, server: 56.10.9.77, port: 443, type: trojan, password: UX82473651, sni: inviting-ferret.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189956 | ⚡️Telegram - t.me/SOSkeyNET, server: 56.10.9.77, port: 443, type: trojan, password: UX82473651, sni: inviting-ferret.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: holy-lamb.rooster465.autos:443, server: holy-lamb.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: holy-lamb.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189866 | ⚡️Telegram - t.me/SOSkeyNET, server: holy-lamb.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: holy-lamb.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: integral-rodent.rooster465.autos:443, server: integral-rodent.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: integral-rodent.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189923 | ⚡️Telegram - t.me/SOSkeyNET, server: integral-rodent.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: integral-rodent.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: main-fawn.rooster465.autos:443, server: main-fawn.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: main-fawn.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189893 | ⚡️Telegram - t.me/SOSkeyNET, server: main-fawn.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: main-fawn.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: musical-terrier.rooster465.autos:443, server: musical-terrier.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: musical-terrier.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189962 | ⚡️Telegram - t.me/SOSkeyNET, server: musical-terrier.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: musical-terrier.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 94@oneclickvpnkeys, server: 3.75.93.113, port: 443, type: trojan, password: UX82473651, sni: meet-goshawk.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: neutral-quail.rooster465.autos:443, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 189895 | ⚡️Telegram - t.me/SOSkeyNET, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: neutral-quail.rooster465.autos:443 2, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: �, server: neutral-quail.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: neutral-quail.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: noted-cougar.rooster465.autos:443, server: noted-cougar.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: noted-cougar.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 190154 | ⚡️Telegram - t.me/SOSkeyNET, server: noted-cougar.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: noted-cougar.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@MTproxy22_v2ray", server: noted-cougar.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: noted-cougar.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام 2", server: fi.zhabulik.ru, port: 443, type: trojan, password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj, sni: fi.zhabulik.ru, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام 3", server: pl.zhabulik.ru, port: 443, type: trojan, password: WFer-5gN21nfHbVB2N8s71Z74EPUfzVj, sni: pl.zhabulik.ru, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 46.8.101.94:28304, server: 46.8.101.94, port: 28304, type: trojan, password: dk8nonq63y6xqdh0, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 190029 | ⚡️Telegram - t.me/SOSkeyNET, server: 46.8.101.94, port: 28304, type: trojan, password: dk8nonq63y6xqdh0, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ger1.fytpn.com:443, server: ger1.fytpn.com, port: 443, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger1.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190417 | ⚡️Telegram - t.me/SOSkeyNET, server: ger1.fytpn.com, port: 443, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger1.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ger2.fytpn.com:443, server: ger2.fytpn.com, port: 443, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger2.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190423 | ⚡️Telegram - t.me/SOSkeyNET, server: ger2.fytpn.com, port: 443, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger2.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ger6.fytpn.com:2097, server: ger6.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger6.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190425 | ⚡️Telegram - t.me/SOSkeyNET, server: ger6.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: ger6.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: lit.fytpn.com:2097, server: lit.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: lit.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190426 | ⚡️Telegram - t.me/SOSkeyNET, server: lit.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: lit.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: pol2.fytpn.com:2097, server: pol2.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: pol2.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190421 | ⚡️Telegram - t.me/SOSkeyNET, server: pol2.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: pol2.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: stoniy.fytpn.com:2097, server: stoniy.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: stoniy.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190424 | ⚡️Telegram - t.me/SOSkeyNET, server: stoniy.fytpn.com, port: 2097, type: trojan, password: gHncxmRjWEJ7apX5XuXsHw4kGexMH_gU, sni: stoniy.fytpn.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: t0nel-gr.zentharix.ir:10001, server: t0nel-gr.zentharix.ir, port: 10001, type: trojan, password: gcn2H1x6ZLW0gwTQhGR3K2Ve_tAJ8SnR, sni: rs1.bdbdpqpq.shop, skip-cert-verify: false, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: rs1.bdbdpqpq.shop}}, udp: true, tfo: false}
   - {name: 190155 | ⚡️Telegram - t.me/SOSkeyNET, server: t0nel-gr.zentharix.ir, port: 10001, type: trojan, password: gcn2H1x6ZLW0gwTQhGR3K2Ve_tAJ8SnR, sni: rs1.bdbdpqpq.shop, skip-cert-verify: false, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: rs1.bdbdpqpq.shop}}, udp: true, tfo: false}
-  - {name: 33@oneclickvpnkeys, server: 141.193.213.172, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام 4", server: 141.193.213.172, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: "@mehrosaboran", server: 141.193.213.172, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: 155.103.71.159:443, server: 155.103.71.159, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
   - {name: "@MTproxy22_v2ray 2", server: 155.103.71.159, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
-  - {name: 162.159.91.211:443, server: 162.159.91.211, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: 162.159.91.211, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 189825 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.159.91.211, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 172.64.145.133:443, server: 172.64.145.133, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 190009 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.64.145.133, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 172.64.152.23:443, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 189934 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.64.152.23, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: "@mehrosaboran`", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: 203.202.232.211:443, server: 203.202.232.211, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
   - {name: "@MTproxy22_v2ray 3", server: 203.202.232.211, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
-  - {name: 40@oneclickvpnkeys, server: 45.205.0.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 45.80.111.7:443, server: 45.80.111.7, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 3", server: 45.80.111.7, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 189823 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.80.111.7, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 78.47.146.151:443, server: 78.47.146.151, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 190014 | ⚡️Telegram - t.me/SOSkeyNET, server: 78.47.146.151, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 39@oneclickvpnkeys, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 189819 | ⚡️Telegram - t.me/SOSkeyNET, server: 8.6.112.6, port: 443, type: trojan, password: humanity, sni: www.calmloud.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmloud.com}}, udp: true, tfo: false}
-  - {name: 88.99.189.60:443, server: 88.99.189.60, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 189884 | ⚡️Telegram - t.me/SOSkeyNET, server: 88.99.189.60, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام 5", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: 151.101.38.7:443, server: 151.101.38.7, port: 443, type: trojan, password: mitivpn, sni: jjl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: jjl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚", server: 151.101.38.7, port: 443, type: trojan, password: mitivpn, sni: jjl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: jjl.fastly.com}}, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee", server: 151.101.38.7, port: 443, type: trojan, password: mitivpn, sni: jjl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: jjl.fastly.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2", server: 167.82.76.27, port: 443, type: trojan, password: mitivpn, sni: mitivpn-mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: mitivpn-mitivpn.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.101:443, server: 199.232.78.101, port: 443, type: trojan, password: mitivpn, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/NLSus---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
-  - {name: 190047 | ⚡️Telegram - t.me/SOSkeyNET, server: 199.232.78.101, port: 443, type: trojan, password: mitivpn, sni: ssl.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: /---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/NLSus---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11/---@npv_vpn11---@npv_vpn11, headers: {Host: ssl.fastly.com}}, udp: true, tfo: false}
   - {name: 199.232.78.160:443, server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "%40V2ray_AM", headers: {Host: mitivpn.fastly.com}}, udp: true, tfo: false}
-  - {name: 199.232.78.160:443 2, server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: mitivpn.fastly.com}}, udp: true, tfo: false}
-  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3", server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: mitivpn.fastly.com}}, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 2", server: 199.232.78.160, port: 443, type: trojan, password: mitivpn, sni: mitivpn.fastly.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: mitivpn.fastly.com}}, udp: true, tfo: false}
+  - {name: 190480 | ⚡️Telegram - t.me/SOSkeyNET, server: 5.75.204.152, port: 57228, type: trojan, password: n2wRVRMqyCxVk0H9duJo8euDQHIykBY2eE%2B9KBRQdRQ%3D, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -581,315 +529,159 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -905,315 +697,159 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.16.246.173:443
-      - 189982 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.150.163:443
       - 190193 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.152.31:443
       - 190192 | ⚡️Telegram - t.me/SOSkeyNET
-      - 162.159.152.81:443
-      - 189981 | ⚡️Telegram - t.me/SOSkeyNET
       - 162.159.153.42:443
       - 190191 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.98.0:443
+      - 190331 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN`"
       - "@i10VPN - Psiphon 79"
-      - jjyeye.cloudflare.182682.xyz:443
-      - 189781 | ⚡️Telegram - t.me/SOSkeyNET
-      - 5.75.204.152:10532
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
-      - 189829 | ⚡️Telegram - t.me/SOSkeyNET
-      - 189815 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.233.216.27:443
+      - "@filembad`"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
+      - 190317 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🚀***@V2ray_official"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
-      - 13.125.69.162:443
-      - 189798 | ⚡️Telegram - t.me/SOSkeyNET
-      - 176.34.5.100:443
-      - 18.143.92.167:443
-      - 189784 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.112.245.255:443
-      - 189894 | ⚡️Telegram - t.me/SOSkeyNET
-      - 3.39.225.215:443
-      - 189924 | ⚡️Telegram - t.me/SOSkeyNET
-      - 34.242.77.118:443
-      - 190032 | ⚡️Telegram - t.me/SOSkeyNET
-      - 35@oneclickvpnkeys
-      - 43.203.172.96:443
-      - 189794 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.221.220.227:443
-      - 189886 | ⚡️Telegram - t.me/SOSkeyNET
-      - 52.78.203.191:443
-      - 189787 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.238.153.132:443
-      - 189785 | ⚡️Telegram - t.me/SOSkeyNET
-      - 54.65.177.190:443
-      - 189782 | ⚡️Telegram - t.me/SOSkeyNET
-      - 56.10.9.77:443
-      - 189956 | ⚡️Telegram - t.me/SOSkeyNET
-      - holy-lamb.rooster465.autos:443
-      - 189866 | ⚡️Telegram - t.me/SOSkeyNET
-      - integral-rodent.rooster465.autos:443
-      - 189923 | ⚡️Telegram - t.me/SOSkeyNET
-      - main-fawn.rooster465.autos:443
-      - 189893 | ⚡️Telegram - t.me/SOSkeyNET
-      - musical-terrier.rooster465.autos:443
-      - 189962 | ⚡️Telegram - t.me/SOSkeyNET
+      - 94@oneclickvpnkeys
       - neutral-quail.rooster465.autos:443
-      - 189895 | ⚡️Telegram - t.me/SOSkeyNET
-      - neutral-quail.rooster465.autos:443 2
       - noted-cougar.rooster465.autos:443
       - 190154 | ⚡️Telegram - t.me/SOSkeyNET
       - "@MTproxy22_v2ray"
       - "@Vpn_Tehran 🤍 کانال تلگرام 2"
       - "@Vpn_Tehran 🤍 کانال تلگرام 3"
-      - 46.8.101.94:28304
-      - 190029 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger1.fytpn.com:443
+      - 190417 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger2.fytpn.com:443
+      - 190423 | ⚡️Telegram - t.me/SOSkeyNET
+      - ger6.fytpn.com:2097
+      - 190425 | ⚡️Telegram - t.me/SOSkeyNET
+      - lit.fytpn.com:2097
+      - 190426 | ⚡️Telegram - t.me/SOSkeyNET
+      - pol2.fytpn.com:2097
+      - 190421 | ⚡️Telegram - t.me/SOSkeyNET
+      - stoniy.fytpn.com:2097
+      - 190424 | ⚡️Telegram - t.me/SOSkeyNET
       - t0nel-gr.zentharix.ir:10001
       - 190155 | ⚡️Telegram - t.me/SOSkeyNET
-      - 33@oneclickvpnkeys
       - "@Vpn_Tehran 🤍 کانال تلگرام 4"
       - "@mehrosaboran"
       - 155.103.71.159:443
       - "@MTproxy22_v2ray 2"
-      - 162.159.91.211:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
-      - 189825 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.145.133:443
-      - 190009 | ⚡️Telegram - t.me/SOSkeyNET
-      - 172.64.152.23:443
-      - 189934 | ⚡️Telegram - t.me/SOSkeyNET
       - "@mehrosaboran`"
       - 203.202.232.211:443
       - "@MTproxy22_v2ray 3"
-      - 40@oneclickvpnkeys
-      - 45.80.111.7:443
-      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
-      - 189823 | ⚡️Telegram - t.me/SOSkeyNET
-      - 78.47.146.151:443
-      - 190014 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
-      - 189819 | ⚡️Telegram - t.me/SOSkeyNET
-      - 88.99.189.60:443
-      - 189884 | ⚡️Telegram - t.me/SOSkeyNET
       - "@Vpn_Tehran 🤍 کانال تلگرام 5"
-      - 151.101.38.7:443
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚"
-      - "Channel : @proxy_kafee"
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 2"
-      - 199.232.78.101:443
-      - 190047 | ⚡️Telegram - t.me/SOSkeyNET
       - 199.232.78.160:443
-      - 199.232.78.160:443 2
-      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚 3"
-      - "Channel : @proxy_kafee 2"
+      - 190480 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
