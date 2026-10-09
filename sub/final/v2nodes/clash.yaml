@@ -465,10 +465,17 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: platform101.golnamakcert.top:80, server: platform101.golnamakcert.top, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, network: ws, ws-opts: {path: /platform101, headers: {Host: platform101.halalkhor.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: platform102.golnamakcert.top:80, server: platform102.golnamakcert.top, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, servername: platform102.golnamakcert.top, network: ws, ws-opts: {path: /platform102, headers: {Host: platform102.golnamakcert.top}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: platform103.golnamakcert.top:80, server: platform103.golnamakcert.top, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, servername: platform103.halalkhor.info, network: ws, ws-opts: {path: /platform103, headers: {Host: platform103.halalkhor.info}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: platform106.golnamakcert.top:80, server: platform106.golnamakcert.top, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: e13cf851-b4fd-413b-8d49-146e6eb8e5d4, network: ws, ws-opts: {path: /platform106, headers: {Host: platform106.halalkhor.info}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ace-liger.rooster465.autos:443, server: ace-liger.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: ace-liger.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: alert-titmouse.rooster465.autos:443, server: alert-titmouse.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: alert-titmouse.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: glorious-lark.rooster465.autos:443, server: glorious-lark.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: glorious-lark.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: inviting-rabbit.rooster465.autos:443, server: inviting-rabbit.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: inviting-rabbit.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: live-stallion.rooster465.autos:443, server: live-stallion.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: live-stallion.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: musical-mouse.rooster465.autos:443, server: musical-mouse.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: musical-mouse.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: pure-kodiak.rooster465.autos:443, server: pure-kodiak.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: pure-kodiak.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: rested-seahorse.rooster465.autos:443, server: rested-seahorse.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: rested-seahorse.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: stable-python.rooster465.autos:443, server: stable-python.rooster465.autos, port: 443, type: trojan, password: UX82473651, sni: stable-python.rooster465.autos, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: vpn.cyrionflare.xyz:2087, server: vpn.cyrionflare.xyz, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 15f434b8-aaec-4306-98c9-dd8f5ef608d4, host: vpn.cyrionflare.xyz, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: tk1.high-speed-test-56424.me:443, server: tk1.high-speed-test-56424.me, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 37615d66-5467-44a3-bc23-f2c3bef7f761, servername: aws.amazon.com, host: aws.amazon.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: p8VhFzvFOBAhWAEAeWmwDxT3xBSRsGYixqi0qnLFnBM, short-id: 21270a66}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +492,51 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +552,51 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - platform101.golnamakcert.top:80
-      - platform102.golnamakcert.top:80
-      - platform103.golnamakcert.top:80
-      - platform106.golnamakcert.top:80
+      - ace-liger.rooster465.autos:443
+      - alert-titmouse.rooster465.autos:443
+      - glorious-lark.rooster465.autos:443
+      - inviting-rabbit.rooster465.autos:443
+      - live-stallion.rooster465.autos:443
+      - musical-mouse.rooster465.autos:443
+      - pure-kodiak.rooster465.autos:443
+      - rested-seahorse.rooster465.autos:443
+      - stable-python.rooster465.autos:443
+      - vpn.cyrionflare.xyz:2087
+      - tk1.high-speed-test-56424.me:443
   - name: دانلود منیجر 📥
     type: select
     proxies:

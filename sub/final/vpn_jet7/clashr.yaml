@@ -5,9 +5,7 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Vpn_jet7**", server: 20.164.212.146, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: e6UqAb4130ycM7qM, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: gril1.sublinkplas.ir, port: 12040, type: vless, tls: true, packet-encoding: xudp, uuid: 21063f06-c22f-438f-9040-24a2b37717a1, servername: testspeed-foreign.tci.ir, host: testspeed-foreign.tci.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 33hVTwP-1rQYG0F92oXJ-o1zPo4Cc8n2Uml_i9tv6XM, short-id: 3e5cba1bd6eb6221}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 3", server: geminilanzerotte.live, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b, servername: geminilanzerotte.live, host: geminilanzerotte.live, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 13.143.174.176, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 56de13ac-086e-4789-8e1e-1bf2bd90216b, servername: swidenlanzerotte.live, host: swidenlanzerotte.live, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -15,8 +13,6 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -24,8 +20,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -33,32 +27,24 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -87,8 +73,6 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
-      - "@Vpn_jet7** 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
