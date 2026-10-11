@@ -5,81 +5,179 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "Channel : @proxy_kafee", server: 45.88.12.152, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 1e391858-428b-4051-988f-905ad0c3b451, servername: crt.molniya.sbs, alpn: [http%2F1.1], network: ws, ws-opts: {path: /vless-ws, headers: {Host: crt.molniya.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 2", server: fi.salfetkastroy.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5250f957-1c28-4795-b8e0-ce63f2219884, servername: fi.salfetkastroy.ru, host: fi.salfetkastroy.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QTTneNQLYl_-Q0JbPyQWe2GpLUeL7JPl4P-5h0El6S8, short-id: f9989b69a77d0f3c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 3", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5abd299c-59e8-46e1-98ec-fec6ea20bec3, servername: google.com, network: ws, ws-opts: {path: /, headers: {Host: google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 4", server: game-survival.surverssss.pro, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: efa9d618-443e-4d9a-9c67-c4b3d9d73995, servername: game-survival.surverssss.pro, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 5", server: sw1.hidenet.xyz, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: efa9d618-443e-4d9a-9c67-c4b3d9d73995, servername: sw1.hidenet.xyz, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 6", server: dns5.m3hrzd.ir, port: 8055, type: vless, tls: true, packet-encoding: xudp, uuid: fafeee6d-5b45-4325-85ce-092cda561141, servername: race.egistration.ir, host: race.egistration.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4ExW95eL_lG7-vBq744NvIrYYm9tQyl33xf5mqNvEho, short-id: 967a1145531e3868}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: c3.nastuh.link, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: y7KeRTzmH0vXT2kp, udp: true, tfo: false}
+  - {name: "@proxy_kafee 2", server: 20.123.1.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YF329KNGVTUZ1qrH, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee", server: at-3.wizard.select, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 074b00de-c4d0-11f1-9902-a337233c6cda, servername: at-3.wizard.select, host: at-3.wizard.select, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: S9OR9-SQHGl717N9AV_LoouRgSd-M4Yz7os10Mj8XxI, short-id: cee953f6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee`", server: unitedstates.avara.fit, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f7d9a89-c3a1-4d25-9f83-380048bbb38a, servername: unitedstates.avara.fit, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: health.v1.Health}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 2", server: dasas.amirh00sain.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5d48d8a1-12b9-4137-ab14-836c6782d9de, servername: dasas.amirh00sain.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws/5d48d8a1-12b9-4137-ab14-836c6782d9de, headers: {Host: dasas.amirh00sain.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 3", server: 138.124.15.231, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7, servername: fn-2.ardesnode.ru, host: fn-2.ardesnode.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs, short-id: 9ea74b83f4993ca9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 4", server: 213.21.232.230, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7, servername: pl-1.ardesnode.ru, host: pl-1.ardesnode.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs, short-id: 9ea74b83f4993ca9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 5", server: fn-2.ardesnode.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 616c7b3b-41f4-4038-88c6-d6fedd0ae4a7, servername: fn-2.ardesnode.ru, host: fn-2.ardesnode.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: PKlt_5ASsz137EvA9SKSadtjEv1k_U7VRtoelKCgADs, short-id: 9ea74b83f4993ca9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 3", server: dasas.amirh00sain.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6361b2c6-5072-423d-8bbc-29b42755938c, servername: dasas.amirh00sain.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /px/2942d736/6361b2c6-5072-423d-8bbc-29b42755938c, headers: {Host: dasas.amirh00sain.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 4", server: dasas.amirh00sain.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a8214a84-7522-4823-849b-2de0392c2284, servername: dasas.amirh00sain.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /px/3f5fb613/a8214a84-7522-4823-849b-2de0392c2284, headers: {Host: dasas.amirh00sain.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 5", server: 144.31.165.102, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b1936288-a353-4ff1-89b3-edaead599c6b, servername: www.lovelive-anime.jp, host: www.lovelive-anime.jp, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Ego9_BM1Sy20swG1UaGOucL_o94l3F6uw8TOTH2jYRI, short-id: 5347d9d0b588c111}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee`", server: 199.232.78.199, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cea0f525-0b93-4a5d-8b98-9256023ff86d, servername: www.speedtest.net, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: www.speedtest.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 6", server: dns4.m3hrzd.ir, port: 8055, type: vless, tls: true, packet-encoding: xudp, uuid: cea0f525-0b93-4a5d-8b98-9256023ff86d, servername: race.egistration.ir, host: race.egistration.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4ExW95eL_lG7-vBq744NvIrYYm9tQyl33xf5mqNvEho, short-id: 967a1145531e3868}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 6", server: irrran.zeeshop.click, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ddbcf201-aba3-40c9-b1fb-a91e56c9ab81, servername: workbee.ca, host: workbee.ca, path: /, reality-opts: {public-key: Dp0sJ6LxqlrMJiQJnsdxbc_77whcVU3uplS2wsA9nzE, short-id: e2a843e873c0cc71}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 7", server: 104.18.0.181, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b, servername: hhlfy.twiladaphne.ndjp.net, network: ws, ws-opts: {path: /fp, headers: {Host: hhlfy.twiladaphne.ndjp.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 8", server: 104.18.35.86, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: e5cc16a6-ea42-46b2-82ae-ad2157e1641b, servername: hhlfy.twiladaphne.ndjp.net, network: ws, ws-opts: {path: /sg-melbi, headers: {Host: hhlfy.twiladaphne.ndjp.net}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 7", server: 217.69.167.125, port: 43000, type: vless, tls: true, packet-encoding: xudp, uuid: ebdf3268-2bd2-4608-875f-82f6a5efac69, servername: 217.69.167.125, host: 217.69.167.125, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NXN75t-gk0tpVh74Thc7nPBXM4fytgMOZafDzSe8xAk, short-id: 353fdd95}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 9", server: 185.115.34.209, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309, servername: github.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: GunService}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 8", server: fi.pythonsetupbib.online, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f8d52ece-fad4-478d-875d-df6eed3befa7, servername: fi.pythonsetupbib.online, host: fi.pythonsetupbib.online, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg, short-id: bdf5852d1423e694}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 9", server: fi.pythonsetupbib.online, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f8d52ece-fad4-478d-875d-df6eed3befa7, servername: fi.pythonsetupbib.online, host: fi.pythonsetupbib.online, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ZqVz1kWNxh_5zQ5PPkoPHoaXQOvppM0ZyIo8uKp2dCg, short-id: bdf5852d1423e694}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -107,12 +205,26 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
       - "Channel : @proxy_kafee"
+      - "@proxy_kafee`"
       - "Channel : @proxy_kafee 2"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
+      - "@proxy_kafee 5"
       - "Channel : @proxy_kafee 3"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
+      - "Channel : @proxy_kafee`"
       - "Channel : @proxy_kafee 6"
+      - "@proxy_kafee 6"
+      - "@proxy_kafee 7"
+      - "@proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "@proxy_kafee 9"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
