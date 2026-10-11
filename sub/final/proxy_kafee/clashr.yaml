@@ -8,14 +8,9 @@ proxies:
   - {name: "Channel : @proxy_kafee", server: 45.88.12.152, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 1e391858-428b-4051-988f-905ad0c3b451, servername: crt.molniya.sbs, alpn: [http%2F1.1], network: ws, ws-opts: {path: /vless-ws, headers: {Host: crt.molniya.sbs}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 2", server: fi.salfetkastroy.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5250f957-1c28-4795-b8e0-ce63f2219884, servername: fi.salfetkastroy.ru, host: fi.salfetkastroy.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QTTneNQLYl_-Q0JbPyQWe2GpLUeL7JPl4P-5h0El6S8, short-id: f9989b69a77d0f3c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 3", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5abd299c-59e8-46e1-98ec-fec6ea20bec3, servername: google.com, network: ws, ws-opts: {path: /, headers: {Host: google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram : @proxy_kafee", server: iran.panelsaz.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: b6eeba72-2ce3-4576-b8c1-0ebae225c1d5, network: ws, ws-opts: {path: /free, headers: {Host: iran.panelsaz.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram : @proxy_kafee 2", server: dns2.m3hrzd.ir, port: 2800, type: vless, tls: true, packet-encoding: xudp, uuid: bae7d9c5-b1e4-46f9-8973-39137797a694, servername: play.google.com, host: play.google.com, path: /, reality-opts: {public-key: Y6EGB3qFcmBFAfL-gHaB4emJzC5fXq5ov9Ri4JqHenc, short-id: 81d0d80c09088a91}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram : @proxy_kafee 3", server: dns7.m3hrzd.ir, port: 8030, type: vless, tls: true, packet-encoding: xudp, uuid: bae7d9c5-b1e4-46f9-8973-39137797a694, servername: race.egistration.ir, host: race.egistration.ir, path: /, reality-opts: {public-key: yNCiWHU2y1M-cWl5jJLfSDwwYM_9gdP5sqBLANxxdAs, short-id: 38dda82955d5791e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram : @proxy_kafee 4", server: 185.102.115.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e937b92c-701f-420e-a621-3eb3b75de467, servername: baget.puffixhosting.com, host: baget.puffixhosting.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: oiM4ujM8pxMF3X8kQhD8ioV8lcTAj7c31rIP9e6bOgA, short-id: 94d16ee71404c7a3}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 4", server: game-survival.surverssss.pro, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: efa9d618-443e-4d9a-9c67-c4b3d9d73995, servername: game-survival.surverssss.pro, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 5", server: sw1.hidenet.xyz, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: efa9d618-443e-4d9a-9c67-c4b3d9d73995, servername: sw1.hidenet.xyz, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "Channel : @proxy_kafee 6", server: dns5.m3hrzd.ir, port: 8055, type: vless, tls: true, packet-encoding: xudp, uuid: fafeee6d-5b45-4325-85ce-092cda561141, servername: race.egistration.ir, host: race.egistration.ir, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 4ExW95eL_lG7-vBq744NvIrYYm9tQyl33xf5mqNvEho, short-id: 967a1145531e3868}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Telegram : @proxy_kafee`", server: mail.loyalsmile.net, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: ff766b85-d50f-47b7-9b63-6ca4ea128f3f, network: ws, ws-opts: {path: /wp-content4, headers: {Host: mail.loyalsmile.net}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -25,14 +20,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -42,14 +32,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -59,14 +44,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -75,14 +55,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -91,14 +66,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -107,14 +77,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -145,14 +110,9 @@ proxy-groups:
       - "Channel : @proxy_kafee"
       - "Channel : @proxy_kafee 2"
       - "Channel : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee"
-      - "Telegram : @proxy_kafee 2"
-      - "Telegram : @proxy_kafee 3"
-      - "Telegram : @proxy_kafee 4"
       - "Channel : @proxy_kafee 4"
       - "Channel : @proxy_kafee 5"
       - "Channel : @proxy_kafee 6"
-      - "Telegram : @proxy_kafee`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

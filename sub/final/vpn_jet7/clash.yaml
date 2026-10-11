@@ -466,7 +466,6 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@Vpn_jet7**", server: 20.123.1.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YF329KNGVTUZ1qrH, udp: true, tfo: false}
-  - {name: "\tn_jet7**", server: xn-de-b.rzfp.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 47e39ff6-d772-4c24-b64b-3150af7f941e, servername: ftp.heanet.ie, host: ftp.heanet.ie, path: /, reality-opts: {public-key: 3QHmuOX6nxAJlJEBeTi8VtIdz-XWvE5DMTOzhqlgEEM, short-id: 377d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_jet7** 2", server: dl1.uploadeliasiran01.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 74d5c9e6-2f8b-4c70-8c23-889eb7eb3075, servername: www.aparat.com, host: www.aparat.com, path: /, reality-opts: {public-key: uh67g4brJ3f4oGMcRpp2UyBD3R7HydwLMUFyhdBENxk, short-id: 164b2cb4ee0e9352}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -485,7 +484,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -494,7 +492,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -503,7 +500,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -521,7 +517,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -530,7 +525,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -539,7 +533,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "\tn_jet7**"
       - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
