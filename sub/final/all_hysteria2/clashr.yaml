@@ -6,6 +6,7 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 192360 | ⚡️Telegram - t.me/SOSkeyNET, server: 177.1.195.242, port: 24000, type: hysteria2, ports: 24000, password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4, obfs: salamander, obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5, sni: hy.kirian.su, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192501 | ⚡️Telegram - t.me/SOSkeyNET, server: 43.160.245.154, port: 20004, type: hysteria2, ports: 20004, password: aec8e5e3-bb81-4b22-8802-0b88c54997b3, sni: tw.australiacaregroup.site, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 192387 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 21067, type: hysteria2, ports: 21067, password: capadm96216165%3AnXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -14,6 +15,7 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
@@ -22,6 +24,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
@@ -30,6 +33,7 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
@@ -37,6 +41,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
@@ -44,6 +49,7 @@ proxy-groups:
       - 🎯 全球直连
       - 🚀 节点选择
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
@@ -51,6 +57,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
@@ -80,6 +87,7 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

@@ -466,6 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: 192360 | ⚡️Telegram - t.me/SOSkeyNET, server: 177.1.195.242, port: 24000, type: hysteria2, ports: 24000, password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4, obfs: salamander, obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5, sni: hy.kirian.su, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192501 | ⚡️Telegram - t.me/SOSkeyNET, server: 43.160.245.154, port: 20004, type: hysteria2, ports: 20004, password: aec8e5e3-bb81-4b22-8802-0b88c54997b3, sni: tw.australiacaregroup.site, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 192387 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 21067, type: hysteria2, ports: 21067, password: capadm96216165%3AnXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -484,6 +485,7 @@ proxy-groups:
     type: select
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -492,6 +494,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -500,6 +503,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
@@ -517,6 +521,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -525,6 +530,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -533,6 +539,7 @@ proxy-groups:
     interval: 600
     proxies:
       - 192360 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
       - 192387 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
