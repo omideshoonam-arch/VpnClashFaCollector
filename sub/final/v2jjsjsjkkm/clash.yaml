@@ -465,10 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 141.193.213.172, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-81", servername: http%3A%2F%2Fglobal.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: http%3A%2F%2Fglobal.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-82", servername: http%3A%2F%2Fglobal.fastly.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: http%3A%2F%2Fglobal.fastly.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 20.234.97.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: K5sEvZiKmens104B, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: www.comoiran.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c5d6190b-7286-4b73-a5f4-c23a47a61c74, servername: www.comoiran.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/flights/dest-de/price-stream, headers: {Host: www.comoiran.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e0ef0fb4-f18a-4284-bcf3-f5b3e738c594, servername: google.com, network: ws, ws-opts: {path: /, headers: {Host: google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: ovhpok.goalir.co.uk, port: 2083, type: vmess, uuid: ff453627-5e7b-4943-8279-fc5f34bd3927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,8 +485,8 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: خودکار (بهترین پینگ) 🤖
@@ -495,8 +495,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: پشتیبان (در صورت قطعی) 🧯
@@ -505,8 +505,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: اتصال پایدار 🔗
@@ -524,8 +524,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: توزیع بار (گردشی) 🔁
@@ -534,8 +534,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: توزیع بار (موقت) ⏳
@@ -544,8 +544,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran"
       - "@mehrosaboran`"
+      - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
   - name: دانلود منیجر 📥

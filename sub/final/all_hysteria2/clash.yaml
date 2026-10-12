@@ -465,9 +465,12 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 192360 | ⚡️Telegram - t.me/SOSkeyNET, server: 177.1.195.242, port: 24000, type: hysteria2, ports: 24000, password: 77f73bd5-51bf-4143-8ebd-02f56ba376f4, obfs: salamander, obfs-password: 9VK3Nqd0bcXGPxcay9hRLY28HBtKo5, sni: hy.kirian.su, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 192501 | ⚡️Telegram - t.me/SOSkeyNET, server: 43.160.245.154, port: 20004, type: hysteria2, ports: 20004, password: aec8e5e3-bb81-4b22-8802-0b88c54997b3, sni: tw.australiacaregroup.site, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 192387 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 21067, type: hysteria2, ports: 21067, password: capadm96216165%3AnXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192976 | ⚡️Telegram - t.me/SOSkeyNET, server: 157.22.240.206, port: 28152, type: hysteria2, ports: 28152, password: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: alb1337.zaebalsanoproxyklinus.lol, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192916 | ⚡️Telegram - t.me/SOSkeyNET, server: alb1337.zaebalsanoproxyklinus.lol, port: 28152, type: hysteria2, ports: 28152, password: 8bd04756-3beb-4348-82c9-d35453df50ce, sni: alb1337.zaebalsanoproxyklinus.lol, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 193012 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.15.19.206, port: 8443, type: hysteria2, ports: 8443, password: HowdyHysteria2023w0W, obfs: salamander, obfs-password: HysteriaHowdy, sni: viber.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 193006 | ⚡️Telegram - t.me/SOSkeyNET, server: me17.msjia8844.site, port: 7443, type: hysteria2, ports: 7443, password: M8LP9DztTr3znqCkmf-r08CQLBLLFK1r, obfs: salamander, obfs-password: u3Soh9_Ui0UmcuY6vk0ug8Lq, sni: me17.msjia8844.site, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192658 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.77.217.70, port: 23000, type: hysteria2, ports: 23000, password: capadmbd5f18bd%3AjX4BuciLLIqLvzJZsHpoXtc2, obfs: salamander, obfs-password: ChY5QQQT3ZtUdNT8, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 192919 | ⚡️Telegram - t.me/SOSkeyNET, server: alb1337.zaebalsanoproxyklinus.lol, port: 28152, type: hysteria2, ports: 28152, password: f83ce3c4-07d9-4895-bd14-cb74abbcab37, sni: alb1337.zaebalsanoproxyklinus.lol, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +487,36 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +532,36 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 192360 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192501 | ⚡️Telegram - t.me/SOSkeyNET
-      - 192387 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192976 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192916 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193012 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193006 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192658 | ⚡️Telegram - t.me/SOSkeyNET
+      - 192919 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
