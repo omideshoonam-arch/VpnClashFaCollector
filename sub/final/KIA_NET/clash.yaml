@@ -465,8 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇹🇷 Turkey04🇹🇷`, server: 8.47.69.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
-  - {name: 🇵🇱 Poland01🇵🇱, server: 195.133.80.152, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ee18d188-14cc-417e-beb1-70e4add6d023, servername: pl3.nztvpn.com, host: pl3.nztvpn.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: UcFVpzbYTy8Iym6ZnCAtLQK-MeRg6wZuyni4xEOKG18, short-id: 0da7e14db353e7d0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇫🇷 France💥@Kia_Net, server: ovhpok.goalir.co.uk, port: 2083, type: vmess, uuid: ff453627-5e7b-4943-8279-fc5f34bd3927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -484,8 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -493,8 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -502,8 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: اتصال پایدار 🔗
     type: url-test
@@ -520,8 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -529,8 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -538,8 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇹🇷 Turkey04🇹🇷`
-      - 🇵🇱 Poland01🇵🇱
       - 🇫🇷 France💥@Kia_Net
   - name: دانلود منیجر 📥
     type: select

@@ -466,6 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: 80.47.12.94:443, server: 80.47.12.94, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c6e3c24c-ce20-4ad5-8c8c-68cb05890ea8, servername: pl-1-1.unturned-rust-dead.lol, host: pl-1-1.unturned-rust-dead.lol, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ee.h1cloud.net:25895, server: ee.h1cloud.net, port: 25895, type: vless, tls: true, packet-encoding: xudp, uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2, servername: www.samsung.com, host: www.samsung.com, path: /, reality-opts: {public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k, short-id: a73f0410d728c823}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇬🇧 [openproxylist.com] vmess-GB", server: 172.67.142.177, port: 443, type: vmess, uuid: af4399b8-a152-486b-9cf6-acdd42d6c40c, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /London3, headers: {Host: uk.lovehk.xyz}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +485,8 @@ proxy-groups:
     type: select
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +494,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +503,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +521,8 @@ proxy-groups:
     interval: 600
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +530,8 @@ proxy-groups:
     interval: 600
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +539,8 @@ proxy-groups:
     interval: 600
     proxies:
       - 80.47.12.94:443
+      - ee.h1cloud.net:25895
+      - 🇬🇧 [openproxylist.com] vmess-GB
   - name: دانلود منیجر 📥
     type: select
     proxies:
