@@ -465,8 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@Vpn_jet7**", server: 20.123.1.55, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: YF329KNGVTUZ1qrH, udp: true, tfo: false}
-  - {name: "@Vpn_jet7** 2", server: dl1.uploadeliasiran01.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 74d5c9e6-2f8b-4c70-8c23-889eb7eb3075, servername: www.aparat.com, host: www.aparat.com, path: /, reality-opts: {public-key: uh67g4brJ3f4oGMcRpp2UyBD3R7HydwLMUFyhdBENxk, short-id: 164b2cb4ee0e9352}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 213.165.50.44, port: 9443, type: vless, tls: true, packet-encoding: xudp, uuid: c3db7657-88ce-42a6-b998-1e0364b277ac, servername: usa.edgeses.org, host: usa.edgeses.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ELJzJkc4SiCeCn6OF-8V9oeoJqXcD1y9WUntP3It53g, short-id: 649ab61e575fdbc9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,7 +483,6 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -492,7 +490,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -500,7 +497,6 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -517,7 +513,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -525,7 +520,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -533,7 +527,6 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_jet7**"
-      - "@Vpn_jet7** 2"
   - name: دانلود منیجر 📥
     type: select
     proxies:
