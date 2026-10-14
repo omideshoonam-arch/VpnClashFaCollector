@@ -7,7 +7,6 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 193429 | ⚡️Telegram - t.me/SOSkeyNET, server: 37.9.4.112, port: 17701, type: hysteria2, ports: 17701, password: 56ff50da-a238-4646-95ab-dd159634bd87, obfs: salamander, obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce, sni: ru03.arpanet-cdn.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 66@oneclickvpnkeys, server: 37.9.4.112, port: 17701, type: hysteria2, ports: 17701, password: 56ff50da-a238-4646-95ab-dd159634bd87, obfs: salamander, obfs-password: 588c76723192f87cfe6d6786816177cd2bd9773acdc545928d7d1d5e8338d4ce, sni: ru03.arpanet-cdn.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 193349 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 21175, type: hysteria2, ports: 21175, password: capadm96216165%3AnXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,7 +15,6 @@ proxy-groups:
       - DIRECT
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,7 +23,6 @@ proxy-groups:
     proxies:
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,7 +31,6 @@ proxy-groups:
       - 🎯 全球直连
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
@@ -42,7 +38,6 @@ proxy-groups:
       - 🎯 全球直连
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -50,7 +45,6 @@ proxy-groups:
       - 🚀 节点选择
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -58,7 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,7 +81,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 193429 | ⚡️Telegram - t.me/SOSkeyNET
       - 66@oneclickvpnkeys
-      - 193349 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

@@ -465,10 +465,20 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran`", server: 20.234.97.18, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: K5sEvZiKmens104B, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: www.comoiran.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c5d6190b-7286-4b73-a5f4-c23a47a61c74, servername: www.comoiran.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/v1/flights/dest-de/price-stream, headers: {Host: www.comoiran.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e0ef0fb4-f18a-4284-bcf3-f5b3e738c594, servername: google.com, network: ws, ws-opts: {path: /, headers: {Host: google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: ovhpok.goalir.co.uk, port: 2083, type: vmess, uuid: ff453627-5e7b-4943-8279-fc5f34bd3927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 146.75.57.238, port: 443, type: trojan, password: m%69tivpn, sni: google.com, skip-cert-verify: false, network: ws, ws-opts: {path: / mehrosaboran, headers: {Host: google.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 167.82.64.46, port: 443, type: trojan, password: m%69tivpn, sni: play.google.com, skip-cert-verify: false, network: ws, ws-opts: {path: / mehrosaboran, headers: {Host: play.google.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 199.232.78.160, port: 443, type: trojan, password: m%69tivpn, sni: www.google.com, skip-cert-verify: false, network: ws, ws-opts: {path: / mehrosaboran, headers: {Host: www.google.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-1", servername: play.google.com, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-2", servername: play.google.com, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b0a100ee-c397-43f2-bdae-2adfb7a0d4e5, servername: rnxq-1lpi3m.linmeisoft.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /b0a100ee-c397-43f2-bdae-2adfb7a0d4e5, headers: {Host: rnxq-1lpi3m.linmeisoft.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?Telegram---bored_vpn", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?Telegram---mehrosaboran", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /cart/docs/www/proxyip, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -485,30 +495,60 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -524,30 +564,60 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
+      - "@mehrosaboran`"
+      - "@mehrosaboran` 2"
       - "@mehrosaboran 3"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⏰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🔋***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💰***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💎***"
+      - "@mehrosaboran 4"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***⌛️***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***💸***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚***🕯***"
+      - "@prrofile_purple | 𝗙𝗮𝗦𝗧 💚`"
   - name: دانلود منیجر 📥
     type: select
     proxies:
