@@ -16,16 +16,14 @@ proxies:
   - {name: "@FarazV2ray 3", server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@FarazV2ray 4", server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@FarazV2ray 5", server: 67.220.95.3, port: 18000, type: vmess, uuid: f8c8dc3d-0d37-46b0-8b34-a7232882fcfe, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad", server: 78.154.103.45, port: 11901, type: vmess, uuid: 1e9edd93-f160-4a4a-b369-2e5194b1932a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /Telegram=@AmyraxVPN, headers: {Host: 78.154.103.45}}, udp: true, tfo: false}
-  - {name: "@filembad 2", server: 78.154.103.45, port: 11901, type: vmess, uuid: 1e9edd93-f160-4a4a-b369-2e5194b1932a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: grpc, servername: 78.154.103.45, grpc-opts: {grpc-service-name: Telegram=@AmyraxVPN}, udp: true, tfo: false}
+  - {name: "@filembad", server: 188.121.120.86, port: 11358, type: vmess, uuid: b04ba31b-0f79-4e9a-b95e-cbac9082475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 2", server: 188.121.120.86, port: 11358, type: vmess, uuid: 7a256163-10a4-442a-9053-9a14702b82cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 3", server: 188.121.120.86, port: 11358, type: vmess, uuid: b04ba31b-0f79-4e9a-b95e-cbac9082475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 4", server: 188.121.120.86, port: 11358, type: vmess, uuid: 7a256163-10a4-442a-9053-9a14702b82cf, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 5", server: 188.121.120.86, port: 11358, type: vmess, uuid: b04ba31b-0f79-4e9a-b95e-cbac9082475a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 6", server: 188.121.120.86, port: 11358, type: vmess, uuid: b9f51483-aa3b-4bb8-9a36-91ed8456c993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 4", server: 188.121.120.86, port: 11358, type: vmess, uuid: b9f51483-aa3b-4bb8-9a36-91ed8456c993, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ⚡@V2ray_official, server: 2001:bc8:32d7:1a9::2, port: 18901, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true, tfo: false}
-  - {name: "@filembad 7", server: gerall-1.povrak.ir, port: 50407, type: vmess, uuid: 09c63b2a-3e33-4410-ac2a-f4ef6d8a9254, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 5", server: gerall-1.povrak.ir, port: 50407, type: vmess, uuid: 09c63b2a-3e33-4410-ac2a-f4ef6d8a9254, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ⚡@V2ray_official 2, server: gerall-1.povrak.ir, port: 50407, type: vmess, uuid: 09c63b2a-3e33-4410-ac2a-f4ef6d8a9254, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 8", server: gerall-1.povrak.ir, port: 50407, type: vmess, uuid: a61a2e59-9ce4-43a4-b7b2-c2f39343fa5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 6", server: gerall-1.povrak.ir, port: 50407, type: vmess, uuid: a61a2e59-9ce4-43a4-b7b2-c2f39343fa5e, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -47,12 +45,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -74,12 +70,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -101,12 +95,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -127,12 +119,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -153,12 +143,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -179,12 +167,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -227,12 +213,10 @@ proxy-groups:
       - "@filembad 2"
       - "@filembad 3"
       - "@filembad 4"
-      - "@filembad 5"
-      - "@filembad 6"
       - ⚡@V2ray_official
-      - "@filembad 7"
+      - "@filembad 5"
       - ⚡@V2ray_official 2
-      - "@filembad 8"
+      - "@filembad 6"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

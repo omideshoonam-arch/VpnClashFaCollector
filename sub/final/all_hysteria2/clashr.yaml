@@ -7,7 +7,6 @@ external-controller: 127.0.0.1:9090
 proxies:
   - {name: 194214 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.15.16.68, port: 8447, type: hysteria2, ports: 8447, password: capadm54312235:JdypYweuDQOrFqWTcFAL6aFq, obfs: salamander, obfs-password: ypvL8T4HFIBLoH8q, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 194364 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.69.78.217, port: 21154, type: hysteria2, ports: 21154, password: capadm96216165%3AnXUv9sPkKFsDMmhZ7jbE28sw, obfs: salamander, obfs-password: mbQXP2ASuHbF6ZPq, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 194126 | ⚡️Telegram - t.me/SOSkeyNET, server: 130.61.50.75, port: 6443, type: hysteria2, ports: 6443, password: zhangyang, sni: 130.61.50.75, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -16,7 +15,6 @@ proxy-groups:
       - DIRECT
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -25,7 +23,6 @@ proxy-groups:
     proxies:
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -34,7 +31,6 @@ proxy-groups:
       - 🎯 全球直连
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
@@ -42,7 +38,6 @@ proxy-groups:
       - 🎯 全球直连
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -50,7 +45,6 @@ proxy-groups:
       - 🚀 节点选择
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -58,7 +52,6 @@ proxy-groups:
       - 🎯 全球直连
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -88,7 +81,6 @@ proxy-groups:
       - ♻️ 自动选择
       - 194214 | ⚡️Telegram - t.me/SOSkeyNET
       - 194364 | ⚡️Telegram - t.me/SOSkeyNET
-      - 194126 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
