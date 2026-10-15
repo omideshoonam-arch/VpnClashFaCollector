@@ -466,6 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 45.130.125.151:443, server: 45.130.125.151, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eaf76557-2219-4799-8171-d7020adfefd0, servername: fancy-mouse-6aff.wixit71180.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws, headers: {Host: fancy-mouse-6aff.wixit71180.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 194899 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.130.125.151, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: eaf76557-2219-4799-8171-d7020adfefd0, servername: fancy-mouse-6aff.wixit71180.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /ws, headers: {Host: fancy-mouse-6aff.wixit71180.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,6 +485,8 @@ proxy-groups:
     type: select
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -490,6 +494,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -497,6 +503,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -513,6 +521,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -520,6 +530,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -527,6 +539,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
+      - 45.130.125.151:443
+      - 194899 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
