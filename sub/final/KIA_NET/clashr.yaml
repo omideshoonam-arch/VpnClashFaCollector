@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 🇫🇷 France💥@Kia_Net, server: ovhpok.goalir.co.uk, port: 2083, type: vmess, uuid: ff453627-5e7b-4943-8279-fc5f34bd3927, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`, server: 2.31.52.171, port: 28110, type: vless, tls: true, packet-encoding: xudp, uuid: f8040af5-d028-4bd0-8038-a59f7f1a3ff3, host: play.google.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 🇫🇷 France💥@Kia_Net
+      - 𝗚𝗲𝗿𝗺𝗮𝗻𝘆`
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
