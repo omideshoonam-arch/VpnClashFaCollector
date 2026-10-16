@@ -5,10 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 155.46.167.30:8880, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 195163 | ⚡️Telegram - t.me/SOSkeyNET, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 198.41.223.119:443, server: 198.41.223.119, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2ecebe-3a52-460e-80ac-74a21fffdaf7, servername: licfgytggv.esmalkjj.workers.dev, network: ws, ws-opts: {path: /V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet, headers: {Host: licfgytggv.esmalkjj.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 195182 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.41.223.119, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9f2ecebe-3a52-460e-80ac-74a21fffdaf7, servername: licfgytggv.esmalkjj.workers.dev, network: ws, ws-opts: {path: /V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet-V2ngNet, headers: {Host: licfgytggv.esmalkjj.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 172.66.47.18:443, server: 172.66.47.18, port: 443, type: trojan, password: e7TTceggMwUMg%2BaFN%3AF4, sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560", headers: {Host: APkD964o1oghlTghHt0L0Of.pAgeS.Dev}}, udp: true, tfo: false}
+  - {name: 195427 | ⚡️Telegram - t.me/SOSkeyNET, server: 172.66.47.18, port: 443, type: trojan, password: e7TTceggMwUMg%2BaFN%3AF4, sni: APkD964o1oghlTghHt0L0Of.pAgeS.Dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/tr/SIeRkg2QvR2Zcpu0SeEMow?ed=2560", headers: {Host: APkD964o1oghlTghHt0L0Of.pAgeS.Dev}}, udp: true, tfo: false}
+  - {name: 188.114.97.6:443, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e, servername: fornewiran.ade-1000.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560", headers: {Host: fornewiran.ade-1000.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 195663 | ⚡️Telegram - t.me/SOSkeyNET, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 93fa8bdb-9cca-4a3e-8355-b7c12e4f595e, servername: fornewiran.ade-1000.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/yLWNcuUuw1jlJpkDhGy?ed=2560", headers: {Host: fornewiran.ade-1000.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: steep-sea-8f35.jarchi1829.workers.dev:443, server: steep-sea-8f35.jarchi1829.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 976033e0-2545-4783-98f8-2f9b2010f4a3, servername: steep-sea-8f35.jarchi1829.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: steep-sea-8f35.jarchi1829.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 195593 | ⚡️Telegram - t.me/SOSkeyNET, server: steep-sea-8f35.jarchi1829.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 976033e0-2545-4783-98f8-2f9b2010f4a3, servername: steep-sea-8f35.jarchi1829.workers.dev, network: ws, ws-opts: {path: "/?ed=2048", headers: {Host: steep-sea-8f35.jarchi1829.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -16,10 +18,12 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: ♻️ 自动选择
     type: url-test
@@ -27,10 +31,12 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🌍 国外媒体
     type: select
@@ -38,40 +44,48 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🎯 全球直连
     type: select
@@ -100,10 +114,12 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 155.46.167.30:8880
-      - 195163 | ⚡️Telegram - t.me/SOSkeyNET
-      - 198.41.223.119:443
-      - 195182 | ⚡️Telegram - t.me/SOSkeyNET
+      - 172.66.47.18:443
+      - 195427 | ⚡️Telegram - t.me/SOSkeyNET
+      - 188.114.97.6:443
+      - 195663 | ⚡️Telegram - t.me/SOSkeyNET
+      - steep-sea-8f35.jarchi1829.workers.dev:443
+      - 195593 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

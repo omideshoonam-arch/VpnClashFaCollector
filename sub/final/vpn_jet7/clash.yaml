@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "[🇩🇪]t.me/Vpn_jet7**", server: de1.wizard.select, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 143fc3c6-c807-11f1-b5bb-55ba72567166, servername: de1.wizard.select, host: de1.wizard.select, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: bh7oxfR5Z80ysdaZ-WurGfzR8rcXHEdKkxonpUtJLGk, short-id: 1760e3746d0697}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: ru.sparxiecn.com, port: 34443, type: vless, tls: true, packet-encoding: xudp, uuid: 71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04, servername: chik-chirikvpn.com, host: chik-chirikvpn.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk, short-id: ab532d3308daa67b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: دانلود منیجر 📥
     type: select
     proxies:

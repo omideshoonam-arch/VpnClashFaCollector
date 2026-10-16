@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "[🇩🇪]t.me/Vpn_jet7**", server: de1.wizard.select, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 143fc3c6-c807-11f1-b5bb-55ba72567166, servername: de1.wizard.select, host: de1.wizard.select, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: bh7oxfR5Z80ysdaZ-WurGfzR8rcXHEdKkxonpUtJLGk, short-id: 1760e3746d0697}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: ru.sparxiecn.com, port: 34443, type: vless, tls: true, packet-encoding: xudp, uuid: 71c8d2c6-a7f1-4c74-b37d-d7f06fef9c04, servername: chik-chirikvpn.com, host: chik-chirikvpn.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: NBiCX_Tj3BeMAyG-GbLLKpGjW_qacm3A2Mz5mN8v3Xk, short-id: ab532d3308daa67b}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "[🇩🇪]t.me/Vpn_jet7**"
+      - "@Vpn_jet7**"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
