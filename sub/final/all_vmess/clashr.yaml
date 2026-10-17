@@ -33,10 +33,8 @@ proxies:
   - {name: "@filembad 10", server: dl.pristytools.com, port: 2083, type: vmess, uuid: 5623d95e-4c7c-41b4-b1ef-8538b8e895ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: چنل عضویت🍃vpn_star77@ 3, server: dl.pristytools.com, port: 2083, type: vmess, uuid: 5623d95e-4c7c-41b4-b1ef-8538b8e895ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: چنل عضویت🍃vpn_star77@ 4, server: dl.pristytools.com, port: 2083, type: vmess, uuid: 5623d95e-4c7c-41b4-b1ef-8538b8e895ea, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 11", server: fin-3.povrak.ir, port: 56268, type: vmess, uuid: d5d5c844-d99e-41d2-a5b9-701adf597498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 12", server: fin-3.povrak.ir, port: 56268, type: vmess, uuid: d5d5c844-d99e-41d2-a5b9-701adf597498, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 13", server: kk.seervexo.ir, port: 1395, type: vmess, uuid: 0b3be258-3456-444c-9ecb-2e77e62ef2e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kk.seervexo.ir}}, udp: true, tfo: false}
-  - {name: "@filembad 14", server: kk.seervexo.ir, port: 8007, type: vmess, uuid: 0b3be258-3456-444c-9ecb-2e77e62ef2e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kk.seervexo.ir}}, udp: true, tfo: false}
+  - {name: "@filembad 11", server: kk.seervexo.ir, port: 1395, type: vmess, uuid: 0b3be258-3456-444c-9ecb-2e77e62ef2e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kk.seervexo.ir}}, udp: true, tfo: false}
+  - {name: "@filembad 12", server: kk.seervexo.ir, port: 8007, type: vmess, uuid: 0b3be258-3456-444c-9ecb-2e77e62ef2e0, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: kk.seervexo.ir}}, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -73,8 +71,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -111,8 +107,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -149,8 +143,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -186,8 +178,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -223,8 +213,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -260,8 +248,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -319,8 +305,6 @@ proxy-groups:
       - چنل عضویت🍃vpn_star77@ 4
       - "@filembad 11"
       - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
