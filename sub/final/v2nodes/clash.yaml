@@ -465,7 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: funagfrdfs.alixxplay.com:56656, server: funagfrdfs.alixxplay.com, port: 56656, type: vless, tls: true, packet-encoding: xudp, uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134, servername: cdn-dynmedia-1.microsoft.com, host: cdn-dynmedia-1.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: QFM3jTzb5n-E9L2cfFo6GHqioGmIkjmG60l8wXA4IXc, short-id: aae6d935}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 45.128.60.127:443, server: 45.128.60.127, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1a11d3a8-f327-4f97-81b2-f776c138dec7, servername: www.nokia.com, host: www.nokia.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: kb93iSFmgqH_hIEAL15LZdrB9E-QfGFYG1mspAYJUzI, short-id: 557d83da1a36996f}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - funagfrdfs.alixxplay.com:56656
+      - 45.128.60.127:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
