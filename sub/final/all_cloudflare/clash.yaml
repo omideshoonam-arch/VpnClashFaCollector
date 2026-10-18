@@ -465,9 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 104.19.173.68:443, server: 104.19.173.68, port: 443, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-5vk.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan", headers: {Host: azadnet-5vk.pages.dev}}, udp: true, tfo: false}
-  - {name: 196253 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.19.173.68, port: 443, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-5vk.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan", headers: {Host: azadnet-5vk.pages.dev}}, udp: true, tfo: false}
-  - {name: polished-firefly-3e2d.20-645.workers.dev:8880, server: polished-firefly-3e2d.20-645.workers.dev, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 3c04e891-dc32-40a3-bcd0-d5e8283a6a03, network: ws, ws-opts: {path: /, headers: {Host: polished-firefly-3e2d.20-645.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 155.46.167.30:8880, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 196422 | ⚡️Telegram - t.me/SOSkeyNET, server: 155.46.167.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime50.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 190.93.244.209:443, server: 190.93.244.209, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 903883c7-e62f-436e-a28c-e777637bb757, servername: loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/7yxyRoUx67K43EW4zOdKqawWj2mXHsfh?ed=2560", headers: {Host: loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 196514 | ⚡️Telegram - t.me/SOSkeyNET, server: 190.93.244.209, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 903883c7-e62f-436e-a28c-e777637bb757, servername: loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/7yxyRoUx67K43EW4zOdKqawWj2mXHsfh?ed=2560", headers: {Host: loaD-Bal-AC000A.sTAGiNg-Api-78c1a1.WorKErs.deV}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -485,9 +486,10 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -495,9 +497,10 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -505,9 +508,10 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -524,9 +528,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -534,9 +539,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -544,9 +550,10 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.19.173.68:443
-      - 196253 | ⚡️Telegram - t.me/SOSkeyNET
-      - polished-firefly-3e2d.20-645.workers.dev:8880
+      - 155.46.167.30:8880
+      - 196422 | ⚡️Telegram - t.me/SOSkeyNET
+      - 190.93.244.209:443
+      - 196514 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: دانلود منیجر 📥
     type: select
