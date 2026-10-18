@@ -465,13 +465,14 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran", server: 146.75.57.238, port: 443, type: trojan, password: mitivpn, sni: google.com, skip-cert-verify: false, network: ws, ws-opts: {path: "", headers: {Host: google.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-3", servername: play.google.com, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-4", servername: play.google.com, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran`", server: 85.9.211.139, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 14c6f830-303c-4c9c-89ce-f6ea0aa1f5a4, servername: www.forvo.com, host: www.forvo.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: a0148fb3cf1be85d.tunvi.w-ert.org, port: 442, type: vless, tls: true, packet-encoding: xudp, uuid: 2ffa3b9b-7700-472d-99c1-25155b054fff, servername: www.aparat.com, host: www.aparat.com, path: /, reality-opts: {public-key: woId47r1U8pEuDwHoC026bJHVWha2RHjufq1Kw3QoRU, short-id: ca4134a0ed2592b6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c0331b33-4a3a-4320-bacb-78601f9795bd, servername: google.com, alpn: [h2], network: ws, ws-opts: {path: /, headers: {Host: google.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 9e29.velqixa.ir, port: 39231, type: vless, tls: true, packet-encoding: xudp, uuid: cdb26740-5270-46bd-a5f8-60b9fd1624c5, servername: www3.velqixa.ir, host: www3.velqixa.ir, path: /, reality-opts: {public-key: tCLL7A2DsZwfm0yhDw9mqIDCP3ssVHqaYaiS10v2smw, short-id: 6c4efc99da79ff3d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 20.164.216.208, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tM0sV3CrjAU0nokd, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
+  - {name: "@mehrosaboran 4", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-19", servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 5", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-20", servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 6", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/cart/docs/www/proxyip?ed#Telegram---bored_vpn", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 7", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/cart/docs/www/proxyip?ed#Telegram---mehrosaboran", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,39 +489,42 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,39 +540,42 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@mehrosaboran`"
       - "@mehrosaboran"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran`"
       - "@mehrosaboran 4"
       - "@mehrosaboran 5"
       - "@mehrosaboran 6"
+      - "@mehrosaboran 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:
