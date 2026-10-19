@@ -466,11 +466,7 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@MARAMBASHI 🇩🇪, server: 31.57.190.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d4733e5a-5850-4523-942e-f28f82ebf4a9, servername: party-5cn.pages.dev, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: party-5cn.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.16.71.200:443, server: 104.16.71.200, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef90e2bc-3a44-4501-a3ea-bf09db2a5add, servername: 36Z9gwXP6-QFZHXPojDTktyP-r0eq.MosVSDbdbdbD.WorKErS.DEv, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/TbCP2PwiJ42OB798hgBhfWy85gAaq?ed=2560", headers: {Host: 36Z9gwXP6-QFZHXPojDTktyP-r0eq.MosVSDbdbdbD.WorKErS.DEv}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 196681 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.16.71.200, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef90e2bc-3a44-4501-a3ea-bf09db2a5add, servername: 36Z9gwXP6-QFZHXPojDTktyP-r0eq.MosVSDbdbdbD.WorKErS.DEv, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/TbCP2PwiJ42OB798hgBhfWy85gAaq?ed=2560", headers: {Host: 36Z9gwXP6-QFZHXPojDTktyP-r0eq.MosVSDbdbdbD.WorKErS.DEv}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.16.71.222:443, server: 104.16.71.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef90e2bc-3a44-4501-a3ea-bf09db2a5add, servername: 36z9gwXp6-qFZhxPOjdTkTYp-R0Eq.moSvSdBdBDBd.wORkERs.Dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/5g1MDEoR0C2KFbC80lM7NCdNyj7jh?ed=2560", headers: {Host: 36z9gwXp6-qFZhxPOjdTkTYp-R0Eq.moSvSdBdBDBd.wORkERs.Dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 196679 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.16.71.222, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ef90e2bc-3a44-4501-a3ea-bf09db2a5add, servername: 36z9gwXp6-qFZhxPOjdTkTYp-R0Eq.moSvSdBdBDBd.wORkERs.Dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/vl/5g1MDEoR0C2KFbC80lM7NCdNyj7jh?ed=2560", headers: {Host: 36z9gwXp6-qFZhxPOjdTkTYp-R0Eq.moSvSdBdBDBd.wORkERs.Dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 197150 | ⚡️Telegram - t.me/SOSkeyNET, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d342d11e-d224-4463-b982-532309285094, servername: ccc.010304.xyz, network: ws, ws-opts: {path: /, headers: {Host: ccc.010304.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,11 +484,7 @@ proxy-groups:
     type: select
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -500,11 +492,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -512,11 +500,7 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -533,11 +517,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -545,11 +525,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -557,11 +533,7 @@ proxy-groups:
     interval: 600
     proxies:
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇩🇪
-      - 104.16.71.200:443
-      - 196681 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.16.71.222:443
-      - 196679 | ⚡️Telegram - t.me/SOSkeyNET
+      - 197150 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
