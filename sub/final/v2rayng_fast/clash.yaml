@@ -465,26 +465,24 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@V2rayng_Fast", server: 20.164.216.208, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tM0sV3CrjAU0nokd, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: ir28482.jdjcr.3842.marzara.ir, port: 1111, type: ss, cipher: chacha20-ietf-poly1305, password: GnAQGwBq6QpfM5VbvOSVuA, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷, server: 20.223.172.81, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: UUjphkQAh5BkOdbf, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.volumeroot.com, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.volumeroot.com}}, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 4", server: vip.deventuras.ir, port: 8081, type: vless, tls: true, packet-encoding: xudp, uuid: 00de64b2-2be7-44c5-8534-66d46b4ba6f1, servername: blog.api.www.cloudflare.com, host: blog.api.www.cloudflare.com, path: /, reality-opts: {public-key: CwlmT6bf31z63kJdVr3GfL38dTUMI5rogde9UlFXhCg, short-id: 3a2b09debeb9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast `", server: 188.114.98.0, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 20ff936a-8eb5-4d27-9cce-93f2016d467b, servername: free.nadun.store, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: free.nadun.store}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 2, server: 144.31.232.104, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 318c935d-c195-41d3-99ad-9bbcfdab3386, servername: fl1.balancer.vbuste-bot.com, host: fl1.balancer.vbuste-bot.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0-or5ogGhYbBgsVSrSC2Fhxyp2BN97Y9pqIdg61Qd08, short-id: 4be4110078ebed4a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 3, server: 150.241.101.80, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 47d9b534-8a0a-4bd2-90f1-1d6ade14427e, servername: yandex.net, host: yandex.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: SbVKOEMjK0sIlbwg4akyBg5mL5KZwwB-ed4eEE7YnRc, short-id: 6ba85179e30d4fc2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 4, server: 31.76.35.27, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4d852af3-a121-41aa-9aed-4ca40a6f7b4d, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: P-r-oVr8MTTCILgRxk8YuB9OKVojYw3MkH_ERUXzX3s, short-id: b76a6309}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 5, server: 201.7.25.100, port: 24446, type: vless, tls: true, packet-encoding: xudp, uuid: 88281d02-b387-4fe3-918e-26ed331e6d08, servername: willow.cdn.cachefleet.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: telegram-bridge}, reality-opts: {public-key: w9JCByLSU3NGciCv2iceOz4TRL4swv8jfIAYoaKSyEw, short-id: a0938b702257f780}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 6, server: 163.245.42.48, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f, servername: mother-earth.fyi, host: mother-earth.fyi, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 7, server: 104.21.91.244, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 8, server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 5", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: /cart/docs/www/proxyip, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷`, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇫🇷 9, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 6", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 7", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 8", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /cart/docs/www/proxyip, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 9", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.pleadcourt.org, skip-cert-verify: false, network: ws, ws-opts: {path: /assignment, headers: {Host: www.pleadcourt.org}}, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹, server: 216.245.184.90, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 00981019-a040-4b3c-a96f-64ee9957b1e3, servername: www.microsoft.com, host: www.microsoft.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: fkvsZjRl-E8jeLZ-5n9YVghrpTYSaLudDzqb4kzjGDU, short-id: 10fa6aa631}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 2, server: 2.26.225.89, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 51a1fd52-fd88-4905-a976-35e44be28e4b, servername: pl.flen-vpn.xyz, host: pl.flen-vpn.xyz, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast `", server: funagfrdfs.alixxplay.com, port: 46105, type: vless, tls: true, packet-encoding: xudp, uuid: 57beeeb0-03fc-4fc9-94da-7604488a7134, servername: www.lamer.com.sg, host: www.lamer.com.sg, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Lk5nwDxC2tr3J7hT8emhUUiMX8cHyKX9TiRj_EnAiik, short-id: 28f5c1f8f98a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹`, server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5db16cc8-23be-4b09-ade8-38b847a3c9cb, servername: firefox.com, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 3, server: 163.245.42.48, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b9bfa54d-bc44-4592-a6d6-89a9665d286f, servername: mother-earth.fyi, host: mother-earth.fyi, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 4, server: 104.21.91.244, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 5, server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=512", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: /cart/docs/www/proxyip, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 6, server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 4", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 5", server: 188.114.97.6, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: /cart/docs/www/proxyip, headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 6", server: b2n.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 7, server: b2n.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#TELEGRAM---MARAMBASHI---MARAMBASHI---MARAMBASHI---MARAMBASHI", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 7", server: b2n.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/cart/docs/www/proxyip=108.160.132.132?ed#Telegram---bored_vpn", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 8, server: 185.200.199.199, port: 8444, type: vless, tls: true, packet-encoding: xudp, uuid: f55e9aba-7b14-4f6f-b59a-d5b3d45c9309, servername: github.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: GunService}, reality-opts: {public-key: FWitre1jinQR7qz5HQ0q2Q4Gg9xA9B0SyizCziN7Ch0, short-id: 457fab2ac885dbe0}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇮🇹 9, server: 149.202.57.89, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: rgiw5k0gg5, servername: rgiw5k0gg5-1492025789-direct.kheibarr.com, host: rgiw5k0gg5-1492025789-direct.kheibarr.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -502,25 +500,23 @@ proxy-groups:
     type: select
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -528,25 +524,23 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -554,25 +548,23 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -589,25 +581,23 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -615,25 +605,23 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -641,25 +629,23 @@ proxy-groups:
     interval: 600
     proxies:
       - "@V2rayng_Fast"
+      - Tel@V2rayng_Fast 🇮🇹
+      - Tel@V2rayng_Fast 🇮🇹 2
+      - "@V2rayng_Fast `"
+      - Tel@V2rayng_Fast 🇮🇹`
+      - Tel@V2rayng_Fast 🇮🇹 3
+      - Tel@V2rayng_Fast 🇮🇹 4
+      - Tel@V2rayng_Fast 🇮🇹 5
       - "@V2rayng_Fast 2"
-      - Tel@V2rayng_Fast 🇫🇷
+      - Tel@V2rayng_Fast 🇮🇹 6
       - "@V2rayng_Fast 3"
       - "@V2rayng_Fast 4"
-      - "@V2rayng_Fast `"
-      - Tel@V2rayng_Fast 🇫🇷 2
-      - Tel@V2rayng_Fast 🇫🇷 3
-      - Tel@V2rayng_Fast 🇫🇷 4
-      - Tel@V2rayng_Fast 🇫🇷 5
-      - Tel@V2rayng_Fast 🇫🇷 6
-      - Tel@V2rayng_Fast 🇫🇷 7
-      - Tel@V2rayng_Fast 🇫🇷 8
       - "@V2rayng_Fast 5"
-      - Tel@V2rayng_Fast 🇫🇷`
-      - Tel@V2rayng_Fast 🇫🇷 9
       - "@V2rayng_Fast 6"
+      - Tel@V2rayng_Fast 🇮🇹 7
       - "@V2rayng_Fast 7"
-      - "@V2rayng_Fast 8"
-      - "@V2rayng_Fast 9"
+      - Tel@V2rayng_Fast 🇮🇹 8
+      - Tel@V2rayng_Fast 🇮🇹 9
   - name: دانلود منیجر 📥
     type: select
     proxies:
