@@ -481,14 +481,11 @@ proxies:
   - {name: "@filembad 4", server: 195.26.26.148, port: 17046, type: vmess, uuid: 5fa81b59-214d-4d6e-9397-e3914926ed21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 5", server: 195.26.26.148, port: 54588, type: vmess, uuid: 5fa81b59-214d-4d6e-9397-e3914926ed21, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@filembad 6", server: 2001:bc8:32d7:1a9::3, port: 18901, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true, tfo: false}
-  - {name: "@filembad 7", server: 2001:bc8:32d7:1a9::3, port: 18901, type: vmess, uuid: 3a966d20-7b9d-48cc-ba2c-8d38161b6d3a, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /github.com/Alvin9999-newpac/fanqiang}, udp: true, tfo: false}
-  - {name: "@filembad 8", server: 37.27.65.125, port: 25514, type: vmess, uuid: c512c69f-e7f4-42ec-9173-9f88950e8886, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /@BlueKnight_Net--@BlueKnight_Net--@BlueKnight_Net--@BlueKnight_Net--vmess, headers: {Host: 37.27.65.125}}, udp: true, tfo: false}
-  - {name: "@filembad 9", server: dashboard.ojeshop.top, port: 5380, type: vmess, uuid: 63ad66f6-b7a6-4df0-bf15-0c82a047b7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 10", server: dashboard.ojeshop.top, port: 5380, type: vmess, uuid: 8c8960f8-1e29-48a0-bb61-956c9e5a91af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 11", server: dashboard.ojestore.top, port: 5381, type: vmess, uuid: 63ad66f6-b7a6-4df0-bf15-0c82a047b7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 12", server: dashboard.ojestore.top, port: 5381, type: vmess, uuid: 8c8960f8-1e29-48a0-bb61-956c9e5a91af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 13", server: ger-1.berzulo.ir, port: 50407, type: vmess, uuid: 29c6f854-2068-4899-8d68-7a5f0ffb92d1, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@filembad 14", server: lito.1.povrak.ir, port: 30663, type: vmess, uuid: d7b9fe42-6116-466e-b0b5-bd83ff827a91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 7", server: dashboard.ojeshop.top, port: 5380, type: vmess, uuid: 63ad66f6-b7a6-4df0-bf15-0c82a047b7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 8", server: dashboard.ojeshop.top, port: 5380, type: vmess, uuid: 8c8960f8-1e29-48a0-bb61-956c9e5a91af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 9", server: dashboard.ojestore.top, port: 5381, type: vmess, uuid: 63ad66f6-b7a6-4df0-bf15-0c82a047b7e3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 10", server: dashboard.ojestore.top, port: 5381, type: vmess, uuid: 8c8960f8-1e29-48a0-bb61-956c9e5a91af, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@filembad 11", server: lito.1.povrak.ir, port: 30663, type: vmess, uuid: d7b9fe42-6116-466e-b0b5-bd83ff827a91, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -526,9 +523,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -556,9 +550,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -586,9 +577,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -625,9 +613,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -655,9 +640,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -685,9 +667,6 @@ proxy-groups:
       - "@filembad 9"
       - "@filembad 10"
       - "@filembad 11"
-      - "@filembad 12"
-      - "@filembad 13"
-      - "@filembad 14"
   - name: دانلود منیجر 📥
     type: select
     proxies:
