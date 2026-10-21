@@ -465,9 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 104.21.200.224:443, server: 104.21.200.224, port: 443, type: trojan, password: 50414e45-4c5f-5a45-5553-a0ce99682025, sni: 7pzcmuemuf6s.mahdi1395ra.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/a0ce99682025, headers: {Host: 7pzcmuemuf6s.mahdi1395ra.workers.dev}}, udp: true, tfo: false}
-  - {name: 104.20.45.141:443, server: 104.20.45.141, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa, servername: razk50e1uvss.amirhoseyn-meshki.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/7e7818beb9aa, headers: {Host: razk50e1uvss.amirhoseyn-meshki.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 197460 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.20.45.141, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-7e7818beb9aa, servername: razk50e1uvss.amirhoseyn-meshki.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/7e7818beb9aa, headers: {Host: razk50e1uvss.amirhoseyn-meshki.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
@@ -485,9 +482,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
@@ -495,9 +489,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
@@ -505,9 +496,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: اتصال پایدار 🔗
     type: url-test
@@ -524,9 +512,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
@@ -534,9 +519,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
@@ -544,9 +526,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 104.21.200.224:443
-      - 104.20.45.141:443
-      - 197460 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: دانلود منیجر 📥
     type: select
