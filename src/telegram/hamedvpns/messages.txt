@@ -1,60 +1,115 @@
 # آرشیو کانال: @hamedvpns
-بروزرسانی: 2026-10-20 02:43:11 UTC
+بروزرسانی: 2026-10-21 14:51:54 UTC
 
-### 🕒 2026-10-20 02:16:00 UTC
+### 🕒 2026-10-21 14:01:04 UTC
 ***🚨***
 [ᑎΞᗯ ᑌᑭᗪᗩTΞ](https://lastest-update.pages.dev/)
 ***🚀***
  نسخه جدید منتشر شد برای 
-[**husi**](https://github.com/xchacha20-poly1305/husi)
+[**thefeed**](https://github.com/sartoopjj/thefeed)
 :
-***🧪***
+***✅***
  
-**v2.3.0**
- (v2.3.0) [Pre-release]
-## What's Changed
-* fix(linux): label husi-core bin_t through an SELinux module by 
-[@xchacha20](https://t.me/xchacha20)
--poly1305 in 
-[https://github.com/xchacha20-poly1305/husi/pull/993](https://github.com/xchacha20-poly1305/husi/pull/993)
-* feat: add Tailscale and Tailcat profiles by 
-[@xchacha20](https://t.me/xchacha20)
--poly1305 in 
-[https://github.com/xchacha20-poly1305/husi/pull/1008](https://github.com/xchacha20-poly1305/husi/pull/1008)
-**Full Changelog**: 
-[https://github.com/xchacha20-poly1305/husi/compare/v2.2.0...v2.3.0](https://github.com/xchacha20-poly1305/husi/compare/v2.2.0...v2.3.0)
+**v0.38.4**
+ (v0.38.4)
+رفع باگ فعال سازی سرور های چت توی حالتی که یکی از سرور ها قطع هست
+Fixed a bug in chat server activation that occurred when one of the servers was down.
+## Install
+[![Google Play](
+[https://img.shields.io/badge/Google%20Play-Install-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white](https://img.shields.io/badge/Google%20Play-Install-3DDC84?style=for-the-badge&logo=googleplay&logoColor=white)
+)](https://play.google.com/store/apps/details?id=com.thefeed.android)
+[![TestFlight](
+[https://img.shields.io/badge/iOS-TestFlight%20beta-0D96F6?style=for-the-badge&logo=apple&logoColor=white](https://img.shields.io/badge/iOS-TestFlight%20beta-0D96F6?style=for-the-badge&logo=apple&logoColor=white)
+)](https://test...
+(متن کامل در گیت‌هاب)
 ***🔗***
  
-[مشاهده در گیت‌هاب](https://github.com/xchacha20-poly1305/husi/releases/tag/v2.3.0)
+[مشاهده در گیت‌هاب](https://github.com/sartoopjj/thefeed/releases/tag/v0.38.4)
 [𓄂𓆃](https://t.me/update_releases)
 
 ---
 
-### 🕒 2026-10-20 02:15:45 UTC
-***🚨***
-[ᑎΞᗯ ᑌᑭᗪᗩTΞ](https://lastest-update.pages.dev/)
-***🚀***
- نسخه جدید منتشر شد برای 
-[**lantern**](https://github.com/getlantern/lantern)
-:
-***🧪***
+### 🕒 2026-10-21 10:41:46 UTC
+**ببینید اگه سایت **
+***👇***
+***👇***
+***👇***
+[https://cloudflare-ech.com](https://cloudflare-ech.com/)
+براتون تو مرورگر باز میشه یعنی همچنان روش ECH کار میکنه و دامنش قابل استفادس ، الان فقط اومدن جلوگیری کردن از اینکه شما بتونید از طریق plain DNS کلید ECH رو بگیرید.
+که خب من از قبل فکرش رو کرده بودم و echSockopt رو در هسته‌ی اصلی Xray-core و echOutbound رو در PattN/PattNG پیاده سازی کرده بودم.
+///
+[دانلود نسخه جدید Pattng ***👉***](https://t.me/patt_channel_x/185)
+***👉***
+بنابراین برای استفاده از روش ECH در حال حاضر کافیه قسمت های زیر را بزنید به جاهای مورد نظر :
+echConfigList :
+`cloudflare-ech.com+h2c://1.1.1.1/dns-query`
+و قسمت
+echOutbound :
+{
+      "tag": "tls-repack-dns",
+      "protocol": "direct",
+      "settings": {
+        "redirect": "1.1.1.1:443"
+      },
+      "streamSettings": {
+        "security": "tls",
+        "tlsSettings": {
+          "serverName": "www.microsoft.com",
+          "verifyPeerCertByName": "fromMitM,www.microsoft.com",
+          "alpn": ["fromMitM"],
+          "fingerprint": "chrome"
+        }
+      }
+    }
+قرار بدید ، از آخرین نسخه PattN و PattNG هم استفاده کنید. 
+(PattNG P67, PattN P34)
+///
+اگر کارهای بنده باعث اتصال شما شده، امیدوارم برای انگیزه‌ی بیشتر برای ادامه‌ی راه حمایت فراموش نشه 
+***🙏***
+کانال توسعه دهنده :
+[@patt_channel_x](https://t.me/patt_channel_x)
+***❤️***
+ اشتراک گذاری یادتون نره 
+***🌈***
+‌‌
+[@hamedvpns](https://t.me/hamedvpns)
  
-**Beta 10.0.3-beta-9**
- (v10.0.3-beta-9) [Pre-release]
-# Lantern v10.0.3-beta-9 Release Notes
-## Action Mode Improvements
-- Enhanced Action Mode to display relayed data statistics for direct sharing
-- Added sharing mode naming and improved country count reporting for direct-mode connections
-## Bug Fixes
-- Fixed stale network resets that occurred after reconnecting on macOS
-- Resolved Windows build issue with constexpr std::mutex constructor
-- Prevented tunnel self-dial loops by rejecting TUN flows addressed to the tunnel's own subnet
-## Core Infr...
-(متن کامل در گیت‌هاب)
-***🔗***
+***☑️***
+لایک   |   Like 
+***👍***
+***❤️***
+اشتراک بزارین   |   Share 
+***⭐***
+
+---
+
+### 🕒 2026-10-21 05:35:11 UTC
+کانفیگ نت ملی WhiteDNS
+برای شرایط نت ملی 
+***🔥***
+حتماً نسخه نهایی برنامه رو داشته باشید
+soar://eyJzY2hlbWEiOiJ3aGl0ZWRucy5wcm9maWxlIiwidmVyc2lvbiI6MSwicHJvZmlsZSI6eyJuYW1lIjoiaGFtZWR2cG5zIOKchSIsInNlcnZlciI6eyJkb21haW4iOiJyYmxoNm5vMnhwNGRuM3VncHJ6d3AybnE2ZS5zb2FyLm1lb3dkaWFuYS5sb2wiLCJwdWJsaWNfa2V5IjoiZ0QxaHltUWJWQ29kdEVqVW5pMlVtbFNIeHNcL2IxYjhvV3c3UCtvbTJsXC9rPSJ9LCJzb2FyU2V0dGluZ3MiOnsidHJhbnNwb3J0IjoiYXV0byIsImRpc2NvdmVyeSI6dHJ1ZSwiY291bnRyeSI6IklSIiwiZGlzY292ZXJ5V2FudCI6MiwiZGlzY292ZXJ5Q29uY3VycmVuY3kiOjIsImRpc2NvdmVyeVBhY2VNcyI6MTAwMCwic2FmZVFOYW1lIjoxMDEsIm1heFFOYW1lIjoyNTMsIm1heEFuc3dlciI6MTIzMiwiaG9sZE1zIjo1MDAsIm1heEluZmxpZ2h0IjoxMjgsIm1heFBhdGhXaW5kb3ciOjMyLCJtYXhTdHJlYW1zIjoxMjgsInN0cmVhbVdpbmRvd0tpQiI6MjU2LCJzZW5kQnVmZmVyS2lCIjo2NCwic2Vzc2lvbklkbGVTZWNvbmRzIjo5MCwiZGlhbFRpbWVvdXRTZWNvbmRzIjo5MH0sInJlc29sdmVycyI6WyIxLjEuMS4xIiwiOC44LjguOCJdfX0
+..
+لینک گیتهاب جهت دانلود :
+[https://github.com/WhiteDNS/WhiteDNS-Android/releases](https://github.com/WhiteDNS/WhiteDNS-Android/releases)
+جهت استفاده در آیفون :
+[https://testflight.apple.com/join/3htm1Whc](https://testflight.apple.com/join/3htm1Whc)
+برای استفاده بدون مشکل باید Resolver داشته باشید که بعداً یه لیست سالم میزارم تا داخل برنامه وارد کنید ، خلاصه از الان آماده بشید .
+تنظیمات پروفایل برنامه جهت کارکرد بهتر ، از قسمت پروفایل سپس settings و گزینه import رو بزنید ، یک اسم بزنید و کد رو در محل خود بزنید و اضافه کنید :
+[https://t.me/hamedgrp/376740](https://t.me/hamedgrp/376740)
+..
+***❤️***
+ اشتراک گذاری یادتون نره 
+***🌈***
+‌‌
+[@hamedvpns](https://t.me/hamedvpns)
  
-[مشاهده در گیت‌هاب](https://github.com/getlantern/lantern/releases/tag/v10.0.3-beta-9)
-[𓄂𓆃](https://t.me/update_releases)
+***☑️***
+لایک   |   Like 
+***👍***
+***❤️***
+اشتراک بزارین   |   Share 
+***⭐***
 
 ---
 

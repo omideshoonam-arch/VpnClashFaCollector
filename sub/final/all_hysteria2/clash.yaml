@@ -465,8 +465,9 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 153.56.210.134:34121, server: 153.56.210.134, port: 34121, type: hysteria2, ports: 34121, password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9, obfs: salamander, obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 197884 | ⚡️Telegram - t.me/SOSkeyNET, server: 153.56.210.134, port: 34121, type: hysteria2, ports: 34121, password: c8ed6cd1-6566-4f7a-819e-1c55b2b360c9, obfs: salamander, obfs-password: 9a33460c-b037-47aa-a606-d04211f4e0ec, sni: www.bing.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: configraygan-2, server: 179.61.138.145, port: 36264, type: hysteria2, ports: 36264, password: Telegram%3Avpnjey, obfs: salamander, obfs-password: Telegram%40vpnjey, sni: de2.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 197534 | ⚡️Telegram - t.me/SOSkeyNET, server: 179.61.138.145, port: 36264, type: hysteria2, ports: 36264, password: Telegram%3Avpnjey, obfs: salamander, obfs-password: Telegram%40vpnjey, sni: de2.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +484,27 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +520,27 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 153.56.210.134:34121
+      - 197884 | ⚡️Telegram - t.me/SOSkeyNET
       - configraygan-2
-      - 197534 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
