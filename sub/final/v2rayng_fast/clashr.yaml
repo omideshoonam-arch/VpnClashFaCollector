@@ -16,7 +16,6 @@ proxies:
   - {name: "@V2rayng_Fast 7", server: de2w5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: bfd2ae15-1742-4d75-9e3a-495112b7b405, servername: de2xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, alpn: [http%2F1.1], host: de2xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 8", server: de4w5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: bfd2ae15-1742-4d75-9e3a-495112b7b405, servername: de4xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, alpn: [http%2F1.1], host: de4xw5oeehlkqd7wq0i9cfhq87oe2lwd7b.nodenix.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@V2rayng_Fast 9", server: us1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: bfd2ae15-1742-4d75-9e3a-495112b7b405, servername: usx1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir, alpn: [http%2F1.1], host: usx1g9zmvwp2okc6m2zrzpeo8l26jhey7l.fanavarancenter24.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast⚡`", server: 146.75.59.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dc7d45c9-c942-41e3-b880-9a7fd5b64e2f, servername: firefox.com, network: ws, ws-opts: {path: /, headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -34,7 +33,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -52,7 +50,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -70,7 +67,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -87,7 +83,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -104,7 +99,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -121,7 +115,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -160,7 +153,6 @@ proxy-groups:
       - "@V2rayng_Fast 7"
       - "@V2rayng_Fast 8"
       - "@V2rayng_Fast 9"
-      - "@V2rayng_Fast⚡`"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

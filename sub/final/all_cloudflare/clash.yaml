@@ -468,7 +468,6 @@ proxies:
   - {name: 104.21.5.155:443, server: 104.21.5.155, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0548782b-ab25-456f-a11b-099932e2a877, servername: filE-IO-5E675D-eDG.VshEJeGEHje.WorKErs.deV, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: filE-IO-5E675D-eDG.VshEJeGEHje.WorKErs.deV}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 197954 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.21.5.155, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0548782b-ab25-456f-a11b-099932e2a877, servername: filE-IO-5E675D-eDG.VshEJeGEHje.WorKErs.deV, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: filE-IO-5E675D-eDG.VshEJeGEHje.WorKErs.deV}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@MARAMBASHI 🇧🇷, server: 116.204.164.17, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: ef8907eb-8bb5-4735-80f2-1d0068500d95, servername: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: ke859ch2gse1iery3hiz.e3q4a5mjld11kpj0zj8dq.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,7 +487,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -498,7 +496,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -508,7 +505,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -527,7 +523,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -537,7 +532,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -547,7 +541,6 @@ proxy-groups:
       - 104.21.5.155:443
       - 197954 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - Tel@MARAMBASHI 🇧🇷
   - name: دانلود منیجر 📥
     type: select
     proxies:
