@@ -8,7 +8,6 @@ proxies:
   - {name: "@Capoit`", server: 176.98.189.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 689a62e4-37e7-41de-9e6a-f2a56368c9e2, servername: www.surf.nl, host: www.surf.nl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: XPXSq5nNCKDPwA_yk6AcOPRWC33E6APbjz_BaVJclzA, short-id: 61}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Capoit` 2", server: 18.168.90.187, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Capoit` 3", server: 18.168.90.187, port: 22224, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Capoit` 4", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f2a1f964-7cfb-435f-abb2-2969bd595c75, servername: firefox.com, network: ws, ws-opts: {path: /, headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,7 +17,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -28,7 +26,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -38,7 +35,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: 📲 电报信息
     type: select
     proxies:
@@ -47,7 +43,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -56,7 +51,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -65,7 +59,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -96,7 +89,6 @@ proxy-groups:
       - "@Capoit`"
       - "@Capoit` 2"
       - "@Capoit` 3"
-      - "@Capoit` 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
