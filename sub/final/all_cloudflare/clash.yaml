@@ -465,8 +465,6 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 162.120.94.71:443, server: 162.120.94.71, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-71957a15d4e5, servername: oizs5zecux0s.pouriayy1.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/71957a15d4e5/loc-0, headers: {Host: oizs5zecux0s.pouriayy1.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 198867 | ⚡️Telegram - t.me/SOSkeyNET, server: 162.120.94.71, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-71957a15d4e5, servername: oizs5zecux0s.pouriayy1.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/71957a15d4e5/loc-0, headers: {Host: oizs5zecux0s.pouriayy1.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 185.207.196.30:8880, server: 185.207.196.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: "/?ed", headers: {Host: vms.lifetime11.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 198920 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.207.196.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: "/?ed", headers: {Host: vms.lifetime11.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 45.142.120.30:8880, server: 45.142.120.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime08.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -488,8 +486,6 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
@@ -501,8 +497,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
@@ -514,8 +508,6 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
@@ -536,8 +528,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
@@ -549,8 +539,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
@@ -562,8 +550,6 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 162.120.94.71:443
-      - 198867 | ⚡️Telegram - t.me/SOSkeyNET
       - 185.207.196.30:8880
       - 198920 | ⚡️Telegram - t.me/SOSkeyNET
       - 45.142.120.30:8880
