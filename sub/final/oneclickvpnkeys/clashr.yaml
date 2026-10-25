@@ -6,21 +6,9 @@ log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
   - {name: 97@oneclickvpnkeys, server: 103.88.243.142, port: 11592, type: hysteria2, ports: 11592, password: 41edb44c8e, sni: srv-17e124.21freedom.net, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 71@oneclickvpnkeys, server: 144.31.230.51, port: 2053, type: hysteria2, ports: 2053, password: 78559873-84ef-4cab-a0b2-46d4cd20de4a, sni: sweden.luxes.network, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 62@oneclickvpnkeys, server: 2.26.48.112, port: 2053, type: hysteria2, ports: 2053, password: 78559873-84ef-4cab-a0b2-46d4cd20de4a, sni: noway.luxes.network, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 91@oneclickvpnkeys, server: 103.91.147.208, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0b6a937e-5b0e-49ca-b31e-f03f290e97cf, servername: gb.ozon.ru, host: gb.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 66@oneclickvpnkeys, server: 185.119.81.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2f5cfa10-43e5-4912-800d-557308a26a29, servername: ht689zw45oor.cloudydigital.net, host: ht689zw45oor.cloudydigital.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9BUlinkTIxNgD2Em4KShtEbXOjBKvz2mDwT1VqoeR1k, short-id: 80c4e0bda641d6c9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 67@oneclickvpnkeys, server: 5.175.161.229, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 3d87029f-b55b-487d-aea6-6049c8668ff1, servername: www.bmw.com, host: www.bmw.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: a5fyDdAxG-lU54h4F5KPPa-CuCswv9EBAuXYKdmcnjE, short-id: f7a5b6b3bb04abb6}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 100@oneclickvpnkeys`, server: ee1.mycloud1.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 605dea9b-b485-45c9-af9b-cc2b0195023c, servername: ee1.mycloud1.org, host: ee1.mycloud1.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: Su5ULcRQKF-0DJIHZeTNEnXHBpyQtizmUrcNIYhZI0E, short-id: afee962d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 98@oneclickvpnkeys, server: 188.225.27.229, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 66dc1927-8528-4f1e-bb74-5a9c7aa8ea8c, servername: bridge.rkitman.ru, host: bridge.rkitman.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 8C7evg_SSrJbxMTaUqJoylqB9HSNsmBvmUlgs_c5EiU, short-id: 88d9dc52ef39c8bd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 64@oneclickvpnkeys, server: 179.255.190.43, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 78559873-84ef-4cab-a0b2-46d4cd20de4a, servername: itly.yandex-api.store, network: ws, ws-opts: {path: /assets, headers: {Host: itly.yandex-api.store}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 72@oneclickvpnkeys, server: 31.77.17.148, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 78559873-84ef-4cab-a0b2-46d4cd20de4a, servername: finp2g.yandex-api.store, network: ws, ws-opts: {path: /assets, headers: {Host: finp2g.yandex-api.store}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 65@oneclickvpnkeys, server: 103.91.147.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b, servername: gb.ozon.ru, host: gb.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 68@oneclickvpnkeys, server: 45.151.71.142, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b, servername: gb.ozon.ru, host: gb.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 63@oneclickvpnkeys, server: 45.151.71.147, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b, servername: abuse.ozon.ru, host: abuse.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 61@oneclickvpnkeys, server: 45.151.71.152, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b, servername: abuse.ozon.ru, host: abuse.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 74@oneclickvpnkeys, server: 45.151.71.164, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8a1f8853-9a71-4ef2-a64c-4f0a94c2e14b, servername: abuse.ozon.ru, host: abuse.ozon.ru, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 73@oneclickvpnkeys, server: hw3.divarkhaghazi.com, port: 465, type: vless, tls: true, packet-encoding: xudp, uuid: 924e20da-fcad-4e7e-8113-c62d27a0d01e, servername: hw3.divarkhaghazi.com., alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: hw3.divarkhaghazi.com.}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -28,21 +16,9 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -50,21 +26,9 @@ proxy-groups:
     tolerance: 50
     proxies:
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -72,84 +36,36 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -178,21 +94,9 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - 97@oneclickvpnkeys
-      - 71@oneclickvpnkeys
-      - 62@oneclickvpnkeys
       - 91@oneclickvpnkeys
-      - 66@oneclickvpnkeys
-      - 67@oneclickvpnkeys
       - 100@oneclickvpnkeys`
       - 98@oneclickvpnkeys
-      - 64@oneclickvpnkeys
-      - 72@oneclickvpnkeys
-      - 65@oneclickvpnkeys
-      - 68@oneclickvpnkeys
-      - 63@oneclickvpnkeys
-      - 61@oneclickvpnkeys
-      - 74@oneclickvpnkeys
-      - 73@oneclickvpnkeys
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
