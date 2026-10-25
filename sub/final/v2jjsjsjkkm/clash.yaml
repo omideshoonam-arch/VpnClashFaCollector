@@ -465,14 +465,10 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@mehrosaboran`", server: 20.164.216.208, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: tM0sV3CrjAU0nokd, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 188.114.97.6, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 188.114.98.0, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: www.speedtest.net, port: 443, type: trojan, password: humanity, sni: www.calmlunch.com, skip-cert-verify: false, network: ws, ws-opts: {path: "/assignment?ed#Telegram---mehrosaboran", headers: {Host: www.calmlunch.com}}, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 199.232.78.170, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-19", servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: "%58pnTeam-20", servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 6", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/cart/docs/www/proxyip?ed#Telegram---bored_vpn", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 7", server: 172.67.155.65, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: e6df2095-a73c-4043-8693-8d5a03686870, servername: lucasjow.us.ci, network: ws, ws-opts: {path: "/cart/docs/www/proxyip?ed#Telegram---mehrosaboran", headers: {Host: lucasjow.us.ci}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran", server: 146.75.59.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cd07%61%650d-f31d-4209-%610%614-d9d9cfcc%611%61d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran`", server: 167.82.64.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cd07%61%650d-f31d-4209-%610%614-d9d9cfcc%611%61d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cd07%61%650d-f31d-4209-%610%614-d9d9cfcc%611%61d, servername: firefox.com, network: ws, ws-opts: {path: /, headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@mehrosaboran 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: cd07%61%650d-f31d-4209-%610%614-d9d9cfcc%611%61d, servername: firefox.com, network: ws, ws-opts: {path: /, headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -489,42 +485,30 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -540,42 +524,30 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - "@mehrosaboran`"
       - "@mehrosaboran"
+      - "@mehrosaboran`"
       - "@mehrosaboran 2"
       - "@mehrosaboran 3"
-      - "@mehrosaboran 4"
-      - "@mehrosaboran 5"
-      - "@mehrosaboran 6"
-      - "@mehrosaboran 7"
   - name: دانلود منیجر 📥
     type: select
     proxies:
