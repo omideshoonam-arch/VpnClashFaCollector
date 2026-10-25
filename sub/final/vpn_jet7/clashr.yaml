@@ -5,42 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: �Vpn_jet7**, server: xn-de-b.rzfp.ir, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: a3ff64a8-27a9-4125-9034-eb41ee5c539b, host: ftp.heanet.ie, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: �Vpn_jet7** 2, server: xn-fn-a.rzfp.ir, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: a3ff64a8-27a9-4125-9034-eb41ee5c539b, servername: nobitex.ir, host: nobitex.ir, path: /, reality-opts: {public-key: ZfP-KT8t5i8g6jDylAgdUkEZe-b-ozzAG8UEZDHn0hc, short-id: 377d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@vpn_jet7**", server: edge10.cyrionflare.com, port: 2052, type: vless, tls: true, packet-encoding: xudp, uuid: 1a8ecc41-6e62-431b-8eca-87c2fa4dc286, host: edge10.cyrionflare.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - "@vpn_jet7**"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - DIRECT
+      - "@vpn_jet7**"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - "@vpn_jet7**"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@vpn_jet7**"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - "@vpn_jet7**"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - "@vpn_jet7**"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -68,6 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - "@vpn_jet7**"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
