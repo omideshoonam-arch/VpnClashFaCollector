@@ -5,7 +5,9 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@Capoit`", server: r5ycmuko.zibayeman.com, port: 54280, type: hysteria2, ports: 54280, password: f04i31zq8sy80v9b, obfs: salamander, obfs-password: hfwq51con9efdxx6, sni: r5ycmuko.zibayeman.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit`", server: 146.75.57.238, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5ec50dc8-fba8-42ad-b427-e51193bc5c2a, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5ec50dc8-fba8-42ad-b427-e51193bc5c2a, servername: firefox.com, network: ws, ws-opts: {path: /, headers: {Host: firefox.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@Capoit` 3", server: 2.27.118.10, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d9fe2431-8351-41eb-b956-75d96dec5d4a, servername: ph-nl-s3784.cybercat.network, host: ph-nl-s3784.cybercat.network, path: /, reality-opts: {public-key: goey7Sc4Xm6Nvdukb_DuoUnrkPSV0p4hPWbAmk2_AHc, short-id: ecf1d9f7caa6ba67}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -13,6 +15,8 @@ proxy-groups:
       - ♻️ 自动选择
       - DIRECT
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -20,6 +24,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -27,24 +33,32 @@ proxy-groups:
       - ♻️ 自动选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -73,6 +87,8 @@ proxy-groups:
       - 🎯 全球直连
       - ♻️ 自动选择
       - "@Capoit`"
+      - "@Capoit` 2"
+      - "@Capoit` 3"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
