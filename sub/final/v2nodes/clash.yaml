@@ -465,13 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: tjflb.m2k699.com:24999, server: tjflb.m2k699.com, port: 24999, type: trojan, password: 29086912-33e4-4e06-ba2b-60f1a195864f, sni: www.itunes.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 77.232.135.141:8445, server: 77.232.135.141, port: 8445, type: vless, tls: true, packet-encoding: xudp, uuid: 36cf792c-f07d-4500-97ea-a395e5178deb, servername: ru1.radiolumens.uk, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: beru-pl}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.143.188.31:443, server: 13.143.188.31, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc, servername: ae9pzoazs7.hat.onl, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: v1.segment.YI61ONxTtmADr1b7.ts}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.143.191.7:443, server: 13.143.191.7, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc, servername: edv6f206j8ujw.hat.onl, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: v1.segment.mNoQuDdqMKJm1Jo7.ts}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 150.241.72.161:443, server: 150.241.72.161, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc, servername: b6i5po18lw.hat.onl, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: live.gpuwxc84nl.chunk-4022.m4s}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 2.27.244.55:443, server: 2.27.244.55, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc, servername: qbak5xqeb.hat.onl, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: media.uxvgqd.v1.PlaybackStream}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31.59.217.109:443, server: 31.59.217.109, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7f6adf9d-42f1-4fec-ab22-fb7f66bf3adc, servername: h8cbtdld3jxdky.hat.onl, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: hls.k1fr-s7fk.-hsMuCFam2-SF7Uu4JPQIhJUdKc.m3u8}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: hinet1.2yly.com:24215, server: hinet1.2yly.com, port: 24215, type: vless, tls: true, packet-encoding: xudp, uuid: 19d5a678-8396-4e3b-93da-ece618d0e83a, servername: addons.mozilla.org, host: addons.mozilla.org, path: /, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -488,39 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -536,39 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - tjflb.m2k699.com:24999
-      - 77.232.135.141:8445
-      - 13.143.188.31:443
-      - 13.143.191.7:443
-      - 150.241.72.161:443
-      - 2.27.244.55:443
-      - 31.59.217.109:443
+      - hinet1.2yly.com:24215
   - name: دانلود منیجر 📥
     type: select
     proxies:
