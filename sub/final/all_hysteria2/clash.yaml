@@ -474,9 +474,6 @@ proxies:
   - {name: 202161 | ⚡️Telegram - t.me/SOSkeyNET, server: 217.60.72.225, port: 443, type: hysteria2, ports: 443, password: 329e13e4-ee7c-4802-ac72-5fcab79c2402, sni: forshynewh.duckdns.org, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 63@oneclickvpnkeys, server: 217.60.72.225, port: 443, type: hysteria2, ports: 443, password: 329e13e4-ee7c-4802-ac72-5fcab79c2402, sni: forshynewh.duckdns.org, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 202216 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.15.16.68, port: 37186, type: hysteria2, ports: 37186, password: capadm54312235%3AJdypYweuDQOrFqWTcFAL6aFq, obfs: salamander, obfs-password: ypvL8T4HFIBLoH8q, sni: vpn.local, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 202004 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.75.118.79, port: 20230, type: hysteria2, ports: 20230, password: de698ab0-709d-413f-b21f-a914e5e7c603, obfs: salamander, obfs-password: a56415ff1be77383, sni: www.google.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 202037 | ⚡️Telegram - t.me/SOSkeyNET, server: 91.196.32.163, port: 443, type: hysteria2, ports: 443, password: mkL3AfdSZIpTWRB9TcWPn9vywPGN89MRHg3ToRDj, sni: germany3.h2corp.local, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 202038 | ⚡️Telegram - t.me/SOSkeyNET, server: 46.229.243.131, port: 8443, type: hysteria2, ports: 8443, password: s0_sdK93x9wer_D02Lz9cvK3_Sa014Oakl_C2z, sni: grape-turbo-fr.roxa.org, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -502,9 +499,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -520,9 +514,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -538,9 +529,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -565,9 +553,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -583,9 +568,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -601,9 +583,6 @@ proxy-groups:
       - 202161 | ⚡️Telegram - t.me/SOSkeyNET
       - 63@oneclickvpnkeys
       - 202216 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202004 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202037 | ⚡️Telegram - t.me/SOSkeyNET
-      - 202038 | ⚡️Telegram - t.me/SOSkeyNET
   - name: دانلود منیجر 📥
     type: select
     proxies:
