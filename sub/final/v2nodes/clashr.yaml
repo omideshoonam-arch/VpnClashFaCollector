@@ -5,53 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 66.163.114.132:443, server: 66.163.114.132, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.findconnectwithemployersandbuildprofessionalnetwork.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: tau1.freerunet.online:443, server: tau1.freerunet.online, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ca14493b-b984-4ffb-bc0e-9cb5da969e15, servername: tau1.freerunet.online, host: tau1.freerunet.online, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: l1mx_plNc2oiWxJCcZLh3SGfFU-5QxYpgQ__Ea59WEg, short-id: 4a7b1c8d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 66.163.122.7:443, server: 66.163.122.7, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.searchnationwidecareerchangehelperandguidancetoday.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -79,8 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 66.163.114.132:443
-      - tau1.freerunet.online:443
+      - 66.163.122.7:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
