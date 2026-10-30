@@ -5,851 +5,1047 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ser1.plasmoon.ir:2028, server: ser1.plasmoon.ir, port: 2028, type: ss, cipher: 2022-blake3-aes-128-gcm, password: UVqvTTy4pr77CJ2linjEnA==:1O/NBO00IM5iR3cdPW1JOw==, udp: true, tfo: false}
-  - {name: "@filembad`", server: ser1.plasmoon.ir, port: 2028, type: ss, cipher: 2022-blake3-aes-128-gcm, password: UVqvTTy4pr77CJ2linjEnA==:8qSj542xKUIn6p0pU1ahNg==, udp: true, tfo: false}
-  - {name: ser1.plasmoon.ir:2028 2, server: ser1.plasmoon.ir, port: 2028, type: ss, cipher: 2022-blake3-aes-128-gcm, password: UVqvTTy4pr77CJ2linjEnA==:8qSj542xKUIn6p0pU1ahNg==, udp: true, tfo: false}
-  - {name: "@filembad` 2", server: ser1.plasmoon.ir, port: 2028, type: ss, cipher: 2022-blake3-aes-128-gcm, password: UVqvTTy4pr77CJ2linjEnA==:8qSj542xKUIn6p0pU1ahNg==, udp: true, tfo: false}
-  - {name: 202944 | ⚡️Telegram - t.me/SOSkeyNET, server: ser1.plasmoon.ir, port: 2028, type: ss, cipher: 2022-blake3-aes-128-gcm, password: UVqvTTy4pr77CJ2linjEnA==:8qSj542xKUIn6p0pU1ahNg==, udp: true, tfo: false}
-  - {name: "@vpnbaz ☂️", server: 193.29.139.234, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true, tfo: false}
-  - {name: 104.192.227.162:443, server: 104.192.227.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 91LFVJhY6a7f8KeJPeuYln, udp: true, tfo: false}
-  - {name: 202949 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.192.227.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: 91LFVJhY6a7f8KeJPeuYln, udp: true, tfo: false}
+  - {name: "@filembad`", server: 8.211.196.252, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee", server: 8.211.196.252, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: Cg2Dw4OhdBZhqbeO9ZTA3g/Gk/AvsrYZGhAJeGnQIx4=, udp: true, tfo: false}
+  - {name: 216.9.225.189:443, server: 216.9.225.189, port: 443, type: ss, cipher: 2022-blake3-aes-256-gcm, password: Q2YsIzc5YkchSFjsqUZWrQAFtsSpqf7XxYxkG4+Jbsk=:zT1SecPttPY/XPW6NwjK5Wql+/6zbcGSDJK21Jk8uLo=, udp: true, tfo: false}
+  - {name: 193.29.139.234:8080, server: 193.29.139.234, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true, tfo: false}
+  - {name: 203223 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.234, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: 4a2rfixophdjffa8KVA4Aa, udp: true, tfo: false}
+  - {name: 54.179.133.94:8443, server: 54.179.133.94, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true, tfo: false}
+  - {name: 203069 | ⚡️Telegram - t.me/SOSkeyNET, server: 54.179.133.94, port: 8443, type: ss, cipher: chacha20-ietf-poly1305, password: 7e68e32f-8015-4f37-9082-70e8b0b58043, udp: true, tfo: false}
+  - {name: 203551 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.223.57.174, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: 8z2OB_gvFvpKgjFi8s9Cvw, udp: true, tfo: false}
   - {name: "***🌪***-@SPEEDS_VPN1`", server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 141.95.106.127, port: 11201, type: ss, cipher: chacha20-ietf-poly1305, password: 94aae0510188e8c5, udp: true, tfo: false}
-  - {name: dns22.m3hrzd.ir:1349, server: dns22.m3hrzd.ir, port: 1349, type: ss, cipher: chacha20-ietf-poly1305, password: 9GffxAAse8xqYwF9xbFiKhkLq840CVnQ, udp: true, tfo: false}
-  - {name: 203052 | ⚡️Telegram - t.me/SOSkeyNET, server: dns22.m3hrzd.ir, port: 1349, type: ss, cipher: chacha20-ietf-poly1305, password: 9GffxAAse8xqYwF9xbFiKhkLq840CVnQ, udp: true, tfo: false}
-  - {name: "@filembad` 3", server: 20.87.213.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KpIjwx8W2MbSzezl, udp: true, tfo: false}
-  - {name: 203055 | ⚡️Telegram - t.me/SOSkeyNET, server: 20.166.51.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LVMlhvK82To1FGsy, udp: true, tfo: false}
-  - {name: iranspeedteststatus.10326.garqino.ir:10761, server: iranspeedteststatus.10326.garqino.ir, port: 10761, type: ss, cipher: chacha20-ietf-poly1305, password: MFV1OGwo7CN5vKrd37j_EyNSfV-YXq-u, udp: true, tfo: false}
-  - {name: "@filembad` 4", server: iranspeedteststatus.10326.garqino.ir, port: 10761, type: ss, cipher: chacha20-ietf-poly1305, password: MFV1OGwo7CN5vKrd37j_EyNSfV-YXq-u, udp: true, tfo: false}
-  - {name: 203054 | ⚡️Telegram - t.me/SOSkeyNET, server: iranspeedteststatus.10326.garqino.ir, port: 10761, type: ss, cipher: chacha20-ietf-poly1305, password: MFV1OGwo7CN5vKrd37j_EyNSfV-YXq-u, udp: true, tfo: false}
-  - {name: ser2.plasmoon.ir:2027, server: ser2.plasmoon.ir, port: 2027, type: ss, cipher: chacha20-ietf-poly1305, password: MvPwmeQpaYA6qAegSlNr-qED-OgCxKLg, udp: true, tfo: false}
-  - {name: 193.29.139.168:8080, server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: false}
+  - {name: "@filembad` 2", server: dns22.m3hrzd.ir, port: 1349, type: ss, cipher: chacha20-ietf-poly1305, password: D7VAn-qRmggr9bIZXCZbxRQ9nYGfkJ-l, udp: true, tfo: false}
+  - {name: "@filembad` 3", server: dns22.m3hrzd.ir, port: 1353, type: ss, cipher: chacha20-ietf-poly1305, password: D7VAn-qRmggr9bIZXCZbxRQ9nYGfkJ-l, udp: true, tfo: false}
+  - {name: "@filembad` 4", server: dns22.m3hrzd.ir, port: 1354, type: ss, cipher: chacha20-ietf-poly1305, password: D7VAn-qRmggr9bIZXCZbxRQ9nYGfkJ-l, udp: true, tfo: false}
+  - {name: "@filembad` 5", server: dns22.m3hrzd.ir, port: 1355, type: ss, cipher: chacha20-ietf-poly1305, password: D7VAn-qRmggr9bIZXCZbxRQ9nYGfkJ-l, udp: true, tfo: false}
+  - {name: staging.lastilhame.monster:49917, server: staging.lastilhame.monster, port: 49917, type: ss, cipher: chacha20-ietf-poly1305, password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP, udp: true, tfo: false}
+  - {name: 203214 | ⚡️Telegram - t.me/SOSkeyNET, server: staging.lastilhame.monster, port: 49917, type: ss, cipher: chacha20-ietf-poly1305, password: G9ZuLN5DE9qqouTZwYUcvYsDJx8gyL1nCu3N7yRZFjPmYKhzSi8GkpVuexmTHAz2uvcErKkex1K2ceR2GH3L444HRNnN1YpP, udp: true, tfo: false}
+  - {name: "@Vpn_jet7**", server: 20.87.213.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KpIjwx8W2MbSzezl, udp: true, tfo: false}
+  - {name: "@filembad` 6", server: 20.87.213.148, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: KpIjwx8W2MbSzezl, udp: true, tfo: false}
+  - {name: 20.166.51.228:443, server: 20.166.51.228, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: LVMlhvK82To1FGsy, udp: true, tfo: false}
+  - {name: msk2.rvpn.app:8388, server: msk2.rvpn.app, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MODziWLa9qMuW-4yPa0rfw, udp: true, tfo: false}
+  - {name: "@filembad` 7", server: msk2.rvpn.app, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MODziWLa9qMuW-4yPa0rfw, udp: true, tfo: false}
+  - {name: 203445 | ⚡️Telegram - t.me/SOSkeyNET, server: msk2.rvpn.app, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: MODziWLa9qMuW-4yPa0rfw, udp: true, tfo: false}
+  - {name: 57.129.113.16:8388, server: 57.129.113.16, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: NcAXc0UZI6yQJE1p8QmOv8, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🩵 کانال تلگرام", server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: false}
-  - {name: "@filembad` 5", server: 193.29.139.168, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: QCXDxuDlTTMD7jtgHUjIoj, udp: true, tfo: false}
-  - {name: 177.3.93.166:8388, server: 177.3.93.166, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: d61ca0c9-c4de-49d7-bccc-ae6ffb3bf0a3, udp: true, tfo: false}
-  - {name: 203025 | ⚡️Telegram - t.me/SOSkeyNET, server: 177.3.93.166, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: d61ca0c9-c4de-49d7-bccc-ae6ffb3bf0a3, udp: true, tfo: false}
-  - {name: "@filembad` 6", server: 132.243.175.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3, udp: true, tfo: false}
-  - {name: "@filembad` 7", server: dns22.m3hrzd.ir, port: 1346, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
-  - {name: "@filembad` 8", server: dns22.m3hrzd.ir, port: 1348, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
-  - {name: 203059 | ⚡️Telegram - t.me/SOSkeyNET, server: dns22.m3hrzd.ir, port: 1348, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
-  - {name: "@filembad` 9", server: dns22.m3hrzd.ir, port: 1353, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
-  - {name: "@filembad` 10", server: dns8.m3hrzd.ir, port: 8044, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
-  - {name: 203060 | ⚡️Telegram - t.me/SOSkeyNET, server: 130.49.189.54, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: hTTg7lwQMzpaF7KXpY3A8w, udp: true, tfo: false}
-  - {name: "@filembad` 11", server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@filembad` 12", server: 82.38.31.193, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@filembad` 13", server: 82.38.31.195, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@filembad` 14", server: 82.38.31.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@filembad` 15", server: 82.38.31.203, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: " ", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@FarazV2ray 2", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@filembad` 16", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "  2", server: 82.38.31.212, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: 82.38.31.213:8080, server: 82.38.31.213, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "  3", server: 82.38.31.213, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: 202931 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.213, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: 82.38.31.214:8080, server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "  4", server: 82.38.31.214, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: 193.29.139.179:8080, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 203011 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: dns22.m3hrzd.ir:1346, server: dns22.m3hrzd.ir, port: 1346, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: "@filembad` 8", server: dns22.m3hrzd.ir, port: 1346, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: 203375 | ⚡️Telegram - t.me/SOSkeyNET, server: dns22.m3hrzd.ir, port: 1346, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: dns22.m3hrzd.ir:1353, server: dns22.m3hrzd.ir, port: 1353, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: "@filembad` 9", server: dns22.m3hrzd.ir, port: 1353, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: 203376 | ⚡️Telegram - t.me/SOSkeyNET, server: dns22.m3hrzd.ir, port: 1353, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: dns22.m3hrzd.ir:1354, server: dns22.m3hrzd.ir, port: 1354, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: 203374 | ⚡️Telegram - t.me/SOSkeyNET, server: dns22.m3hrzd.ir, port: 1354, type: ss, cipher: chacha20-ietf-poly1305, password: T-I8y9fR15f4-Fgx7XdaVNg_n0UOY2Ip, udp: true, tfo: false}
+  - {name: 194.68.44.42:64546, server: 194.68.44.42, port: 64546, type: ss, cipher: chacha20-ietf-poly1305, password: U83u9OGpvSatIUW7LsWffr, udp: true, tfo: false}
+  - {name: 203072 | ⚡️Telegram - t.me/SOSkeyNET, server: 194.68.44.42, port: 64546, type: ss, cipher: chacha20-ietf-poly1305, password: U83u9OGpvSatIUW7LsWffr, udp: true, tfo: false}
+  - {name: "@filembad` 10", server: 132.243.175.144, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: e8KgS8fD0yDqYFpgN4G5piCOt9aFyqA3, udp: true, tfo: false}
+  - {name: 198.98.53.130:443, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true, tfo: false}
+  - {name: "@filembad` 11", server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true, tfo: false}
+  - {name: 203442 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true, tfo: false}
+  - {name: dns22.m3hrzd.ir:1348, server: dns22.m3hrzd.ir, port: 1348, type: ss, cipher: chacha20-ietf-poly1305, password: fN55F3oPWEqTV_8Ldo_Xb3DYmDZZMv4U, udp: true, tfo: false}
+  - {name: 130.49.189.54:8388, server: 130.49.189.54, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: hTTg7lwQMzpaF7KXpY3A8w, udp: true, tfo: false}
+  - {name: "@filembad` 12", server: 130.49.189.54, port: 8388, type: ss, cipher: chacha20-ietf-poly1305, password: hTTg7lwQMzpaF7KXpY3A8w, udp: true, tfo: false}
+  - {name: 193.29.139.147:8080, server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203458 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: 193.29.139.147, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 193.29.139.198:8080, server: 193.29.139.198, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203425 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.198, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203566 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 2", server: 82.38.31.179, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 3", server: 82.38.31.180, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203567 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 4", server: 82.38.31.181, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@filembad` 13", server: 82.38.31.184, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@filembad` 14", server: 82.38.31.189, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 5", server: 82.38.31.190, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 82.38.31.200:8080, server: 82.38.31.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@filembad` 15", server: 82.38.31.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203191 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 6", server: 82.38.31.206, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 7", server: 82.38.31.207, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 82.38.31.218:8080, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 203316 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: 178.83.185.156:8080, server: 178.83.185.156, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203190 | ⚡️Telegram - t.me/SOSkeyNET, server: 178.83.185.156, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 193.29.139.188:8080, server: 193.29.139.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 193.29.139.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 16", server: 193.29.139.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203305 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.188, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 193.29.139.197:8080, server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💚 کانال تلگرام", server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 🤍 کانال تلگرام", server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "@filembad` 17", server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203468 | ⚡️Telegram - t.me/SOSkeyNET, server: 193.29.139.197, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@HajmVPN_Config - 🇩🇪", server: 193.29.139.225, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "@Vpn_Tehran ❤️ کانال تلگرام", server: 193.29.139.225, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "@filembad` 18", server: 193.29.139.225, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 19", server: 82.38.31.13, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "  5", server: 82.38.31.155, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 20", server: 82.38.31.165, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 82.38.31.16:8080, server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 202993 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.16, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 203057 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 82.38.31.35:8080, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 203026 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 21", server: 82.38.31.3, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 22", server: 82.38.31.46, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 82.38.31.47:8080, server: 82.38.31.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 203038 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray", server: 82.38.31.47, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 82.38.31.48:8080, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 203039 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 2", server: 82.38.31.48, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 23", server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.10:8080, server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 19", server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203075 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.10, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 20", server: 82.38.31.11, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: Tel@MARAMBASHI 🇫🇷, server: 82.38.31.11, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.149:443, server: 82.38.31.149, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203153 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.149, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203154 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.149, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.149:8080, server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray 2", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 21", server: 82.38.31.149, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.162:443, server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203147 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203148 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 22", server: 82.38.31.170, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.171:8080, server: 82.38.31.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 23", server: 82.38.31.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203158 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.171, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.17:8080, server: 82.38.31.17, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 24", server: 82.38.31.28, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 82.38.31.2:8080, server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 25", server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203119 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.2, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN 2", server: 82.38.31.62, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@filembad` 24", server: 82.38.31.82, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: 149.22.87.204:443, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 203036 | ⚡️Telegram - t.me/SOSkeyNET, server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 3", server: 149.22.87.204, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 149.22.87.240:443, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 203037 | ⚡️Telegram - t.me/SOSkeyNET, server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 4", server: 149.22.87.240, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 149.22.87.241:443, server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 5", server: 149.22.87.241, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202923 | ⚡️Telegram - t.me/SOSkeyNET, server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 6", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202927 | ⚡️Telegram - t.me/SOSkeyNET, server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 7", server: 156.146.38.167, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202925 | ⚡️Telegram - t.me/SOSkeyNET, server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 8", server: 156.146.38.168, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202924 | ⚡️Telegram - t.me/SOSkeyNET, server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 9", server: 156.146.38.169, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 10", server: 156.146.38.170, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202921 | ⚡️Telegram - t.me/SOSkeyNET, server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 11", server: 173.244.56.6, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202922 | ⚡️Telegram - t.me/SOSkeyNET, server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 12", server: 173.244.56.9, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202926 | ⚡️Telegram - t.me/SOSkeyNET, server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 13", server: 37.19.198.243, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 202928 | ⚡️Telegram - t.me/SOSkeyNET, server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 14", server: 37.19.198.244, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
-  - {name: 195.238.126.20:9068, server: 195.238.126.20, port: 9068, type: ss, cipher: aes-256-cfb, password: mwgRg9hRq3b4Qnwb, udp: true, tfo: false}
-  - {name: 202974 | ⚡️Telegram - t.me/SOSkeyNET, server: 195.238.126.20, port: 9068, type: ss, cipher: aes-256-cfb, password: mwgRg9hRq3b4Qnwb, udp: true, tfo: false}
-  - {name: 84.247.155.196:80, server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv, udp: true, tfo: false}
-  - {name: 203035 | ⚡️Telegram - t.me/SOSkeyNET, server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 15", server: 84.247.155.196, port: 80, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv, udp: true, tfo: false}
-  - {name: kyiv02.npvnot.com:443, server: kyiv02.npvnot.com, port: 443, type: ss, cipher: aes-256-gcm, password: MzRlYzA0ZGY0Njc2ZjQ2YTRiMTg2YTkzNjM4OGI1, udp: true, tfo: false}
-  - {name: 203013 | ⚡️Telegram - t.me/SOSkeyNET, server: kyiv02.npvnot.com, port: 443, type: ss, cipher: aes-256-gcm, password: MzRlYzA0ZGY0Njc2ZjQ2YTRiMTg2YTkzNjM4OGI1, udp: true, tfo: false}
-  - {name: "@filembad` 25", server: 185.176.204.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: 185.215.132.18:19999, server: 185.215.132.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@filembad` 26", server: 185.215.132.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: 202956 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.215.132.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@vpnbaz ⭐", server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩, server: 202.50.253.45, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2, server: 202.50.253.63, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3, server: 202.50.253.72, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 82.38.31.7:8080, server: 82.38.31.7, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray 3", server: 82.38.31.7, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 26", server: 82.38.31.7, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: 203299 | ⚡️Telegram - t.me/SOSkeyNET, server: 82.38.31.7, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@filembad` 27", server: 149.22.95.183, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: 141.98.101.181:443, server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: "@filembad` 28", server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: 203151 | ⚡️Telegram - t.me/SOSkeyNET, server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: 203152 | ⚡️Telegram - t.me/SOSkeyNET, server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: 84.247.155.196:443, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv, udp: true, tfo: false}
+  - {name: 203440 | ⚡️Telegram - t.me/SOSkeyNET, server: 84.247.155.196, port: 443, type: ss, cipher: aes-256-gcm, password: 3eOFeNssde7PYYMv, udp: true, tfo: false}
+  - {name: 15.204.246.132:7307, server: 15.204.246.132, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true, tfo: false}
+  - {name: 203397 | ⚡️Telegram - t.me/SOSkeyNET, server: 15.204.246.132, port: 7307, type: ss, cipher: aes-256-gcm, password: FoOiGlkAA9yPEGP, udp: true, tfo: false}
+  - {name: 185.22.155.121:18443, server: 185.22.155.121, port: 18443, type: ss, cipher: aes-256-gcm, password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p, udp: true, tfo: false}
+  - {name: 203170 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.22.155.121, port: 18443, type: ss, cipher: aes-256-gcm, password: NTiHBg64fsY8u8DbGrtypD9gPGSL386p, udp: true, tfo: false}
+  - {name: "@filembad` 29", server: node11.botkeep.cloud, port: 53567, type: ss, cipher: aes-256-gcm, password: SnOSRfo0h6mnWehTG_Xang, udp: true, tfo: false}
+  - {name: 141.164.45.187:7001, server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true, tfo: false}
+  - {name: 203401 | ⚡️Telegram - t.me/SOSkeyNET, server: 141.164.45.187, port: 7001, type: ss, cipher: aes-256-gcm, password: RexnBgU7EV5ADxG, udp: true, tfo: false}
+  - {name: 185.215.132.9:19999, server: 185.215.132.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 203081 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.215.132.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@filembad` 30", server: 185.176.204.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 203558 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.176.204.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩, server: 185.215.132.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@filembad` 31", server: 193.151.160.9, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 202.50.253.18:19999, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 203369 | ⚡️Telegram - t.me/SOSkeyNET, server: 202.50.253.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 202.50.253.36:19999, server: 202.50.253.36, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 202.50.253.54:19999, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: 203161 | ⚡️Telegram - t.me/SOSkeyNET, server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 2", server: 202.50.253.54, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 8", server: 202.50.253.81, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
   - {name: "@Vpn_Tehran ❤️ کانال تلگرام 2", server: 45.86.51.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: 51.222.155.32:5003, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true, tfo: false}
-  - {name: 202973 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.222.155.32, port: 5003, type: ss, cipher: aes-256-gcm, password: g5MeD6Ft3CWlJId, udp: true, tfo: false}
-  - {name: "@FarazV2ray 3", server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
-  - {name: "@filembad` 27", server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
+  - {name: 51.79.85.185:8118, server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true, tfo: false}
+  - {name: 203215 | ⚡️Telegram - t.me/SOSkeyNET, server: 51.79.85.185, port: 8118, type: ss, cipher: aes-256-gcm, password: cdBIDV42DCwnfIN, udp: true, tfo: false}
+  - {name: 45.207.207.25:443, server: 45.207.207.25, port: 443, type: ss, cipher: aes-256-gcm, password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C, udp: true, tfo: false}
+  - {name: 203185 | ⚡️Telegram - t.me/SOSkeyNET, server: 45.207.207.25, port: 443, type: ss, cipher: aes-256-gcm, password: gj1+XKulKV0nmw6IThckOkkJh5DSM7+C, udp: true, tfo: false}
+  - {name: 57.131.48.45:8388, server: 57.131.48.45, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
+  - {name: 203073 | ⚡️Telegram - t.me/SOSkeyNET, server: 57.131.48.45, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
+  - {name: 51.83.192.80:8388, server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
+  - {name: "@filembad` 32", server: 51.83.192.80, port: 8388, type: ss, cipher: aes-256-gcm, password: itzvpn@321, udp: true, tfo: false}
+  - {name: "@filembad` 33", server: 51.75.118.5, port: 20222, type: ss, cipher: aes-256-gcm, password: lF3nRjH58koKTe-_VtABbg, udp: true, tfo: false}
+  - {name: 15.204.247.244:4444, server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: false}
+  - {name: 203444 | ⚡️Telegram - t.me/SOSkeyNET, server: 15.204.247.244, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: false}
+  - {name: 138.199.43.159:8080, server: 138.199.43.159, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true, tfo: false}
+  - {name: 203400 | ⚡️Telegram - t.me/SOSkeyNET, server: 138.199.43.159, port: 8080, type: ss, cipher: rc4-md5, password: 14fFPrbezE3HDZzsMOr6, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -877,122 +1073,150 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ser1.plasmoon.ir:2028
       - "@filembad`"
-      - ser1.plasmoon.ir:2028 2
-      - "@filembad` 2"
-      - 202944 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ☂️"
-      - 104.192.227.162:443
-      - 202949 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee"
+      - 216.9.225.189:443
+      - 193.29.139.234:8080
+      - 203223 | ⚡️Telegram - t.me/SOSkeyNET
+      - 54.179.133.94:8443
+      - 203069 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203551 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🌪***-@SPEEDS_VPN1`"
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - dns22.m3hrzd.ir:1349
-      - 203052 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 2"
       - "@filembad` 3"
-      - 203055 | ⚡️Telegram - t.me/SOSkeyNET
-      - iranspeedteststatus.10326.garqino.ir:10761
       - "@filembad` 4"
-      - 203054 | ⚡️Telegram - t.me/SOSkeyNET
-      - ser2.plasmoon.ir:2027
-      - 193.29.139.168:8080
-      - "@FarazV2ray"
-      - "@Vpn_Tehran 🩵 کانال تلگرام"
       - "@filembad` 5"
-      - 177.3.93.166:8388
-      - 203025 | ⚡️Telegram - t.me/SOSkeyNET
+      - staging.lastilhame.monster:49917
+      - 203214 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@Vpn_jet7**"
       - "@filembad` 6"
+      - 20.166.51.228:443
+      - msk2.rvpn.app:8388
       - "@filembad` 7"
+      - 203445 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.129.113.16:8388
+      - "@Vpn_Tehran 🩵 کانال تلگرام"
+      - dns22.m3hrzd.ir:1346
       - "@filembad` 8"
-      - 203059 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203375 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1353
       - "@filembad` 9"
+      - 203376 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1354
+      - 203374 | ⚡️Telegram - t.me/SOSkeyNET
+      - 194.68.44.42:64546
+      - 203072 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 10"
-      - 203060 | ⚡️Telegram - t.me/SOSkeyNET
+      - 198.98.53.130:443
       - "@filembad` 11"
+      - 203442 | ⚡️Telegram - t.me/SOSkeyNET
+      - dns22.m3hrzd.ir:1348
+      - 130.49.189.54:8388
       - "@filembad` 12"
+      - 193.29.139.147:8080
+      - 203458 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray"
+      - 193.29.139.198:8080
+      - 203425 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203566 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 2"
+      - "@MTproxy22_v2ray 3"
+      - 203567 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 4"
       - "@filembad` 13"
       - "@filembad` 14"
+      - "@MTproxy22_v2ray 5"
+      - 82.38.31.200:8080
       - "@filembad` 15"
-      - " "
-      - "@FarazV2ray 2"
+      - 203191 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - 82.38.31.218:8080
+      - 203316 | ⚡️Telegram - t.me/SOSkeyNET
+      - 178.83.185.156:8080
+      - 203190 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.188:8080
+      - "@FarazV2ray"
       - "@filembad` 16"
-      - "  2"
-      - 82.38.31.213:8080
-      - "  3"
-      - 202931 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.214:8080
-      - "  4"
-      - 193.29.139.179:8080
-      - 203011 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203305 | ⚡️Telegram - t.me/SOSkeyNET
+      - 193.29.139.197:8080
       - "@Vpn_Tehran 💚 کانال تلگرام"
       - "@Vpn_Tehran 🤍 کانال تلگرام"
       - "@filembad` 17"
+      - 203468 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@HajmVPN_Config - 🇩🇪"
       - "@Vpn_Tehran ❤️ کانال تلگرام"
       - "@filembad` 18"
+      - 82.38.31.10:8080
       - "@filembad` 19"
-      - "  5"
+      - 203075 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 20"
-      - 82.38.31.16:8080
-      - 202993 | ⚡️Telegram - t.me/SOSkeyNET
-      - 203057 | ⚡️Telegram - t.me/SOSkeyNET
-      - 82.38.31.35:8080
-      - 203026 | ⚡️Telegram - t.me/SOSkeyNET
+      - Tel@MARAMBASHI 🇫🇷
+      - 82.38.31.149:443
+      - 203153 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203154 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.149:8080
+      - "@FarazV2ray 2"
       - "@filembad` 21"
+      - 82.38.31.162:443
+      - 203147 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203148 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 22"
-      - 82.38.31.47:8080
-      - 203038 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray"
-      - 82.38.31.48:8080
-      - 203039 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 2"
+      - 82.38.31.171:8080
       - "@filembad` 23"
-      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 203158 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.17:8080
       - "@filembad` 24"
-      - 149.22.87.204:443
-      - 203036 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 3"
-      - 149.22.87.240:443
-      - 203037 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 4"
-      - 149.22.87.241:443
-      - "@MTproxy22_v2ray 5"
-      - 202923 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 6"
-      - 202927 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 7"
-      - 202925 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 8"
-      - 202924 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 9"
-      - "@MTproxy22_v2ray 10"
-      - 202921 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 11"
-      - 202922 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 12"
-      - 202926 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 13"
-      - 202928 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 14"
-      - 195.238.126.20:9068
-      - 202974 | ⚡️Telegram - t.me/SOSkeyNET
-      - 84.247.155.196:80
-      - 203035 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@MTproxy22_v2ray 15"
-      - kyiv02.npvnot.com:443
-      - 203013 | ⚡️Telegram - t.me/SOSkeyNET
+      - 82.38.31.2:8080
       - "@filembad` 25"
-      - 185.215.132.18:19999
-      - "@filembad` 26"
-      - 202956 | ⚡️Telegram - t.me/SOSkeyNET
-      - "@vpnbaz ⭐"
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 2
-      - برای اتصال دائمی جوین شو☄️ TelegramID ⌲Express_freevpn 🪩 3
-      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
-      - 51.222.155.32:5003
-      - 202973 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203119 | ⚡️Telegram - t.me/SOSkeyNET
+      - "***🐦‍🔥***-@SPEEDS_VPN 2"
+      - 82.38.31.7:8080
       - "@FarazV2ray 3"
+      - "@filembad` 26"
+      - 203299 | ⚡️Telegram - t.me/SOSkeyNET
       - "@filembad` 27"
+      - 141.98.101.181:443
+      - "@filembad` 28"
+      - 203151 | ⚡️Telegram - t.me/SOSkeyNET
+      - 203152 | ⚡️Telegram - t.me/SOSkeyNET
+      - 84.247.155.196:443
+      - 203440 | ⚡️Telegram - t.me/SOSkeyNET
+      - 15.204.246.132:7307
+      - 203397 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.22.155.121:18443
+      - 203170 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 29"
+      - 141.164.45.187:7001
+      - 203401 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.215.132.9:19999
+      - 203081 | ⚡️Telegram - t.me/SOSkeyNET
+      - "@filembad` 30"
+      - 203558 | ⚡️Telegram - t.me/SOSkeyNET
+      - برای اتصال دائمی جوین شو🪭 TelegramID ⌲Express_freevpn 🪩
+      - "@filembad` 31"
+      - 202.50.253.18:19999
+      - 203369 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.50.253.36:19999
+      - 202.50.253.54:19999
+      - 203161 | ⚡️Telegram - t.me/SOSkeyNET
+      - "Channel : @proxy_kafee 2"
+      - "@MTproxy22_v2ray 8"
+      - "@Vpn_Tehran ❤️ کانال تلگرام 2"
+      - 51.79.85.185:8118
+      - 203215 | ⚡️Telegram - t.me/SOSkeyNET
+      - 45.207.207.25:443
+      - 203185 | ⚡️Telegram - t.me/SOSkeyNET
+      - 57.131.48.45:8388
+      - 203073 | ⚡️Telegram - t.me/SOSkeyNET
+      - 51.83.192.80:8388
+      - "@filembad` 32"
+      - "@filembad` 33"
+      - 15.204.247.244:4444
+      - 203444 | ⚡️Telegram - t.me/SOSkeyNET
+      - 138.199.43.159:8080
+      - 203400 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
