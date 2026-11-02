@@ -465,6 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: 167.88.61.193:443, server: 167.88.61.193, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, skip-cert-verify: false, udp: true, tfo: false}
   - {name: hik160.pacemakere.com:20014, server: hik160.pacemakere.com, port: 20014, type: trojan, password: 778f5385b4254495, sni: hik160.pacemakere.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇨🇳 ench-snet-app.w-ctrip.cn:15589, server: ench-snet-app.w-ctrip.cn, port: 15589, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 🇨🇳 ench-snet-app.w-ctrip.cn:35929, server: ench-snet-app.w-ctrip.cn, port: 35929, type: trojan, password: b17e9b52db9623bd6c16eea3d7adb5b3, sni: cm.g.doubleclick.net, skip-cert-verify: false, udp: true, tfo: false}
@@ -489,6 +490,7 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
@@ -503,6 +505,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
@@ -517,6 +520,7 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
@@ -540,6 +544,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
@@ -554,6 +559,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
@@ -568,6 +574,7 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - 167.88.61.193:443
       - hik160.pacemakere.com:20014
       - 🇨🇳 ench-snet-app.w-ctrip.cn:15589
       - 🇨🇳 ench-snet-app.w-ctrip.cn:35929
