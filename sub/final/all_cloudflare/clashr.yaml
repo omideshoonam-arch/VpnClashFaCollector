@@ -5,13 +5,19 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: 104.16.250.157:443, server: 104.16.250.157, port: 443, type: trojan, password: 50414e45-4c5f-5a45-5553-ee0b723f1ef9, sni: xezbbee2uuss.muznxzevuocs.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/ee0b723f1ef9, headers: {Host: xezbbee2uuss.muznxzevuocs.workers.dev}}, udp: true, tfo: false}
-  - {name: www.speedtest.net:443, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 85550ebf-fd43-42dd-9801-bda528fea2fc, servername: wallweb5.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: wallweb5.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 206169 | ⚡️Telegram - t.me/SOSkeyNET, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 85550ebf-fd43-42dd-9801-bda528fea2fc, servername: wallweb5.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: wallweb5.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 208.103.161.16:2096, server: 208.103.161.16, port: 2096, type: trojan, password: hWsj5AwIRPF8, sni: rayAnconfIg3-Bhl0ai7j-t2.raYan-coNfig-3.woRKers.dEV, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: rayAnconfIg3-Bhl0ai7j-t2.raYan-coNfig-3.woRKers.dEV}}, udp: true, tfo: false}
+  - {name: 206407 | ⚡️Telegram - t.me/SOSkeyNET, server: 208.103.161.16, port: 2096, type: trojan, password: hWsj5AwIRPF8, sni: rayAnconfIg3-Bhl0ai7j-t2.raYan-coNfig-3.woRKers.dEV, skip-cert-verify: false, network: ws, ws-opts: {path: "/?ed=2560", headers: {Host: rayAnconfIg3-Bhl0ai7j-t2.raYan-coNfig-3.woRKers.dEV}}, udp: true, tfo: false}
+  - {name: k9-85j.pages.dev:443, server: k9-85j.pages.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3dc83518-4002-485e-a066-d3bbcaaa2b2e, servername: K9-85J.paGEs.Dev, alpn: ["h2,http/1.1"], network: ws, ws-opts: {path: "/1WWzkWgNslKTcceU?ed=2560", headers: {Host: K9-85J.paGEs.Dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 206663 | ⚡️Telegram - t.me/SOSkeyNET, server: k9-85j.pages.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3dc83518-4002-485e-a066-d3bbcaaa2b2e, servername: K9-85J.paGEs.Dev, alpn: ["h2,http/1.1"], network: ws, ws-opts: {path: "/1WWzkWgNslKTcceU?ed=2560", headers: {Host: K9-85J.paGEs.Dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.16.222.106:443, server: 104.16.222.106, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-cacd03f0143e, servername: yazxg0egut9s.ezaccess113f260.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/cacd03f0143e, headers: {Host: yazxg0egut9s.ezaccess113f260.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 206451 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.16.222.106, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-cacd03f0143e, servername: yazxg0egut9s.ezaccess113f260.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/cacd03f0143e, headers: {Host: yazxg0egut9s.ezaccess113f260.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 185.225.195.30:8880, server: 185.225.195.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime18.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 206712 | ⚡️Telegram - t.me/SOSkeyNET, server: 185.225.195.30, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime18.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: chat.openai.com:8880, server: chat.openai.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime29.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 206711 | ⚡️Telegram - t.me/SOSkeyNET, server: chat.openai.com, port: 8880, type: vless, tls: true, packet-encoding: xudp, uuid: 6202b230-417c-4d8e-b624-0f71afa9c75d, network: ws, ws-opts: {path: /, headers: {Host: vms.lifetime29.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 179.61.251.244:7443, server: 179.61.251.244, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: d2ff6e0c-7e78-455c-a824-082e162172d3, servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 206063 | ⚡️Telegram - t.me/SOSkeyNET, server: 179.61.251.244, port: 7443, type: vless, tls: true, packet-encoding: xudp, uuid: d2ff6e0c-7e78-455c-a824-082e162172d3, servername: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev, network: ws, ws-opts: {path: /@Marisa_kristi, headers: {Host: ruu2rx-oycdrnsrzc.9uokolpk04vmg2ecqb8oys7.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇸🇪`, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d342d11e-d224-4463-b982-532309285094, servername: ccc.010304.xyz, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: ccc.010304.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@MARAMBASHI 🇩🇪, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d342d11e-d224-4463-b982-532309285094, servername: ccc.010304.xyz, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: ccc.010304.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇩🇪, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d342d11e-d224-4463-b982-532309285094, servername: ccc.010304.xyz, network: ws, ws-opts: {path: "/?TELEGRAM--MARAMBASHI--MARAMBASHI--MARAMBASHI--MARAMBASHI?ed=2560", headers: {Host: ccc.010304.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***⚡***@V2ray_official", server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d342d11e-d224-4463-b982-532309285094, servername: ccc.010304.xyz, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: ccc.010304.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -19,13 +25,19 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: ♻️ 自动选择
     type: url-test
@@ -33,13 +45,19 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: 🌍 国外媒体
     type: select
@@ -47,52 +65,76 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
   - name: 🎯 全球直连
     type: select
@@ -121,13 +163,19 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - 104.16.250.157:443
-      - www.speedtest.net:443
-      - 206169 | ⚡️Telegram - t.me/SOSkeyNET
+      - 208.103.161.16:2096
+      - 206407 | ⚡️Telegram - t.me/SOSkeyNET
+      - k9-85j.pages.dev:443
+      - 206663 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.16.222.106:443
+      - 206451 | ⚡️Telegram - t.me/SOSkeyNET
+      - 185.225.195.30:8880
+      - 206712 | ⚡️Telegram - t.me/SOSkeyNET
+      - chat.openai.com:8880
+      - 206711 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - 179.61.251.244:7443
-      - 206063 | ⚡️Telegram - t.me/SOSkeyNET
-      - Tel@V2rayng_Fast 🇸🇪`
+      - Tel@MARAMBASHI 🇩🇪
+      - Tel@V2rayng_Fast 🇩🇪
       - "***⚡***@V2ray_official"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
