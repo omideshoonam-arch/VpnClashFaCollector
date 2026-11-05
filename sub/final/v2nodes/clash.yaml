@@ -465,9 +465,7 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 🇩🇪 de-bots4.h1cloud.net:25267, server: de-bots4.h1cloud.net, port: 25267, type: trojan, password: happybirthdaydaniel, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 87.232.116.20:443, server: 87.232.116.20, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d86e6fda-e519-46ab-98eb-9ff9a9da5984, servername: fafeqdhlett2p5la6d.cdn.cachefleet.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 67h2o3erm0t9imsj}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ee.h1cloud.net:25895, server: ee.h1cloud.net, port: 25895, type: vless, tls: true, packet-encoding: xudp, uuid: f90b7d43-69e2-4b46-a672-8029bc6796a2, servername: www.samsung.com, host: www.samsung.com, path: /, reality-opts: {public-key: jOVKSP-bS9OkILJ8Epz8hadh6qhavCrOiJYeF0NCn0k, short-id: a73f0410d728c823}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 207.148.115.152:443, server: 207.148.115.152, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a1de0630-5786-48a0-84f6-dc6f2de10d6d, servername: vlso5.1d.mom, network: ws, ws-opts: {path: /socks5=888:888@hkip.1d.mom:1080fp=chrome, headers: {Host: vlso5.1d.mom}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -484,27 +482,21 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -520,27 +512,21 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 🇩🇪 de-bots4.h1cloud.net:25267
-      - 87.232.116.20:443
-      - ee.h1cloud.net:25895
+      - 207.148.115.152:443
   - name: دانلود منیجر 📥
     type: select
     proxies:
