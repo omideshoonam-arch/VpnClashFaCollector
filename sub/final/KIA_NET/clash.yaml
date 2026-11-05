@@ -465,7 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: Salim.vahaj_10_sw9818, server: helixgaming.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: fdaedc78-af7c-4b75-abf9-ba162321ddd9, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ² @Kia_Net`, server: 213.156.152.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c9e3bc08-bf22-4959-af5e-0eda7c41afcb, servername: www.worldoftanks.asia, host: www.worldoftanks.asia, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ¹ @Kia_Net, server: caudal-reason.freevideochats.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c9e3bc08-bf22-4959-af5e-0eda7c41afcb, servername: www.worldoftanks.asia, host: www.worldoftanks.asia, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -482,21 +483,24 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -512,21 +516,24 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: دانلود منیجر 📥
     type: select
     proxies:

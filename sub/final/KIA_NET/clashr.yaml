@@ -5,46 +5,53 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: Salim.vahaj_10_sw9818, server: helixgaming.ir, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: fdaedc78-af7c-4b75-abf9-ba162321ddd9, network: ws, ws-opts: {path: /, headers: {Host: play.google.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ² @Kia_Net`, server: 213.156.152.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c9e3bc08-bf22-4959-af5e-0eda7c41afcb, servername: www.worldoftanks.asia, host: www.worldoftanks.asia, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ¹ @Kia_Net, server: caudal-reason.freevideochats.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c9e3bc08-bf22-4959-af5e-0eda7c41afcb, servername: www.worldoftanks.asia, host: www.worldoftanks.asia, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +79,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - Salim.vahaj_10_sw9818
+      - ² @Kia_Net`
+      - ¹ @Kia_Net
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
