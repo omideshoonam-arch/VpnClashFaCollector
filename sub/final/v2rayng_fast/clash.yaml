@@ -465,6 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "@V2rayng_Fast `", server: 4.168.233.69, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: cdrSQWa9CwUAVdt3, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 188.130.209.201, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 12fd091e-a68a-4f9b-9def-777a2f5b5c0c, servername: thumbs.mycdn-io.ru, host: thumbs.mycdn-io.ru, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 3p6W4rMBh1HCwbjq4lcbWO0KjkqTshJU5lkTix5nwTc, short-id: d3f314d0b692f63d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ⚡️ @V2rayng_Fast 🇳🇱`, server: smart2.khinikadze.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3bb97d46-789b-4229-88f6-9beb222a4137, servername: smart2.khinikadze.com, host: smart2.khinikadze.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ⚡️ @V2rayng_Fast 🇫🇮, server: 31.76.103.92, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 42a64b9a-ab79-4094-8656-30366a7c2ea3, servername: fi.peregrine-sub.net, host: fi.peregrine-sub.net, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: ⚡️ @V2rayng_Fast 🇺🇸, server: 176.122.188.184, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e60f4255-3cf2-483b-b6d3-3e302f431ef3, servername: portal.citygrainla.com, host: portal.citygrainla.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BlSccfT5tvDIOS7v9VaPd0ulUNhUdvlMjGiNzDNDUHE, short-id: 051f20c2344a2dfd}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
@@ -484,6 +486,8 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
@@ -493,6 +497,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
@@ -502,6 +508,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
@@ -520,6 +528,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
@@ -529,6 +539,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
@@ -538,6 +550,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "@V2rayng_Fast `"
+      - "@V2rayng_Fast"
       - ⚡️ @V2rayng_Fast 🇳🇱`
       - ⚡️ @V2rayng_Fast 🇫🇮
       - ⚡️ @V2rayng_Fast 🇺🇸
