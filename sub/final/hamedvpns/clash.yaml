@@ -469,7 +469,6 @@ proxies:
   - {name: Kansas City via Istanbul · IPv4, server: 213.156.152.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b3909eb9-84f7-4d8b-a18c-9cdc5c31d233, servername: smyk.com, host: smyk.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Kansas City via Istanbul · Domain, server: caudal-reason.freevideochats.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b3909eb9-84f7-4d8b-a18c-9cdc5c31d233, servername: smyk.com, host: smyk.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Kansas City via Chicago · Domain, server: crewmen-grittier.freevideochats.org, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: b3909eb9-84f7-4d8b-a18c-9cdc5c31d233, servername: www.gr-cdn.com, host: www.gr-cdn.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Kansas City · Direct, server: xray2-direct-mci1-fs-ce.freesocks.work, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: caafc85a-a170-410d-bf93-0904082f311a, servername: dl.google.com, host: dl.google.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -490,7 +489,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -501,7 +499,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -512,7 +509,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -532,7 +528,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -543,7 +538,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -554,7 +548,6 @@ proxy-groups:
       - Kansas City via Istanbul · IPv4
       - Kansas City via Istanbul · Domain
       - Kansas City via Chicago · Domain
-      - Kansas City · Direct
   - name: دانلود منیجر 📥
     type: select
     proxies:
