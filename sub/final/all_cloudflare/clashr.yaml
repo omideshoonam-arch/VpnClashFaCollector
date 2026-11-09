@@ -5,60 +5,88 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 198.41.208.42:443, server: 198.41.208.42, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9ce7ac33-5004-40ea-8236-15bc2d25a37c, servername: calm-base-e99e.pofokjimi.workers.dev, network: ws, ws-opts: {path: /V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast, headers: {Host: calm-base-e99e.pofokjimi.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 210895 | ⚡️Telegram - t.me/SOSkeyNET, server: 198.41.208.42, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9ce7ac33-5004-40ea-8236-15bc2d25a37c, servername: calm-base-e99e.pofokjimi.workers.dev, network: ws, ws-opts: {path: /V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast--V2ngFast, headers: {Host: calm-base-e99e.pofokjimi.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: www.speedtest.net:443, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ec23f217-23a1-4f62-b98d-ba56070de89c, servername: wallweb4.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: wallweb4.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 210405 | ⚡️Telegram - t.me/SOSkeyNET, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ec23f217-23a1-4f62-b98d-ba56070de89c, servername: wallweb4.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: wallweb4.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 104.18.41.145:8080, server: 104.18.41.145, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c4940726-7300-46f8-a8ce-925c2b2d6612, network: ws, ws-opts: {path: "/?ed", headers: {Host: qgJdrswc-8hh1pa.qgjdRswc.woRkers.deV}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 210689 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.18.41.145, port: 8080, type: vless, tls: true, packet-encoding: xudp, uuid: c4940726-7300-46f8-a8ce-925c2b2d6612, network: ws, ws-opts: {path: "/?ed", headers: {Host: qgJdrswc-8hh1pa.qgjdRswc.woRkers.deV}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 103.133.1.160:80, server: 103.133.1.160, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: eaf76557-2219-4799-8171-d7020adfefd0, network: ws, ws-opts: {path: /, headers: {Host: soft-shadow-1e33.xicav73335.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 210714 | ⚡️Telegram - t.me/SOSkeyNET, server: 103.133.1.160, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: eaf76557-2219-4799-8171-d7020adfefd0, network: ws, ws-opts: {path: /, headers: {Host: soft-shadow-1e33.xicav73335.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -86,9 +114,13 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 198.41.208.42:443
+      - 210895 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
-      - www.speedtest.net:443
-      - 210405 | ⚡️Telegram - t.me/SOSkeyNET
+      - 104.18.41.145:8080
+      - 210689 | ⚡️Telegram - t.me/SOSkeyNET
+      - 103.133.1.160:80
+      - 210714 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
