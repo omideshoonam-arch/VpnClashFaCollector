@@ -5,123 +5,74 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "Channel : @proxy_kafee", server: 93.152.215.254, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6db6b948-655f-4f68-a9e7-865050e05b31, servername: remote.propaint.cl, host: remote.propaint.cl, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: is-86tEDOjNbNAnVwc-YHHYSn1MF9SF68P6VjESfDHQ, short-id: a2fcac}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee`", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 3", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee` 2", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8fdeb819-df0c-456d-9a1d-e3a9950ece4d, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 4", server: panel-production-9992.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: UnboundWave, servername: panel-production-9992.up.railway.app, alpn: [h2], network: ws, ws-opts: {path: /ws, headers: {Host: panel-production-9992.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 5", server: 199.232.78.120, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a6a23989-b28e-47e1-94b7-2afc66d050c9, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 6", server: 199.232.78.120, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a6a23989-b28e-47e1-94b7-2afc66d050c9, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 7", server: duke.abrdns.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: b11716c2-6d11-4752-b2bf-ac240b0136e4, servername: snapp.ir, host: snapp.ir, path: /, reality-opts: {public-key: 5wTeknadiZ3XFJA2bAe1ee5pkx-KL_3Wh8dZRzkonUQ, short-id: 278eba2e20817876}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 8", server: 185.189.45.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dd5bed0b-ee77-481b-9f2c-250a632ddd9f, servername: get.jarbook.net, host: get.jarbook.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs, short-id: c6f97313}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 9", server: static.29.103.98.91.clients.your-server.de, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dfcb92d2-7f77-4008-95cb-a691aa88d4b5, servername: static.200.164.31.2.clients.your-server.de, alpn: [h2%2Chttp%2F1.1], host: static.200.164.31.2.clients.your-server.de, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Channel : @proxy_kafee 10", server: fdhjbd-production.up.railway.app, port: 443, type: vmess, uuid: 9b0d6833-3301-49b6-a596-a6e9151a9ff4, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, servername: fdhjbd-production.up.railway.app, network: ws, ws-opts: {path: /api/Wqqi-E, headers: {Host: fdhjbd-production.up.railway.app}}, udp: true, tfo: false}
+  - {name: "@proxy_kafee", server: 146.75.59.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee`", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@proxy_kafee 4", server: wwww.qarvian.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -149,18 +100,11 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - "Channel : @proxy_kafee"
-      - "Channel : @proxy_kafee 2"
-      - "Channel : @proxy_kafee`"
-      - "Channel : @proxy_kafee 3"
-      - "Channel : @proxy_kafee` 2"
-      - "Channel : @proxy_kafee 4"
-      - "Channel : @proxy_kafee 5"
-      - "Channel : @proxy_kafee 6"
-      - "Channel : @proxy_kafee 7"
-      - "Channel : @proxy_kafee 8"
-      - "Channel : @proxy_kafee 9"
-      - "Channel : @proxy_kafee 10"
+      - "@proxy_kafee"
+      - "@proxy_kafee 2"
+      - "@proxy_kafee`"
+      - "@proxy_kafee 3"
+      - "@proxy_kafee 4"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
