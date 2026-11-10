@@ -465,11 +465,33 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
+  - {name: "Channel : @proxy_kafee", server: zibanabz.jonsonvip.ir, port: 3939, type: vless, tls: true, packet-encoding: xudp, uuid: 032c5a4d-0e1b-4077-89ad-129386180d2c, servername: ai.android, host: ai.android, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: dnnN66V_xqEbGoG5P8E_Zqk3TaZt2lM4SI9N7Ana7FA, short-id: d9a2600fdecd7be2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee", server: 89.105.195.150, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1653818d-532e-46be-b825-384107fb7c3a, servername: images.mediacorphub.org, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: stats.v2.StreamService}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 2", server: 104.17.70.206, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 1beed393-7c4d-4432-beee-f1026b72d0cf, servername: free.sahanwickramasinghe.com, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: free.sahanwickramasinghe.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 2", server: avcd.banfuna.ir, port: 29448, type: vless, tls: true, packet-encoding: xudp, uuid: 1fd9bcca-bccf-493f-a9a7-570859bd0cc3, servername: tl3.tavqila.ir, network: ws, ws-opts: {path: /, headers: {Host: tl3.tavqila.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 3", server: cmnvc.banfuna.ir, port: 30349, type: vless, tls: true, packet-encoding: xudp, uuid: 1fd9bcca-bccf-493f-a9a7-570859bd0cc3, servername: tl3.tavqila.ir, network: ws, ws-opts: {path: /, headers: {Host: tl3.tavqila.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 4", server: sc-thenetherlands1.09vpn.com, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: 40cc9b52-25b8-4cd5-8b45-715ae26e6baf, network: ws, ws-opts: {path: /vless/, headers: {Host: sc-thenetherlands1.09vpn.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 3", server: 157.22.185.68, port: 2058, type: vless, tls: true, packet-encoding: xudp, uuid: 4ad9f982-b56a-444a-9684-35ce51307a36, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: lJBsn9ndieTIUBzXkJUhf6O0OE8pm29_z1fUtARwL0s, short-id: 937255313d6ce673}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 4", server: 95.85.250.72, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 50ed9601-ebd4-4ba7-a234-ffe642d351cd, servername: static.freepeople2025.cc, host: static.freepeople2025.cc, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: tqzNNOthkpzu0bg04SU07u4t0eO5XGNeXiTjifSeS2k, short-id: 71fcf6101e9803bc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 5", server: 2.26.125.69, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 558b26f6-061b-4079-9b84-ca13b3e90ae3, servername: www.google.com, host: www.google.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: d7t1rPYp8ZhVKOx8ibPHNCfadb7uenjCEVNeOlx6jTI, short-id: 45ff4e6aa34a3182}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 5", server: 169.40.34.41, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 622654a4-b666-000b-9260-fb717e05154f, servername: key-master-saver.com, host: key-master-saver.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY, short-id: 1c3e8241a8743df9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 6", server: 169.40.34.41, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 622654a4-b666-000b-9260-fb717e05154f, servername: key-master-saver.com, host: key-master-saver.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY, short-id: 1c3e8241a8743df9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 6", server: 169.40.34.41, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 622654a4-b666-000b-9260-fb717e05154f, servername: key-master-saver.com, host: key-master-saver.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 6VMgXXhZdJCiOG05EyK_zTHh00kpFGrZJeZIEPgqhjY, short-id: 1c3e8241a8743df9}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 7", server: 146.75.59.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee", server: 146.75.59.186, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 2", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee`", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 3", server: 199.232.78.160, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@proxy_kafee 4", server: wwww.qarvian.ir, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 64ce5faf-427b-4dd1-926c-6b7ced6b8c38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 8", server: 159.195.207.238, port: 49313, type: vless, tls: true, packet-encoding: xudp, uuid: 855c7aaa-e7d6-463e-971e-d36032744428, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 7", server: 179.255.190.21, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e, servername: fs.qicai99.com, network: ws, ws-opts: {path: /fp=chrome, headers: {Host: fs.qicai99.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee`", server: 193.233.129.97, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e, servername: fs.qicai99.com, network: ws, ws-opts: {path: /, headers: {Host: fs.qicai99.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 8", server: 84.46.251.105, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e, servername: fs.qicai99.com, network: ws, ws-opts: {path: /, headers: {Host: fs.qicai99.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 9", server: 185.189.45.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dd5bed0b-ee77-481b-9f2c-250a632ddd9f, servername: get.jarbook.net, host: get.jarbook.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs, short-id: c6f97313}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee`", server: 185.189.45.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dd5bed0b-ee77-481b-9f2c-250a632ddd9f, servername: get.jarbook.net, host: get.jarbook.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs, short-id: c6f97313}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Channel : @proxy_kafee 10", server: 185.189.45.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dd5bed0b-ee77-481b-9f2c-250a632ddd9f, servername: get.jarbook.net, host: get.jarbook.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs, short-id: c6f97313}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 9", server: 185.189.45.195, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: dd5bed0b-ee77-481b-9f2c-250a632ddd9f, servername: get.jarbook.net, host: get.jarbook.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: BIy6H-jndn24Ukyw83ML8LDB1HL8WLJmfCADEy8lzVs, short-id: c6f97313}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "Telegram : @proxy_kafee 10", server: 62.60.188.239, port: 80, type: vless, tls: true, packet-encoding: xudp, uuid: fdc94727-c5f7-400c-9ef4-da679ce36024, network: ws, ws-opts: {path: /}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -486,33 +508,99 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -528,33 +616,99 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
+      - "Channel : @proxy_kafee"
+      - "Telegram : @proxy_kafee"
+      - "Telegram : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 2"
+      - "Channel : @proxy_kafee 3"
+      - "Channel : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 3"
+      - "Telegram : @proxy_kafee 4"
+      - "Telegram : @proxy_kafee 5"
+      - "Channel : @proxy_kafee 5"
+      - "Telegram : @proxy_kafee 6"
+      - "Channel : @proxy_kafee 6"
+      - "Telegram : @proxy_kafee 7"
       - "@proxy_kafee"
       - "@proxy_kafee 2"
       - "@proxy_kafee`"
       - "@proxy_kafee 3"
       - "@proxy_kafee 4"
+      - "Telegram : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 7"
+      - "Channel : @proxy_kafee`"
+      - "Channel : @proxy_kafee 8"
+      - "Channel : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee`"
+      - "Channel : @proxy_kafee 10"
+      - "Telegram : @proxy_kafee 9"
+      - "Telegram : @proxy_kafee 10"
   - name: دانلود منیجر 📥
     type: select
     proxies:
