@@ -467,8 +467,6 @@ rule-providers:
 proxies:
   - {name: 212186 | ⚡️Telegram - t.me/SOSkeyNET, server: 179.61.138.145, port: 36264, type: hysteria2, ports: 36264, password: VPNJey, obfs: salamander, obfs-password: Telegram%40vpnjey, sni: de2.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 62@oneclickvpnkeys, server: 179.61.138.145, port: 36264, type: hysteria2, ports: 36264, password: VPNJey, obfs: salamander, obfs-password: Telegram%40vpnjey, sni: de2.jey.cc.cd, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 212067 | ⚡️Telegram - t.me/SOSkeyNET, server: 194.48.250.233, port: 443, type: hysteria2, ports: 443, password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3, sni: mol.ultimagamest.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 31@oneclickvpnkeys, server: 194.48.250.233, port: 443, type: hysteria2, ports: 443, password: a2c74ce7-5daa-4bee-a1eb-52863873b3c3, sni: mol.ultimagamest.com, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -487,8 +485,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -497,8 +493,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -507,8 +501,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -526,8 +518,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -536,8 +526,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -546,8 +534,6 @@ proxy-groups:
     proxies:
       - 212186 | ⚡️Telegram - t.me/SOSkeyNET
       - 62@oneclickvpnkeys
-      - 212067 | ⚡️Telegram - t.me/SOSkeyNET
-      - 31@oneclickvpnkeys
   - name: دانلود منیجر 📥
     type: select
     proxies:
