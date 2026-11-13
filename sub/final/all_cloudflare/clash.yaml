@@ -465,8 +465,8 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: 188.114.96.9:443, server: 188.114.96.9, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2e305ebe-f6e6-4689-b32f-cd04ab5ff541, servername: IdB8ONMVbntuYT5t7t6cEJfw8vLrb.paGEs.DeV, alpn: [http/1.1], network: ws, ws-opts: {path: /vl/9yvcoLdzdOXLUYfH7r5gwJhu1CHrj, headers: {Host: IdB8ONMVbntuYT5t7t6cEJfw8vLrb.paGEs.DeV}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443, server: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ac532d5e-2b9c-45a2-85df-37b3b74cffde, servername: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/9dffa10cc2d3b317?ed=2560", headers: {Host: fast-route-4aa49d-gw.staging-api-05a87c.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: sin6.fereshtehagonahnemikonnad.ir:2097, server: sin6.fereshtehagonahnemikonnad.ir, port: 2097, type: vless, tls: true, packet-encoding: xudp, uuid: 7be1d25f-bc02-4eed-aa34-4bbc1bcabb55, servername: chatgpt.com, host: chatgpt.com, path: /, reality-opts: {public-key: bJUsLMshGFxw4AFJslDjNzBigCzHmGVWfeaRImnwo04, short-id: 30ae0eeeff39adde}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 213209 | ⚡️Telegram - t.me/SOSkeyNET, server: sin6.fereshtehagonahnemikonnad.ir, port: 2097, type: vless, tls: true, packet-encoding: xudp, uuid: 7be1d25f-bc02-4eed-aa34-4bbc1bcabb55, servername: chatgpt.com, host: chatgpt.com, path: /, reality-opts: {public-key: bJUsLMshGFxw4AFJslDjNzBigCzHmGVWfeaRImnwo04, short-id: 30ae0eeeff39adde}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 104.18.79.242:443, server: 104.18.79.242, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bb2a729c-6185-4170-8769-6f5b9f64d5b8, servername: cloud-sync-3d1512-gw.maziarkish.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/11290579a72cdb4e?ed=2560", headers: {Host: cloud-sync-3d1512-gw.maziarkish.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 213062 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.18.79.242, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bb2a729c-6185-4170-8769-6f5b9f64d5b8, servername: cloud-sync-3d1512-gw.maziarkish.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/11290579a72cdb4e?ed=2560", headers: {Host: cloud-sync-3d1512-gw.maziarkish.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -486,8 +486,8 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
@@ -497,8 +497,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
@@ -508,8 +508,8 @@ proxy-groups:
     interval: 600
     tolerance: 50
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
@@ -528,8 +528,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
@@ -539,8 +539,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
@@ -550,8 +550,8 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - 188.114.96.9:443
-      - fast-route-4aa49d-gw.staging-api-05a87c.workers.dev:443
+      - sin6.fereshtehagonahnemikonnad.ir:2097
+      - 213209 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.18.79.242:443
       - 213062 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
