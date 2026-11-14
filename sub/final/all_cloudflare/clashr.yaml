@@ -5,7 +5,8 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: tally.so:2082, server: tally.so, port: 2082, type: vless, tls: true, packet-encoding: xudp, uuid: 975955b1-0521-49d9-97ad-eed2e626a30f, network: ws, ws-opts: {path: /, headers: {Host: roOz-ryo1kZgj-v1.rOoz-67c.woRKers.deV}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: chatgpt.com:2053, server: chatgpt.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 1d71b9b4-1e47-4b39-9d12-4c37652306c4, servername: none3.bingnet.online, network: ws, ws-opts: {path: /, headers: {Host: none3.bingnet.online}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 214083 | ⚡️Telegram - t.me/SOSkeyNET, server: chatgpt.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 1d71b9b4-1e47-4b39-9d12-4c37652306c4, servername: none3.bingnet.online, network: ws, ws-opts: {path: /, headers: {Host: none3.bingnet.online}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -13,7 +14,8 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: ♻️ 自动选择
     type: url-test
@@ -21,7 +23,8 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🌍 国外媒体
     type: select
@@ -29,28 +32,32 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
   - name: 🎯 全球直连
     type: select
@@ -79,7 +86,8 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - tally.so:2082
+      - chatgpt.com:2053
+      - 214083 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

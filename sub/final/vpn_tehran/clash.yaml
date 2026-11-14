@@ -466,13 +466,8 @@ rule-providers:
     path: ./ruleset/mihSpotify.yaml
 proxies:
   - {name: "@Vpn_Tehran ❤️ کانال تلگرام", server: 193.108.119.78, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: www.iloverussia2026.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💗 کانال تلگرام", server: 88.80.150.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d, servername: bg2.oncloudvpn.com, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام", server: 88.80.150.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d, servername: bg2.oncloudvpn.com, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💗 کانال تلگرام 2", server: 156.226.168.221, port: 35193, type: vless, tls: true, packet-encoding: xudp, uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851, servername: www.apple.com, host: www.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE, short-id: e8daed2d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام 2", server: 156.226.168.221, port: 35193, type: vless, tls: true, packet-encoding: xudp, uuid: 35cbae61-ee10-4cb9-abb8-4950b35e9851, servername: www.apple.com, host: www.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: d_pn_DMaIxhCkNh80h0Mc7nP94hrlN--I8liOIREDxE, short-id: e8daed2d}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💗 کانال تلگرام 3", server: 65.109.208.183, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5f07a2a1-82a5-494d-847b-b882e6903192, servername: free.for.member.iiproxy.com, host: free.for.member.iiproxy.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💗 کانال تلگرام 4", server: ee.subv.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 90157e25-cee1-4217-921e-91f300bc1a24, servername: dvizhok.su, host: dvizhok.su, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs, short-id: 428ef87fd47a3a32}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@Vpn_Tehran 💗 کانال تلگرام 5", server: ee.subv.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 90157e25-cee1-4217-921e-91f300bc1a24, servername: dvizhok.su, host: dvizhok.su, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs, short-id: 428ef87fd47a3a32}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام 3", server: ee.subv.ru, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 90157e25-cee1-4217-921e-91f300bc1a24, servername: dvizhok.su, host: dvizhok.su, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1vSZjvhZO01oAEH3b7eebR1qF5dLU1Dq2E7xu8pwGSs, short-id: 428ef87fd47a3a32}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام 4", server: 162.159.198.1, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e, servername: fs.qicai99.com, network: ws, ws-opts: {path: /, headers: {Host: fs.qicai99.com}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Vpn_Tehran 💛 کانال تلگرام 5", server: 172.67.74.177, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 99c5b713-dedf-4a10-8070-916ff3f49b0e, servername: fs.qicai99.com, network: ws, ws-opts: {path: /, headers: {Host: fs.qicai99.com}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -496,13 +491,8 @@ proxy-groups:
     type: select
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
@@ -516,13 +506,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
@@ -536,13 +521,8 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
@@ -565,13 +545,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
@@ -585,13 +560,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
@@ -605,13 +575,8 @@ proxy-groups:
     interval: 600
     proxies:
       - "@Vpn_Tehran ❤️ کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام"
       - "@Vpn_Tehran 💛 کانال تلگرام"
-      - "@Vpn_Tehran 💗 کانال تلگرام 2"
       - "@Vpn_Tehran 💛 کانال تلگرام 2"
-      - "@Vpn_Tehran 💗 کانال تلگرام 3"
-      - "@Vpn_Tehran 💗 کانال تلگرام 4"
-      - "@Vpn_Tehran 💗 کانال تلگرام 5"
       - "@Vpn_Tehran 💛 کانال تلگرام 3"
       - "@Vpn_Tehran 💛 کانال تلگرام 4"
       - "@Vpn_Tehran 💛 کانال تلگرام 5"
