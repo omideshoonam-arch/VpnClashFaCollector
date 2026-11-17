@@ -465,40 +465,63 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: "@FarazV2ray", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 40.123.254.236, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: M8Z2I7nGjhmwhy2m, udp: true, tfo: false}
+  - {name: "@FarazV2ray 2", server: 198.98.53.130, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: eDfN7SODQceIOmIAbtJJtK, udp: true, tfo: false}
+  - {name: "@FarazV2ray 3", server: 193.29.139.223, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@FarazV2ray 4", server: 82.38.31.194, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
   - {name: "@v2ray_configs_pools > کانفیگ رایگان", server: 57.131.21.102, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: n4uygjtq54pz1oiv, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray", server: 162.251.62.31, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 2", server: 172.111.36.123, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 3", server: 38.121.43.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 4", server: 84.20.27.183, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
-  - {name: "@FarazV2ray 2", server: image-web-production-2ec53b05.up.railway.app, port: 443, type: trojan, password: 05cbf32b-7349-4497-b763-65702079929c, sni: image-web-production-2ec53b05.up.railway.app, skip-cert-verify: false, network: ws, ws-opts: {path: /tr/05cbf32b-7349-4497-b763-65702079929c, headers: {Host: image-web-production-2ec53b05.up.railway.app}}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: 149.40.57.133, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 2", server: 149.40.57.138, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 3", server: 162.251.62.31, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 4", server: 167.88.63.99, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 5", server: 172.111.36.123, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 6", server: 38.121.43.18, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 7", server: 38.121.43.225, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 8", server: 38.121.43.231, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 9", server: 38.22.17.129, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 10", server: 84.20.27.183, port: 19999, type: ss, cipher: aes-256-gcm, password: ZRpgaBeGxtENIXgvhpkZBKz9GnWRS2dYcx9O+a2iwN4=, udp: true, tfo: false}
+  - {name: "@FarazV2ray 5", server: image-web-production-2ec53b05.up.railway.app, port: 443, type: trojan, password: 05cbf32b-7349-4497-b763-65702079929c, sni: image-web-production-2ec53b05.up.railway.app, skip-cert-verify: false, network: ws, ws-opts: {path: /tr/05cbf32b-7349-4497-b763-65702079929c, headers: {Host: image-web-production-2ec53b05.up.railway.app}}, udp: true, tfo: false}
   - {name: 167- NetFreedom0, server: ipfast.kingmna.com, port: 443, type: trojan, password: SiFvGI5bX01GGtGOJ2_nxA, sni: cdn.akamai.steamstatic.com, skip-cert-verify: false, network: ws, ws-opts: {path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER, headers: {Host: cdn.akamai.steamstatic.com}}, udp: true, tfo: false}
+  - {name: "@prrofile_purple (تلگرام)", server: 199.232.78.159, port: 443, type: trojan, password: jcTG9WSWMJAmR4rv10xpww, sni: cdn.akamai.steamstatic.com, skip-cert-verify: false, network: ws, ws-opts: {path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER, headers: {Host: cdn.akamai.steamstatic.com}}, udp: true, tfo: false}
   - {name: 081- NetFreedom0, server: bg.spirako.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 081cd1d2-4a06-440b-b68a-1472a6aa69f1, servername: apple.com, host: apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 0hH6R90pSxwm7nZPGtJJcJFhwCXU3Rvf-wcEHE7hczo, short-id: 9ce04f63}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@NamiraConfigs", server: nl41.homelab-cdn.cloud, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 0ed9418b-e687-4c2d-8869-7e368c44887e, servername: nl41.homelab-cdn.cloud, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, reality-opts: {public-key: NW2c4t6gXODenb0_Mo5Qf-1nrJr5xFQm30zf-IVfHjY, short-id: 08}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@Proxymelimon", server: 88.80.150.15, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 1d46250c-f015-439d-a7fd-c4d9e2a4c63d, servername: bg2.oncloudvpn.com, alpn: [h2], network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: grpc}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 08, server: 51.158.206.25, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 6", server: 51.158.206.98, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple (تلگرام) 2", server: 62.210.91.10, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 7", server: 62.210.91.2, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple (تلگرام) 3", server: 62.210.91.2, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@NamiraConfigs 2", server: 31.43.179.111, port: 2087, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-8b680ff0aff9, servername: l5zgnlesutjs.foxvpn551144.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/8b680ff0aff9, headers: {Host: l5zgnlesutjs.foxvpn551144.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 3", server: 185.155.55.2, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c09e56b-f97f-4360-8f01-eb4d39202095, servername: ee-nf.reddotcorp.org, host: ee-nf.reddotcorp.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE, short-id: 661766b2bcef440a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 8", server: 185.155.55.2, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c09e56b-f97f-4360-8f01-eb4d39202095, servername: ee-nf.reddotcorp.org, host: ee-nf.reddotcorp.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE, short-id: 661766b2bcef440a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 10, server: 185.155.55.2, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 5c09e56b-f97f-4360-8f01-eb4d39202095, servername: ee-nf.reddotcorp.org, host: ee-nf.reddotcorp.org, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ApMfbcEyBOve6DxXoBNVu3bCCzQ7XCEYB4ummsDtTBE, short-id: 661766b2bcef440a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 5", server: 104.168.109.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 74b86103-0a6e-4a0e-8430-2aa84af805fc, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: rU4-ii54LkmEWBaliTQHvi3jc0fDTlSmutVtzedMNRM, short-id: 6ba7b8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 9", server: fr.abbaas.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 6962c372-27da-56d6-9d1f-8041abb7538e, servername: w-x.co, host: w-x.co, path: /, reality-opts: {public-key: wBh3jtk45kBonp2-uVqsx71F4ziNH7vZcU6DAC6t2xs, short-id: 1296174a86a6ac8c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@NamiraConfigs 3", server: 185.156.110.35, port: 777, type: vless, tls: true, packet-encoding: xudp, uuid: 71b6bbe3-08a7-4769-9f7a-ba294e462ebc, servername: it.nvidia.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: /}, reality-opts: {public-key: KxQXSYLnV2yk8j9kDcMXYddtE_3jvI_t9nqUKgZ0DC8, short-id: 0279388c}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 11", server: 104.168.109.213, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 74b86103-0a6e-4a0e-8430-2aa84af805fc, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: rU4-ii54LkmEWBaliTQHvi3jc0fDTlSmutVtzedMNRM, short-id: 6ba7b8}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@flyv2ray", server: 193.243.189.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: no1.gofizz.in, host: no1.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg, short-id: b12c3119d219dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 05, server: 193.243.189.64, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: no1.gofizz.in, host: no1.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 631qtx5_iiR8HBYdp3duf2SMqdN0URE1AWVb85I_FFg, short-id: b12c3119d219dc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 01, server: 212.98.224.35, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: tr1.gofizzin.com, host: tr1.gofizzin.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 9_UhwEt_9pf8WahM1K9O6-_0vAK6q0uiNGFoHBO7s3A, short-id: 0e3e4d96}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@flyv2ray 2", server: 45.91.93.47, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: uk2.gofizz.in, host: uk2.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WgTZR-o6VbFYeqb7iZNBh-izcWAQlpotOyxibJnAXVc, short-id: f51489cb3d7e8be2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@flyv2ray 3", server: 45.91.93.47, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: uk2.gofizz.in, host: uk2.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WgTZR-o6VbFYeqb7iZNBh-izcWAQlpotOyxibJnAXVc, short-id: f51489cb3d7e8be2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 04, server: 45.91.93.47, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: uk2.gofizz.in, host: uk2.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: WgTZR-o6VbFYeqb7iZNBh-izcWAQlpotOyxibJnAXVc, short-id: f51489cb3d7e8be2}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple (تلگرام)", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 4", server: mi5678uyg-production.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97248448-f9c6-4a55-8dd4-3f87fc4f2022, servername: mi5678uyg-production.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/R8c_my, headers: {Host: mi5678uyg-production.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@flyv2ray 4", server: 5.253.86.3, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: nl3.gofizz.in, host: nl3.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo, short-id: fa1754221e4c5f9e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@flyv2ray 5", server: 5.253.86.3, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8197b9b9-8945-460f-99c9-325ef8a8a7c3, servername: nl3.gofizz.in, host: nl3.gofizz.in, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 51ZCyVOxvcD_smARtd9mV-3Rh_WurOzMGRFxk9u2Kgo, short-id: fa1754221e4c5f9e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@prrofile_purple (تلگرام) 4", server: 199.232.78.159, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 8d2cbffd-43d0-458d-906b-7c54b7b51f38, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 10", server: mi5678uyg-production.up.railway.app, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 97248448-f9c6-4a55-8dd4-3f87fc4f2022, servername: mi5678uyg-production.up.railway.app, alpn: [http%2F1.1], network: ws, ws-opts: {path: /api/R8c_my, headers: {Host: mi5678uyg-production.up.railway.app}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@v2ray_configs_pools 🍁", server: 179.43.187.67, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 9dd38d60-e683-47c6-bd53-d71bdfee78f3, servername: portal.mavexa.ir, host: portal.mavexa.ir, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 5", server: fr.abbaas.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: SoonTeam%20, servername: stg.crazimals.com, host: stg.crazimals.com, path: /, reality-opts: {public-key: wBh3jtk45kBonp2-uVqsx71F4ziNH7vZcU6DAC6t2xs, short-id: 57}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 11", server: fr.abbaas.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: SoonTeam%20, servername: stg.crazimals.com, host: stg.crazimals.com, path: /, reality-opts: {public-key: wBh3jtk45kBonp2-uVqsx71F4ziNH7vZcU6DAC6t2xs, short-id: 57}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@v2ray_configs_pools > کانفیگ رایگان 2", server: 153.56.229.218, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ba0dbd83-3569-46dc-bc3d-ef6e58ffc97b, servername: 71b840t.de7.h1clayd.click, host: 71b840t.de7.h1clayd.click, path: /, reality-opts: {public-key: 3wFF83gtIA0sXj-6GGCAa--oQbSr0MVUj0FBc-0QmiE, short-id: e572b6579ea525d4}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 6", server: online.shop.ir.eeso.cc, port: 39653, type: vless, tls: true, packet-encoding: xudp, uuid: baded307-189c-4ffc-a271-9acdab51a324, servername: online.shop.ir.eeso.cc, host: online.shop.ir.eeso.cc, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 12", server: online.shop.ir.eeso.cc, port: 39653, type: vless, tls: true, packet-encoding: xudp, uuid: baded307-189c-4ffc-a271-9acdab51a324, servername: online.shop.ir.eeso.cc, host: online.shop.ir.eeso.cc, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 45.144.112.55:443, server: 45.144.112.55, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 06, server: 66.70.179.198, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: dc620cd6-a9d8-4a0f-8f18-006b895db77e, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: k4l6TxwkBbx9DhZAFpByq5rfCWFSgyOex3f_eFe9CWU, short-id: 83f8317a948bb769}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 7", server: ipfast.kingmna.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e19c43f2-fbe9-4a05-8f20-a8ef5e0f9409, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 8", server: ipfast.kingmna.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e19c43f2-fbe9-4a05-8f20-a8ef5e0f9409, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 13", server: ipfast.kingmna.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e19c43f2-fbe9-4a05-8f20-a8ef5e0f9409, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 14", server: ipfast.kingmna.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e19c43f2-fbe9-4a05-8f20-a8ef5e0f9409, servername: cdn.akamai.steamstatic.com, network: ws, ws-opts: {path: /, headers: {Host: cdn.akamai.steamstatic.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.39.135.255:22222, server: 13.39.135.255, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 18.135.233.153:22222, server: 18.135.233.153, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 35.181.110.213:22222, server: 35.181.110.213, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 51.45.42.203:22222, server: 51.45.42.203, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@v2ray_configs_pools 🍁 2", server: 146.103.118.189, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5d062f0-7bad-4c80-9417-ae083eef61c1, servername: nl2.574ck.xyz, alpn: [h2%2Chttp%2F1.1], network: ws, ws-opts: {path: /ws, headers: {Host: nl2.574ck.xyz}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: Telegram 👉🏼 @planB_net  • 03, server: 83.217.201.82, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ebd1c0d6-7ff4-4b9f-8692-237517a27a64, servername: skvoz-dpi.com, host: skvoz-dpi.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: mza5Hn1aolSz65qu-UwvBP3oesxMe25r11o4nxvikF0, short-id: d1579a8745398e34}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@MTproxy22_v2ray 6", server: US032012.westmgreen.com, port: 443, type: vmess, uuid: fbc990c5-c62e-4e31-a9a5-db3a4fe42741, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: US032012.westmgreen.com}}, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray 12", server: US032012.westmgreen.com, port: 443, type: vmess, uuid: fbc990c5-c62e-4e31-a9a5-db3a4fe42741, alterId: 0, cipher: auto, tls: true, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: US032012.westmgreen.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -516,39 +539,62 @@ proxy-groups:
     type: select
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
@@ -556,39 +602,62 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
@@ -596,39 +665,62 @@ proxy-groups:
     tolerance: 50
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -645,39 +737,62 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
@@ -685,39 +800,62 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
@@ -725,39 +863,62 @@ proxy-groups:
     interval: 600
     proxies:
       - "@FarazV2ray"
+      - "@FarazV2ray 2"
+      - "@FarazV2ray 3"
+      - "@FarazV2ray 4"
       - "@v2ray_configs_pools > کانفیگ رایگان"
       - "@MTproxy22_v2ray"
       - "@MTproxy22_v2ray 2"
       - "@MTproxy22_v2ray 3"
       - "@MTproxy22_v2ray 4"
-      - "@FarazV2ray 2"
+      - "@MTproxy22_v2ray 5"
+      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 7"
+      - "@MTproxy22_v2ray 8"
+      - "@MTproxy22_v2ray 9"
+      - "@MTproxy22_v2ray 10"
+      - "@FarazV2ray 5"
       - 167- NetFreedom0
+      - "@prrofile_purple (تلگرام)"
       - 081- NetFreedom0
       - "@NamiraConfigs"
       - "@Proxymelimon"
       - Telegram 👉🏼 @planB_net  • 08
+      - "@FarazV2ray 6"
+      - "@prrofile_purple (تلگرام) 2"
+      - "@FarazV2ray 7"
+      - "@prrofile_purple (تلگرام) 3"
       - "@NamiraConfigs 2"
-      - "@FarazV2ray 3"
+      - "@FarazV2ray 8"
       - Telegram 👉🏼 @planB_net  • 10
-      - "@MTproxy22_v2ray 5"
+      - "@FarazV2ray 9"
+      - "@NamiraConfigs 3"
+      - "@MTproxy22_v2ray 11"
+      - "@flyv2ray"
       - Telegram 👉🏼 @planB_net  • 05
       - Telegram 👉🏼 @planB_net  • 01
+      - "@flyv2ray 2"
+      - "@flyv2ray 3"
       - Telegram 👉🏼 @planB_net  • 04
-      - "@prrofile_purple (تلگرام)"
-      - "@FarazV2ray 4"
+      - "@flyv2ray 4"
+      - "@flyv2ray 5"
+      - "@prrofile_purple (تلگرام) 4"
+      - "@FarazV2ray 10"
       - "@v2ray_configs_pools 🍁"
-      - "@FarazV2ray 5"
+      - "@FarazV2ray 11"
       - "@v2ray_configs_pools > کانفیگ رایگان 2"
-      - "@FarazV2ray 6"
+      - "@FarazV2ray 12"
       - 45.144.112.55:443
       - Telegram 👉🏼 @planB_net  • 06
-      - "@FarazV2ray 7"
-      - "@FarazV2ray 8"
+      - "@FarazV2ray 13"
+      - "@FarazV2ray 14"
+      - 13.39.135.255:22222
       - 18.135.233.153:22222
+      - 35.181.110.213:22222
       - 51.45.42.203:22222
       - "@v2ray_configs_pools 🍁 2"
       - Telegram 👉🏼 @planB_net  • 03
-      - "@MTproxy22_v2ray 6"
+      - "@MTproxy22_v2ray 12"
   - name: دانلود منیجر 📥
     type: select
     proxies:
