@@ -5,46 +5,46 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: free.fugui.lol:47396, server: free.fugui.lol, port: 47396, type: vless, tls: true, packet-encoding: xudp, uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7, servername: swdist.apple.com, host: swdist.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ, short-id: fa514b83}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: music.3apes.online:443, server: music.3apes.online, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 12776e55-6230-48b9-b069-1bb8a04b4237, servername: music.3apes.online, host: music.3apes.online, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - free.fugui.lol:47396
+      - music.3apes.online:443
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -72,7 +72,7 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - free.fugui.lol:47396
+      - music.3apes.online:443
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
