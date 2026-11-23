@@ -5,35 +5,34 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 144.31.85.72:443, server: 144.31.85.72, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226073 | ⚡️Telegram - t.me/SOSkeyNET, server: 144.31.85.72, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226077 | ⚡️Telegram - t.me/SOSkeyNET, server: 144.31.85.72, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 152.53.138.238:443, server: 152.53.138.238, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226045 | ⚡️Telegram - t.me/SOSkeyNET, server: 152.53.138.238, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226047 | ⚡️Telegram - t.me/SOSkeyNET, server: 152.53.138.238, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 152.53.228.86:443, server: 152.53.228.86, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226164 | ⚡️Telegram - t.me/SOSkeyNET, server: 152.53.228.86, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226167 | ⚡️Telegram - t.me/SOSkeyNET, server: 152.53.228.86, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 202.61.195.167:443, server: 202.61.195.167, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226197 | ⚡️Telegram - t.me/SOSkeyNET, server: 202.61.195.167, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 226200 | ⚡️Telegram - t.me/SOSkeyNET, server: 202.61.195.167, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 31.172.71.23:443, server: 31.172.71.23, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 225958 | ⚡️Telegram - t.me/SOSkeyNET, server: 31.172.71.23, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443, server: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev, port: 443, type: trojan, password: TsX0XJKMa2h%24CbKr0k, sni: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 224999 | ⚡️Telegram - t.me/SOSkeyNET, server: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev, port: 443, type: trojan, password: TsX0XJKMa2h%24CbKr0k, sni: idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 🇷🇺 russia.com:443, server: russia.com, port: 443, type: trojan, password: bpb-trojan, sni: kargar001.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /tr%3Fed%3D2560, headers: {Host: kargar001.pages.dev}}, udp: true, tfo: false}
+  - {name: 226711 | ⚡️Telegram - t.me/SOSkeyNET, server: russia.com, port: 443, type: trojan, password: bpb-trojan, sni: kargar001.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /tr%3Fed%3D2560, headers: {Host: kargar001.pages.dev}}, udp: true, tfo: false}
   - {name: 🇸🇬 singapore.com:443, server: singapore.com, port: 443, type: trojan, password: bpb-trojan, sni: kargar001.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 224967 | ⚡️Telegram - t.me/SOSkeyNET, server: singapore.com, port: 443, type: trojan, password: bpb-trojan, sni: kargar001.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 104.19.173.68:443, server: 104.19.173.68, port: 443, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-5vk.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan", headers: {Host: azadnet-5vk.pages.dev}}, udp: true, tfo: false}
   - {name: 224585 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.19.173.68, port: 443, type: trojan, password: d0298536-d670-4045-bbb1-ddd5ea68683e, sni: azadnet-5vk.pages.dev, skip-cert-verify: false, network: ws, ws-opts: {path: "/azadnet-5vk.pages.dev/?ed=2560&PROT_TYPE=trojan", headers: {Host: azadnet-5vk.pages.dev}}, udp: true, tfo: false}
   - {name: www.wto.org:8443, server: www.wto.org, port: 8443, type: trojan, password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f, sni: jiangjc.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 224888 | ⚡️Telegram - t.me/SOSkeyNET, server: www.wto.org, port: 8443, type: trojan, password: ec1fa47d-4eac-4b3f-8cae-4a2982d43e2f, sni: jiangjc.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 36@oneclickvpnkeys, server: 45.135.235.255, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 0b7337bf-dcff-432b-9ec6-b4fb6d22fc92, servername: worker3.fivon81984.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: worker3.fivon81984.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 38@oneclickvpnkeys, server: 185.18.250.2, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 10997f19-2951-4a9b-a26f-611a6bd72d02, servername: worker3.sicoro1729.workers.dev, network: ws, ws-opts: {path: /, headers: {Host: worker3.sicoro1729.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 154.197.64.252:443, server: 154.197.64.252, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 20b436fc-2c54-4248-b70d-14b8d6916d41, servername: worker3.harijo3330.workers.dev, network: ws, ws-opts: {path: /HGCmKaXbRNqpZqMv, headers: {Host: worker3.harijo3330.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 224452 | ⚡️Telegram - t.me/SOSkeyNET, server: 154.197.64.252, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 20b436fc-2c54-4248-b70d-14b8d6916d41, servername: worker3.harijo3330.workers.dev, network: ws, ws-opts: {path: /HGCmKaXbRNqpZqMv, headers: {Host: worker3.harijo3330.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 39@oneclickvpnkeys, server: 154.197.64.252, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 20b436fc-2c54-4248-b70d-14b8d6916d41, servername: worker3.harijo3330.workers.dev, network: ws, ws-opts: {path: /HGCmKaXbRNqpZqMv, headers: {Host: worker3.harijo3330.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: www.speedtest.net:443, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2d0f4a5d-fe76-448f-8810-5f8b0d2cd237, servername: kijuyjfjydhy14.mamadfkl.workers.dev, network: ws, ws-opts: {path: /V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--, headers: {Host: kijuyjfjydhy14.mamadfkl.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 226551 | ⚡️Telegram - t.me/SOSkeyNET, server: www.speedtest.net, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 2d0f4a5d-fe76-448f-8810-5f8b0d2cd237, servername: kijuyjfjydhy14.mamadfkl.workers.dev, network: ws, ws-opts: {path: /V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--V2rayNGSelllBoT--, headers: {Host: kijuyjfjydhy14.mamadfkl.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 225254 | ⚡️Telegram - t.me/SOSkeyNET, server: fast-route-279ca1-gw.staging-api-c694f6.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4911ec85-501b-4841-92d5-fbf9d942faf4, servername: fast-route-279ca1-gw.staging-api-c694f6.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/3c7d135ea6a9e966?ed=2560", headers: {Host: fast-route-279ca1-gw.staging-api-c694f6.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 225265 | ⚡️Telegram - t.me/SOSkeyNET, server: fast-route-279ca1-gw.staging-api-c694f6.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4911ec85-501b-4841-92d5-fbf9d942faf4, servername: fast-route-279ca1-gw.staging-api-c694f6.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/3c7d135ea6a9e966?ed=2560", headers: {Host: fast-route-279ca1-gw.staging-api-c694f6.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: dimu-vz7e.ezaccess1717bbf.workers.dev:8443, server: dimu-vz7e.ezaccess1717bbf.workers.dev, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 53035563-df32-463c-b23a-5e14535793b2, servername: dimu-vz7e.ezaccess1717bbf.workers.dev, network: ws, ws-opts: {path: "/stream/DEVCOP/5e14535793b2?ed=2048", headers: {Host: dimu-vz7e.ezaccess1717bbf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 223666 | ⚡️Telegram - t.me/SOSkeyNET, server: dimu-vz7e.ezaccess1717bbf.workers.dev, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 53035563-df32-463c-b23a-5e14535793b2, servername: dimu-vz7e.ezaccess1717bbf.workers.dev, network: ws, ws-opts: {path: "/stream/DEVCOP/5e14535793b2?ed=2048", headers: {Host: dimu-vz7e.ezaccess1717bbf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 223667 | ⚡️Telegram - t.me/SOSkeyNET, server: dimu-vz7e.ezaccess1717bbf.workers.dev, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 53035563-df32-463c-b23a-5e14535793b2, servername: dimu-vz7e.ezaccess1717bbf.workers.dev, network: ws, ws-opts: {path: "/stream/DEVCOP/5e14535793b2?ed=2048", headers: {Host: dimu-vz7e.ezaccess1717bbf.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 104.168.132.123:443, server: 104.168.132.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5e610f80-fc6a-479d-8621-b672355b96a1, servername: cf-1rm.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: cf-1rm.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 223707 | ⚡️Telegram - t.me/SOSkeyNET, server: 104.168.132.123, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 5e610f80-fc6a-479d-8621-b672355b96a1, servername: cf-1rm.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: cf-1rm.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: chatgpt.com:2053, server: chatgpt.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 6e5aeb09-49db-4447-b7b4-d2af001f692d, host: chatgpt.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 224840 | ⚡️Telegram - t.me/SOSkeyNET, server: chatgpt.com, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 6e5aeb09-49db-4447-b7b4-d2af001f692d, host: chatgpt.com, path: /, skip-cert-verify: false, udp: true, tfo: false}
   - {name: deeppurple.nabise4347.workers.dev:443, server: deeppurple.nabise4347.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: a1ee5a9d-1dba-4986-f61f-79180f63b5ec, host: deeppurple.nabise4347.workers.dev, path: /, skip-cert-verify: false, udp: true, tfo: false}
@@ -47,6 +46,7 @@ proxies:
   - {name: chatgpt.com:443, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a, servername: sinavm3.soft10.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM, headers: {Host: sinavm3.soft10.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 224517 | ⚡️Telegram - t.me/SOSkeyNET, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a, servername: sinavm3.soft10.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM, headers: {Host: sinavm3.soft10.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@SiNAVM کانال تلگرام", server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: c2425034-91ef-44bf-9fd4-f2be9c1e989a, servername: sinavm3.soft10.ir, alpn: [http%2F1.1], network: ws, ws-opts: {path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM, headers: {Host: sinavm3.soft10.ir}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: fm3.pages.dev:443, server: fm3.pages.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5833a75-2095-48bb-8bb5-ce17291efd13, servername: fm3.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: fm3.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 225656 | ⚡️Telegram - t.me/SOSkeyNET, server: fm3.pages.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: e5833a75-2095-48bb-8bb5-ce17291efd13, servername: fm3.pages.dev, network: ws, ws-opts: {path: /, headers: {Host: fm3.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
@@ -54,35 +54,34 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -96,6 +95,7 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: ♻️ 自动选择
     type: url-test
@@ -103,35 +103,34 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -145,6 +144,7 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🌍 国外媒体
     type: select
@@ -152,35 +152,34 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -194,41 +193,41 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -242,41 +241,41 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -290,41 +289,41 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -338,6 +337,7 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
   - name: 🎯 全球直连
     type: select
@@ -366,35 +366,34 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 144.31.85.72:443
       - 226073 | ⚡️Telegram - t.me/SOSkeyNET
       - 226077 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.138.238:443
       - 226045 | ⚡️Telegram - t.me/SOSkeyNET
       - 226047 | ⚡️Telegram - t.me/SOSkeyNET
+      - 152.53.228.86:443
       - 226164 | ⚡️Telegram - t.me/SOSkeyNET
       - 226167 | ⚡️Telegram - t.me/SOSkeyNET
+      - 202.61.195.167:443
       - 226197 | ⚡️Telegram - t.me/SOSkeyNET
       - 226200 | ⚡️Telegram - t.me/SOSkeyNET
+      - 31.172.71.23:443
       - 225958 | ⚡️Telegram - t.me/SOSkeyNET
       - idb8onmvbntuyt5t7t6cejfw8vlrb.pages.dev:443
       - 224999 | ⚡️Telegram - t.me/SOSkeyNET
+      - 🇷🇺 russia.com:443
+      - 226711 | ⚡️Telegram - t.me/SOSkeyNET
       - 🇸🇬 singapore.com:443
       - 224967 | ⚡️Telegram - t.me/SOSkeyNET
       - 104.19.173.68:443
       - 224585 | ⚡️Telegram - t.me/SOSkeyNET
       - www.wto.org:8443
       - 224888 | ⚡️Telegram - t.me/SOSkeyNET
-      - 36@oneclickvpnkeys
-      - 38@oneclickvpnkeys
-      - 154.197.64.252:443
-      - 224452 | ⚡️Telegram - t.me/SOSkeyNET
-      - 39@oneclickvpnkeys
+      - www.speedtest.net:443
+      - 226551 | ⚡️Telegram - t.me/SOSkeyNET
       - 225254 | ⚡️Telegram - t.me/SOSkeyNET
       - 225265 | ⚡️Telegram - t.me/SOSkeyNET
-      - dimu-vz7e.ezaccess1717bbf.workers.dev:8443
-      - 223666 | ⚡️Telegram - t.me/SOSkeyNET
-      - 223667 | ⚡️Telegram - t.me/SOSkeyNET
-      - 104.168.132.123:443
-      - 223707 | ⚡️Telegram - t.me/SOSkeyNET
       - chatgpt.com:2053
       - 224840 | ⚡️Telegram - t.me/SOSkeyNET
       - deeppurple.nabise4347.workers.dev:443
@@ -408,6 +407,7 @@ proxy-groups:
       - chatgpt.com:443
       - 224517 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرام"
+      - fm3.pages.dev:443
       - 225656 | ⚡️Telegram - t.me/SOSkeyNET
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连

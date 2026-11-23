@@ -465,8 +465,13 @@ rule-providers:
     interval: 86400
     path: ./ruleset/mihSpotify.yaml
 proxies:
-  - {name: bgsg1.hikigo.com:443, server: bgsg1.hikigo.com, port: 443, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: bgsg1.hikigo.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 47.254.167.157:443, server: 47.254.167.157, port: 443, type: ss, cipher: 2022-blake3-chacha20-poly1305, password: 8yO3ANWefuuGs1lRKXECQA1FEhxlWFV2ppQMcBaZo5Y=, udp: true, tfo: false}
+  - {name: a2dgus.supertoolify.com:443, server: a2dgus.supertoolify.com, port: 443, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: a2dgus.supertoolify.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: i1tr.mateflora.com:443, server: i1tr.mateflora.com, port: 443, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: i1tr.mateflora.com, skip-cert-verify: false, udp: true, tfo: false}
   - {name: win2loxfde0303.gggrelay.org:34745, server: win2loxfde0303.gggrelay.org, port: 34745, type: trojan, password: 57beeeb0-03fc-4fc9-94da-7604488a7134, sni: nu3rb.supertoolify.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 150.251.143.253:443, server: 150.251.143.253, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, servername: 4935e4t.de25.h1clayd.click, host: 4935e4t.de25.h1clayd.click, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: MzgB17ZFbKqs8pbC3EscTzHid_ENc-k_Cp6nXl-2knw, short-id: 6976d670818644cc}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 196.196.149.81:443, server: 196.196.149.81, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 4201786b-d99b-4147-a5f0-20d47acddb81, servername: 7aa271t.es1.h1clayd.click, host: 7aa271t.es1.h1clayd.click, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: ZSmetD4e9QG5CiXhniHg5HJB68L4kwbgAkJmMHtVwEE, short-id: 42426c882c5fcd41}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "🇭🇰 [openproxylist.com] vmess-HK", server: pdmv4.xiaoyan.io, port: 16632, type: vmess, uuid: 904f0569-8695-466f-97cf-0de2face1b46, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: f9309cc88637c26f552a1a64fb311cae.mobgslb.tbcache.com}}, udp: true, tfo: false}
 proxy-groups:
   - name: نوع انتخاب پروکسی 🔀
     type: select
@@ -483,24 +488,39 @@ proxy-groups:
   - name: دستی 🤏🏻
     type: select
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: خودکار (بهترین پینگ) 🤖
     type: url-test
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     tolerance: 50
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: پشتیبان (در صورت قطعی) 🧯
     type: fallback
     url: https://www.gstatic.com/generate_204
     interval: 600
     tolerance: 50
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: اتصال پایدار 🔗
     type: url-test
     url: https://cp.cloudflare.com/generate_204
@@ -516,24 +536,39 @@ proxy-groups:
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: توزیع بار (گردشی) 🔁
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: توزیع بار (موقت) ⏳
     type: load-balance
     strategy: consistent-hashing
     url: https://api.v2fly.org/checkConnection.svgz
     interval: 600
     proxies:
-      - bgsg1.hikigo.com:443
+      - 47.254.167.157:443
+      - a2dgus.supertoolify.com:443
+      - i1tr.mateflora.com:443
       - win2loxfde0303.gggrelay.org:34745
+      - 150.251.143.253:443
+      - 196.196.149.81:443
+      - 🇭🇰 [openproxylist.com] vmess-HK
   - name: دانلود منیجر 📥
     type: select
     proxies:
