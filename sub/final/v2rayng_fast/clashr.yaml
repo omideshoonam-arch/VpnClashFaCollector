@@ -5,11 +5,12 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: "@V2rayng_Fast", server: 176.65.151.85, port: 8443, type: trojan, password: aQRciry3QFc6pQpyb2NhH7l5Mc9SPJRT, sni: www.yahoo.com, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 2", server: swe1.baterium.space, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7d63243c-983e-44db-a1b8-13dc3fd6f7a2, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast 3", server: swe1.baterium.space, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7d63243c-983e-44db-a1b8-13dc3fd6f7a2, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@V2rayng_Fast`", server: 132.243.242.115, port: 9543, type: vless, tls: true, packet-encoding: xudp, uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: 123abcdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Tel@V2rayng_Fast 🇮🇹, server: 132.243.242.115, port: 9543, type: vless, tls: true, packet-encoding: xudp, uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: 123abcdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast", server: 82.38.31.208, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 2", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast`", server: 82.38.31.220, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast 3", server: 193.29.139.235, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@V2rayng_Fast \ufeff", server: 82.38.31.162, port: 443, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: Tel@V2rayng_Fast 🇬🇧, server: 51.158.206.98, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
@@ -18,9 +19,10 @@ proxy-groups:
       - DIRECT
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
@@ -29,9 +31,10 @@ proxy-groups:
     proxies:
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: 🌍 国外媒体
     type: select
     proxies:
@@ -40,9 +43,10 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: 📲 电报信息
     type: select
     proxies:
@@ -50,9 +54,10 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
@@ -60,9 +65,10 @@ proxy-groups:
       - 🚀 节点选择
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: 🍎 苹果服务
     type: select
     proxies:
@@ -70,9 +76,10 @@ proxy-groups:
       - 🎯 全球直连
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -102,9 +109,10 @@ proxy-groups:
       - ♻️ 自动选择
       - "@V2rayng_Fast"
       - "@V2rayng_Fast 2"
-      - "@V2rayng_Fast 3"
       - "@V2rayng_Fast`"
-      - Tel@V2rayng_Fast 🇮🇹
+      - "@V2rayng_Fast 3"
+      - "@V2rayng_Fast \ufeff"
+      - Tel@V2rayng_Fast 🇬🇧
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连

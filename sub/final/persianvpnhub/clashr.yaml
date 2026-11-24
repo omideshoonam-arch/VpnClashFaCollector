@@ -5,253 +5,186 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
-  - {name: ️ به یاد جاویدنامان-3-1, server: 216.73.157.142, port: 443, type: hysteria2, ports: 443, password: 74bec046f0004aa5bc280ecc4ab50465, obfs: salamander, obfs-password: qrl-03E8Q6JaUlAkOPHXQBwN, sni: 216.73.157.142, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran", server: 216.73.157.142, port: 443, type: hysteria2, ports: 443, password: 74bec046f0004aa5bc280ecc4ab50465, obfs: salamander, obfs-password: qrl-03E8Q6JaUlAkOPHXQBwN, sni: 216.73.157.142, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@flyv2ray", server: 43.160.213.146, port: 8388, type: ss, cipher: 2022-blake3-aes-256-gcm, password: ClzJLvRzIxivCXbf5X5jnSU0pLg5ffCEUL2AZoeLg94=, udp: true, tfo: false}
-  - {name: "@FarazV2ray", server: 82.38.31.186, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@FarazV2ray 2", server: 82.38.31.210, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@FarazV2ray 3", server: 82.38.31.218, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
-  - {name: "@FarazV2ray 4", server: 82.38.31.35, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
-  - {name: "@prrofile_purple (تلگرام)", server: 146.75.59.186, port: 443, type: trojan, password: GBEqN2BggZfFExc5pTTHUA, sni: cdn.akamai.steamstatic.com, skip-cert-verify: false, network: ws, ws-opts: {path: /TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER-TELEGRAM-@NUFiLTER, headers: {Host: cdn.akamai.steamstatic.com}}, udp: true, tfo: false}
-  - {name: bored_vpn, server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 2", server: 47.253.226.114, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 055a1ce8-2a16-4a0d-a2c2-22826c9b2413, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@prrofile_purple (تلگرام) 2", server: cvetidamam.growmart.site, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 3267ad95-f505-4f08-a852-6febd5af09ff, servername: cvetidamam.growmart.site, host: cvetidamam.growmart.site, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: LW0B4oSrkCd3atsq6Lr3M2dDReW8dVtodLsau4qlxWM, short-id: 05a874ff16cfe500}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@NamiraConfigs", server: 104.21.94.203, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349, servername: fr-free.fastestrelay.com, network: ws, ws-opts: {path: "/700gvl?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: fr-free.fastestrelay.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@NamiraConfigs 2", server: 172.67.139.189, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 364D2D52-E61E-4E52-80EC-2BC6BDF15349, servername: fr-free.fastestrelay.com, network: ws, ws-opts: {path: /700gvl, headers: {Host: fr-free.fastestrelay.com}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 5", server: 51.158.206.20, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: bored_vpn 2, server: 51.158.206.20, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 3", server: 51.158.206.20, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 6", server: 62.210.91.2, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: bored_vpn 3, server: 62.210.91.2, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 4", server: 62.210.91.2, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Irancell💛500GB🇩\x120���", server: 104.19.183.145, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-89990af1220e, servername: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/89990af1220e/loc-0, headers: {Host: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Irancell💛500GB🇩\x120��� 2", server: 104.19.183.145, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-89990af1220e, servername: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/89990af1220e/loc-0, headers: {Host: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "Irancell💛500GB🇩\x120��� 3", server: 104.19.183.145, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: 50414e45-4c5f-5a45-5553-89990af1220e, servername: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/89990af1220e/loc-0, headers: {Host: paz6i4eiuyrhdhss.orz9joepuv3s.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: Irancell💛500GB�g��, server: 104.19.183.145, port: 2053, type: vless, tls: true, packet-encoding: xudp, uuid: 50h414e45-4c5f-5a45-5553-89990af1220e, servername: paz6i4eiuyrs.orz9joepuv3s.workers.dev, network: ws, ws-opts: {path: /stream/PANEL_ZEUS/89990af1220e, headers: {Host: paz6i4eiuyrs.orz9joepuv3s.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@flyv2ray 2", server: 172.64.154.113, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227, servername: freeceshi6.frii.site, network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: freeceshi6.frii.site}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@flyv2ray 3", server: 188.114.98.0, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 53bbdad4-2f4e-45db-8df4-fa491a6a7227, servername: freeceshi6.frii.site, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/?Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET", headers: {Host: freeceshi6.frii.site}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 7", server: swe1.baterium.space, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 7d63243c-983e-44db-a1b8-13dc3fd6f7a2, servername: cdnjs.com, host: cdnjs.com, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@flyv2ray 4", server: 195.216.169.229, port: 9543, type: vless, tls: true, packet-encoding: xudp, uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: 123abcdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@mehrosaboran 5", server: 212.192.3.113, port: 9543, type: vless, tls: true, packet-encoding: xudp, uuid: 920b3cd9-4f82-4669-bbd2-d4a28b9052c6, servername: storage.yandexcloud.net, host: storage.yandexcloud.net, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: M6Ck7wUfOLhQl4582CBnaXwscPEP6SCpdEkUDzoj4Fc, short-id: 123abcdf}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "@FarazV2ray 8", server: iran.crackerbinam.org, port: 54005, type: vless, tls: true, packet-encoding: xudp, uuid: b87e0fe3-2eaa-4714-b717-ae3204fc1846, servername: www.cloudflare.com, host: www.cloudflare.com, path: /, reality-opts: {public-key: k62XkGNgUzt6z6NjQrM-zjpuUei3G62_AAIzlgxHaEA, short-id: ed69a523b5ab3e}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 13.36.247.237:22222, server: 13.36.247.237, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 15.236.126.197:22222, server: 15.236.126.197, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: "باکیفیت‌ترین تانل: @mvn_vpn 🤍", server: free.fugui.lol, port: 19482, type: vless, tls: true, packet-encoding: xudp, uuid: ead3595f-4020-4e76-a3ec-c248e1a2f2f7, servername: swdist.apple.com, host: swdist.apple.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: IjWYbHNrZb3UCQxsTJyekEOA3tHq42L6Jw3O8MmLYVQ, short-id: fa514b83}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: ️ به یاد جاویدنامان-1, server: 216.73.157.142, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: ee9d97aa-0d22-4b81-8db2-5906d99f9ad1, servername: linux.oracle.com, host: linux.oracle.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: h1CYYGYv7hP4tt5Z7Plbirs9LQEzX8ACRfoFVA-xSHM, short-id: 4f1a8361}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: tootffarangi, server: 57.129.132.223, port: 80, type: vmess, uuid: a25cbf11-2908-4a1b-a3a8-9a571777dca3, alterId: 0, cipher: auto, tls: false, skip-cert-verify: false, network: ws, ws-opts: {path: "/vmess/?ed#Telegram---PLANB_NET---PLANB_NET---PLANB_NET---PLANB_NET"}, udp: true, tfo: false}
+  - {name: "@FarazV2ray", server: 82.38.31.198, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@FarazV2ray 2", server: 82.38.31.200, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: k1dBOmOB4oqi7Ump37a1bQ, udp: true, tfo: false}
+  - {name: "@FarazV2ray 3", server: 82.38.31.156, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray 4", server: 82.38.31.61, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray 5", server: 82.38.31.66, port: 8080, type: ss, cipher: chacha20-ietf-poly1305, password: oZIoA69Q8yhcQV8ka3Pa3A, udp: true, tfo: false}
+  - {name: "@FarazV2ray 6", server: 141.98.101.181, port: 443, type: ss, cipher: aes-128-gcm, password: shadowsocks, udp: true, tfo: false}
+  - {name: "@MTproxy22_v2ray", server: 15.204.247.206, port: 4444, type: ss, cipher: aes-256-gcm, password: pKEW8JPByTVTLtM, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy", server: 66.163.118.244, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: api.discovergreatjobsandadvanceyourcareer.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 2", server: 66.163.118.62, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: courses.discovergreatjobsandadvanceyourcareer.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 3", server: 66.163.127.107, port: 443, type: trojan, password: 0ab6c98dae3b48e8b9c4a776b6c9c19a, sni: blog.indyourperfectremotetechjobfromthecomfortofhome.com, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@NamiraConfigs", server: 78.17.171.140, port: 2053, type: trojan, password: t5ZTZ0bYgRLNmJKv-Wg2wmsMx21s6RhX, sni: ra-p1.victorycloud.ru, skip-cert-verify: false, network: ws, ws-opts: {path: "/2fc2ec03a65d451dffa4592d68c43a29?TELEGRAM--B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub-B2Hub--TELEGRAM", headers: {Host: ra-p1.victorycloud.ru}}, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 4", server: 3h-kazakhstan1.09vpn.com, port: 8443, type: vless, tls: true, packet-encoding: xudp, uuid: 2424febb-43cb-488d-bdd1-401e923c8e48, servername: 3h-kazakhstan1.09vpn.com, network: ws, ws-opts: {path: /vless/, headers: {Host: 3h-kazakhstan1.09vpn.com}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 5", server: 200.169.179.233, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 38308ff1-5aa9-494f-a25a-0f2870d56b3e, servername: vps3.nemnogogo.com, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: mobile.api.Event}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 7", server: 51.158.206.20, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "@FarazV2ray 8", server: 51.158.206.25, port: 23576, type: vless, tls: true, packet-encoding: xudp, uuid: 48ff2b70-e180-582f-8866-d9a2edeed5f5, servername: fuck.rkn, host: fuck.rkn, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: 1y5h2FGWKXTJ9xLPCqPo6Mw7RxoZzh6fGkEQKNxpZ3s, short-id: 01}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 6", server: 138.124.86.230, port: 48115, type: vless, tls: true, packet-encoding: xudp, uuid: b2fe1fa4-6a79-4938-a3f4-63b54ae7f16b, servername: 138-124-86-230.sslip.io, network: grpc, grpc-opts: {grpc-mode: gun, grpc-service-name: 138-124-86-230-sslip-io}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ⭐@lion_lion_vpn⭐, server: 169.40.42.74, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: d65cc14c-f53f-4fe2-b262-97856601319c, servername: yahoo.com, host: yahoo.com, path: /, flow: xtls-rprx-vision, reality-opts: {public-key: e2RLf57Li_-MDZGE9ss1BWPgP54mqRb5PfXhW2jcVVg, short-id: c39cc7310a}, client-fingerprint: random, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 13.39.219.105:22222, server: 13.39.219.105, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 16.61.185.26:22222, server: 16.61.185.26, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 35.180.170.76:22222, server: 35.180.170.76, port: 22222, type: vless, tls: true, packet-encoding: xudp, uuid: e4514801-0d5a-42ba-869f-39bd605aef9e, path: /, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: "اگه میخوای قطع نشی جوین شو : @farsiproxy 7", server: 78.159.250.83, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: f656c4b9-54dc-44cc-a142-e242ce687e56, servername: dualarrow.net, host: dualarrow.net, path: /, flow: xtls-rprx-vision, skip-cert-verify: false, udp: true, tfo: false}
 proxy-groups:
   - name: 🚀 节点选择
     type: select
     proxies:
       - ♻️ 自动选择
       - DIRECT
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: ♻️ 自动选择
     type: url-test
     url: http://www.gstatic.com/generate_204
     interval: 300
     tolerance: 50
     proxies:
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: 🌍 国外媒体
     type: select
     proxies:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: 📲 电报信息
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: Ⓜ️ 微软服务
     type: select
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: 🍎 苹果服务
     type: select
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
   - name: 🎯 全球直连
     type: select
     proxies:
@@ -279,36 +212,27 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
-      - ️ به یاد جاویدنامان-3-1
-      - "@mehrosaboran"
-      - "@flyv2ray"
       - "@FarazV2ray"
       - "@FarazV2ray 2"
       - "@FarazV2ray 3"
       - "@FarazV2ray 4"
-      - "@prrofile_purple (تلگرام)"
-      - bored_vpn
-      - "@mehrosaboran 2"
-      - "@prrofile_purple (تلگرام) 2"
-      - "@NamiraConfigs"
-      - "@NamiraConfigs 2"
       - "@FarazV2ray 5"
-      - bored_vpn 2
-      - "@mehrosaboran 3"
       - "@FarazV2ray 6"
-      - bored_vpn 3
-      - "@mehrosaboran 4"
-      - "@flyv2ray 2"
-      - "@flyv2ray 3"
+      - "@MTproxy22_v2ray"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 2"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 3"
+      - "@NamiraConfigs"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 4"
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 5"
       - "@FarazV2ray 7"
-      - "@flyv2ray 4"
-      - "@mehrosaboran 5"
       - "@FarazV2ray 8"
-      - 13.36.247.237:22222
-      - 15.236.126.197:22222
-      - "باکیفیت‌ترین تانل: @mvn_vpn 🤍"
-      - ️ به یاد جاویدنامان-1
-      - tootffarangi
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 6"
+      - ⭐@lion_lion_vpn⭐
+      - 13.39.219.105:22222
+      - 16.61.185.26:22222
+      - 35.180.170.76:22222
+      - "اگه میخوای قطع نشی جوین شو : @farsiproxy 7"
 rules:
   - DOMAIN-SUFFIX,acl4.ssr,🎯 全球直连
   - DOMAIN-SUFFIX,ip6-localhost,🎯 全球直连
