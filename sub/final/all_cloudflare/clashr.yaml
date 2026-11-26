@@ -5,10 +5,40 @@ mode: Rule
 log-level: info
 external-controller: 127.0.0.1:9090
 proxies:
+  - {name: 202.61.195.167:443, server: 202.61.195.167, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231202 | ⚡️Telegram - t.me/SOSkeyNET, server: 202.61.195.167, port: 443, type: trojan, password: !<str> 1234567890, sni: kfm-bn0.pages.dev, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: bitter-math-4364.vpnetwork3567.workers.dev:443, server: bitter-math-4364.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: bitter-math-4364.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bitter-math-4364.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
+  - {name: 231147 | ⚡️Telegram - t.me/SOSkeyNET, server: bitter-math-4364.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: bitter-math-4364.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: bitter-math-4364.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
+  - {name: dry-snowflake-b29f.vpnetwork3567.workers.dev:443, server: dry-snowflake-b29f.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: dry-snowflake-b29f.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dry-snowflake-b29f.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
+  - {name: 231146 | ⚡️Telegram - t.me/SOSkeyNET, server: dry-snowflake-b29f.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: dry-snowflake-b29f.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: dry-snowflake-b29f.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
+  - {name: lingering-fire-1fe9.vpnetwork3567.workers.dev:443, server: lingering-fire-1fe9.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: lingering-fire-1fe9.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lingering-fire-1fe9.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
+  - {name: 231167 | ⚡️Telegram - t.me/SOSkeyNET, server: lingering-fire-1fe9.vpnetwork3567.workers.dev, port: 443, type: trojan, password: 963A4918-A630-29DA-A873-093CDF8AD784, sni: lingering-fire-1fe9.vpnetwork3567.workers.dev, skip-cert-verify: false, network: ws, ws-opts: {path: /, headers: {Host: lingering-fire-1fe9.vpnetwork3567.workers.dev}}, udp: true, tfo: false}
   - {name: "@SiNAVM کانال تلگرامی", server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30, servername: sinavm2.soft10.ir, alpn: [http%2F1.1%2Ch2%2Ch3], network: ws, ws-opts: {path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM, headers: {Host: sinavm2.soft10.ir}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: configraygan-13, server: chatgpt.com, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 55b3fd10-3658-40a2-8951-ec90932d1d30, servername: sinavm2.soft10.ir, alpn: [http%2F1.1%2Ch2%2Ch3], network: ws, ws-opts: {path: /SiNAVM-SiNAVM-SiNAVM-SiNAVM, headers: {Host: sinavm2.soft10.ir}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 107.189.17.141:443, server: 107.189.17.141, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962, servername: app-base-njw3ky.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {path: "/ws?ip=107.189.17.141:443", headers: {Host: app-base-njw3ky.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
-  - {name: 230869 | ⚡️Telegram - t.me/SOSkeyNET, server: 107.189.17.141, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 92e8d9dc-8e3b-4f81-a278-d18c6bf1b962, servername: app-base-njw3ky.pages.dev, alpn: [http/1.1], network: ws, ws-opts: {path: "/ws?ip=107.189.17.141:443", headers: {Host: app-base-njw3ky.pages.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: ancient-haze-d203.vpnetwork3567.workers.dev:443, server: ancient-haze-d203.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: ancient-haze-d203.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ancient-haze-d203.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231174 | ⚡️Telegram - t.me/SOSkeyNET, server: ancient-haze-d203.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: ancient-haze-d203.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: ancient-haze-d203.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: damp-morning-6562.vpnetwork3567.workers.dev:443, server: damp-morning-6562.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: damp-morning-6562.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: damp-morning-6562.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231158 | ⚡️Telegram - t.me/SOSkeyNET, server: damp-morning-6562.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: damp-morning-6562.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: damp-morning-6562.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: delicate-tree-9749.vpnetwork3567.workers.dev:443, server: delicate-tree-9749.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: delicate-tree-9749.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: delicate-tree-9749.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231145 | ⚡️Telegram - t.me/SOSkeyNET, server: delicate-tree-9749.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: delicate-tree-9749.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: delicate-tree-9749.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: lingering-boat-0b47.vpnetwork3567.workers.dev:443, server: lingering-boat-0b47.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: lingering-boat-0b47.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lingering-boat-0b47.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231171 | ⚡️Telegram - t.me/SOSkeyNET, server: lingering-boat-0b47.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: lingering-boat-0b47.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: lingering-boat-0b47.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: little-fog-1c2f.vpnetwork3567.workers.dev:443, server: little-fog-1c2f.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: little-fog-1c2f.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: little-fog-1c2f.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231172 | ⚡️Telegram - t.me/SOSkeyNET, server: little-fog-1c2f.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: little-fog-1c2f.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: little-fog-1c2f.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: quiet-wind-f608.vpnetwork3567.workers.dev:443, server: quiet-wind-f608.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: quiet-wind-f608.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: quiet-wind-f608.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231168 | ⚡️Telegram - t.me/SOSkeyNET, server: quiet-wind-f608.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: quiet-wind-f608.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: quiet-wind-f608.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: shiny-unit-654d.vpnetwork3567.workers.dev:443, server: shiny-unit-654d.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: shiny-unit-654d.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: shiny-unit-654d.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231170 | ⚡️Telegram - t.me/SOSkeyNET, server: shiny-unit-654d.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: shiny-unit-654d.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: shiny-unit-654d.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: snowy-mountain-d4be.vpnetwork3567.workers.dev:443, server: snowy-mountain-d4be.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: snowy-mountain-d4be.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: snowy-mountain-d4be.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231162 | ⚡️Telegram - t.me/SOSkeyNET, server: snowy-mountain-d4be.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: snowy-mountain-d4be.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: snowy-mountain-d4be.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: soft-water-83f3.vpnetwork3567.workers.dev:443, server: soft-water-83f3.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: soft-water-83f3.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: soft-water-83f3.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231164 | ⚡️Telegram - t.me/SOSkeyNET, server: soft-water-83f3.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: soft-water-83f3.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: soft-water-83f3.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: solitary-forest-ad02.vpnetwork3567.workers.dev:443, server: solitary-forest-ad02.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: solitary-forest-ad02.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: solitary-forest-ad02.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231159 | ⚡️Telegram - t.me/SOSkeyNET, server: solitary-forest-ad02.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: solitary-forest-ad02.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: solitary-forest-ad02.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: still-bar-5702.vpnetwork3567.workers.dev:443, server: still-bar-5702.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: still-bar-5702.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: still-bar-5702.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231169 | ⚡️Telegram - t.me/SOSkeyNET, server: still-bar-5702.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: still-bar-5702.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: still-bar-5702.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: wild-resonance-23be.vpnetwork3567.workers.dev:443, server: wild-resonance-23be.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: wild-resonance-23be.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: wild-resonance-23be.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
+  - {name: 231165 | ⚡️Telegram - t.me/SOSkeyNET, server: wild-resonance-23be.vpnetwork3567.workers.dev, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: 963A4918-A630-29DA-A873-093CDF8AD784, servername: wild-resonance-23be.vpnetwork3567.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: /, headers: {Host: wild-resonance-23be.vpnetwork3567.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "***🐦‍🔥***-@SPEEDS_VPN", server: 104.24.39.51, port: 443, type: vless, tls: true, packet-encoding: xudp, uuid: bf4c614f-c46d-4db9-b031-62f7e4b85c2c, servername: hex.1tb.workers.dev, network: ws, ws-opts: {path: ws, headers: {Host: hex.1tb.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: 104.27.127.133:2083, server: 104.27.127.133, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: d21d1bf2-206a-41c6-a40c-49bdd1f6f3be, servername: net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/c216a10ece89acba?ed=2560", headers: {Host: net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
   - {name: "@NamiraConfigs", server: 104.27.127.133, port: 2083, type: vless, tls: true, packet-encoding: xudp, uuid: d21d1bf2-206a-41c6-a40c-49bdd1f6f3be, servername: net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev, alpn: [http%2F1.1], network: ws, ws-opts: {path: "/c216a10ece89acba?ed=2560", headers: {Host: net-bridge-c9d0c4-gw.prod-relay-3c3937.workers.dev}}, skip-cert-verify: false, udp: true, tfo: false}
@@ -22,10 +52,40 @@ proxy-groups:
     proxies:
       - ♻️ 自动选择
       - DIRECT
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -39,10 +99,40 @@ proxy-groups:
     interval: 300
     tolerance: 50
     proxies:
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -56,10 +146,40 @@ proxy-groups:
       - 🚀 节点选择
       - ♻️ 自动选择
       - 🎯 全球直连
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -72,10 +192,40 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -88,10 +238,40 @@ proxy-groups:
     proxies:
       - 🎯 全球直连
       - 🚀 节点选择
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -104,10 +284,40 @@ proxy-groups:
     proxies:
       - 🚀 节点选择
       - 🎯 全球直连
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
@@ -142,10 +352,40 @@ proxy-groups:
       - 🚀 节点选择
       - 🎯 全球直连
       - ♻️ 自动选择
+      - 202.61.195.167:443
+      - 231202 | ⚡️Telegram - t.me/SOSkeyNET
+      - bitter-math-4364.vpnetwork3567.workers.dev:443
+      - 231147 | ⚡️Telegram - t.me/SOSkeyNET
+      - dry-snowflake-b29f.vpnetwork3567.workers.dev:443
+      - 231146 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-fire-1fe9.vpnetwork3567.workers.dev:443
+      - 231167 | ⚡️Telegram - t.me/SOSkeyNET
       - "@SiNAVM کانال تلگرامی"
       - configraygan-13
-      - 107.189.17.141:443
-      - 230869 | ⚡️Telegram - t.me/SOSkeyNET
+      - ancient-haze-d203.vpnetwork3567.workers.dev:443
+      - 231174 | ⚡️Telegram - t.me/SOSkeyNET
+      - damp-morning-6562.vpnetwork3567.workers.dev:443
+      - 231158 | ⚡️Telegram - t.me/SOSkeyNET
+      - delicate-tree-9749.vpnetwork3567.workers.dev:443
+      - 231145 | ⚡️Telegram - t.me/SOSkeyNET
+      - lingering-boat-0b47.vpnetwork3567.workers.dev:443
+      - 231171 | ⚡️Telegram - t.me/SOSkeyNET
+      - little-fog-1c2f.vpnetwork3567.workers.dev:443
+      - 231172 | ⚡️Telegram - t.me/SOSkeyNET
+      - quiet-wind-f608.vpnetwork3567.workers.dev:443
+      - 231168 | ⚡️Telegram - t.me/SOSkeyNET
+      - shiny-unit-654d.vpnetwork3567.workers.dev:443
+      - 231170 | ⚡️Telegram - t.me/SOSkeyNET
+      - snowy-mountain-d4be.vpnetwork3567.workers.dev:443
+      - 231162 | ⚡️Telegram - t.me/SOSkeyNET
+      - soft-water-83f3.vpnetwork3567.workers.dev:443
+      - 231164 | ⚡️Telegram - t.me/SOSkeyNET
+      - solitary-forest-ad02.vpnetwork3567.workers.dev:443
+      - 231159 | ⚡️Telegram - t.me/SOSkeyNET
+      - still-bar-5702.vpnetwork3567.workers.dev:443
+      - 231169 | ⚡️Telegram - t.me/SOSkeyNET
+      - wild-resonance-23be.vpnetwork3567.workers.dev:443
+      - 231165 | ⚡️Telegram - t.me/SOSkeyNET
       - "***🐦‍🔥***-@SPEEDS_VPN"
       - 104.27.127.133:2083
       - "@NamiraConfigs"
